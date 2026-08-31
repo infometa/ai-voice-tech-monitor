@@ -56,6 +56,7 @@
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型</h2>
+      <p class="empty" style="margin-bottom:16px;">今日无重大新发布，以下为近期（8月25-27日）值得关注的更新：</p>
       <table>
         <thead>
           <tr>
@@ -70,13 +71,40 @@
         </thead>
         <tbody>
           <tr>
-            <td>等待更新</td>
-            <td>—</td>
-            <td class="empty">今天无新技术发布，以下为近期值得关注的更新</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
+            <td><a href="https://www.cartesia.ai/blog/sonic-3.6" target="_blank">Cartesia Sonic-3.6</a></td>
+            <td>2026-08-27 (GA)</td>
+            <td>最新TTS模型，支持44种语言，自然度大幅提升，盲测偏好率高达93%，首包延迟<90ms，生成速度约132字符/秒。</td>
+            <td>是（API与Playground已上线，可立即调用）</td>
+            <td>否（商业闭源）</td>
+            <td>实时语音Agent、多语言客服、交互式对话系统</td>
+            <td class="score">9/10</td>
+          </tr>
+          <tr>
+            <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/" target="_blank">Google Gemini 3.5 Transcribe</a></td>
+            <td>2026-08-26</td>
+            <td>高精度ASR模型，流式WER 4.0%、非流式2.6%，支持85+语言，自动去除口头禅与自我修正，智能格式化输出。</td>
+            <td>是（Gemini API公开预览，Android/macOS已落地）</td>
+            <td>否</td>
+            <td>实时字幕、语音输入、会议转录、语音Agent</td>
+            <td class="score">9/10</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/BreezeBlue/Breeze-TTS-2" target="_blank">Breeze TTS 2</a></td>
+            <td>2026-08-25 (权重开源)</td>
+            <td>开源权重TTS，Artificial Analysis开源榜#1（Elo 1215），支持语音设计/克隆/方向，低延迟（TTFA <40ms），约50语言。</td>
+            <td>是（Hugging Face权重+托管API可用）</td>
+            <td>部分（权重研究非商业许可，代码Apache 2.0）</td>
+            <td>本地部署语音合成、角色语音设计、实时交互</td>
+            <td class="score">8/10</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc" target="_blank">IBM Granite Speech 5.0 Turbo CTC</a></td>
+            <td>2026-08-25</td>
+            <td>470M参数英语ASR，吞吐量超12600 RTFx（1秒处理3.5小时音频），WER约5%，支持流式。</td>
+            <td>是（Hugging Face可下载，有WebGPU demo）</td>
+            <td>是（Apache 2.0，另有非商业版本）</td>
+            <td>高速批量转录、边缘设备实时ASR、本地隐私敏感场景</td>
+            <td class="score">8.5/10</td>
           </tr>
         </tbody>
       </table>
@@ -85,7 +113,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        语音 AI 正在向低延迟、开源小模型和多语言一致性方向发展。更多实用的模型正在落地，成本和易用性不断提升。
+        当前语音AI趋势聚焦于<strong>超低延迟实时交互</strong>（Sonic-3.6 <90ms、Breeze <40ms）、<strong>开源小模型爆发</strong>（Granite 470M极速ASR、Breeze 3B TTS登顶开源榜）以及<strong>智能理解型ASR</strong>（Gemini 3.5可自动清理口语并理解意图）。多语言一致性与自然度持续提升，商业API与开源权重并行发展，本地部署与隐私保护需求日益增长。语音Agent全栈（STT+LLM+TTS）一体化方案加速落地。
       </div>
     </div>
 
