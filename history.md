@@ -17,3 +17,4 @@
 - Perplexity Portable Computer | https://www.perplexity.ai/hub/products/portable-computer | https://www.techspot.com/news/113622-perplexity-latest-ai-agent-runs-entirely-local-computers.html
 - Liquid AI Pipette | https://pipette.liquid.ai/ | https://pipette.liquid.ai/
 - OpenAI Jalapeño（旧项目火起来） | https://openai.com/index/jalapeno-first-results/ | https://openai.com/index/jalapeno-first-results/
+- （无新项目，仅监控更新）
