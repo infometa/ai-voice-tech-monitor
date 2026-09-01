@@ -4,6 +4,10 @@
 
 ## 已推送项目
 
+### 2026-09-01
+- （无新项目，仅监控更新）
+- Microduck（旧项目持续火热） | https://pollen-robotics.com/microduck/ | 讨论持续，预售热、成本分析
+
 ### 2026-08-31
 - Ultrahuman Ring Pro + Jade AI | https://www.ultrahuman.com | https://www.91mobiles.com/hub/ultrahuman-ring-pro-launched-15-day-battery-life-jade-ai/
 - KOIBOT Rola | https://www.koibot.co.jp/ | https://www.kickstarter.com/projects/koibot/worlds-first-lifelike-robot-for-personal-bonds
