@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-08-31 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-01 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p class="empty" style="margin-bottom:16px;">聚焦 2026-08-29 至 08-31 期间的相关讨论与落地更新（含稍早但持续热议的发布）：</p>
+      <p class="empty" style="margin-bottom:16px;">今日（2026-09-01）无重大全新模型首发。以下为近期（重点8月25-31日）值得关注的实际落地更新：</p>
       <table>
         <thead>
           <tr>
@@ -71,58 +71,40 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://gradium.ai/blog/gradium-tts-latency-and-accuracy" target="_blank">Gradium TTS（新默认模型）</a></td>
+            <td>2026-08-31</td>
+            <td>Gradium最新生产级TTS，专为语音Agent硬案例设计（电话号码、邮箱、IBAN、字母数字等无需预处理），TTFA P50约216ms，硬案例通过率81%领先竞品，现为API默认模型。</td>
+            <td>是（API/Studio全面可用，现有声音兼容）</td>
+            <td>否（商业API）</td>
+            <td>实时语音Agent、客服自动化、结构化文本朗读、低延迟对话系统</td>
+            <td class="score">9/10</td>
+          </tr>
+          <tr>
             <td><a href="https://www.cartesia.ai/blog/sonic-3.6" target="_blank">Cartesia Sonic-3.6</a></td>
-            <td>2026-08-27（GA，文档持续更新至08-29）</td>
-            <td>最新旗舰TTS，支持44语言（新增Odia/Urdu等），自然度盲测偏好最高93%，首包延迟<90ms，生成约132字符/秒，上下文情感与异义词处理优秀。</td>
-            <td>是（Playground与API全面可用）</td>
+            <td>2026-08-27</td>
+            <td>旗舰TTS，44语言（新增Odia/Urdu等），自然度盲测偏好最高达93%，首包<90ms，生成约132字符/秒，上下文情感与多语言一致性优秀，Artificial Analysis双榜#1。</td>
+            <td>是（Playground与API GA）</td>
             <td>否（商业闭源API）</td>
-            <td>实时语音Agent、多语言客服、企业对话系统、品牌语音定制</td>
+            <td>实时多语言Agent、企业客服、品牌定制语音、长对话</td>
             <td class="score">9.5/10</td>
           </tr>
           <tr>
             <td><a href="https://huggingface.co/BreezeBlue/Breeze-TTS-2" target="_blank">Breeze TTS 2</a></td>
-            <td>2026-08-25（权重开源，榜单08-26确认）</td>
-            <td>3B开源权重TTS，Artificial Analysis开源榜#1（Elo 1215），支持语音克隆/设计/方向控制、约50语言、TTFA<40ms流式，非商业许可。</td>
-            <td>是（HF权重可下载+托管API）</td>
-            <td>部分（权重非商业许可，推理代码Apache 2.0）</td>
-            <td>本地/研究级语音合成、角色扮演语音设计、低延迟交互原型</td>
+            <td>2026-08-25（权重开源）</td>
+            <td>3B开源权重TTS，Artificial Analysis开源榜#1（Elo 1215），支持文本描述语音设计、克隆与方向控制、约50语言、TTFA<40ms流式。</td>
+            <td>是（HF权重+托管API）</td>
+            <td>部分（权重非商业研究许可，推理代码Apache 2.0）</td>
+            <td>本地研究原型、角色语音设计、低延迟交互实验</td>
             <td class="score">8.5/10</td>
           </tr>
           <tr>
-            <td><a href="https://www.daily.co/blog/announcing-pipecat-phonellm-alpha-1/" target="_blank">PhoneLLM Alpha 1</a></td>
-            <td>2026-08-27</td>
-            <td>Daily/Pipecat开源的语音Agent专用LLM（基于Nemotron 3 Nano 30B MoE，约3B激活），PhoneBench从28%→72%，单B200可跑80+并发，成本约$0.0025/分钟。</td>
-            <td>是（HF权重+Pipecat集成可用）</td>
-            <td>是（BSD许可，无商业限制）</td>
-            <td>电话语音Agent、客服自动化、低成本实时对话系统</td>
+            <td><a href="https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc" target="_blank">IBM Granite Speech 5.0 Turbo CTC</a></td>
+            <td>2026-08-25</td>
+            <td>470M参数超紧凑英文ASR，单H200可达12,600+ RTFx（约3.5小时语音/秒），OpenASR与FFASR表现优秀，专为边缘与高吞吐设计。</td>
+            <td>是（HF权重可下载+WebGPU demo）</td>
+            <td>是（Apache 2.0；另有NC变体）</td>
+            <td>边缘设备转录、高吞吐批处理、实时字幕、噪声环境ASR</td>
             <td class="score">9/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/huggingface/speech-to-speech" target="_blank">Hugging Face speech-to-speech</a></td>
-            <td>持续更新（08-28主分支活跃，X上08-30热议）</td>
-            <td>模块化开源语音Agent管道（VAD→STT→LLM→TTS），OpenAI Realtime兼容WebSocket/WebRTC，支持本地全栈或混合部署，已用于生产机器人。</td>
-            <td>是（PyPI可安装，生产已验证）</td>
-            <td>是（Apache 2.0）</td>
-            <td>本地/混合语音Agent构建、机器人对话、可替换组件的实时语音系统</td>
-            <td class="score">9/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/OpenBMB/VoxCPM" target="_blank">VoxCPM / VoxCPM2</a></td>
-            <td>持续（X上08-30重点讨论，模型已开源）</td>
-            <td>Tokenizer-free扩散自回归TTS，连续空间建模，零样本克隆（3-10s）、上下文感知韵律、支持流式，VoxCPM2为2B多语言48kHz版本。</td>
-            <td>是（HF权重+多种推理框架可用）</td>
-            <td>是（Apache 2.0）</td>
-            <td>高质量语音克隆、多语言合成、本地实时TTS、语音设计</td>
-            <td class="score">8.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://techcrunch.com/2026/08/30/openai-voice-engine-synthetic-audio-watermarking-preview/" target="_blank">OpenAI Voice Engine 水印扩展</a></td>
-            <td>约2026-08-30（预览扩展）</td>
-            <td>Voice Engine预览新增神经音频水印（SynthID类），支持15秒参考克隆，同时嵌入不可听溯源标记，防深度伪造与滥用。</td>
-            <td>是（预览可用）</td>
-            <td>否</td>
-            <td>安全语音克隆、合规生成、内容溯源与防伪</td>
-            <td class="score">8/10</td>
           </tr>
         </tbody>
       </table>
@@ -131,7 +113,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        近1-2天语音AI动态显示：<strong>商业TTS继续以自然度+超低延迟主导</strong>（Cartesia Sonic-3.6再次登顶榜单并扩展语言）；<strong>开源权重加速落地</strong>（Breeze TTS 2登顶开源榜、PhoneLLM专为电话Agent优化、HF模块化管道生产验证、VoxCPM tokenizer-free架构受关注）；安全合规（水印/溯源）成为新焦点。整体趋势是实时全双工Agent、可替换开源栈与企业级合规并行推进，本地部署成本与延迟进一步下降。
+        超低延迟与硬案例鲁棒性成为生产级TTS的核心竞争点（Gradium、Cartesia持续优化）；开源小模型与边缘ASR加速落地（Breeze、Granite），支持本地/高吞吐部署；多语言一致性、语音设计/克隆与全双工Agent管道持续成熟，成本与合规并行提升。整体向“实时可用、可替换、可边缘”方向演进。
       </div>
     </div>
 
