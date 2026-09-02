@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-01 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-02 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p class="empty" style="margin-bottom:16px;">今日（2026-09-01）无重大全新模型首发。以下为近期（重点8月25-31日）值得关注的实际落地更新：</p>
+      <p style="margin-bottom:16px;">今日重点：Meta Superintelligence Labs 正式推出首款实时音频感知模型 Muse Voice Transcribe（2026-09-01）。以下为最近1-2天及紧邻的实际可用技术：</p>
       <table>
         <thead>
           <tr>
@@ -71,13 +71,13 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://gradium.ai/blog/gradium-tts-latency-and-accuracy" target="_blank">Gradium TTS（新默认模型）</a></td>
-            <td>2026-08-31</td>
-            <td>Gradium最新生产级TTS，专为语音Agent硬案例设计（电话号码、邮箱、IBAN、字母数字等无需预处理），TTFA P50约216ms，硬案例通过率81%领先竞品，现为API默认模型。</td>
-            <td>是（API/Studio全面可用，现有声音兼容）</td>
-            <td>否（商业API）</td>
-            <td>实时语音Agent、客服自动化、结构化文本朗读、低延迟对话系统</td>
-            <td class="score">9/10</td>
+            <td><a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" target="_blank">Meta Muse Voice Transcribe</a></td>
+            <td>2026-09-01</td>
+            <td>MSL首款实时音频感知模型。流式ASR + 原生说话人分离（20+人）+ 端点检测一体化；自适应延迟（难词多听、易词快出）；70+语言训练（25个验证）；支持代码切换与长时会话；AA流式STT榜#1（3.1% WER）。</td>
+            <td>是（Meta Model API、$3/1000音频分钟、Meta AI Mac应用Fn键听写、Muse Code；零数据保留层）</td>
+            <td>否（闭源，无权重发布）</td>
+            <td>实时会议转录、多说话人对话、系统级听写、语音Agent输入、多语言实时字幕</td>
+            <td class="score">9.5/10</td>
           </tr>
           <tr>
             <td><a href="https://www.cartesia.ai/blog/sonic-3.6" target="_blank">Cartesia Sonic-3.6</a></td>
@@ -113,7 +113,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        超低延迟与硬案例鲁棒性成为生产级TTS的核心竞争点（Gradium、Cartesia持续优化）；开源小模型与边缘ASR加速落地（Breeze、Granite），支持本地/高吞吐部署；多语言一致性、语音设计/克隆与全双工Agent管道持续成熟，成本与合规并行提升。整体向“实时可用、可替换、可边缘”方向演进。
+        实时流式ASR向“一体化感知”演进：Meta Muse将转录、说话人分离与端点检测原生融合并引入自适应延迟，显著提升多说话人与低延迟场景可用性。TTS侧持续追求超低TTFA、多语言自然度与硬案例鲁棒性（Cartesia等）。开源小模型（Breeze TTS、Granite ASR）加速边缘与本地部署。整体趋势：低延迟全双工Agent、多语言一致性、生产级API成熟度与成本可控并进。
       </div>
     </div>
 
