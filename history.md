@@ -4,6 +4,15 @@
 
 ## 已推送项目
 
+### 2026-09-03
+- Zeroth Bridge | https://zeroth-openbridge.com/ | https://theaiinsider.tech/2026/09/02/zeroth-launches-bridge-humanoid-robot-and-open-source-openbridge-developer-platform/
+- Circular Ring 3 Pro / Slim | https://www.circular.xyz/ | https://thenextweb.com/news/circular-ring-3-ifa-berlin-ecg-fda-clearance-eu-mdr-ce-marking
+- TwinDEX (X Square Robot) | https://x2robot.com/en/pages/twindex | https://www.prnewswire.com/news-releases/twindex-introduces-a-scalable-path-from-robot-free-data-collection-to-real-world-dexterous-manipulation-302867559.html
+- Notchling | https://notchling.zopcloud.zop.dev/ | https://www.producthunt.com/products/notchling-lives-in-your-notch
+- Spark X2.5-4B / 1.7B | https://github.com/XHToken/Spark-X2.5 | https://dev.to/sparkllm/spark-x25-4b-17b-the-only-on-device-models-with-native-1m-token-context-now-open-source-d9o
+- Greenative Studio Coding | https://www.avgidea.io/en/private-ai | https://newshub.medianet.com.au/2026/09/avgidea-adds-local-llm-coding-to-greenative-studio-for-mac/169519/
+- Nori A3（旧项目突然火起来） | https://www.norirobotics.com/ | https://news.ycombinator.com/item?id=49525153
+
 ### 2026-09-01
 - （无新项目，仅监控更新）
 - Microduck（旧项目持续火热） | https://pollen-robotics.com/microduck/ | 讨论持续，预售热、成本分析
