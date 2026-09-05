@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-02 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-05 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日重点：Meta Superintelligence Labs 正式推出首款实时音频感知模型 Muse Voice Transcribe（2026-09-01）。以下为最近1-2天及紧邻的实际可用技术：</p>
+      <p style="margin-bottom:16px;">今日重点：Inworld Realtime TTS-2 正式 GA（2026-09-03）、Microsoft MAI-Transcribe-2 发布（2026-09-03）。以下为最近1-2天实际可用技术：</p>
       <table>
         <thead>
           <tr>
@@ -71,40 +71,31 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://inworld.ai/realtime-tts-2" target="_blank">Inworld Realtime TTS-2</a></td>
+            <td>2026-09-03（GA）</td>
+            <td>旗舰实时TTS，自然语言引导（指令控制语气/情绪）、上下文感知前序音频、200+语言（支持中途切换且保持同一音色）、即时语音克隆、sub-100ms TTFB，Artificial Analysis Controlled Voice Arena #1。另有更低延迟的 TTS-2 Flash 版本。</td>
+            <td>是（Playground + API 正式可用，支持流式与 Realtime API）</td>
+            <td>否（商业闭源API）</td>
+            <td>实时语音Agent、客服对话、多语言互动、情感化角色扮演</td>
+            <td class="score">9.5/10</td>
+          </tr>
+          <tr>
+            <td><a href="https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/" target="_blank">Microsoft MAI-Transcribe-2</a></td>
+            <td>2026-09-03</td>
+            <td>高性能ASR，FLEURS 60语言平均WER 5.2%（#1）、AA WER榜#2（约2.0%），支持说话人分离、词级时间戳、关键词偏置、噪声鲁棒与代码切换；速度约400x实时（1小时音频约10秒处理完），限时$0.10/小时。</td>
+            <td>是（Microsoft Foundry、MAI Playground、OpenRouter 可调用）</td>
+            <td>否（闭源API）</td>
+            <td>会议转录、客服分析、字幕生成、多语言文档处理、高吞吐批处理</td>
+            <td class="score">9.5/10</td>
+          </tr>
+          <tr>
             <td><a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" target="_blank">Meta Muse Voice Transcribe</a></td>
             <td>2026-09-01</td>
             <td>MSL首款实时音频感知模型。流式ASR + 原生说话人分离（20+人）+ 端点检测一体化；自适应延迟（难词多听、易词快出）；70+语言训练（25个验证）；支持代码切换与长时会话；AA流式STT榜#1（3.1% WER）。</td>
-            <td>是（Meta Model API、$3/1000音频分钟、Meta AI Mac应用Fn键听写、Muse Code；零数据保留层）</td>
+            <td>是（Meta Model API、$3/1000音频分钟≈$0.18/小时、Meta AI Mac应用Fn键听写、Muse Code）</td>
             <td>否（闭源，无权重发布）</td>
             <td>实时会议转录、多说话人对话、系统级听写、语音Agent输入、多语言实时字幕</td>
             <td class="score">9.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.cartesia.ai/blog/sonic-3.6" target="_blank">Cartesia Sonic-3.6</a></td>
-            <td>2026-08-27</td>
-            <td>旗舰TTS，44语言（新增Odia/Urdu等），自然度盲测偏好最高达93%，首包<90ms，生成约132字符/秒，上下文情感与多语言一致性优秀，Artificial Analysis双榜#1。</td>
-            <td>是（Playground与API GA）</td>
-            <td>否（商业闭源API）</td>
-            <td>实时多语言Agent、企业客服、品牌定制语音、长对话</td>
-            <td class="score">9.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/BreezeBlue/Breeze-TTS-2" target="_blank">Breeze TTS 2</a></td>
-            <td>2026-08-25（权重开源）</td>
-            <td>3B开源权重TTS，Artificial Analysis开源榜#1（Elo 1215），支持文本描述语音设计、克隆与方向控制、约50语言、TTFA<40ms流式。</td>
-            <td>是（HF权重+托管API）</td>
-            <td>部分（权重非商业研究许可，推理代码Apache 2.0）</td>
-            <td>本地研究原型、角色语音设计、低延迟交互实验</td>
-            <td class="score">8.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc" target="_blank">IBM Granite Speech 5.0 Turbo CTC</a></td>
-            <td>2026-08-25</td>
-            <td>470M参数超紧凑英文ASR，单H200可达12,600+ RTFx（约3.5小时语音/秒），OpenASR与FFASR表现优秀，专为边缘与高吞吐设计。</td>
-            <td>是（HF权重可下载+WebGPU demo）</td>
-            <td>是（Apache 2.0；另有NC变体）</td>
-            <td>边缘设备转录、高吞吐批处理、实时字幕、噪声环境ASR</td>
-            <td class="score">9/10</td>
           </tr>
         </tbody>
       </table>
@@ -113,7 +104,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        实时流式ASR向“一体化感知”演进：Meta Muse将转录、说话人分离与端点检测原生融合并引入自适应延迟，显著提升多说话人与低延迟场景可用性。TTS侧持续追求超低TTFA、多语言自然度与硬案例鲁棒性（Cartesia等）。开源小模型（Breeze TTS、Granite ASR）加速边缘与本地部署。整体趋势：低延迟全双工Agent、多语言一致性、生产级API成熟度与成本可控并进。
+        实时全双工与“感知一体化”加速落地——TTS侧强调上下文情感自适应 + 自然语言控制 + 超低延迟（Inworld TTS-2等），ASR侧把转录、说话人分离、端点检测融为单一模型并大幅压低成本与延迟（Meta Muse、Microsoft MAI-Transcribe-2）。多语言一致性、代码切换与噪声鲁棒成为标配。开源小模型仍在边缘端补位，但头部生产级API的成熟度与性价比正快速拉开差距，整体向“可直接商用的低延迟语音Agent基础设施”演进。
       </div>
     </div>
 
