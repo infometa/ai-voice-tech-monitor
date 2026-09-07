@@ -4,6 +4,25 @@
 
 ## 已推送项目
 
+### 2026-09-07
+- GOSIGHT P1 | https://www.gosightai.com/ | https://www.globenewswire.com/news-release/2026/09/04/3356376/0/en/gosight-p1-moves-full-color-ar-into-continuous-use-with-binocular-display-and-seamless-battery-swapping.html
+- Seeed reComputer RK3576 + RK1820 | https://www.seeedstudio.com/reComputer-RK3576-Module-Dev-Kit-with-RK1820-AI-Accelerator-p-6953.html | https://www.electronicsforu.com/news/seeed-rk3576-module-runs-local-llms-at-26-tops
+- KiWear Ring | https://www.kiwear.com/ | https://inews.zoombangla.com/kiwear-ring-kickstarter-gesture-control-phones-glasses/
+- NVIDIA PAIR | https://build.nvidia.com/rtx/pair | https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/
+- Estha for Mac | https://mac.estha.ai/ | https://theinfobytes.com/estha-for-mac-private-offline-ai-agents
+- UBTech UWORLD U1（旧项目突然火起来） | https://www.ubtrobot.com/ | https://humanoid.guide/ubtech-lines-up-september-deliveries-for-u1-home-humanoids/
+
+### 2026-09-04
+- HTC VIVE Eagle | https://www.vive.com/us/product/vive-eagle/overview/ | https://www.bloomberg.com/news/articles/2026-09-03/htc-brings-499-vive-eagle-smart-glasses-to-us-amid-broader-privacy-concerns
+- RayNeo iO / GT Series | https://www.rayneo.com/ | https://www.prnewswire.com/news-releases/rayneo-expands-consumer-ar-lineup-unveiling-rayneo-io-smart-glasses-and-cinematic-rayneo-gt-series-302856495.html
+- SwitchBot AI MindClip | https://www.switch-bot.com/products/switchbot-ai-mindclip | https://www.prnewswire.com/news-releases/switchbot-launches-ai-mindclip-a-wearable-ai-assistant-that-captures-ideas-promises-and-to-dos-at-ifa-2026-302864881.html
+- Autonomous Lamp | https://autonomous.ai/lamp | https://www.creativebloq.com/ai/meet-lamp-an-alive-pixar-like-robot-that-watches-your-posture-remembers-strangers-faces-and-answers-your-emails
+- Lingverse iKairos + LifeOS | https://ikairos.world/ | https://www.prnewswire.com/news-releases/lingverse-debuts-ensouled-ai-operating-system-lifeos-in-first-public-look-at-modular-ai-wearable-ikairos-302865514.html
+- OlloBot OlloNi SS1 | https://www.prnewswire.com/news-releases/ollobot-debuts-olloni-ss1-at-ifa-berlin-2026-showcasing-a-new-vision-for-ai-companionship-302861474.html | https://www.prnewswire.com/news-releases/ollobot-debuts-olloni-ss1-at-ifa-berlin-2026-showcasing-a-new-vision-for-ai-companionship-302861474.html
+- ODYSS N1 | https://www.odyss.life/ | https://www.prnewswire.com/news-releases/end-manual-food-logging-odyss-pioneers-ai-necklace-wearable-at-ifa-2026-302869198.html
+- K2 Horizon (IFM) | https://huggingface.co/IFM | https://ifm.ai/blog/k2/
+- Osaurus Raptor 0.5 | https://osaurus.ai/ | https://runtimewire.com/article/osaurus-raptor-05-agent-model-small-macs
+
 ### 2026-09-03
 - Zeroth Bridge | https://zeroth-openbridge.com/ | https://theaiinsider.tech/2026/09/02/zeroth-launches-bridge-humanoid-robot-and-open-source-openbridge-developer-platform/
 - Circular Ring 3 Pro / Slim | https://www.circular.xyz/ | https://thenextweb.com/news/circular-ring-3-ifa-berlin-ecg-fda-clearance-eu-mdr-ce-marking
