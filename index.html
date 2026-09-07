@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-06 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-07 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大全新发布，以下为最近1-2天实际可用技术（Inworld Realtime TTS-2 GA、Microsoft MAI-Transcribe-2、Meta Muse Voice Transcribe、Deepdub Phantom Z 3.4 等）：</p>
+      <p style="margin-bottom:16px;">今日无重大全新发布，以下为最近1-2天实际可用技术更新（重点关注Microsoft VibeVoice-ASR-Streaming开源、MAI-Transcribe-2、Meta Muse Voice Transcribe、Inworld Realtime TTS-2等）：</p>
       <table>
         <thead>
           <tr>
@@ -71,13 +71,13 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://docs.inworld.ai/models" target="_blank">Inworld Realtime TTS-2（含Flash）</a></td>
-            <td>2026-09-03（GA）</td>
-            <td>旗舰实时TTS，自然语言引导控制语气/情绪，上下文感知，200+语言（支持中途切换且保持同一音色），即时语音克隆，sub-100ms TTFB（Flash约20ms），AA Controlled Voice Arena #1，约$25/M字符。</td>
-            <td>是（API、Playground、流式Realtime可用）</td>
-            <td>否（商业闭源）</td>
-            <td>实时语音Agent、客服对话、多语言互动、情感化角色扮演</td>
-            <td class="score">9.5/10</td>
+            <td><a href="https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B" target="_blank">Microsoft VibeVoice-ASR-Streaming-7B</a></td>
+            <td>2026-09-02/03</td>
+            <td>统一流式ASR模型，实时转录“谁说了什么”，支持自定义热词（人名/术语），10语言；端到端说话人归属，无独立分离阶段；有1.5B/7B权重与推理代码。</td>
+            <td>是（HF权重、GitHub代码、Demo可用）</td>
+            <td>是（MIT许可证）</td>
+            <td>实时会议转录、语音Agent、多说话人对话记录、自托管ASR</td>
+            <td class="score">9/10</td>
           </tr>
           <tr>
             <td><a href="https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/" target="_blank">Microsoft MAI-Transcribe-2</a></td>
@@ -98,13 +98,13 @@
             <td class="score">9.5/10</td>
           </tr>
           <tr>
-            <td><a href="https://www.prnewswire.com/news-releases/deepdub-launches-phantom-z-3-4-conversational-multilingual-text-to-speech-built-to-survive-real-customers-not-just-demos-302869134.html" target="_blank">Deepdub Phantom Z 3.4 Conversational</a></td>
-            <td>2026-09-03</td>
-            <td>企业级实时多语言TTS，p95 TTFA约150ms（全48kHz），强文本归一化（账号/金额/日期准确），跨语言语音迁移（<3s参考），希伯来语等领先，专为真实客服场景优化。</td>
-            <td>是（平台/API可用，生产级）</td>
+            <td><a href="https://docs.inworld.ai/models" target="_blank">Inworld Realtime TTS-2（含Flash）</a></td>
+            <td>2026-09-03（GA相关）</td>
+            <td>旗舰实时TTS，自然语言引导控制语气/情绪，上下文感知，200+语言（支持中途切换且保持同一音色），即时语音克隆，sub-100ms TTFB（Flash约20ms），AA Controlled Voice Arena #1，约$25/M字符。</td>
+            <td>是（API、Playground、流式Realtime可用）</td>
             <td>否（商业闭源）</td>
-            <td>实时客服电话、语音Agent、本地化客服、企业对话系统</td>
-            <td class="score">8.5/10</td>
+            <td>实时语音Agent、客服对话、多语言互动、情感化角色扮演</td>
+            <td class="score">9.5/10</td>
           </tr>
         </tbody>
       </table>
@@ -113,7 +113,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        低延迟全双工与“感知一体化”持续加速——TTS强调自然语言控制、上下文情感与超低TTFA（Inworld等），ASR把转录+分离+端点融为单模型并大幅压低成本/延迟（Meta Muse、MAI-Transcribe-2）。多语言一致性、代码切换、噪声鲁棒成为标配；生产级商业API在成熟度与性价比上领先，开源小模型更多补位边缘/自托管场景。整体向可直接商用的低延迟语音Agent基础设施演进。
+        低延迟流式与一体化感知持续主导——ASR方向将转录、说话人分离、端点检测融合为单模型（Meta Muse、VibeVoice Streaming、MAI-Transcribe-2），大幅降低延迟与成本；TTS强调自然语言控制、上下文情感与超低TTFA（Inworld等）。开源小/中模型（如VibeVoice MIT开源）补位自托管与边缘场景，多语言一致性、代码切换、噪声鲁棒成为标配。整体向可直接商用的低延迟语音Agent基础设施演进，商业API在成熟度与性价比上领先，开源加速创新落地。
       </div>
     </div>
 
