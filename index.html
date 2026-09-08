@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-07 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-08 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">最近1-2天重点落地更新：Microsoft 开源流式说话人归属ASR、高性能转录模型、Meta一体化实时感知、Inworld超低延迟TTS、Deepdub对话级TTS等。以下为实际可用技术（避免纯论文）：</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：Meta一体化实时感知、Audio8端侧开源组合巩固、Inworld超低延迟TTS等实际可用技术（避免纯论文）：</p>
       <table>
         <thead>
           <tr>
@@ -71,58 +71,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B" target="_blank">Microsoft VibeVoice-ASR-Streaming-7B</a></td>
-            <td>2026-09-02/03</td>
-            <td>统一流式ASR模型，实时输出“谁说了什么”，支持自定义热词，10语言；端到端说话人归属无需独立分离；释放1.5B/7B权重与推理代码。</td>
-            <td>是（HF权重、GitHub代码、Demo可用）</td>
-            <td>是（MIT）</td>
-            <td>实时会议转录、语音Agent、多说话人记录、自托管ASR</td>
-            <td class="score">9/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/" target="_blank">Microsoft MAI-Transcribe-2</a></td>
-            <td>2026-09-03</td>
-            <td>高性能ASR，FLEURS 60语言领先（平均WER约5.2%），AA榜约#2（~2.0% WER），支持说话人分离、词级时间戳、关键词偏置、噪声鲁棒与代码切换；约400x实时，限时约$0.10/小时。</td>
-            <td>是（Foundry、Playground、API可用）</td>
-            <td>否（闭源API）</td>
-            <td>会议转录、客服分析、字幕、多语言批处理</td>
-            <td class="score">9.5/10</td>
-          </tr>
-          <tr>
             <td><a href="https://9to5mac.com/2026/09/01/meta-launches-muse-voice-transcribe-for-real-time-voice-dictation-on-mac/" target="_blank">Meta Muse Voice Transcribe</a></td>
-            <td>2026-09-01</td>
-            <td>实时音频感知模型：流式ASR + 原生说话人分离（20+人）+ 端点检测一体化；自适应延迟；70+语言（25验证）；代码切换与长会话；AA流式STT #1（约3.1% WER）；约$0.18/小时。</td>
-            <td>是（Meta Model API、Mac听写、Muse Code）</td>
-            <td>否（无权重）</td>
-            <td>实时会议、多说话人对话、系统听写、语音Agent输入</td>
+            <td>2026-09-01（覆盖持续至09-06）</td>
+            <td>实时一体化音频感知模型：流式ASR + 原生说话人分离（支持20+人）+ 端点检测；自适应延迟；训练70+语言（25验证）、支持代码切换与长会话；AA流式STT榜前列（约3.1% WER），价格约$0.18/小时。</td>
+            <td>是（Meta Model API、Mac系统听写、Muse Code已上线）</td>
+            <td>否（无公开权重）</td>
+            <td>实时会议转录、多说话人对话记录、系统级听写、语音Agent输入端</td>
             <td class="score">9.5/10</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/Audio8" target="_blank">Audio8 系列（ASR 0.1B–3B + TTS 0.1B–0.6B等）</a></td>
+            <td>近期持续开源（09-07 X端组合更新）</td>
+            <td>专注端侧的小型多语言模型家族：ASR覆盖多语言（含中英日韩等）与热词；TTS支持11语言零样本语音克隆、44.1kHz codec；提供ONNX/INT4/iOS ANE等部署变体，适合资源受限设备。</td>
+            <td>是（Hugging Face权重、GitHub推理代码、ONNX/iOS变体、Demo可用）</td>
+            <td>是（多数Apache 2.0或CC-BY-NC，具体见各模型卡）</td>
+            <td>本地/端侧ASR与TTS、手机/边缘设备语音应用、隐私敏感克隆、轻量语音Agent</td>
+            <td class="score">8.5/10</td>
           </tr>
           <tr>
             <td><a href="https://docs.inworld.ai/models" target="_blank">Inworld Realtime TTS-2（含Flash）</a></td>
-            <td>2026-09-03（GA）</td>
-            <td>旗舰实时TTS，自然语言引导语气/情绪与上下文感知，200+语言（中途切换保持音色），即时语音克隆；sub-100ms TTFB（Flash约20ms）；AA Controlled Voice Arena #1；约$25/M字符。</td>
-            <td>是（API、Playground、流式可用）</td>
+            <td>2026-09-03（GA，近期文档与讨论活跃）</td>
+            <td>旗舰实时TTS：自然语言引导语气/情绪与上下文感知、200+语言（中途切换保持音色）、即时语音克隆；主模型~100ms TTFB，Flash约20ms；AA Controlled Voice Arena领先，约$25/M字符。</td>
+            <td>是（API、Playground、流式与实时接口可用）</td>
             <td>否（商业）</td>
-            <td>实时语音Agent、客服、多语言互动、情感角色</td>
+            <td>实时语音Agent、客服对话、多语言互动角色、情感化交互</td>
             <td class="score">9.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.prnewswire.com/news-releases/deepdub-launches-phantom-z-3-4-conversational-multilingual-text-to-speech-built-to-survive-real-customers-not-just-demos-302869134.html" target="_blank">Deepdub Phantom Z 3.4 Conversational</a></td>
-            <td>2026-09-03</td>
-            <td>企业级对话TTS，150ms端到端TTFA（48kHz），强化文本归一化（账号、金额、日期等准确朗读），多语言与跨语言语音迁移（<3秒参考），重点服务真实客服场景。</td>
-            <td>是（企业API与平台可用）</td>
-            <td>否</td>
-            <td>实时客服语音Agent、多语言呼叫中心、企业对话系统</td>
-            <td class="score">8.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/k2-fsa/OmniVoice" target="_blank">OmniVoice（近期活跃讨论与本地部署）</a></td>
-            <td>近期持续（原2026-04，X/本地工具热度）</td>
-            <td>开源零样本TTS，支持600+语言，短音频语音克隆与语音设计（属性控制），扩散语言模型架构，本地推理友好（含C++端口等）。</td>
-            <td>是（代码、权重、本地工具可用）</td>
-            <td>是（代码Apache，权重CC-BY-NC）</td>
-            <td>本地语音克隆、多语言内容生成、隐私敏感TTS、开源Agent语音</td>
-            <td class="score">8.5/10</td>
           </tr>
         </tbody>
       </table>
@@ -131,7 +104,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        低延迟流式与“一体化感知”成为主流：ASR将转录、说话人分离、端点检测融合为单模型（Meta Muse、VibeVoice Streaming、MAI-Transcribe-2），显著降低管线延迟与出错点；TTS侧强调自然语言控制、上下文情感与超低TTFA（Inworld、Deepdub），并强化真实业务场景的文本归一化。开源方面，MIT许可的VibeVoice Streaming与多语言OmniVoice等补位自托管/边缘部署需求。多语言一致性、代码切换、噪声鲁棒与热词支持成为标配。整体向可直接商用的低延迟语音Agent基础设施演进，商业API在成熟度与成本效率上领先，开源加速隐私与定制化落地。
+        低延迟流式与“一体化感知”持续主导——ASR把转录、说话人分离、端点检测融为单模型（Meta Muse为代表），显著减少管线延迟与错误点；TTS侧强化自然语言控制、上下文情感与极致TTFA（Inworld Flash等），并更注重真实业务场景的文本归一化与跨语言一致性。开源端侧小模型（Audio8系列）加速隐私与边缘部署，多语言代码切换、噪声鲁棒与热词支持成为标配。整体向可直接商用的低延迟语音Agent基础设施演进，商业API在成熟度与成本效率上仍领先，开源则补位定制与本地化需求。
       </div>
     </div>
 
