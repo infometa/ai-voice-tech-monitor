@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-08 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-09 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：Meta一体化实时感知、Audio8端侧开源组合巩固、Inworld超低延迟TTS等实际可用技术（避免纯论文）：</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：Inworld超低延迟TTS-2正式GA、Meta一体化实时感知模型与Microsoft新一代高吞吐ASR等实际可用技术（避免纯论文）：</p>
       <table>
         <thead>
           <tr>
@@ -71,31 +71,31 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://docs.inworld.ai/tts/tts-models" target="_blank">Inworld Realtime TTS-2（含 Flash）</a></td>
+            <td>2026-09-02/03（GA）</td>
+            <td>旗舰实时TTS，支持自然语言语气/情绪引导、多轮上下文感知、200+语言（中途切换保持音色一致）、即时与专业语音克隆；主模型约100ms TTFB，Flash约20ms，Artificial Analysis Controlled Voice Arena领先。</td>
+            <td>是（API、Playground、实时流式接口、SDKs已上线）</td>
+            <td>否（商业）</td>
+            <td>实时语音Agent、客服对话、多语言互动角色、情感化陪伴与游戏NPC</td>
+            <td class="score">9.5/10</td>
+          </tr>
+          <tr>
             <td><a href="https://9to5mac.com/2026/09/01/meta-launches-muse-voice-transcribe-for-real-time-voice-dictation-on-mac/" target="_blank">Meta Muse Voice Transcribe</a></td>
-            <td>2026-09-01（覆盖持续至09-06）</td>
-            <td>实时一体化音频感知模型：流式ASR + 原生说话人分离（支持20+人）+ 端点检测；自适应延迟；训练70+语言（25验证）、支持代码切换与长会话；AA流式STT榜前列（约3.1% WER），价格约$0.18/小时。</td>
+            <td>2026-09-01</td>
+            <td>实时一体化音频感知模型：流式ASR + 原生说话人分离（20+人）+ 端点检测；自适应延迟、70+语言（25验证）、代码切换与长会话支持；AA流式STT约3.1% WER，价格约$0.18/小时。</td>
             <td>是（Meta Model API、Mac系统听写、Muse Code已上线）</td>
             <td>否（无公开权重）</td>
             <td>实时会议转录、多说话人对话记录、系统级听写、语音Agent输入端</td>
             <td class="score">9.5/10</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/Audio8" target="_blank">Audio8 系列（ASR 0.1B–3B + TTS 0.1B–0.6B等）</a></td>
-            <td>近期持续开源（09-07 X端组合更新）</td>
-            <td>专注端侧的小型多语言模型家族：ASR覆盖多语言（含中英日韩等）与热词；TTS支持11语言零样本语音克隆、44.1kHz codec；提供ONNX/INT4/iOS ANE等部署变体，适合资源受限设备。</td>
-            <td>是（Hugging Face权重、GitHub推理代码、ONNX/iOS变体、Demo可用）</td>
-            <td>是（多数Apache 2.0或CC-BY-NC，具体见各模型卡）</td>
-            <td>本地/端侧ASR与TTS、手机/边缘设备语音应用、隐私敏感克隆、轻量语音Agent</td>
-            <td class="score">8.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://docs.inworld.ai/models" target="_blank">Inworld Realtime TTS-2（含Flash）</a></td>
-            <td>2026-09-03（GA，近期文档与讨论活跃）</td>
-            <td>旗舰实时TTS：自然语言引导语气/情绪与上下文感知、200+语言（中途切换保持音色）、即时语音克隆；主模型~100ms TTFB，Flash约20ms；AA Controlled Voice Arena领先，约$25/M字符。</td>
-            <td>是（API、Playground、流式与实时接口可用）</td>
+            <td><a href="https://microsoft.ai/models/mai-transcribe-2/" target="_blank">Microsoft MAI-Transcribe-2</a></td>
+            <td>2026-09-03</td>
+            <td>新一代多语言ASR，覆盖60语言、自动语言检测、内置说话人分离与词级时间戳、关键词偏置、强抗噪；FLEURS平均WER约5.2%（部分榜单#2），长音频处理可达400x实时，价格极低（限时约$0.10/小时）。</td>
+            <td>是（Microsoft Foundry、MAI Playground、Open Router等已上线）</td>
             <td>否（商业）</td>
-            <td>实时语音Agent、客服对话、多语言互动角色、情感化交互</td>
-            <td class="score">9.5/10</td>
+            <td>视频字幕、会议转写、客服质检、内容创作与语音Agent</td>
+            <td class="score">9/10</td>
           </tr>
         </tbody>
       </table>
@@ -104,7 +104,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        低延迟流式与“一体化感知”持续主导——ASR把转录、说话人分离、端点检测融为单模型（Meta Muse为代表），显著减少管线延迟与错误点；TTS侧强化自然语言控制、上下文情感与极致TTFA（Inworld Flash等），并更注重真实业务场景的文本归一化与跨语言一致性。开源端侧小模型（Audio8系列）加速隐私与边缘部署，多语言代码切换、噪声鲁棒与热词支持成为标配。整体向可直接商用的低延迟语音Agent基础设施演进，商业API在成熟度与成本效率上仍领先，开源则补位定制与本地化需求。
+        低延迟流式与“一体化感知”持续主导——ASR将转录、说话人分离、端点检测融为单模型（Meta Muse、MAI-Transcribe-2为代表），显著减少管线延迟与错误累积；TTS侧强化自然语言控制、上下文情感适配与极致TTFA（Inworld Flash等），并更注重真实业务场景的文本归一化与跨语言音色一致性。开源端侧小模型（如Audio8系列）加速隐私与边缘部署，多语言代码切换、噪声鲁棒与热词支持成为标配。整体向可直接商用的低延迟语音Agent基础设施演进，商业API在成熟度与成本效率上仍领先，开源则补位定制与本地化需求。
       </div>
     </div>
 
