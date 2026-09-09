@@ -50,3 +50,9 @@
 - Liquid AI Pipette | https://pipette.liquid.ai/ | https://pipette.liquid.ai/
 - OpenAI Jalapeño（旧项目火起来） | https://openai.com/index/jalapeno-first-results/ | https://openai.com/index/jalapeno-first-results/
 - （无新项目，仅监控更新）
+
+### 2026-09-08
+- XPENG IRON | https://www.xpeng.com/ | https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/
+- Timo (YiLink) | https://yilink.ai/products/timo-ai-social | https://lifestyle.blackberryempire.com/story/315650/timo-in-car-ai-robot-fun-interactive-drives-coming-to-kickstarter/
+- MiniCPM5-2B | https://huggingface.co/openbmb/MiniCPM5-2B | https://www.orcarouter.ai/blog/minicpm5-2b-open-weights-release
+- Supermemory Learner-1 | https://supermemory.ai/ | https://runtimewire.com/article/supermemory-launches-learner-1-continual-learning-ai-agents
