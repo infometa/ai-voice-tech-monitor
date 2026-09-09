@@ -56,3 +56,9 @@
 - Timo (YiLink) | https://yilink.ai/products/timo-ai-social | https://lifestyle.blackberryempire.com/story/315650/timo-in-car-ai-robot-fun-interactive-drives-coming-to-kickstarter/
 - MiniCPM5-2B | https://huggingface.co/openbmb/MiniCPM5-2B | https://www.orcarouter.ai/blog/minicpm5-2b-open-weights-release
 - Supermemory Learner-1 | https://supermemory.ai/ | https://runtimewire.com/article/supermemory-launches-learner-1-continual-learning-ai-agents
+
+### 2026-09-09
+- Soundcore Sleep Earbuds 4 / 4 Pro | https://www.soundcore.com/ | https://gadgetsandwearables.com/2026/09/07/soundcore-sleep-earbuds-4-pro/
+- Meta Muse | https://muse.ai/ | https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+- Rokid AIUI Studio | https://global.rokid.com/ | https://www.prnewswire.com/news-releases/rokid-launches-aiui-studio-globally-at-ifa-berlin-2026-making-ai-glasses-creation-more-accessible-for-everyone-302873504.html
+- Nex-N2.5 Mini | https://huggingface.co/nex-agi/Nex-N2.5-mini | https://www.orcarouter.ai/blog/nex-n2-5-mini-open-weights-release
