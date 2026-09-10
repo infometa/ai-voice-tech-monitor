@@ -62,3 +62,11 @@
 - Meta Muse | https://muse.ai/ | https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
 - Rokid AIUI Studio | https://global.rokid.com/ | https://www.prnewswire.com/news-releases/rokid-launches-aiui-studio-globally-at-ifa-berlin-2026-making-ai-glasses-creation-more-accessible-for-everyone-302873504.html
 - Nex-N2.5 Mini | https://huggingface.co/nex-agi/Nex-N2.5-mini | https://www.orcarouter.ai/blog/nex-n2-5-mini-open-weights-release
+
+### 2026-09-10
+- 通义千问 Qwen N1 AI 眼镜 | https://technode.com/2026/09/10/alibaba-qwen-previews-n1-ai-glasses-with-iris-recognition-and-no-display/ | 2026-09-10
+- LattePanda Mu Ultra | https://www.prnewswire.com/news-releases/lattepanda-launches-the-lattepanda-mu-ultra-a-micro-x86-compute-module-for-on-device-ai-302867101.html | https://www.cnx-software.com/2026/09/10/lattepanda-mu-ultra-compute-module-features-intel-core-ultra-5-226v-7-256v-lunar-lake-cpu-for-ai-workloads/ | 2026-09-09
+- Logitech MX Keypad | https://www.logitech.com/en-eu/shop/p/mx-keypad | https://9to5mac.com/2026/09/08/logitech-launches-99-mx-keypad-for-coding-and-ai-workflows/ | 2026-09-08
+- System76 Thelio Mira AI | https://system76.com/workstations/thelio-mira-ai | https://www.phoronix.com/news/System76-Thelio-Mira-AI | 2026-09-09
+- Everthine A1 | https://www.techtimes.com/articles/326986/20260908/everthine-a1-ifa-2026-3d-ai-companion-built-around-conversation.htm | 2026-09-08
+- Google ADK for Kotlin 1.0 | https://adk.dev | https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/ | 2026-09-09
