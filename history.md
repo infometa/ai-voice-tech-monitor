@@ -70,3 +70,8 @@
 - System76 Thelio Mira AI | https://system76.com/workstations/thelio-mira-ai | https://www.phoronix.com/news/System76-Thelio-Mira-AI | 2026-09-09
 - Everthine A1 | https://www.techtimes.com/articles/326986/20260908/everthine-a1-ifa-2026-3d-ai-companion-built-around-conversation.htm | 2026-09-08
 - Google ADK for Kotlin 1.0 | https://adk.dev | https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/ | 2026-09-09
+
+### 2026-09-11
+- Timo (YiLink) Kickstarter 正式开众筹 | https://www.kickstarter.com/projects/yilink/timo-interactive-ai-social-robot-for-your-car | https://www.globenewswire.com/news-release/2026/09/10/3359838/0/en/timo-the-in-car-ai-social-robot-launches-on-kickstarter-with-carplay-and-4g-lte-versions.html | 2026-09-10
+- Edge0 | https://edge0.ai/models/edge0-35b | https://runtimewire.com/article/edge0-open-source-35b-model-streaming-inference | https://github.com/Edge0-AI/Edge0 | 2026-09-10
+- DeepSeek V4.1-Flash | https://huggingface.co/deepseek-ai | https://thequantumdispatch.com/articles/deepseek-v4-1-flash-open-weights-1m-context | 2026-09-10
