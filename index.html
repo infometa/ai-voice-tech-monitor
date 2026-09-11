@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-09 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-11 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：Inworld超低延迟TTS-2正式GA、Meta一体化实时感知模型与Microsoft新一代高吞吐ASR等实际可用技术（避免纯论文）：</p>
+      <p style="margin-bottom:16px;">今日有重大新发布（优先最近1-2天：2026-09-09至09-11），聚焦实际可用技术（已开源权重/代码、API上线、有demo）：</p>
       <table>
         <thead>
           <tr>
@@ -71,31 +71,22 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://docs.inworld.ai/tts/tts-models" target="_blank">Inworld Realtime TTS-2（含 Flash）</a></td>
-            <td>2026-09-02/03（GA）</td>
-            <td>旗舰实时TTS，支持自然语言语气/情绪引导、多轮上下文感知、200+语言（中途切换保持音色一致）、即时与专业语音克隆；主模型约100ms TTFB，Flash约20ms，Artificial Analysis Controlled Voice Arena领先。</td>
-            <td>是（API、Playground、实时流式接口、SDKs已上线）</td>
-            <td>否（商业）</td>
-            <td>实时语音Agent、客服对话、多语言互动角色、情感化陪伴与游戏NPC</td>
-            <td class="score">9.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://9to5mac.com/2026/09/01/meta-launches-muse-voice-transcribe-for-real-time-voice-dictation-on-mac/" target="_blank">Meta Muse Voice Transcribe</a></td>
-            <td>2026-09-01</td>
-            <td>实时一体化音频感知模型：流式ASR + 原生说话人分离（20+人）+ 端点检测；自适应延迟、70+语言（25验证）、代码切换与长会话支持；AA流式STT约3.1% WER，价格约$0.18/小时。</td>
-            <td>是（Meta Model API、Mac系统听写、Muse Code已上线）</td>
-            <td>否（无公开权重）</td>
-            <td>实时会议转录、多说话人对话记录、系统级听写、语音Agent输入端</td>
-            <td class="score">9.5/10</td>
-          </tr>
-          <tr>
-            <td><a href="https://microsoft.ai/models/mai-transcribe-2/" target="_blank">Microsoft MAI-Transcribe-2</a></td>
-            <td>2026-09-03</td>
-            <td>新一代多语言ASR，覆盖60语言、自动语言检测、内置说话人分离与词级时间戳、关键词偏置、强抗噪；FLEURS平均WER约5.2%（部分榜单#2），长音频处理可达400x实时，价格极低（限时约$0.10/小时）。</td>
-            <td>是（Microsoft Foundry、MAI Playground、Open Router等已上线）</td>
-            <td>否（商业）</td>
-            <td>视频字幕、会议转写、客服质检、内容创作与语音Agent</td>
+            <td><a href="https://github.com/Tencent-Hunyuan/AuK" target="_blank">Tencent AuK / AuK-Flash（腾讯混元）</a></td>
+            <td>2026-09-09（开源发布，arXiv 09-08）</td>
+            <td>1.5B统一语音基础模型，通过自然语言指令完成零样本/指令TTS、内容/声学/副语言编辑、增强、分离、去口音、耳语转换等16类任务；AuK-Flash为4步蒸馏版（约4.5×加速）。</td>
+            <td>是（GitHub代码+权重、Hugging Face/ModelScope权重与Spaces demo、Gradio/ComfyUI、SGLang支持）</td>
+            <td>是（MIT）</td>
+            <td>语音生成编辑一体化工具链、本地/自托管语音Agent、内容创作后处理、多任务语音流水线</td>
             <td class="score">9/10</td>
+          </tr>
+          <tr>
+            <td><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" target="_blank">OpenAI GPT-Live-1</a></td>
+            <td>2026-09-10（API正式可用）</td>
+            <td>全双工语音前端模型：单模型边听边说、自然打断/回信道处理，可委托后端模型（如Astra等）做深度推理/工具；支持telephony/SIP、噪声鲁棒、风格控制；前端语音层$0.05/分钟。</td>
+            <td>是（OpenAI API Live端点、文档、Playground/示例，已有客户如Yelp电话预订、Cognition Devin Voice）</td>
+            <td>否（商业API）</td>
+            <td>实时语音Agent/助手、电话客服/预约、交互式教学/陪伴、全双工对话应用</td>
+            <td class="score">9.5/10</td>
           </tr>
         </tbody>
       </table>
@@ -104,7 +95,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        低延迟流式与“一体化感知”持续主导——ASR将转录、说话人分离、端点检测融为单模型（Meta Muse、MAI-Transcribe-2为代表），显著减少管线延迟与错误累积；TTS侧强化自然语言控制、上下文情感适配与极致TTFA（Inworld Flash等），并更注重真实业务场景的文本归一化与跨语言音色一致性。开源端侧小模型（如Audio8系列）加速隐私与边缘部署，多语言代码切换、噪声鲁棒与热词支持成为标配。整体向可直接商用的低延迟语音Agent基础设施演进，商业API在成熟度与成本效率上仍领先，开源则补位定制与本地化需求。
+        全双工与统一指令式模型成为焦点——从级联STT-LLM-TTS转向单模型边听边说（GPT-Live-1）或自然语言驱动多任务生成/编辑（AuK），显著降低延迟与工程复杂度；开源侧小/中型统一模型加速本地与定制部署，商业API则强化生产级打断处理、telephony与成本分层。低延迟、多任务一体化、噪声/打断鲁棒与中英（及多语言）一致性仍是核心演进方向，边缘与自托管方案持续补位隐私与成本敏感场景。
       </div>
     </div>
 
