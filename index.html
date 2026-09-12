@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-11 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-12 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日有重大新发布（优先最近1-2天：2026-09-09至09-11），聚焦实际可用技术（已开源权重/代码、API上线、有demo）：</p>
+      <p style="margin-bottom:16px;">今日无暴发式全市场 GA 级新模型，以下为近 1–2 天可用的新产品/更新与仍值得关注的重点发布（2026-09-10 至 09-12）：</p>
       <table>
         <thead>
           <tr>
@@ -71,22 +71,40 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://contactcentertechnologyinsights.com/news/speechify-simba-3-voice-ai-model-launch" target="_blank">Speechify SIMBA 3.0</a></td>
+            <td>2026-09-11（向部分第三方开发者滚动；全量 GA 宣称为 2026-03）</td>
+            <td>生产级语音模型，覆盖 TTS / STT / 语音转语音，强调人声质感、稳定性与低延迟，经 Speechify Voice API 提供。</td>
+            <td>部分（已有 Voice API 向筛选开发者放出；全市场可用性仍不完整）</td>
+            <td>否（商业 API）</td>
+            <td>联系中心 / 企业语音代理、内容朗读、可访问性语音界面</td>
+            <td class="score">7/10（API 已存在但尚未全量开放，适用于已接入 Speechify 的团队）</td>
+          </tr>
+          <tr>
+            <td><a href="https://desertant.com/models/voz/" target="_blank">Desert Ant Labs Voz（及 Clear 等端侧套件）</a></td>
+            <td>2026-09-08 发布 / 09-10 业界集中报道</td>
+            <td>端侧 ASR：iPhone 上约 2 秒转录 10 分钟语音，467MB，词级时间戳；基于 NVIDIA Parakeet TDT 0.6B v3 的 Core ML 改造，同套件还有 Clear 语音增强。</td>
+            <td>是（Swift SDK / GitHub、HF 权重、文档；Android/Web 部分还在路上）</td>
+            <td>部分（权重在 HF；SDK source-available，免费额度约 10 万月活跃设备）</td>
+            <td>手机/桌面本地转写、视频剪辑定位、隐私敏感场景、离线字幕</td>
+            <td class="score">8.5/10（速度与集成体验好，英欧语语种实用；Android 尚未全量就绪）</td>
+          </tr>
+          <tr>
             <td><a href="https://github.com/Tencent-Hunyuan/AuK" target="_blank">Tencent AuK / AuK-Flash（腾讯混元）</a></td>
-            <td>2026-09-09（开源发布，arXiv 09-08）</td>
-            <td>1.5B统一语音基础模型，通过自然语言指令完成零样本/指令TTS、内容/声学/副语言编辑、增强、分离、去口音、耳语转换等16类任务；AuK-Flash为4步蒸馏版（约4.5×加速）。</td>
-            <td>是（GitHub代码+权重、Hugging Face/ModelScope权重与Spaces demo、Gradio/ComfyUI、SGLang支持）</td>
+            <td>2026-09-09（开源；SGLang Day-0 支持）</td>
+            <td>1.5B 统一语音基础模型，用自然语言指令做零样本 TTS、内容/声学/副语言编辑、增强与分离等多任务；AuK-Flash 为 4 步蒸馏快速版。</td>
+            <td>是（GitHub + HF/ModelScope 权重、Spaces demo、Gradio/ComfyUI/SGLang）</td>
             <td>是（MIT）</td>
-            <td>语音生成编辑一体化工具链、本地/自托管语音Agent、内容创作后处理、多任务语音流水线</td>
-            <td class="score">9/10</td>
+            <td>本地/自托管语音工具链、内容后处理、指令式编辑与克隆</td>
+            <td class="score">9/10（能力面与开源度高，需 GPU 且依赖 Omni 编码器）</td>
           </tr>
           <tr>
             <td><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" target="_blank">OpenAI GPT-Live-1</a></td>
-            <td>2026-09-10（API正式可用）</td>
-            <td>全双工语音前端模型：单模型边听边说、自然打断/回信道处理，可委托后端模型（如Astra等）做深度推理/工具；支持telephony/SIP、噪声鲁棒、风格控制；前端语音层$0.05/分钟。</td>
-            <td>是（OpenAI API Live端点、文档、Playground/示例，已有客户如Yelp电话预订、Cognition Devin Voice）</td>
-            <td>否（商业API）</td>
-            <td>实时语音Agent/助手、电话客服/预约、交互式教学/陪伴、全双工对话应用</td>
-            <td class="score">9.5/10</td>
+            <td>2026-09-10（Realtime/Live API 可用）</td>
+            <td>全双工语音前端：边听边说、自然打断，可委托 Astra 等后端做推理/工具；同时 ChatGPT Voice 可调 GPT-6 Astra / GPT-5.6 Sol。</td>
+            <td>是（OpenAI API、文档与玩法；已有电话/代理场景客户）</td>
+            <td>否（商业 API）</td>
+            <td>实时语音 Agent、电话客服、互动教学与全双工助手</td>
+            <td class="score">9.5/10（生产成熟度与工具链最完整，成本较高）</td>
           </tr>
         </tbody>
       </table>
@@ -95,7 +113,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        全双工与统一指令式模型成为焦点——从级联STT-LLM-TTS转向单模型边听边说（GPT-Live-1）或自然语言驱动多任务生成/编辑（AuK），显著降低延迟与工程复杂度；开源侧小/中型统一模型加速本地与定制部署，商业API则强化生产级打断处理、telephony与成本分层。低延迟、多任务一体化、噪声/打断鲁棒与中英（及多语言）一致性仍是核心演进方向，边缘与自托管方案持续补位隐私与成本敏感场景。
+        语音栈正在拆成三路：云端全双工对话（GPT-Live-1 类）追求打断与工具调用；开源统一指令模型（AuK）把 TTS/编辑/分离收进同一接口；端侧小模型（Voz/Clear）用于隐私与零费用转写。评侧也从纯 MOS 转向“是否像同一个人”（Hume Voice Replication Leaderboard，09-10）。低延迟、多任务一体、语种/代码切换一致性与可自托管仍是主线；纯论文与音乐模型更新不计入本表。
       </div>
     </div>
 
