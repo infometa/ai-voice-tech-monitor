@@ -75,3 +75,9 @@
 - Timo (YiLink) Kickstarter 正式开众筹 | https://www.kickstarter.com/projects/yilink/timo-interactive-ai-social-robot-for-your-car | https://www.globenewswire.com/news-release/2026/09/10/3359838/0/en/timo-the-in-car-ai-social-robot-launches-on-kickstarter-with-carplay-and-4g-lte-versions.html | 2026-09-10
 - Edge0 | https://edge0.ai/models/edge0-35b | https://runtimewire.com/article/edge0-open-source-35b-model-streaming-inference | https://github.com/Edge0-AI/Edge0 | 2026-09-10
 - DeepSeek V4.1-Flash | https://huggingface.co/deepseek-ai | https://thequantumdispatch.com/articles/deepseek-v4-1-flash-open-weights-1m-context | 2026-09-10
+
+## 2026-09-14
+- Agnes-3.0-Flash Preview | https://huggingface.co/Agnes-AI/Agnes-3.0-Flash | https://aiweekly.co/alerts/agnes-ai-ships-33b-multimodal-with-262k-context-under-apache-20 | 2026-09-12
+- Iris-mini / Iris-pro (AllSpark) | https://huggingface.co/AllSpark-Research/Iris-mini | https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/ | 2026-09-13
+- NeoHorse-1-4B | https://huggingface.co/TokenRhythm/NeoHorse-1-4B | https://www.mindstudio.ai/blog/neohorse-1-4b-local-install | 2026-09-13
+- URXR One（旧项目突然火起来） | https://www.unseen-reality.com/ | https://www.metaversewatcher.io/urxr-one-kickstarter-closes-september-18/ | 2026-09-13
