@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-13 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-14 · 来源：X 与网页检索（最近1-2天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新（2026-09-09 至 09-12）：</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新（2026-09-10 至 09-13）：</p>
       <table>
         <thead>
           <tr>
@@ -71,6 +71,24 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://elevenlabs.io/" target="_blank">ElevenLabs Scribe v2 Medical</a></td>
+            <td>2026-09-11（GA）</td>
+            <td>面向临床/医疗音频的批量 ASR；与 Scribe v2 同价，支持 keyterm prompting、实体检测、说话人分离与非逐字模式。</td>
+            <td>是（Create transcript API，model_id=scribe_v2_medical）</td>
+            <td>否（商业 API）</td>
+            <td>病历/问诊转写、医疗会议纪要、HIPAA 场景的专业术语识别</td>
+            <td class="score">8.5/10（垂直领域落地完整；通用场景仍用 Scribe v2 即可）</td>
+          </tr>
+          <tr>
+            <td><a href="https://deepgram.com/product/text-to-speech/flux" target="_blank">Deepgram Flux TTS</a></td>
+            <td>2026-08 发布；2026-09-13 免费测试结束进入正式计费</td>
+            <td>对话原生 TTS：跨轮次保持语气/节奏/情感，与 Flux STT 共享 Voice Agent API，强调实体读音与打断协同。</td>
+            <td>是（文档 + Voice Agent API，企业部署）</td>
+            <td>否（商业 API）</td>
+            <td>企业语音 Agent、电话客服、需要跨轮次声线一致的实时对话</td>
+            <td class="score">8.5/10（栈完整、生产级；表达力仍追 ElevenLabs v3 等品质模型）</td>
+          </tr>
+          <tr>
             <td><a href="https://github.com/Tencent-Hunyuan/AuK" target="_blank">Tencent AuK / AuK-Flash（腾讯混元）</a></td>
             <td>2026-09-09（开源；09-10 媒体集中报道）</td>
             <td>1.5B 统一语音基础模型，用自然语言指令做零样本 TTS、内容/声学/副语言编辑、增强与分离；AuK-Flash 为 4 步蒸馏快速版。</td>
@@ -81,9 +99,9 @@
           </tr>
           <tr>
             <td><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" target="_blank">OpenAI GPT-Live-1</a></td>
-            <td>2026-09-10（Realtime/Live API）</td>
-            <td>全双工语音前端：边听边说、自然打断，可委托 Astra 等后端做推理/工具；ChatGPT Voice 可调 GPT-6 Astra / GPT-5.6 Sol。</td>
-            <td>是（OpenAI API、文档与生产语音 Agent 场景）</td>
+            <td>2026-09-10（API）；09-13 第三方 Agent（如 Vocaleo Pro）已接入</td>
+            <td>全双工语音前端：边听边说、自然打断，可委托后端模型做推理/工具调用；约 $0.05/分钟语音前端层。</td>
+            <td>是（OpenAI API + 多个生产 Agent）</td>
             <td>否（商业 API）</td>
             <td>实时语音 Agent、电话客服、互动教学与全双工助手</td>
             <td class="score">9.5/10（工具链与成熟度最完整，成本较高）</td>
@@ -104,7 +122,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        语音栈继续拆成三路：云端全双工对话（GPT-Live-1）追求打断与工具调用；开源统一指令模型（AuK）把 TTS/编辑/分离收进同一接口；端侧小模型（Voz/Clear）用于隐私与零费用转写。评侧从纯 MOS 转向“是否像同一个人”（Hume Voice Replication Leaderboard，09-10）。低延迟、多任务一体、多语言一致性与可自托管仍是主线。X 上 09-12 出现 DeepSeek Web UI TTS 隐藏开关但尚非正式产品，不计入主表。
+        09-14 没有新的基础模型落地：Murf 宣布约三周内推出下一代 Falcon（目标子 200ms 延迟，价格约 $0.01/分钟）但尚未可用。已落地一侧分化清晰：专业垂直 ASR（Scribe v2 Medical）、企业对话 TTS 正式计费（Flux TTS）、云端全双工（GPT-Live-1）、开源统一指令模型（AuK）与端侧小模型（Voz）并行。低延迟、领域精度、多轮次声线一致、可自托管仍是主线。
       </div>
     </div>
 
