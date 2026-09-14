@@ -56,7 +56,7 @@
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新（2026-09-10 至 09-13）：</p>
+      <p style="margin-bottom:16px;">监测窗口：2026-09-12 至 09-14。去重后保留已落地或即将可测的条目，纯论文/旧闻不单列。</p>
       <table>
         <thead>
           <tr>
@@ -71,49 +71,67 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://elevenlabs.io/" target="_blank">ElevenLabs Scribe v2 Medical</a></td>
-            <td>2026-09-11（GA）</td>
-            <td>面向临床/医疗音频的批量 ASR；与 Scribe v2 同价，支持 keyterm prompting、实体检测、说话人分离与非逐字模式。</td>
-            <td>是（Create transcript API，model_id=scribe_v2_medical）</td>
+            <td><a href="https://www.financialexpress.com/life/technology/murf-ai-to-launch-upgraded-variant-of-voice-model/4338593/" target="_blank">Murf Falcon 下一代（预告）</a></td>
+            <td>2026-09-13 宣布，约三周内上线</td>
+            <td>Falcon 2 已在 Speech Arena 自然度上自称优于 OpenAI Realtime 与 ElevenLabs Flash/Turbo；下一代目标子 200ms 延迟，现价约 $0.01/分钟。</td>
+            <td>部分（Falcon 2 已商用；升级版尚未可用）</td>
             <td>否（商业 API）</td>
-            <td>病历/问诊转写、医疗会议纪要、HIPAA 场景的专业术语识别</td>
-            <td class="score">8.5/10（垂直领域落地完整；通用场景仍用 Scribe v2 即可）</td>
-          </tr>
-          <tr>
-            <td><a href="https://deepgram.com/product/text-to-speech/flux" target="_blank">Deepgram Flux TTS</a></td>
-            <td>2026-08 发布；2026-09-13 免费测试结束进入正式计费</td>
-            <td>对话原生 TTS：跨轮次保持语气/节奏/情感，与 Flux STT 共享 Voice Agent API，强调实体读音与打断协同。</td>
-            <td>是（文档 + Voice Agent API，企业部署）</td>
-            <td>否（商业 API）</td>
-            <td>企业语音 Agent、电话客服、需要跨轮次声线一致的实时对话</td>
-            <td class="score">8.5/10（栈完整、生产级；表达力仍追 ElevenLabs v3 等品质模型）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/Tencent-Hunyuan/AuK" target="_blank">Tencent AuK / AuK-Flash（腾讯混元）</a></td>
-            <td>2026-09-09（开源；09-10 媒体集中报道）</td>
-            <td>1.5B 统一语音基础模型，用自然语言指令做零样本 TTS、内容/声学/副语言编辑、增强与分离；AuK-Flash 为 4 步蒸馏快速版。</td>
-            <td>是（GitHub + HF/ModelScope 权重、Spaces demo、Gradio/ComfyUI/SGLang）</td>
-            <td>是（MIT）</td>
-            <td>本地/自托管语音工具链、内容后处理、指令式编辑与克隆</td>
-            <td class="score">9/10（能力面与开源度高，需 GPU 且自然语言指令仍依赖 Prompt Enhancer）</td>
+            <td>企业对话语音、客服/外呼、低成本实时 Agent</td>
+            <td class="score">7.5/10（价格与延迟叙事强，升级版未上线，暂按预告跟踪）</td>
           </tr>
           <tr>
             <td><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" target="_blank">OpenAI GPT-Live-1</a></td>
-            <td>2026-09-10（API）；09-13 第三方 Agent（如 Vocaleo Pro）已接入</td>
-            <td>全双工语音前端：边听边说、自然打断，可委托后端模型做推理/工具调用；约 $0.05/分钟语音前端层。</td>
-            <td>是（OpenAI API + 多个生产 Agent）</td>
+            <td>2026-09-10 API 上线；09-12 媒体与文档持续跟进</td>
+            <td>全双工语音前端：边听边说、原生打断；会话层与后端推理/工具解耦（delegation）。语音层约 $0.05/分钟，后端另计。</td>
+            <td>是（OpenAI Live API + 第三方 Agent 已接入）</td>
             <td>否（商业 API）</td>
-            <td>实时语音 Agent、电话客服、互动教学与全双工助手</td>
-            <td class="score">9.5/10（工具链与成熟度最完整，成本较高）</td>
+            <td>实时语音助手、电话客服、可打断的交互教学</td>
+            <td class="score">9.5/10（全双工与工具链最完整，成本偏高）</td>
           </tr>
           <tr>
-            <td><a href="https://desertant.com/models/voz/" target="_blank">Desert Ant Labs Voz（及 Clear 等端侧套件）</a></td>
-            <td>2026-09-08 发布 / 09-10 业界报道</td>
-            <td>端侧 ASR：iPhone 上约 2 秒转录 10 分钟语音，467MB，词级时间戳；基于 NVIDIA Parakeet TDT 0.6B v3 的 Core ML 改造。</td>
-            <td>是（Swift SDK / GitHub、HF 权重、文档；Android/Web 尚未全量）</td>
-            <td>部分（权重在 HF；SDK source-available，免费额约 10 万月活跃设备）</td>
-            <td>手机/桌面本地转写、视频剪辑定位、隐私敏感与离线字幕</td>
-            <td class="score">8.5/10（速度与集成好；Android 尚未全量就绪）</td>
+            <td><a href="https://contactcentertechnologyinsights.com/news/deepdub-and-wonderful-elevate-enterprise-ai-voice-experiences" target="_blank">Deepdub eTTS × Wonderful</a></td>
+            <td>2026-09-12 合作宣布</td>
+            <td>Wonderful 将 Deepdub 表情/多语 eTTS 接入企业 Agent 栈，强调节奏、韵律、情绪与人设可控，面向大规模通话。</td>
+            <td>是（企业平台集成，非独立新模型权重）</td>
+            <td>否</td>
+            <td>多语种客服、情绪稳定的呼叫中心 Agent</td>
+            <td class="score">8/10（落地路径清晰，但能力绑定 Wonderful 栈）</td>
+          </tr>
+          <tr>
+            <td><a href="https://elevenlabs.io/blog/introducing-dubbing-v2" target="_blank">ElevenLabs Dubbing v2</a></td>
+            <td>产品已上线；文档/API 页 09-13 仍在更新</td>
+            <td>按源音频表演条件生成，而非只吃转写；90+ 语言、最多 32 说话人、同步感知翻译。Studio/API 可用。</td>
+            <td>是（产品 + ElevenAPI，仍标 Alpha）</td>
+            <td>否</td>
+            <td>视频/播客本地化、多语内容分发、批量配音</td>
+            <td class="score">8.5/10（创作者与内容团队可直接用；Alpha 边仍需抽检）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.hume.ai/blog/introducing-the-hume-voice-replication-leaderboard" target="_blank">Hume Voice Replication Leaderboard</a></td>
+            <td>2026-09-10 发布；09-12/13 仍被引用</td>
+            <td>VoiceEQ 新增「像谁 / 自然 / 清晰 / 客观相似度」分列。开源 VoxCPM2、LongCat-AudioDiT 在身份相似度上靠前，商用模型自然度另有优势。</td>
+            <td>是（公开榜单 + 可复现评测页）</td>
+            <td>评测开源；上榜模型有开有闭</td>
+            <td>选型对照、克隆合规评估、研发基线</td>
+            <td class="score">8/10（不直接产出音频，但对采购与开源选型很有用）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Tencent-Hunyuan/AuK" target="_blank">Tencent AuK / 本地 TTS 栈热议</a></td>
+            <td>AuK 09-09 开源；09-12–13 X 上本地「ElevenLabs 替代」再次刷屏</td>
+            <td>统一指令式语音模型 + 社区把多引擎本地克隆/配音/转写打成一包。X 示例：10 秒样本、离线 Mac Studio 数秒出声。</td>
+            <td>是（权重/demo/本地工具可跑）</td>
+            <td>是（AuK MIT；聚合工具多为开源）</td>
+            <td>自托管克隆、离线配音、隐私敏感内容生产</td>
+            <td class="score">8.5/10（能力强、无按字计费；需本机算力与合规注意）</td>
+          </tr>
+          <tr>
+            <td><a href="https://elevenlabs.io/docs/overview/capabilities/speech-to-text" target="_blank">ElevenLabs Scribe v2 Medical</a></td>
+            <td>2026-09-11 GA（窗口内仍有效）</td>
+            <td>医疗/临床批量 ASR，与 Scribe v2 同价；keyterm、实体、说话人分离、非逐字模式。</td>
+            <td>是（Create transcript API，model_id=scribe_v2_medical）</td>
+            <td>否</td>
+            <td>病历/问诊转写、医疗会议纪要</td>
+            <td class="score">8.5/10（垂直落地完整）</td>
           </tr>
         </tbody>
       </table>
@@ -122,7 +140,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-14 没有新的基础模型落地：Murf 宣布约三周内推出下一代 Falcon（目标子 200ms 延迟，价格约 $0.01/分钟）但尚未可用。已落地一侧分化清晰：专业垂直 ASR（Scribe v2 Medical）、企业对话 TTS 正式计费（Flux TTS）、云端全双工（GPT-Live-1）、开源统一指令模型（AuK）与端侧小模型（Voz）并行。低延迟、领域精度、多轮次声线一致、可自托管仍是主线。
+        近 48 小时没有新的基础模型权重发布，新闻面分成三条：1）云端全双工继续被消化（GPT-Live-1 文档与接入案例增加）；2）企业侧用集成而非新模型抢份额（Deepdub×Wonderful、Murf 用价格/延迟预告下一版 Falcon）；3）开源/本地克隆在 X 上再次升温，评测榜（Hume VoiceEQ）把「像本人」和「听起来自然」拆开，说明商用与开源各占一维。低延迟（<200ms）、全双工打断、多语情绪可控、可自托管仍是主线。配音从「转写后再合成」转向「直接条件于源表演」。
       </div>
     </div>
 
