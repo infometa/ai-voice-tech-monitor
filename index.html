@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-15 · 来源：X 与网页检索（最近1-2天重点）</div>
+      <div class="meta">最后更新：2026-09-16 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">监测窗口：2026-09-13 至 09-15。日内无全新基础模型权重发布；以产品/API 落地与近日可用更新为主。</p>
+      <p style="margin-bottom:16px;">监测窗口：2026-09-14 至 09-16。09-15 有多项可上线发布：Gemini 3.8 Live、阶跃星辰 StepAudio 3、DeepL Voice 保留声纹翻译。</p>
       <table>
         <thead>
           <tr>
@@ -71,67 +71,49 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://elevenlabs.io/blog" target="_blank">ElevenLabs MCP（语音/音乐/图像/视频）</a></td>
-            <td>2026-09-14</td>
-            <td>在已有助手里直接调用 ElevenLabs：语音合成、转写、配音、音乐、音效、图像与视频。X 官方帖观眈超 87 万。</td>
-            <td>是（MCP + 现有 API/账户可用）</td>
-            <td>否（商业产品）</td>
-            <td>Agent 内容生产、脚本→语音→配乐→视频一条链</td>
-            <td class="score">9/10（接入成本极低；质量取决于已有模型而非新权重）</td>
+            <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/" target="_blank">Google Gemini 3.8 Live / Live Extended Thinking</a></td>
+            <td>2026-09-15</td>
+            <td>面向语音智能体的音频模型：低延迟对话、边说边推理与调工具、句中打断、97 语种切换与视觉上下文。Extended Thinking 在 Artificial Analysis Speech-to-Speech 指数报 82.6，略高于 GPT-Live-1 Astra。</td>
+            <td>是（Gemini 应用 / Search Live；Docs/Gmail Live 按套餐渐进；开发者 Live API 可用，报价约 $0.005/分钟入 + $0.018/分钟出）</td>
+            <td>否（商业闭源）</td>
+            <td>语音 Agent、实时搜索/Workspace 协作、多语种客服与手持导览</td>
+            <td class="score">9.5/10（生态与跑分都强；Workspace 企业端仍在推出，成本相对 OpenAI 语音更低）</td>
           </tr>
           <tr>
-            <td><a href="https://x.com/bnicholehopkins/status/2099538678288654364" target="_blank">Soniox TTS 音库 + 语义端点</a></td>
-            <td>2026-09 上旬产品更新；09-14 行业周报确认</td>
-            <td>200+ 预置音色 TTS 库；实时 STT 按语义而非静音切分，减少错断/误断。</td>
-            <td>是（平台 API / SDK）</td>
+            <td><a href="https://platform.stepfun.ai/docs/en/guides/models/audio" target="_blank">阶跃星辰 StepAudio 3 系列</a></td>
+            <td>2026-09-15</td>
+            <td>一次发布 Realtime / ASR / TTS / Gen / Music。Realtime 全双工边想边说；ASR 非流式 WER 约 1.7%；TTS 支持笑声/犹豫/自我纠正等副语言与流式合成。</td>
+            <td>是（开放平台 API + Voice Studio：Realtime WebSocket、TTS HTTP/WS）</td>
+            <td>否（平台 API；早期 Mini 系列曾开源，本代主力闭源）</td>
+            <td>中文实时对话 Agent、专业领域转写、表达式配音与音频生成</td>
+            <td class="score">9/10（产品线齐全、中文场景强；需账号与计费，权重非开源）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.wallstreet-online.de/nachricht/21382818-eqs-news-deepl-voice-now-preserves-your-voice-real-time-multilingual-conversations" target="_blank">DeepL Voice（保留声纹 + 桌面端）</a></td>
+            <td>2026-09-15</td>
+            <td>实时语音翻译保留讲者音色、语气与节奏；Zoom / Teams / Meet 可用；新桌面 App；voice-to-voice 在 30+ 语言普及。</td>
+            <td>是（会议插件 + 桌面 App + API）</td>
             <td>否</td>
-            <td>多语音 Agent、电话客服、实时转写</td>
-            <td class="score">8.5/10（端点工程对对话体感影响大，可直接上线）</td>
+            <td>跨语言会议、现场同传、企业多语言客服</td>
+            <td class="score">8.5/10（会议场景直接可用；身份保留是翻译产品的关键差异化）</td>
           </tr>
           <tr>
-            <td><a href="https://www.karostartup.com/general/smallestai-launches-lightning-v3-a-new-text-to-speech-model-that-beats-openai-cartesia-and-elevenlab" target="_blank">Smallest.ai Lightning v3.1 Pro</a></td>
-            <td>约 09 上旬细调版；09-14 Coval 周报提及</td>
-            <td>对话向 TTS，搭配 silence-aware STT；多语、秒级克隆、实时音律。</td>
-            <td>是（商用 API / demo）</td>
-            <td>否</td>
-            <td>语音 Agent、联系中心、听书/配音</td>
-            <td class="score">8/10（实时对话取向清楚；品牌体量小于头部厂商）</td>
+            <td><a href="https://github.com/xiaomi-research/xiaomi-cocktailasr-1" target="_blank">Xiaomi-CocktailASR-1</a></td>
+            <td>2026-09-11 开源；09-14 英语主流继续报道</td>
+            <td>8B 目标说话人 ASR：用短参考音频在多人重叠中只转写目标说话人；目标不在场输出空结果；可选 CoT。</td>
+            <td>是（GitHub + Hugging Face 可跑推理）</td>
+            <td>是（权重已发，HF：Ease3/Xiaomi-CocktailASR-1）</td>
+            <td>会议记录、家庭多人环境、智能硬件按声纹听写</td>
+            <td class="score">8/10（结点明确且开源可复现；8B 推理成本高、不适边端）</td>
           </tr>
           <tr>
-            <td><a href="https://x.com/bnicholehopkins/status/2099538678288654364" target="_blank">HeyGen Professional Voice Clone</a></td>
-            <td>09-14 周报确认可用</td>
-            <td>约 20 分钟音频训练专业级声纹；并开源一套基于 OpenAI 的实时数字人 pipeline。</td>
-            <td>是（平台功能；pipeline 开源）</td>
-            <td>部分（数字人 pipeline 开源；克隆模型闭源）</td>
-            <td>数字人视频、品牌代言、培训视频</td>
-            <td class="score">8/10（视频+声音一体落地好；需较长样本）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.financialexpress.com/life/technology/murf-ai-to-launch-upgraded-variant-of-voice-model/4338593/" target="_blank">Murf Falcon 下一代（预告）</a></td>
-            <td>2026-09-13 宣布，约三周内上线</td>
-            <td>目标子 200ms 延迟；现行 Falcon 2 约 $0.01/分钟，对标 ElevenLabs Turbo/Flash。</td>
-            <td>部分（Falcon 2 已商用；升级版未发）</td>
-            <td>否</td>
-            <td>企业对话语音、低成本实时 Agent</td>
-            <td class="score">7.5/10（价格效率效事强，升级版尚未可测）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/Bronzebase/status/2099664867540205846" target="_blank">VoiceStudio（本地多引擎工作流）</a></td>
-            <td>09-15 X 再次被引用（社区工具）</td>
-            <td>本机聚合克隆/配音/转写/有声书；声称多引擎、音频不出本机。AGPL。</td>
-            <td>是（GitHub 可装）</td>
-            <td>是（AGPL）</td>
-            <td>私密敏感的本地生产、离线配音</td>
-            <td class="score">7.5/10（无按字计费；安装重、质量不均且许可证严）</td>
-          </tr>
-          <tr>
-            <td><a href="https://openai.com/index/introducing-gpt-live-1-in-the-api/" target="_blank">OpenAI GPT-Live-1</a></td>
-            <td>09-10 API；09-14 LiveKit/Twilio 等接入继续</td>
-            <td>全双工语音前端，转向与推理/工具解耦；周报称转向基准好于 Realtime-2.1。</td>
-            <td>是（Live API + 第三方 Agent）</td>
-            <td>否</td>
-            <td>可打断语音助手、电话客服</td>
-            <td class="score">9.5/10（生态最完整，成本偏高）</td>
+            <td><a href="https://huggingface.co/spaces/wayu-ai/wayu-paxa-tts-blog" target="_blank">Wayu-Paxa-TTS-Edge</a></td>
+            <td>2026-09-14（HF / 论文页面）</td>
+            <td>82M 泰语固定音色 TTS：用大模型克隆教师的合成数据蒸馏，边端无参考音频推理。</td>
+            <td>是（模型 + 评测框架 + demo Space）</td>
+            <td>是</td>
+            <td>泰语设备端播报、离线导览、低资源语种 TTS</td>
+            <td class="score">7.5/10（小模型可部署；语种窄、非零样本克隆）</td>
           </tr>
         </tbody>
       </table>
@@ -140,7 +122,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-15 无新的基础 TTS/ASR 权重爆炸点。近 48 小时主线是「工作流落地」而不是「更大模型」：ElevenLabs 把语音/配音/音乐/视频塞进 MCP；Soniox 用语义端点改实时转向；LiveKit 继续一行接 GPT-Live。企业侧用价格与延迟预告抢份额（Murf Falcon 下一代）。开源/本地聚合工具在 X 上仍有声量，但质量不均且许可证更严。趋势仍是：子 200ms 延迟、全双工打断、语义端点、多模态 Agent 工具链、可自托管的克隆。
+        09-15 还原了「基础语音模型发布日」：Google 用 Gemini 3.8 Live 把语音 Agent 推到「边说边调工具 / 边想边说」，阶跃星辰用 StepAudio 3 把 ASR·TTS·Realtime·音乐一次铺开。与前一天的 MCP/工作流落地不同，今日主线是实时对话质量与价格直接对折。DeepL 把翻译从字幕推到保留声纹的 voice-to-voice；开源侧是「鸡尾酒会 ASR」与低资源语种小 TTS。趋势仍是：全双工与子 200ms 首包、说话时同步推理、身份/情绪在跨语言中一致、目标说话人提取、小模型上边端。
       </div>
     </div>
 
