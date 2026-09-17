@@ -81,3 +81,23 @@
 - Iris-mini / Iris-pro (AllSpark) | https://huggingface.co/AllSpark-Research/Iris-mini | https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/ | 2026-09-13
 - NeoHorse-1-4B | https://huggingface.co/TokenRhythm/NeoHorse-1-4B | https://www.mindstudio.ai/blog/neohorse-1-4b-local-install | 2026-09-13
 - URXR One（旧项目突然火起来） | https://www.unseen-reality.com/ | https://www.metaversewatcher.io/urxr-one-kickstarter-closes-september-18/ | 2026-09-13
+
+### 2026-09-15
+- Unitree G1+ | https://www.unitree.com/G1pl/ | https://technode.com/2026/09/15/unitree-g1-plus-humanoid-robot/ | 2026-09-14
+- Spark Ring | https://sparkring.ai/ | https://www.prnewswire.com/news-releases/spark-ring-launches-on-kickstarter-ai-smart-ring-that-captures-ideas-instantly-302878387.html | 2026-09-14
+- DFRobot seeMote Cap | https://www.dfrobot.com/product-3157.html | https://en.prnasia.com/releases/global/dfrobot-seemote-cap-opens-preorders-at-229-bringing-real-tools-into-spatial-computing-547811.shtml | 2026-09-15
+- HP ZBook Ultra G3a | https://www.hp.com/ | https://www.globenewswire.com/news-release/2026/09/15/3361990/0/en/hp-redefines-the-mobile-workstation-for-the-era-of-agentic-ai.html | 2026-09-15
+- Occamy-1.0 | https://huggingface.co/Accio-Lab/Occamy-1.0 | https://agentictribune.com/article/20260914-accio-lab-releases-occamy-1-0-a-35b-open-agent-focused-model-with-weights-code-and-deployment-tools | 2026-09-14
+
+### 2026-09-17
+- Hello Haven (Haven digital twin) | https://my.hellohaven.ai/ | https://www.prnewswire.com/news-releases/hello-haven-launches-with-a-personal-ai-digital-twin-and-15-million-funding-302881418.html | 2026-09-17
+- Violoop | https://www.violoop.ai/ | https://www.kickstarter.com/projects/bvio/violoop-plug-in-ai-for-your-computer | 2026-09-15
+- UBTech UWORLD U1（旧项目突然火起来·首批入户交付） | https://www.ubtrobot.com/ | https://startupfortune.com/ubtech-starts-delivering-its-16500-humanoid-companion-robots-today/ | 2026-09-16
+- Snap Specs | https://specs.com/ | https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/ | 2026-09-16
+- SPECS Intelligence | https://www.specs.com/intelligence | https://newsroom.snap.com/introducing-specs-intelligence | 2026-09-16
+- Agility Digit 5 | https://www.agilityrobotics.com/solutions/digit-5 | https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/ | 2026-09-15
+- Persona Band | https://yourpersona.com/band | https://runtimewire.com/article/zach-yadegari-persona-ai-band-launch | 2026-09-15
+- CyboPal ONE | https://cybopal.com/ | https://www.prnewswire.com/news-releases/cybopal-one-the-worlds-first-desktop-robotic-terminal-to-launch-on-kickstarter-sept-22-302880922.html | 2026-09-17
+- Ambarella X7 | https://www.ambarella.com/ | https://finviz.com/news/392185/ambarella-launches-x7-its-first-standalone-ai-accelerator-to-add-physical-ai-to-any-host-processor | 2026-09-15
+- BrainChip AKD1500 PCIe | https://shop.brainchip.com/ | https://crweworld.com/article/news-provided-by-globenewswire/3907497/brainchip-launches-akd1500-pcie-card-for-edge-ai-evaluation-everywhere | 2026-09-17
+- Atria Dawn Preview | https://huggingface.co/internlm/Atria-Dawn-Preview | https://theroboticsmedia.com/article/shanghai-ai-lab-atria-dawn-preview-744b-moe-open-source-agentic-model-september-15-2026 | 2026-09-15
