@@ -101,3 +101,13 @@
 - Ambarella X7 | https://www.ambarella.com/ | https://finviz.com/news/392185/ambarella-launches-x7-its-first-standalone-ai-accelerator-to-add-physical-ai-to-any-host-processor | 2026-09-15
 - BrainChip AKD1500 PCIe | https://shop.brainchip.com/ | https://crweworld.com/article/news-provided-by-globenewswire/3907497/brainchip-launches-akd1500-pcie-card-for-edge-ai-evaluation-everywhere | 2026-09-17
 - Atria Dawn Preview | https://huggingface.co/internlm/Atria-Dawn-Preview | https://theroboticsmedia.com/article/shanghai-ai-lab-atria-dawn-preview-744b-moe-open-source-agentic-model-september-15-2026 | 2026-09-15
+
+### 2026-09-18
+- kubi 2.0 | https://ipresence.jp/kubi2/en/ | https://ipresence.jp/en/news/kubi-2-kickstarter/ | 2026-09-18
+- Wandercraft Eve | https://www.wandercraft.eu/eve | https://www.globenewswire.com/news-release/2026/09/17/3364023/0/en/wandercraft-launches-eve-the-world-s-first-self-balancing-personal-exoskeleton-bringing-hands-free-upright-mobility-to-the-home.html | 2026-09-17
+- Rogbid ZenRing | https://store.rogbid.com/ | https://www.gizmochina.com/2026/09/17/rogbid-zenring-smart-ring-launched-specs-price/ | 2026-09-17
+- QBit QB88XX / QB77XX | https://www.qbitsemi.com/products | https://www.prnewswire.com/news-releases/qbit-semiconductor-targets-physical-ai-and-drone-markets-with-qb88xx-series-integrating-robot-cerebellum-control-302881726.html | 2026-09-17
+- Figure Helix 2.5 | https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization | https://startupfortune.com/figure-ais-helix-25-robot-made-beds-in-30-homes-it-had-never-seen/ | 2026-09-17
+- PrismML Bonsai 2 27B | https://huggingface.co/collections/prism-ml/bonsai-2 | https://www.prnewswire.com/news-releases/prismml-launches-bonsai-2-27b-its-most-capable-model-yet-302882228.html | 2026-09-17
+- Sider Omni Sidebar | https://sider.ai/ | https://hunted.space/product/sider-omni | 2026-09-18
+- URXR One（旧项目突然火起来·众筹收官） | https://www.unseen-reality.com/ | https://www.metaversewatcher.io/urxr-one-kickstarter-closes-september-18/ | 2026-09-18
