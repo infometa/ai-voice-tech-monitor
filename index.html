@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-17 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-09-18 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。监测窗口：2026-09-15 至 09-17。09-16 以产品化与边端落地为主，09-15 的 Gemini 3.8 Live / StepAudio 3 / DeepL Voice 仍是当前最重要的基础模型发布。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。监测窗口：2026-09-16 至 09-18。09-18 阿里云文档把 Qwen3.8-Omni-Flash 标为可调用；09-15 的 Gemini 3.8 Live / StepAudio 3 仍是当前最重要的基础模型发布。</p>
       <table>
         <thead>
           <tr>
@@ -71,40 +71,22 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://elevenlabs.io/blog/reception" target="_blank">ElevenLabs Reception（ElevenAgents）</a></td>
-            <td>2026-09-16</td>
-            <td>面向小微企业的 AI 前台：24 小时接电话、回答业务问题并写入日历。用网站即可完成初始设置，声音与编排复用 ElevenAgents。</td>
-            <td>是（产品上线，站点 reception.ai，有 demo 与业务工作流）</td>
-            <td>否（商业闭源）</td>
-            <td>美容/管道/家政等小店接线、预约与错过呼叫回收</td>
-            <td class="score">8.5/10（零研发上线快；不是新模型，是语音 Agent 的垂直场景打包）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.seeed.cc/solutions/conversational-voice-ai" target="_blank">Seeed Conversational Voice AI（OpenVoiceStream）</a></td>
-            <td>2026-09-16（方案页）</td>
-            <td>边端 ASR/TTS/LLM 参考设计：全双工打断、30 语言、全本地约 0.9 秒回复；J4012 上可用参考音频克隆。代码与部署脚本开源。</td>
-            <td>是（硬件 + 开源堆栈 + 设备端 demo）</td>
-            <td>部分（部署与应用开源；部分语音模型依赖第三方权重）</td>
-            <td>机器人/工业终端/离线家居语音对话与仓库语音填表</td>
-            <td class="score">8/10（硬件+软件齐全套可复制；对板卡与量化路径有依赖）</td>
-          </tr>
-          <tr>
-            <td><a href="https://telnyx.com/release-notes/telnyx-ultra-voices-upgraded" target="_blank">Telnyx Ultra Voices 升级</a></td>
-            <td>2026-09-15</td>
-            <td>Ultra 声线提升自然度与多语言代码切换；AI Assistant 新增自动 language boost；未升级声线标 DEPRECATED。</td>
-            <td>是（平台 API 与 Mission Control 已可选）</td>
-            <td>否</td>
-            <td>电信语音 Agent、多语言呼叫中心</td>
-            <td class="score">7.5/10（通信场景直接可用；非新基础模型，是现有 TTS 质量迭代）</td>
+            <td><a href="https://www.alibabacloud.com/help/zh/model-studio/qwen3-8-omni-flash" target="_blank">Qwen3.8-Omni-Flash</a></td>
+            <td>2026-09-17（社区讨论）/ 09-18（官方文档更新）</td>
+            <td>全模态理解模型：文本/图/音/视频入、仅文本出；1M 上下文，默认思考，支持工具与联网。音频输入约 113 语种。语音克隆走 qwen3.8-omni-flash-realtime + qwen-voice-enrollment。</td>
+            <td>是（阿里云百炼 / DashScope API 可调用；暂无公开权重）</td>
+            <td>否（平台 API）</td>
+            <td>会议纪要、字幕、音视频分析、带工具的语音理解 Agent</td>
+            <td class="score">8.5/10（理解侧已可上线；本代 Flash 不直接出声，实时对话仍用 3.5 Omni Realtime）</td>
           </tr>
           <tr>
             <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/" target="_blank">Google Gemini 3.8 Live / Live Extended Thinking</a></td>
             <td>2026-09-15</td>
-            <td>面向语音智能体的音频模型：低延迟对话、边说边推理与调工具、句中打断。Extended Thinking 在 Artificial Analysis Speech-to-Speech 指数报 82.6。</td>
-            <td>是（Gemini 应用 / Search Live / Live API；约 $0.005/分钟入 + $0.018/分钟出）</td>
+            <td>语音智能体音频模型：近实时对话、边说边推理与异步工具、句中打断。Extended Thinking 在 Artificial Analysis Speech-to-Speech 指数报 82.6；另有 Gemini 3.5 Transcribe（85+ 语言）。</td>
+            <td>是（Gemini 应用 / Search Live / Live API；音频约 $0.005/分钟入 + $0.018/分钟出）</td>
             <td>否（商业闭源）</td>
             <td>语音 Agent、实时搜索/Workspace 协作、多语种客服</td>
-            <td class="score">9.5/10（生态与跑分都强；Workspace 企业端仍在推出）</td>
+            <td class="score">9.5/10（生态、跑分与成本都强；Workspace 企业端仍在推出）</td>
           </tr>
           <tr>
             <td><a href="https://platform.stepfun.ai/docs/en/guides/models/audio" target="_blank">阶跃星辰 StepAudio 3 系列</a></td>
@@ -116,13 +98,13 @@
             <td class="score">9/10（产品线齐全、中文场景强；需账号与计费）</td>
           </tr>
           <tr>
-            <td><a href="https://www.deepl.com/en/blog/deepl-voice-preserves-your-voice-across-languages" target="_blank">DeepL Voice（保留声纹 + 桌面端）</a></td>
+            <td><a href="https://telnyx.com/release-notes/telnyx-ultra-voices-upgraded" target="_blank">Telnyx Ultra Voices 升级</a></td>
             <td>2026-09-15</td>
-            <td>实时语音翻译保留讲者音色、语气与节奏；14 语言声纹保留；30+语言 voice-to-voice；Zoom / Teams / Meet 桌面 App。</td>
-            <td>是（会议插件 + 桌面 App + API）</td>
+            <td>Ultra 声线提升自然度与多语言代码切换；AI Assistant 新增自动 language boost；未升级声线标 DEPRECATED。</td>
+            <td>是（平台 API 与 Mission Control 已可选）</td>
             <td>否</td>
-            <td>跨语言会议、现场同传、企业多语言客服</td>
-            <td class="score">8.5/10（会议场景直接可用；身份保留是翻译产品的关键差异化）</td>
+            <td>电信语音 Agent、多语言呼叫中心</td>
+            <td class="score">7.5/10（通信场景直接可用；非新基础模型，是现有 TTS 质量迭代）</td>
           </tr>
         </tbody>
       </table>
@@ -131,7 +113,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-17 没有新的基础语音模型发布。市场从「发模型」切到「装进场景」：ElevenLabs 用 Reception 把已有语音 Agent 打包成小店前台；Seeed 把 ASR/TTS/LLM 压到 Jetson/RK 板卡并开源部署链路；Telnyx 迭代通信级 TTS 的自然度与代码切换。09-15 的 Gemini 3.8 Live、StepAudio 3、DeepL Voice 仍定义当前能力上沿：全双工与子秒级首包、边说边调工具、跨语言声纹/情绪一致、边端可打断。
+        09-18 没有新的闭源/开源基础 TTS 权重落地。能力重心仍是「全双工实时 + 边说边调工具 + 多模态理解」。Qwen3.8-Omni-Flash 把 1M 上下文和深度思考接到音频理解（只出文本），实时出声仍走 Qwen3.5-Omni Realtime；Gemini 3.8 Live 继续以更低音频单价和 Speech-to-Speech 榜首压低语音 Agent 门槛；StepAudio 3 在中文全双工、副语言 TTS 与专业 ASR 上保持完整产品线。开源侧近期仍是小模型克隆与本地流水线（Qwen3-TTS / VoxCPM2 等），而不是新的旗舰权重。趋势关键词：低延迟全双工、异步工具、理解与生成拆分、多语言一致性、边端可部署小模型。
       </div>
     </div>
 
