@@ -51,12 +51,12 @@
     <header>
       <h1>🎙️ AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-18 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-09-19 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。监测窗口：2026-09-16 至 09-18。09-18 阿里云文档把 Qwen3.8-Omni-Flash 标为可调用；09-15 的 Gemini 3.8 Live / StepAudio 3 仍是当前最重要的基础模型发布。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。监测窗口：2026-09-17 至 09-19。09-18 Out of Set 在 X 上公布 Airy TTS 上线；同日 Artificial Analysis 将 Grok Voice Transcribe 2.0 排在流式 ASR 首位。09-15 的 Gemini 3.8 Live / StepAudio 3 仍是当前最重要的基础模型发布。</p>
       <table>
         <thead>
           <tr>
@@ -71,40 +71,49 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.alibabacloud.com/help/zh/model-studio/qwen3-8-omni-flash" target="_blank">Qwen3.8-Omni-Flash</a></td>
-            <td>2026-09-17（社区讨论）/ 09-18（官方文档更新）</td>
-            <td>全模态理解模型：文本/图/音/视频入、仅文本出；1M 上下文，默认思考，支持工具与联网。音频输入约 113 语种。语音克隆走 qwen3.8-omni-flash-realtime + qwen-voice-enrollment。</td>
-            <td>是（阿里云百炼 / DashScope API 可调用；暂无公开权重）</td>
-            <td>否（平台 API）</td>
-            <td>会议纪要、字幕、音视频分析、带工具的语音理解 Agent</td>
-            <td class="score">8.5/10（理解侧已可上线；本代 Flash 不直接出声，实时对话仍用 3.5 Omni Realtime）</td>
+            <td><a href="https://airy.so" target="_blank">Airy TTS（Out of Set）</a></td>
+            <td>2026-09-18（X 公布可用；品牌/Studio 较早于 8 月上线）</td>
+            <td>超轻量 TTS：官方称端到端约 0.2 秒、约 $2 / 100 万字符（相较主流云 TTS 更便宜）。目前以韩语/英语为主，提供 Web Studio 与开发者 API。</td>
+            <td>是（airy.so Demo/产品页 + API 路线）</td>
+            <td>否（商业闭源；公司也推 on-device 轻模型，权重未公开）</td>
+            <td>高并发语音 Agent、韩英内容生成、对成本敏感的批量配音</td>
+            <td class="score">7.5/10（价格和延迟有竞争力；语种/声线库仍窄，需自行验证音质）</td>
+          </tr>
+          <tr>
+            <td><a href="https://x.com/ArtificialAnlys/status/2101065579129929826" target="_blank">Grok Voice Transcribe 2.0</a></td>
+            <td>2026-09-18（Artificial Analysis 流式榜更新；API 已上线）</td>
+            <td>xAI 流式 ASR：AA 最终转写 WER 2.7%（语音结束后 0.49s），33 款模型中排名第一，好于 Muse 3.1%、Cartesia Ink-2 3.4%、ElevenLabs Scribe v2 RT 3.6%。价格约 $0.10/小时批量、$0.20/小时流式。</td>
+            <td>是（xAI Speech-to-Text API；无本地权重）</td>
+            <td>否</td>
+            <td>电话/庢服转写、语音 Agent 听觉端、噪声环境高精度字幕</td>
+            <td class="score">8.5/10（流式准确率领先且价格低；第一字速度不如最快竞品，无开源部署）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/Aratako/Irodori-TTS-v4.1-Small" target="_blank">Irodori-TTS-v4.1-Small</a></td>
+            <td>2026-09-15（HF 权重）</td>
+            <td>日语开源 TTS：在 v4-Small 上独立训练 duration predictor，降低过长生成误差；支持短参考音频零样本克隆，另有 INT8/INT4/FP8 量化版。</td>
+            <td>是（Hugging Face 权重 + GitHub 推理代码）</td>
+            <td>是（MIT）</td>
+            <td>日语角色语音、本地/侧端配音、游戏 NPC</td>
+            <td class="score">7/10（日语场景可自宿可用；非通用多语种旗舰）</td>
           </tr>
           <tr>
             <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/" target="_blank">Google Gemini 3.8 Live / Live Extended Thinking</a></td>
             <td>2026-09-15</td>
-            <td>语音智能体音频模型：近实时对话、边说边推理与异步工具、句中打断。Extended Thinking 在 Artificial Analysis Speech-to-Speech 指数报 82.6；另有 Gemini 3.5 Transcribe（85+ 语言）。</td>
-            <td>是（Gemini 应用 / Search Live / Live API；音频约 $0.005/分钟入 + $0.018/分钟出）</td>
+            <td>语音智能体音频模型：近实时对话、边说边推理与异步工具、句中打断。Extended Thinking 在 AA Speech-to-Speech 指数报 82.6；支持 97 语种会话中切换。</td>
+            <td>是（Gemini API / AI Studio / Search Live）</td>
             <td>否（商业闭源）</td>
             <td>语音 Agent、实时搜索/Workspace 协作、多语种客服</td>
-            <td class="score">9.5/10（生态、跑分与成本都强；Workspace 企业端仍在推出）</td>
+            <td class="score">9.5/10（生态、跑分与成本都强）</td>
           </tr>
           <tr>
             <td><a href="https://platform.stepfun.ai/docs/en/guides/models/audio" target="_blank">阶跃星辰 StepAudio 3 系列</a></td>
             <td>2026-09-15</td>
             <td>一次发布 Realtime / ASR / TTS / Gen / Music。Realtime 全双工；ASR 非流式 WER 约 1.7%；TTS 支持笑声/犹豫/自我纠正等副语言。</td>
             <td>是（开放平台 API + Voice Studio）</td>
-            <td>否（平台 API；本代主力闭源）</td>
+            <td>否（平台 API）</td>
             <td>中文实时对话 Agent、专业领域转写、表达式配音</td>
-            <td class="score">9/10（产品线齐全、中文场景强；需账号与计费）</td>
-          </tr>
-          <tr>
-            <td><a href="https://telnyx.com/release-notes/telnyx-ultra-voices-upgraded" target="_blank">Telnyx Ultra Voices 升级</a></td>
-            <td>2026-09-15</td>
-            <td>Ultra 声线提升自然度与多语言代码切换；AI Assistant 新增自动 language boost；未升级声线标 DEPRECATED。</td>
-            <td>是（平台 API 与 Mission Control 已可选）</td>
-            <td>否</td>
-            <td>电信语音 Agent、多语言呼叫中心</td>
-            <td class="score">7.5/10（通信场景直接可用；非新基础模型，是现有 TTS 质量迭代）</td>
+            <td class="score">9/10（产品线齐全、中文场景强）</td>
           </tr>
         </tbody>
       </table>
@@ -113,7 +122,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-18 没有新的闭源/开源基础 TTS 权重落地。能力重心仍是「全双工实时 + 边说边调工具 + 多模态理解」。Qwen3.8-Omni-Flash 把 1M 上下文和深度思考接到音频理解（只出文本），实时出声仍走 Qwen3.5-Omni Realtime；Gemini 3.8 Live 继续以更低音频单价和 Speech-to-Speech 榜首压低语音 Agent 门槛；StepAudio 3 在中文全双工、副语言 TTS 与专业 ASR 上保持完整产品线。开源侧近期仍是小模型克隆与本地流水线（Qwen3-TTS / VoxCPM2 等），而不是新的旗舰权重。趋势关键词：低延迟全双工、异步工具、理解与生成拆分、多语言一致性、边端可部署小模型。
+        09-19 本身没有新的旗舰基础模型权重。近 48 小时的主线是「流式 ASR 跑分再洗牌 + 更便宜的低延迟 TTS 商品」：Grok Voice Transcribe 2.0 以 2.7% 流式 WER 超过 Muse / Cartesia Ink-2 / Scribe v2，但用 0.49s 换准确率；Airy TTS 用 $2/M 字符和 0.2s 延迟抢高并发 Agent 成本空间。大厂侧仍是 Gemini 3.8 Live 的边说边推理与 StepAudio 3 的中文全栈。开源侧是语种特化小模型迭代（如 Irodori-TTS-v4.1-Small），而不是新的通用旗舰权重。趋势关键词：流式 ASR 准确率与端点赛跑、低价低延迟 TTS、全双工+异步工具、语种特化开源小模型。
       </div>
     </div>
 
