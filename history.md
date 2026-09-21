@@ -111,3 +111,23 @@
 - PrismML Bonsai 2 27B | https://huggingface.co/collections/prism-ml/bonsai-2 | https://www.prnewswire.com/news-releases/prismml-launches-bonsai-2-27b-its-most-capable-model-yet-302882228.html | 2026-09-17
 - Sider Omni Sidebar | https://sider.ai/ | https://hunted.space/product/sider-omni | 2026-09-18
 - URXR One（旧项目突然火起来·众筹收官） | https://www.unseen-reality.com/ | https://www.metaversewatcher.io/urxr-one-kickstarter-closes-september-18/ | 2026-09-18
+
+### 2026-09-19
+- Cactus Needle 3 | https://cactuscompute.com/needle | https://news.ycombinator.com/item?id=49748553 | 2026-09-18
+- CUA-S1-FORMS | https://huggingface.co/cua-ai/cua-s1-forms | https://runtimewire.com/article/cua-open-sources-cua-s1-forms-model | 2026-09-18
+- Google CC（家庭版） | https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/ | https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/ | 2026-09-18
+- Meta Muse for Mac | https://muse.ai/ | https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/ | 2026-09-18
+- UBTech 柳州人形机器人工厂（旧项目突然火起来） | https://www.ubtrobot.com/ | https://www.digitaltoday.co.kr/en/view/105519/ubtech-launches-factory-producing-one-humanoid-robot-every-10-minutes-targeting-10000-a-year | 2026-09-18
+
+### 2026-09-20
+- Faraday Future Master Mini / EAI Robot World 2.0 | https://robotics.ff.com/us/ | https://investors.ff.com/faraday-future-launches-four-industry-productivity-solutions-nine-new-eai-devices-at-its-919-event-building-its-one-brain-multi-form-multi-capability-ff-eai-robot-world-2-0-all-new-futurist-now/ | 2026-09-19
+- 启元机器人 Q1 / T1 | 官方小程序及授权电商 | https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhca6711656.shtml | 2026-09-20
+- Agent Interface | https://github.com/Unjuno/agent-interface | https://hunted.space/dashboard/agent-interface | 2026-09-18
+- Eggshell | https://github.com/momonpya/eggshell | https://hunted.space/product/eggshell-2 | 2026-09-18
+
+### 2026-09-21
+- INMO Magic AI Glasses J | https://www.inmo.com/products/magic-ai-glasses-j | https://xiaomitoday.com/inmo-launches-magic-ai-glasses-j-with-jackson-wang-design-8mp-camera-and-ai-features/ | 2026-09-21
+- boAt Crest AI（Airdopes Prime 800D / Nirvana Ion ANC / Prime 701 ANC） | https://www.boat-lifestyle.com/ | https://gadgetsnow.indiatimes.com/accessories/boat-crest-ai-earbuds-bring-gemini-on-a-rs-399-yearly-ai-meter/articleshow/134383796.cms | 2026-09-21
+- ZGCM-1-7B | https://huggingface.co/zgcagi/ZGCM-1-7B | https://pandaily.com/zgcm-1-7b-open-math-agentic-search | 2026-09-20
+- Halliday G2（旧项目突然火起来·Batch 1 发货） | https://www.hallidayglobal.com/products/halliday-g2 | https://www.metaversewatcher.io/halliday-g2-batch-1-shipping-september-20/ | 2026-09-20
+- Vocci Ring（旧项目突然火起来·TechCrunch 上手） | https://vocci.ai/products/vocci-ring | https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/ | 2026-09-20
