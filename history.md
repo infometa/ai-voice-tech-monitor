@@ -131,3 +131,11 @@
 - ZGCM-1-7B | https://huggingface.co/zgcagi/ZGCM-1-7B | https://pandaily.com/zgcm-1-7b-open-math-agentic-search | 2026-09-20
 - Halliday G2（旧项目突然火起来·Batch 1 发货） | https://www.hallidayglobal.com/products/halliday-g2 | https://www.metaversewatcher.io/halliday-g2-batch-1-shipping-september-20/ | 2026-09-20
 - Vocci Ring（旧项目突然火起来·TechCrunch 上手） | https://vocci.ai/products/vocci-ring | https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/ | 2026-09-20
+
+## 2026-09-22
+- VONDER Intelligent Eyewear | https://vonder.ai/ | https://www.prnewswire.com/news-releases/vonder-launches-intelligent-eyewear-built-as-eyewear-first-made-for-your-eyes-your-mind-and-your-privacy-302886076.html | 2026-09-22
+- QwenNote Eva | 阿里千问办公 / 云栖大会 | https://www.ithome.com/1/005/803.htm | 2026-09-22
+- 千问 AI 眼镜 N1 / N1 Pro + 耳夹耳机 | 阿里云栖大会 | https://www.ithome.com/1/005/647.htm | 2026-09-22
+- OPPO Enco X4 | https://www.oppo.com/ | https://tech.ifeng.com/c/8wdNEGndeAK | 2026-09-22
+- Xiaomi MiMo-V2.6 | https://huggingface.co/collections/XiaomiMiMo/mimo-v26 | https://mimo.mi.com/docs/en-US/news/latest/v2-6 | 2026-09-21
+- Sai (Simular) | https://www.producthunt.com/ | https://hunted.space/dashboard/simular | 2026-09-21
