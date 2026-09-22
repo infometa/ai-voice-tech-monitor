@@ -49,14 +49,14 @@
 <body>
   <div class="container">
     <header>
-      <h1>🎙️ AI 语音技术监控仪表盘</h1>
+      <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-21 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-09-22 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">监测窗口：2026-09-19 至 09-21。无新的通用旗舰权重发布；社区热度集中在本地 TTS/听写套件、真流式 ASR、云端 Realtime 目录。</p>
+      <p style="margin-bottom:16px;">今日无重大新旗舰权重发布。以下为近期值得关注的更新（监测窗口：2026-09-20 至 09-22）：创作工作流把 TTS 嵌进时间线、端侧/边缘语音栈产品化、开源全双工 speech-to-speech 权重继续被社区接入 llama.cpp。</p>
       <table>
         <thead>
           <tr>
@@ -71,58 +71,58 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.com/Granite0x/status/2101751011715002827" target="_blank">VoiceStudio（本地 TTS/克隆套件）</a></td>
-            <td>2026-09-20（X 集中传播；星标一周约 2万→3.3万）</td>
-            <td>本机运行的语音套件：短音频克隆、多引擎切换、视频配音/多语种配音、有声书、全局听写、本地 OpenAI 兼容 API 与 MCP。AGPL-3.0。</td>
-            <td>是（Mac/Win/Linux/Docker 可装）</td>
-            <td>是（应用开源；引擎权重随安装项）</td>
-            <td>替代云端 TTS 账单、本地 Agent 发声、视频配音、隔离网络制作</td>
-            <td class="score">8/10（可用性高；AGPL 限制商业内嵌；质量取决于选中的引擎）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/devrajmahar/origin-speak" target="_blank">Origin Speak</a></td>
-            <td>2026-09-20（X 公布 GitHub）</td>
-            <td>本地开源听写客户端：按住 Shift+Space 说话，释放后打入当前窗口。后端 Whisper 或 Canary-Qwen，不需云端 Key。</td>
-            <td>是（可装安与本地运行）</td>
-            <td>是（应用开源；依赖 Whisper / Canary-Qwen 权重）</td>
-            <td>隔离网络桌面听写、代码/文档语音输入</td>
-            <td class="score">7.5/10（隔离网络好；易用性取决于本机 GPU）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/hars_7086/status/2101748750225956976" target="_blank">VibeVoice-ASR-Streaming</a></td>
-            <td>2026-09-20（X 报道；模型卡已上）</td>
-            <td>Microsoft Research 1.5B 流式 ASR：边说边出字+讲者归属、自定义热词、约 10 语种。博主提醒：模型卡链的是评估设置，不是一句话精度冠军。</td>
-            <td>部分（权重/模型卡可试；产品化 SDK 仍薄）</td>
-            <td>是（研究权重；许可见模型卡）</td>
-            <td>会议流式记录、多讲者字幕、热词域转写</td>
-            <td class="score">7/10（能力对口实用；产品成熟度仍不如商用 API）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/aitrackerbot/status/2101592564428144761" target="_blank">Qwen-Audio-3.1-Realtime-Plus</a></td>
-            <td>2026-09-20（目录探测；TTS Flash 09-19 已可调）</td>
-            <td>阿里云 Model Studio 上的 Qwen-Audio 3.1 实时语音分支。同系 TTS Flash 可商用调用；Realtime Plus 公开文档仍薄。</td>
-            <td>部分（TTS Flash API 已上线；Realtime Plus 文档不完整）</td>
-            <td>否（托管闭源）</td>
-            <td>实时语音 Agent、中文方言客服、云端全双工</td>
-            <td class="score">7/10（路线清楚；Realtime Plus 尚不可独立评测）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/netease-youdao/Confucius4-R2T2" target="_blank">Confucius4-R2T2</a></td>
-            <td>2026-09-16 开源；09-20/21 X 社区继续实测</td>
-            <td>网易有道 1.7B 真流式 ASR：80ms–2s 可配 chunk，append-only（已输出不回溯），平均延迟约 200–600ms。HF + r2t2.ai Demo。</td>
-            <td>是（GitHub / Hugging Face / Demo）</td>
-            <td>是（代码+权重）</td>
-            <td>直播字幕、Voice Agent 听觉端、中英文流式转写</td>
-            <td class="score">8.5/10（解决字幕回跳；语种以中英为主）</td>
-          </tr>
-          <tr>
-            <td><a href="https://docs.x.ai/developers/model-capabilities/audio/speech-to-text" target="_blank">Grok Voice Transcribe 2.0</a></td>
-            <td>2026-09-18</td>
-            <td>xAI 流式 ASR：批量 $0.10/小时、流式 $0.20/小时，时间戳/分讲者/热词。厂商称 AA 流式榜准确率第一。</td>
-            <td>是（xAI Speech-to-Text API）</td>
+            <td><a href="https://elevenlabs.io/blog/introducing-studio-4" target="_blank">ElevenLabs Studio 4.0（ElevenCreative）</a></td>
+            <td>2026-09-21</td>
+            <td>把视频、图像、语音、音乐与音效生成直接放进同一条时间线；配音可用 1 万+音色、32+语种，可在镜头上下文里迭代韵律而不是抽出去单独 TTS。</td>
+            <td>是（产品与 API 已上线，可在 Studio 直接生成/导出）</td>
             <td>否</td>
-            <td>电话/客服转写、语音 Agent、会议记录</td>
-            <td class="score">8.5/10（价格与流式准确率强；无本地权重）</td>
+            <td>短视频配音、解说视频、品牌宣传片、播客/有声书制作</td>
+            <td class="score">8.5/10（工作流成熟、音色库大；闭源计费，不适用于本地离线）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.seeed.cc/solutions/conversational-voice-ai" target="_blank">Seeed Conversational Voice AI（边缘 ASR/TTS/LLM）</a></td>
+            <td>2026-09-21（方案页上线）</td>
+            <td>按板卡调参的对话语音栈：可打断、噪声下可用、全本地端到端延迟约 0.9s；J4012 等高配可用参考音频做自然声克隆。</td>
+            <td>是（有硬件 SKU、部署模型与开源调参说明）</td>
+            <td>部分（部署/调参开源；自然声模型随板卡配置）</td>
+            <td>机器人/工业终端对话、仓库语音填表、本地 IoT 控制</td>
+            <td class="score">7.5/10（硬件+软件绑定清楚；不是通用云 API，要跟板卡走）</td>
+          </tr>
+          <tr>
+            <td><a href="https://x.com/ArtRealmAI/status/2102134446086349269" target="_blank">ABR SDK（Niagara ASR + Nith TTS）</a></td>
+            <td>2026-09-21（X 传播）</td>
+            <td>端侧语音栈：Niagara ASR 首字约 115ms，Nith TTS 首包约 147ms，带同意克隆与自定义词表，声音不走云。</td>
+            <td>部分（SDK 号称可用；公开文档/独立评测仍少）</td>
+            <td>否（商用 SDK）</td>
+            <td>手机/嵌入式离线对话、需要隔离网络的语音输入</td>
+            <td class="score">6.5/10（延迟数值吸引人；落地信息仍依赖厂商自述）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B" target="_blank">NemotronLabs VoiceChat 11B</a></td>
+            <td>8 月权重已上 HF；论文 2026-09-18；09-21 附近 README/社区 GGUF 继续更新</td>
+            <td>开源全双工 speech-to-speech：流式听、转写、推理、工具调用与说话同一架构。HF 权重 + NeMo Speech 分支，社区已有 llama.cpp 移植。</td>
+            <td>是（权重、官方分支代码、GGUF 可跑；参考部署需 80GB 级 GPU）</td>
+            <td>是（OpenMDW-1.1）</td>
+            <td>本地语音 Agent、可打断对话、带工具调用的语音助手</td>
+            <td class="score">7.5/10（能力对口前沿；硬件门槛高，工具调用端到端仍要打磨）</td>
+          </tr>
+          <tr>
+            <td><a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/" target="_blank">Gemini 3.8 Live / Live Extended Thinking</a></td>
+            <td>2026-09-15 发布；09-21/22 X 仍在强调「边想边说」</td>
+            <td>原生 speech-to-speech：边推理边说话、异步工具调用、97 语种；厂商称 Speech-to-Speech 指数 82.6 排名第一。价格约 $0.005/分钟输入、$0.018/分钟输出。</td>
+            <td>是（Gemini Live API / AI Studio）</td>
+            <td>否</td>
+            <td>语音 Agent、Search Live、Workspace 语音办事</td>
+            <td class="score">9/10（产品化、语种与工具链成熟；绑定谷歌云）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.assemblyai.com/blog/dictation-api" target="_blank">AssemblyAI Dictation API</a></td>
+            <td>2026-09-15</td>
+            <td>专为听写而非会议转写设计：去口头、合并自我纠正、统一专有名称。19 语种，跑在 Universal-3.5 Pro 上，$0.62/小时。</td>
+            <td>是（独立 API 已可调）</td>
+            <td>否</td>
+            <td>消息/邮件/文档语音输入、协作工具内听写</td>
+            <td class="score">8.5/10（场景切片清楚、输出可直接发送；不替代多讲者会议 ASR）</td>
           </tr>
         </tbody>
       </table>
@@ -131,7 +131,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-19–21的信号不是新旗舰权重，而是「可用化」加速。（1）本地套件替代云 TTS/听写：VoiceStudio、Origin Speak 在 X 被当作 ElevenLabs / Wispr 的离线替代品传。（2）真流式 ASR 的产品点是 append-only：R2T2 在 09-21 仍被开发者拿来讲「已吐出的字不回溯」。（3）云端 Realtime 继续上架：Qwen-Audio-3.1 Realtime Plus 进目录，Gemini 3.8 Live / GPT-Live-1 仍在被当成近期语音 Agent 基线。趋势词：本机隔离网络、字幕不回跳、全双工不静音、按分钟计费的商用流式 ASR。
+        09-20–22 的主线不是另一个旗舰 TTS 权重，而是「语音被塞进真正用产品」。（1）创作端：ElevenLabs Studio 4.0 把 TTS 留在时间线里生成，韵律跟镜头上下文走。（2）端侧/边缘：Seeed 与 ABR SDK 把 ASR+TTS 推到设备上，指标是首包 <150ms、可打断、声音不出设备。（3）开源全双工：NemotronLabs VoiceChat 把听/说/工具调用放在同一流里，社区已往 llama.cpp 推；门槛仍是大显存。云端基线仍是 Gemini 3.8 Live、GPT-Live-1 与各家 Realtime API。趋势词：时间线内生成、端侧低延迟、全双工+工具调用、听写与会议转写分家。
       </div>
     </div>
 
