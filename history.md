@@ -139,3 +139,12 @@
 - OPPO Enco X4 | https://www.oppo.com/ | https://tech.ifeng.com/c/8wdNEGndeAK | 2026-09-22
 - Xiaomi MiMo-V2.6 | https://huggingface.co/collections/XiaomiMiMo/mimo-v26 | https://mimo.mi.com/docs/en-US/news/latest/v2-6 | 2026-09-21
 - Sai (Simular) | https://www.producthunt.com/ | https://hunted.space/dashboard/simular | 2026-09-21
+
+## 2026-09-23
+- Unitree Dex5-S | https://www.unitree.com/ | https://www.rockingrobots.com/unitree-launches-human-sized-robotic-hand-with-22-degrees-of-freedom/ | 2026-09-21
+- DexTeleop TA2（灵御） | https://github.com/dexteleop/openpi | https://autonews.gasgoo.com/articles/news/de-ta2-dual-arm-robot-publicly-demonstrates-full-process-autonomous-task-capabilities-for-first-time-2102742313385541633 | 2026-09-22
+- CyboPal ONE（Kickstarter 正式开众筹） | https://cybopal.com/ | https://www.kickstarter.com/projects/cybopal/cybopal-worlds-first-active-tracking-ai-robotic-monitor | 2026-09-22
+- PewCB One | https://pewcb.com/ | https://hunted.space/product/pewcb-in-house-pcb-prototyping-machine | 2026-09-22
+- Fez | https://hunted.space/product/fez-2 | https://hunted.space/product/fez-2 | 2026-09-22
+- Ox / OpenOx | https://openox.ai/ | https://github.com/ziyzhu/openox | 2026-09-22
+- Insight Orchestra | https://github.com/laban254/insight-orchestra | https://dev.to/labank_/i-built-a-self-hostable-ai-data-analyst-4-agents-sandboxed-code-execution-your-choice-of-llm-5gdd | 2026-09-22
