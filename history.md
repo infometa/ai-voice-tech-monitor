@@ -148,3 +148,12 @@
 - Fez | https://hunted.space/product/fez-2 | https://hunted.space/product/fez-2 | 2026-09-22
 - Ox / OpenOx | https://openox.ai/ | https://github.com/ziyzhu/openox | 2026-09-22
 - Insight Orchestra | https://github.com/laban254/insight-orchestra | https://dev.to/labank_/i-built-a-self-hostable-ai-data-analyst-4-agents-sandboxed-code-execution-your-choice-of-llm-5gdd | 2026-09-22
+## 2026-09-24
+- Ray-Ban Meta Audio | https://www.meta.com/ai-glasses | https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/ | 2026-09-23
+- Ray-Ban Meta (Gen 3) | https://www.meta.com/ai-glasses | https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/ | 2026-09-23
+- Muse Charm | https://www.meta.com/ | https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware | 2026-09-23
+- Meta VR Glasses | https://www.meta.com/ | https://www.theverge.com/tech/999517/meta-vr-glasses-connect-2026-hands-on | 2026-09-23
+- Nuvi（Arduino UNO Q 开源桌面伴侣 demo） | https://projecthub.arduino.cc/lucadilo/nuvi-ai-desk-companion-bdd30c | https://blog.arduino.cc/2026/09/22/meet-nuvi-the-ai-desk-companion-that-goes-from-q-to-cute/ | 2026-09-22
+- Rabbit OS3 | https://os3.rabbit.tech | https://www.rabbit.tech/newsroom/rabbitos-3-launch | 2026-09-22
+- Solid | https://www.producthunt.com/ | https://hunted.space/dashboard/solid-3 | 2026-09-23
+
