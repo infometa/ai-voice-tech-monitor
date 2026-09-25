@@ -51,12 +51,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-24 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-09-25 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">监测窗口 2026-09-22 至 09-24：云端语音栈同日大更新——阿里一次放出五模型并大幅降价，Google 上线可文生音色/30 秒克隆的 Gemini Flash TTS；印度多语 ASR 与开源低延迟 TTS 也有可调用进展。</p>
+      <p style="margin-bottom:16px;">09-25 本身没有更大的新模型上线；以下为 09-23 至 09-24 可落地的重要更新：端侧话者分离与车载/设备语音 Agent 是新亮点，云端 TTS/ASR 仍以 Qwen 与 Gemini 为主。</p>
       <table>
         <thead>
           <tr>
@@ -71,49 +71,58 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/" target="_blank">Qwen-Audio-3.1 系列（ASR / ASR-Next / TTS / TTS-Next / Realtime）</a></td>
-            <td>2026-09-23（云栖大会）</td>
-            <td>阿里一次上线五模型：ASR 带原生润稿与说话人时间戳（约 30 语+16 方言，流式首字约 160ms）；TTS 指令控情绪/语速并可跨语种音色迁移；TTS-Next 一次生成人声+音效+环境声（48kHz）；Realtime 全双工可打断。ASR 降价约 95%、TTS 约 70%、Realtime 约 85%。</td>
-            <td>是（阿里云 Model Studio / Qwen 平台 API；ASR-Next、TTS-Next 部分接口即将开放。另有开源 Qwen3-TTS 权重可对照）</td>
-            <td>部分（3.1 旗舰走托管 API；既有 Qwen3-TTS 开源权重为 Apache-2.0）</td>
-            <td>中英方言客服、实时语音 Agent、播客/有声书/影视配音一体化、会议转写</td>
-            <td class="score">9/10（完整栈+大幅降价，易接入；Next 级接口尚未全部到位，语言覆盖仍少于 ElevenLabs）</td>
+            <td><a href="https://huggingface.co/nvidia/Nemotron-3-Diarization" target="_blank">NVIDIA Nemotron 3 Diarization</a></td>
+            <td>2026-09-23（HF 权重；09-24 媒体与 X 继续扩散）</td>
+            <td>约 1 亿参数的开源话者分离模型，一个 checkpoint 同时支持离线录音与流式。最多 8 人（含交叠说话），Voice Arena Diarization Bench 报告 DER 14.72%、初次排名第一。经 NeMo Sortformer 加载。</td>
+            <td>是（Hugging Face 权重 + NeMo 推理代码可直接跑；需 Ampere 及以后 NVIDIA GPU）</td>
+            <td>是（OpenMDW 1.1，允许商用）</td>
+            <td>会议转写「谁在说」、多人语音 Agent、法庭/客服录音标注、端侧会话管道</td>
+            <td class="score">8.5/10（小模型、商用许可、离线/流式同权重；绑 NeMo 与 NVIDIA GPU，语言与远场域偏移需自测）</td>
           </tr>
           <tr>
-            <td><a href="https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/" target="_blank">Gemini 3.8 Flash TTS / Flash-Lite TTS</a></td>
-            <td>2026-09-23</td>
-            <td>Google 新 TTS：Flash 可用自然语言描述角色/口音/声线从零设计音色，亦可 30 秒参考音频克隆（需口头同意核验），100+ 语言、2000+ 预设、舞台指示与双人对话、笑声叹气等非语言音。Flash-Lite 面向低成本大规模配音与 Agent。</td>
-            <td>是（Gemini API、Google AI Studio 已滚动上线；Notebook / Vids 分模型可用；企业 API 随后）</td>
+            <td><a href="https://investors.soundhound.com/news-releases/news-release-details/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded/" target="_blank">SoundHound OASYS Edge</a></td>
+            <td>2026-09-24</td>
+            <td>把 LLM 驱动的语音 Agent 嵌入车载与智能设备：本地推理、断网可用、默认不上云。平台口号是「做一次，部署云端 / 端侧 / 混合」。</td>
+            <td>部分（现有演示，量产计划 2026 年底，CES 2027 展出；尚非通用开发者 API）</td>
             <td>否</td>
-            <td>播客与有声书、游戏角色、多语配音、语音 Agent、品牌音色设计</td>
-            <td class="score">9/10（文生音色+合规克隆+生态入口完整；闭源、质量榜多为自家引用需独立复测）</td>
+            <td>车机对话、智能家电、断网场景客服、汽车 OEM 语音助手</td>
+            <td class="score">6.5/10（方向对路线产品有价值；个人开发者暂不能直接接入，落地还在等待 OEM）</td>
+          </tr>
+          <tr>
+            <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/" target="_blank">Gemini 3.8 Flash TTS / Flash-Lite TTS</a></td>
+            <td>2026-09-23</td>
+            <td>Google 新 TTS：Flash 可用自然语言设计音色，亦可约 30 秒参考音频克隆（需口头同意 + SynthID/C2PA）；100+ 语言、2000+ 预设、行级指示与双人对话。Flash-Lite 面向大规模配音与 Agent。</td>
+            <td>是（Gemini API、Google AI Studio 已上线；Notebook / Vids 分模型可用）</td>
+            <td>否</td>
+            <td>播客与有声书、游戏角色、多语配音、语音 Agent、品牌音色</td>
+            <td class="score">9/10（文生音色+合规克隆+生态入口完整；闭源，长篇一致性需实测）</td>
+          </tr>
+          <tr>
+            <td><a href="https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/" target="_blank">Qwen-Audio-3.1 系列</a></td>
+            <td>2026-09-23</td>
+            <td>阿里五模型栈：ASR 润稿/说话人时间戳（约 30 语+16 方言，流式首字约 160ms）；TTS 指令控情绪并可跨语种音色迁移；TTS-Next 一次生成人声+音效+环境声；Realtime 全双工可打断。ASR 降价约 95%、TTS 约 70%。</td>
+            <td>是（阿里云 Model Studio / Qwen 平台 API；ASR-Next、TTS-Next 部分接口陆续开放）</td>
+            <td>部分（3.1 旗舰托管 API；既有 Qwen3-TTS 权重为 Apache-2.0）</td>
+            <td>中英方言客服、实时语音 Agent、播客/有声书/影视配音、会议转写</td>
+            <td class="score">9/10（完整栈+大幅降价；Next 级接口尚未全部到位）</td>
           </tr>
           <tr>
             <td><a href="https://www.moneycontrol.com/technology/sarvam-ai-launches-saaras-v4-speech-recognition-model-for-multilingual-voice-applications-article-14036566.html" target="_blank">Sarvam Saaras V4 ASR</a></td>
             <td>2026-09-23</td>
-            <td>印度 Sarvam 新一代 ASR：音频编码器 + 约 30 亿参数混合状态空间语言模型，覆盖 22 种印度语言与英语，原生支持逐字/规范化/语码混合/转写/翻译五种输出，面向嘈杂、方言与中英印混说，并支持低延迟流式。</td>
-            <td>是（厂商发布的产品级 ASR，面向多语语音应用；按官方渠道调用）</td>
-            <td>否（未宣布开源权重）</td>
-            <td>印度市场客服、政务/金融听写、多语字幕、语码混合会议</td>
-            <td class="score">8/10（印地语系与混说场景针对性强；全球通用性与第三方评测仍少）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/lmazare/status/2102443097200464194" target="_blank">Kyutai / Gradium 新 TTS（首包约 50ms）</a></td>
-            <td>2026-09-22</td>
-            <td>Kyutai 联合创始人宣布最新 TTS：首包音频从约 250ms 降到约 50ms，强调模型结构与自研推理栈共设计。X 上同期有 Gradium 测试版与「首段延迟减半」讨论。</td>
-            <td>部分（团队已放出模型/测试通道并公开延迟数字；以官方仓库与演示为准）</td>
-            <td>部分（Kyutai 一贯开源路线，具体许可证以当日仓库为准）</td>
-            <td>实时语音 Agent、端侧/自托管对话、低延迟播报</td>
-            <td class="score">8/10（延迟进入自然对话窗口；生态与音色库尚不如云旗舰完整）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/ArtRealmAI/status/2102772664402383277" target="_blank">Bodhi TTS 公开 API</a></td>
-            <td>2026-09-23（X 报道公开 API）</td>
-            <td>面向印度语言的 TTS API：宣称 10 语种、50+ 音色，首包低于 100ms，约 ₹12 / 1 万字符（约合 ElevenLabs 多语标价的 1/8）。</td>
-            <td>是（已开放公共 API，适合按量调用验证）</td>
+            <td>印度多语 ASR：音频编码器 + 约 30 亿混合状态空间语言模型，22 种印度语言 + 英语，原生支持逐字/规范化/语码混合/转写/翻译五种输出与低延迟流式。</td>
+            <td>是（厂商产品级 ASR，按官方渠道调用）</td>
             <td>否</td>
-            <td>印度本地化客服、IVR、短内容配音</td>
-            <td class="score">7/10（价格与延迟有吸引力；品牌与独立评测仍薄，需实测音质与稳定性）</td>
+            <td>印度市场客服、多语字幕、语码混合会议</td>
+            <td class="score">8/10（印地语系与混说针对性强；全球通用评测仍少）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.marktechpost.com/2026/09/22/kyutai-releases-voice-of-reason-a-speech-native-model-that-solves-spoken-math-with-reinforcement-learning/" target="_blank">Kyutai Voice of Reason</a></td>
+            <td>2026-09-21 / 09-22</td>
+            <td>基于 GLM-4-Voice-9B 的语音原生 S2S 模型：不经 ASR+LLM+TTS，口头算数。Spoken GSM8K 从 27.3% 提到发布版 Stitch 77.1%；Stitch 变体在播放语音时隐藏推理。</td>
+            <td>部分（HF 权重可自托管，需 H100 级 GPU 与 GLM-4-Voice tokenizer/解码器；无托管 API）</td>
+            <td>是（继承 GLM-4-Voice 许可）</td>
+            <td>语音理解 Agent 研究、口头教学演示、不经转写的语音推理实验</td>
+            <td class="score">6.5/10（开源且方向重要；仍偏基准与研究部署，不是通用客服 TTS/ASR）</td>
           </tr>
         </tbody>
       </table>
@@ -122,7 +131,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-23 是云端语音产品日：价格战与「可设计的声音」同时发生。（1）阿里用五模型栈 + ASR 最高约 95% 降价抢开发者，并把润稿、说话人、音效环境声收进同一家族，减少拼装管道。（2）Google Flash TTS 把文生音色、舞台指示、双人戏和 30 秒合规克隆做成 Gemini 生态默认能力，和 Live 语音模型形成「听+说」双线。（3）区域模型继续垂直化：Sarvam / Bodhi 盯住印度 20+ 语种与语码混合，而不是再做一个全球平均 TTS。（4）开源侧比拼首包延迟（Kyutai ~50ms）和可自托管，与云端 Arena 质量榜（此前 Sonic 3.6 / Qwen-Audio-3.0）分走两条路。趋势词：全栈降价、文生音色、合规克隆、多语混说 ASR、亚 100ms 首包、区域垂直模型。
+        09-25 云端 TTS 仍在消化 09-23 的 Gemini 文生音色与 Qwen 五模型降价；新动向是「谁在说」与「不上云也能说」。NVIDIA 用 1 亿参数开源话者分离把会议 Agent 的硬件组件打开；SoundHound 把 Agent 放进车机和设备端侧。开源一线分为两路：一路是可商用的小模型基础件（分离/低延迟 TTS），一路是语音原生推理（Kyutai Voice of Reason）。趋势词：合规克隆、文生音色、全栈降价、流式话者分离、端侧 Agent、区域多语 ASR、不经转写的语音推理。
       </div>
     </div>
 
