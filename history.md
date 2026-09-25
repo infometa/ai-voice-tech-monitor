@@ -157,3 +157,8 @@
 - Rabbit OS3 | https://os3.rabbit.tech | https://www.rabbit.tech/newsroom/rabbitos-3-launch | 2026-09-22
 - Solid | https://www.producthunt.com/ | https://hunted.space/dashboard/solid-3 | 2026-09-23
 
+## 2026-09-25
+- Feather | https://feather.dev/ | https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/ | 2026-09-24
+- Awear | https://awear.ai/ | https://www.prnewswire.com/news-releases/emerging-from-stealth-awear-introduces-a-new-platform-for-personal-ai-302888183.html | 2026-09-23
+- PrismML Bonsai（Snapdragon AR1 眼镜本地版） | https://prismml.com/ | https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/ | 2026-09-24
+- CLM-8B（Contrastive-LM） | https://huggingface.co/Contrastive-LM/CLM-v0.1-8B | https://huggingface.co/Contrastive-LM/CLM-v0.1-8B | 2026-09-24
