@@ -51,12 +51,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-25 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-09-26 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">09-25 本身没有更大的新模型上线；以下为 09-23 至 09-24 可落地的重要更新：端侧话者分离与车载/设备语音 Agent 是新亮点，云端 TTS/ASR 仍以 Qwen 与 Gemini 为主。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新（09-23 至 09-25 媒体与 X 仍在扩散，且已有 API / 演示可落地）：</p>
       <table>
         <thead>
           <tr>
@@ -71,58 +71,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/nvidia/Nemotron-3-Diarization" target="_blank">NVIDIA Nemotron 3 Diarization</a></td>
-            <td>2026-09-23（HF 权重；09-24 媒体与 X 继续扩散）</td>
-            <td>约 1 亿参数的开源话者分离模型，一个 checkpoint 同时支持离线录音与流式。最多 8 人（含交叠说话），Voice Arena Diarization Bench 报告 DER 14.72%、初次排名第一。经 NeMo Sortformer 加载。</td>
-            <td>是（Hugging Face 权重 + NeMo 推理代码可直接跑；需 Ampere 及以后 NVIDIA GPU）</td>
-            <td>是（OpenMDW 1.1，允许商用）</td>
-            <td>会议转写「谁在说」、多人语音 Agent、法庭/客服录音标注、端侧会话管道</td>
-            <td class="score">8.5/10（小模型、商用许可、离线/流式同权重；绑 NeMo 与 NVIDIA GPU，语言与远场域偏移需自测）</td>
-          </tr>
-          <tr>
-            <td><a href="https://investors.soundhound.com/news-releases/news-release-details/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded/" target="_blank">SoundHound OASYS Edge</a></td>
-            <td>2026-09-24</td>
-            <td>把 LLM 驱动的语音 Agent 嵌入车载与智能设备：本地推理、断网可用、默认不上云。平台口号是「做一次，部署云端 / 端侧 / 混合」。</td>
-            <td>部分（现有演示，量产计划 2026 年底，CES 2027 展出；尚非通用开发者 API）</td>
-            <td>否</td>
-            <td>车机对话、智能家电、断网场景客服、汽车 OEM 语音助手</td>
-            <td class="score">6.5/10（方向对路线产品有价值；个人开发者暂不能直接接入，落地还在等待 OEM）</td>
-          </tr>
-          <tr>
             <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/" target="_blank">Gemini 3.8 Flash TTS / Flash-Lite TTS</a></td>
-            <td>2026-09-23</td>
-            <td>Google 新 TTS：Flash 可用自然语言设计音色，亦可约 30 秒参考音频克隆（需口头同意 + SynthID/C2PA）；100+ 语言、2000+ 预设、行级指示与双人对话。Flash-Lite 面向大规模配音与 Agent。</td>
-            <td>是（Gemini API、Google AI Studio 已上线；Notebook / Vids 分模型可用）</td>
+            <td>2026-09-23（09-24/25 继续铺开评测与产品接入）</td>
+            <td>Google 新一代 TTS：Flash 可用自然语言设计音色、行级演技提示与双人场景，约 130 语、2000+ 预设；Flash-Lite 面向高吞吐配音与语音 Agent。Hume 评测中 Flash / Flash-Lite 分列总体质量第一、第二。</td>
+            <td>是（Gemini API 与 Google AI Studio 已上线；Notebook / Vids 分场景可用；Enterprise API 陆续开放）</td>
             <td>否</td>
-            <td>播客与有声书、游戏角色、多语配音、语音 Agent、品牌音色</td>
-            <td class="score">9/10（文生音色+合规克隆+生态入口完整；闭源，长篇一致性需实测）</td>
+            <td>有声书与播客、游戏角色、多语配音、语音 Agent、品牌音色设计</td>
+            <td class="score">9/10（文生音色+生态入口完整、独立评测靠前；闭源，长篇说话人漂移需实测）</td>
           </tr>
           <tr>
-            <td><a href="https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/" target="_blank">Qwen-Audio-3.1 系列</a></td>
-            <td>2026-09-23</td>
-            <td>阿里五模型栈：ASR 润稿/说话人时间戳（约 30 语+16 方言，流式首字约 160ms）；TTS 指令控情绪并可跨语种音色迁移；TTS-Next 一次生成人声+音效+环境声；Realtime 全双工可打断。ASR 降价约 95%、TTS 约 70%。</td>
-            <td>是（阿里云 Model Studio / Qwen 平台 API；ASR-Next、TTS-Next 部分接口陆续开放）</td>
-            <td>部分（3.1 旗舰托管 API；既有 Qwen3-TTS 权重为 Apache-2.0）</td>
+            <td><a href="https://news.aibase.com/zh/news/31308" target="_blank">Qwen-Audio-3.1 系列</a></td>
+            <td>2026-09-23（09-24/25 价格与能力被广泛复述）</td>
+            <td>阿里五模型栈：ASR 润稿/说话人时间戳（约 30 语+16 方言，流式首字约 160ms）；TTS 指令控情绪并可跨语种音色迁移；TTS-Next 一次生成人声+音效+环境声；Realtime 全双工可打断。ASR 降价约 95%、TTS 约 70%、Realtime 约 85%。</td>
+            <td>是（Qwen / 阿里云 Model Studio API；ASR-Next 等部分接口陆续开放）</td>
+            <td>部分（3.1 旗舰为托管 API；既有 Qwen3-TTS 等权重为 Apache-2.0）</td>
             <td>中英方言客服、实时语音 Agent、播客/有声书/影视配音、会议转写</td>
-            <td class="score">9/10（完整栈+大幅降价；Next 级接口尚未全部到位）</td>
+            <td class="score">9/10（完整栈+大幅降价，改变成本基线；Next 级接口尚未全部到位）</td>
           </tr>
           <tr>
-            <td><a href="https://www.moneycontrol.com/technology/sarvam-ai-launches-saaras-v4-speech-recognition-model-for-multilingual-voice-applications-article-14036566.html" target="_blank">Sarvam Saaras V4 ASR</a></td>
-            <td>2026-09-23</td>
-            <td>印度多语 ASR：音频编码器 + 约 30 亿混合状态空间语言模型，22 种印度语言 + 英语，原生支持逐字/规范化/语码混合/转写/翻译五种输出与低延迟流式。</td>
-            <td>是（厂商产品级 ASR，按官方渠道调用）</td>
-            <td>否</td>
-            <td>印度市场客服、多语字幕、语码混合会议</td>
-            <td class="score">8/10（印地语系与混说针对性强；全球通用评测仍少）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.marktechpost.com/2026/09/22/kyutai-releases-voice-of-reason-a-speech-native-model-that-solves-spoken-math-with-reinforcement-learning/" target="_blank">Kyutai Voice of Reason</a></td>
-            <td>2026-09-21 / 09-22</td>
-            <td>基于 GLM-4-Voice-9B 的语音原生 S2S 模型：不经 ASR+LLM+TTS，口头算数。Spoken GSM8K 从 27.3% 提到发布版 Stitch 77.1%；Stitch 变体在播放语音时隐藏推理。</td>
-            <td>部分（HF 权重可自托管，需 H100 级 GPU 与 GLM-4-Voice tokenizer/解码器；无托管 API）</td>
-            <td>是（继承 GLM-4-Voice 许可）</td>
-            <td>语音理解 Agent 研究、口头教学演示、不经转写的语音推理实验</td>
-            <td class="score">6.5/10（开源且方向重要；仍偏基准与研究部署，不是通用客服 TTS/ASR）</td>
+            <td><a href="https://huggingface.co/nvidia/Nemotron-3-Diarization" target="_blank">NVIDIA Nemotron 3 Diarization</a></td>
+            <td>2026-09-23（HF 权重；随后两日持续扩散）</td>
+            <td>约 1 亿参数开源话者分离：同一 checkpoint 兼顾离线与流式，最多 8 人（含交叠）。Voice Arena Diarization Bench 报告 DER 约 14.72%，经 NeMo Sortformer 加载。</td>
+            <td>是（Hugging Face 权重 + NeMo 推理可直接跑；需 Ampere 及以后 NVIDIA GPU）</td>
+            <td>是（OpenMDW 1.1，允许商用）</td>
+            <td>会议转写「谁在说」、多人语音 Agent、客服/庭审录音标注、端侧会话管道</td>
+            <td class="score">8.5/10（小模型、商用许可、离线/流式同权重；绑 NeMo 与 NVIDIA GPU）</td>
           </tr>
         </tbody>
       </table>
@@ -131,7 +104,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-25 云端 TTS 仍在消化 09-23 的 Gemini 文生音色与 Qwen 五模型降价；新动向是「谁在说」与「不上云也能说」。NVIDIA 用 1 亿参数开源话者分离把会议 Agent 的硬件组件打开；SoundHound 把 Agent 放进车机和设备端侧。开源一线分为两路：一路是可商用的小模型基础件（分离/低延迟 TTS），一路是语音原生推理（Kyutai Voice of Reason）。趋势词：合规克隆、文生音色、全栈降价、流式话者分离、端侧 Agent、区域多语 ASR、不经转写的语音推理。
+        09-26 当天没有新的旗舰模型上线，市场仍在消化 09-23 那一轮：Google 把 TTS 做成「文生音色 + 行级导演」并进入 Arena 前列；阿里用五模型栈把 ASR/TTS/Realtime 价格砍到接近地板；NVIDIA 用可商用小模型把「谁在说」从云端会议栈拆到开发者可自托管。X 上开发者这两天主要在试 Gemini 3.8 Flash TTS 的克隆与表演控制。趋势词：低延迟全双工、价格战、文生音色与合规克隆、多语言/方言一致性、开源话者分离、端侧语音 Agent。
       </div>
     </div>
 
