@@ -162,3 +162,23 @@
 - Awear | https://awear.ai/ | https://www.prnewswire.com/news-releases/emerging-from-stealth-awear-introduces-a-new-platform-for-personal-ai-302888183.html | 2026-09-23
 - PrismML Bonsai（Snapdragon AR1 眼镜本地版） | https://prismml.com/ | https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/ | 2026-09-24
 - CLM-8B（Contrastive-LM） | https://huggingface.co/Contrastive-LM/CLM-v0.1-8B | https://huggingface.co/Contrastive-LM/CLM-v0.1-8B | 2026-09-24
+## 2026-09-26
+- Overlord Labs GENESIS | https://overlord-labs.com/ | https://www.prnewswire.com/news-releases/overlord-labs-closes-oversubscribed-seed-financing-bringing-total-funding-to-10-million-to-advance-battery-intelligence-for-edge-ai-devices-302890280.html | 2026-09-25
+- Sirius Max（Leopard Imaging + Lumotive） | https://www.leopardimaging.com/ | https://www.prnewswire.com/news-releases/leopard-imaging-and-lumotive-introduce-sirius-max--a-long-range-software-defined-3d-perception-platform-for-robotics-and-ai-302889658.html | 2026-09-24
+- Aetina CoreEdge MXM Blackwell（MX5000B-XA / MX500B-QA） | https://www.aetina.com/products-detail.php?i=694 | https://www.electronicsmedia.info/2026/09/24/mxm-ai-accelerator-module/ | 2026-09-24
+- EdgeCortix RAIDEN | https://www.edgecortix.com/en/ | https://www.edgecortix.com/en/press-releases/edgecortix-unveils-raiden-a-scalable-energy-efficient-ai-chiplet-platform-purpose-built-for-physical-ai | 2026-09-24
+- SoundHound OASYS Edge | https://www.soundhound.com/ | https://www.soundhound.com/newsroom/soundhound-ai-introduces-oasys-edge-bringing-fully-embedded-agentic-voice-ai-to-vehicles-and-smart-devices | 2026-09-24
+- Memories.ai Omni-Model / LUCI（Snapdragon） | https://memories.ai/ | https://memories.ai/blogs/memories-ai-omni-model-snapdragon-luci | 2026-09-24
+- Perplexity Portable Computer + AMD Ryzen AI Max / Halo | https://www.perplexity.ai/hub/products/portable-computer | https://newsroom.amd.com/news/amd-perplexity-agentic-pcs/ | 2026-09-24
+
+## 2026-09-27
+- Meta-Bounds 25g / 42g Display AI Eyewear | https://www.meta-bounds.com/ | https://www.prnewswire.com/news-releases/at-silmo-paris-2026-meta-bounds-brings-optical-breakthroughs-for-stylish-and-full-function-display-ai-eyewear-302890275.html | 2026-09-25
+- Hemory | https://www.hemory.com/ | https://www.producthunt.com/products/hemory | 2026-09-26
+- Chit | https://chit.zopcloud.zop.dev/ | https://www.producthunt.com/leaderboard/daily/2026/9/26 | 2026-09-26
+- Eclatira | https://eclatira.com/ | https://www.producthunt.com/products/eclatira | 2026-09-26
+
+## 2026-09-28
+- 东土科技 全国产化电子架构具身智能机器人 | https://www.kyland.com.cn/ | https://www.globaltimes.cn/page/202609/1371496.shtml | 2026-09-28
+- Pocket Tank（StratoBuilds） | https://github.com/mediacutlet/pocket-tank | https://hackaday.com/2026/09/26/a-pocket-sized-digital-fish-tank/ | 2026-09-26
+- Holo4（H Company） | https://hcompany.ai/newsroom/holo4 | https://huggingface.co/blog/Hcompany/holo4 | 2026-09-28
+- Humalike | https://www.humalike.ai/ | https://www.producthunt.com/leaderboard/daily/2026/9/27 | 2026-09-27
