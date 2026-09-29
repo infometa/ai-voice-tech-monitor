@@ -182,3 +182,10 @@
 - Pocket Tank（StratoBuilds） | https://github.com/mediacutlet/pocket-tank | https://hackaday.com/2026/09/26/a-pocket-sized-digital-fish-tank/ | 2026-09-26
 - Holo4（H Company） | https://hcompany.ai/newsroom/holo4 | https://huggingface.co/blog/Hcompany/holo4 | 2026-09-28
 - Humalike | https://www.humalike.ai/ | https://www.producthunt.com/leaderboard/daily/2026/9/27 | 2026-09-27
+
+## 2026-09-29
+- ACEMAGIC F9A (Ryzen AI Max+ PRO 495) | https://acemagic.com/products/f9a-495-ai-workstation | https://wccftech.com/acemagic-launches-worlds-first-ryzen-ai-max-pro-495-powered-ai-mini-workstation-at-6499/ | 2026-09-28
+- GMKtec EVO-X5 Pro | https://www.gmktec.uk/products/gmktec-evo-x5-pro-ai-max-pro-495-mini-pc | https://wccftech.com/gmktec-launches-evo-x5-pro-with-ryzen-ai-max-pro-495/ | 2026-09-28
+- Minisforum MS-S1 Max-P495 | https://store.minisforum.com/en-ca/products/minisforum-ms-s1-max-p495-ai-workstation | https://www.notebookcheck.net/Minisforum-launches-powerful-AMD-mini-PC-with-192GB-RAM-at-eye-watering-price.1410267.0.html | 2026-09-28
+- Beelink GTR9 Pro 495（零刻） | https://www.bee-link.com/ | https://www.ithome.com/1/007/973.htm | 2026-09-28
+- Gladys Assistant 5（PH 上架） | https://gladysassistant.com/blog/gladys-assistant-5/ | https://www.producthunt.com/products/gladys-assistant | 2026-09-29
