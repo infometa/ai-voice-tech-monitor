@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-28 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-09-29 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">09-26 至 09-28 窗口内没有新的旗舰级语音模型公开首发。X 与媒体主要在实测、价格与本地部署：Gemini 3.8 Flash TTS 进入日语/游戏台词流水线；阿里官方 09-28 仍在推 Qwen-Audio-3.1 五模型栈与降价；本地套件 VoiceStudio 在 X 上进入病毒传播。以下均已有 API / 安装包 / 权重可落地：</p>
+      <p style="margin-bottom:16px;">09-28 至 09-29 窗口内的重大新发布是 ElevenLabs Eleven v4 / v4 Turbo（API 与产品线已上线，Artificial Analysis Provider Voice Arena 暂列第一）。其余条目为仍在扩散、且已可落地的近期更新，已去重合并。</p>
       <table>
         <thead>
           <tr>
@@ -70,40 +70,40 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/" target="_blank">Gemini 3.8 Flash TTS / Flash-Lite TTS</a></td>
-            <td>2026-09-23（窗口内仍在扩散：09-27 日语创作者对比 IrodoriTTS；09-26/27 X 讨论文生音色与行级导演）</td>
-            <td>Google 旗舰 TTS：Flash 用自然语言设计音色、行级表演提示与双人台词，100+语、2000+预设；Flash-Lite 面向高吞吐配音与语音 Agent。Hume Voice Design 71.4分排第一；30 秒参考音+同意校验可复制声线，输出带 SynthID / C2PA。</td>
-            <td>是（Gemini API、AI Studio；Notebook / Vids 分场景可用；Enterprise 陆续）</td>
+            <td><a href="https://elevenlabs.io/blog/eleven-v4" target="_blank">ElevenLabs Eleven v4 / v4 Turbo</a></td>
+            <td>2026-09-28</td>
+            <td>新架构旗舰 TTS：约 90 种语言，约 10 秒样本即可克隆；长文本音色更稳，支持行内表演标签。v4 Turbo 中位首包约 100–150ms，面向语音 Agent。官方称盲测约 75% 听众更偏好其表现力，Arena Elo 约 1315–1319 暂居第一。</td>
+            <td>是（ElevenAgents、ElevenCreative、ElevenAPI 已上线）</td>
+            <td>否</td>
+            <td>语音客服与实时 Agent、有声书/播客、多语配音、游戏角色、品牌声线</td>
+            <td class="score">9.5/10（质量与时延双档齐全、生态成熟；单价高于 Google/Qwen，闭源）</td>
+          </tr>
+          <tr>
+            <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/" target="_blank">Gemini 3.8 Flash TTS / Flash-Lite TTS</a></td>
+            <td>2026-09-23（窗口内持续落地到创作者流水线）</td>
+            <td>Google 文生音色 TTS：Flash 支持约 130 语、自然语言设计角色、行级导演与双人台词；Flash-Lite 约 101 语，面向高吞吐配音与 Agent。2000+ 预设音色，30 秒参考音可复制声线，输出带 SynthID / C2PA。Hume 评测靠前，Arena 约第三。</td>
+            <td>是（Gemini API、AI Studio；Notebook / Vids 可用；Enterprise 陆续）</td>
             <td>否</td>
             <td>有声书与播客、游戏角色、多语配音、语音 Agent、培训视频旁白</td>
-            <td class="score">9/10（生态入口完整、独立评测靠前；闭源、大批量台词有额度压力）</td>
+            <td class="score">9/10（入口完整、单价相对低；闭源，大批量有额度压力）</td>
           </tr>
           <tr>
-            <td><a href="https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/" target="_blank">Qwen-Audio-3.1 系列</a></td>
-            <td>2026-09-23（@TONGYI_SpeechAI 09-28 再发五模型栈与降价：TTS ~70%、Realtime ~85%、ASR ~95%）</td>
-            <td>阿里五模型栈：ASR / ASR-Next（多语+方言、说话人时间戳、情绪与环境声）；TTS 指令控情绪并跨语种音色迁移；TTS-Next 一次生成人声+音效+环境声（播客最长约 4 分钟）；Realtime 全双工可打断。</td>
-            <td>是（阿里云 Model Studio / Qwen Cloud API；09-28 官方继续补链接文档）</td>
+            <td><a href="https://x.com/TONGYI_SpeechAI/status/2104391729248104523" target="_blank">Qwen-Audio-3.1 系列</a></td>
+            <td>2026-09-23（@TONGYI_SpeechAI 09-28 再推完整五模型栈）</td>
+            <td>阿里五模型栈：ASR / ASR-Next（多语+方言、说话人时间戳、情绪与环境声）；TTS 指令控情绪并跨语种音色迁移；TTS-Next 一次生成人声+音效+环境声；Realtime 全双工可打断。全线降价：TTS ~70%、Realtime ~85%、ASR ~95%。</td>
+            <td>是（Qwen / 阿里云 Model Studio API；ASR-Next API 陆续）</td>
             <td>部分（3.1 旗舰为托管 API；既有 Qwen3-TTS 权重 Apache-2.0）</td>
             <td>中英方言客服、实时语音 Agent、播客/影视一次出音、会议转写</td>
-            <td class="score">9/10（完整栈+价格基线被打碎；TTS-Next 语种与时长仍有上限）</td>
+            <td class="score">9/10（完整栈+价格基线被打碎；部分能力仍仅云端）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
-            <td>v0.5.6 于 2026-09-23；09-27/28 X 上以「本地 ElevenLabs 替代」病毒传播（星标超 4 万）</td>
-            <td>本地优先桌面应用：短样本克隆、视频配音、有声书、听写与转写。默认引擎 OmniVoice 标称 646 语（质量不均），可切换 VoxCPM2、CosyVoice 3、IndexTTS 等 14+引擎。v0.5.6 打通 MCP（Claude Code / Cursor / Codex）与 Twilio 存档音色接听。</td>
-            <td>是（Windows / macOS / Linux 安装包与 Docker；需本机 GPU/足够内存）</td>
-            <td>是（AGPL-3.0）</td>
-            <td>本地配音与有声书、编程 Agent 发声、隔离网络的品牌声线、多语视频配音</td>
-            <td class="score">8.5/10（零额度、数据不出域；AGPL 与硬件门槛限制商业嵌入）</td>
-          </tr>
-          <tr>
-            <td><a href="https://simonwillison.net/2026/Jan/22/qwen3-tts/" target="_blank">Qwen3-TTS 本地 / llama.cpp</a></td>
-            <td>权重 2026-01 开源；09-27 X 报道 llama.cpp + Windows CUDA：1.7B 约 2.5–7.1GB 显存，3 秒样本克隆</td>
-            <td>阿里开源 TTS：描述式音色设计 + 3 秒零样本克隆，约 10 语。本窗口热点是进入 llama.cpp，使得消费级显卡可跑小模型（0.6B / 1.7B）。Coval 09-27 测得 Qwen3 TTS Fast TTFA 约 70ms。</td>
-            <td>是（Hugging Face 权重 + llama.cpp / SageMaker 推理）</td>
-            <td>是（Apache-2.0）</td>
-            <td>端侧品牌音色、离线读屏、开发者本机试音、低成本多语 TTS</td>
-            <td class="score">8/10（真正可离线商用；语种与表现力仍低于云端旗舰）</td>
+            <td><a href="https://github.com/terrancoder/whispr" target="_blank">whispr（本机听写）</a></td>
+            <td>2026-09-29（X 公开仓库）</td>
+            <td>macOS 本地 Wispr Flow 类听写：按住 fn 说话，松开后用 Parakeet ASR + 本地 Qwen 4B 润色，把格式化文本插入光标处。音频不出本机；作者称将跟进 Linux / Windows。</td>
+            <td>是（开源安装，当前主打 macOS）</td>
+            <td>是（GitHub 开源，许可证以仓库为准）</td>
+            <td>本地隐私听写、编程/办公随写、隔离网络环境输入</td>
+            <td class="score">7.5/10（即用、隐私友好；尚非通用 ASR 服务，跨平台未齐）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-28 周一检索窗口没有新旗舰首发。三条并行主线：① Google 把 TTS 做成「文生音色 + 行级导演」，日语创作者已在用 Gemini 3.8 Flash TTS 做节目预告；② 阿里官方仍在用降价（ASR 最高约 95%）拖入 Qwen-Audio-3.1，TTS-Next 把对白、音效、环境声合成一次生成；③ 本地端发热—VoiceStudio（AGPL，MCP 接 Agent）与 Qwen3-TTS 进 llama.cpp，消费级显卡可跑 3 秒克隆。趋势词：价格战、文生音色与合规克隆、本地 MCP 语音、一次出音的影视/播客管线。X 上低互动的 AuK「指令式生成+编辑」宣传尚未独立核实，未列入主表。
+        09-29 窗口被 Eleven v4 重新拉开旗舰 TTS 差距：表现力 Arena 暂时领先，同时用 v4 Turbo 把中位首包压到约 100ms 级，对准语音 Agent。与之并行的是价格与入口战——Google 用文生音色 + 行级导演把 TTS 做成创作工具且单价更低；阿里继续用最高约 95% 的 ASR 降价和 TTS-Next「人声+音效一次出」抢开发者。第三条线是本地：whispr 这类「热键听写 + 本地小模型润色」把 ASR 从云 API 拉回桌面。趋势词：低延迟 Agent、文生音色与表演标签、价格战、本地隐私听写、多语一致性。
       </div>
     </div>
 
