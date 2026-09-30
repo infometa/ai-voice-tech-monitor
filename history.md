@@ -189,3 +189,12 @@
 - Minisforum MS-S1 Max-P495 | https://store.minisforum.com/en-ca/products/minisforum-ms-s1-max-p495-ai-workstation | https://www.notebookcheck.net/Minisforum-launches-powerful-AMD-mini-PC-with-192GB-RAM-at-eye-watering-price.1410267.0.html | 2026-09-28
 - Beelink GTR9 Pro 495（零刻） | https://www.bee-link.com/ | https://www.ithome.com/1/007/973.htm | 2026-09-28
 - Gladys Assistant 5（PH 上架） | https://gladysassistant.com/blog/gladys-assistant-5/ | https://www.producthunt.com/products/gladys-assistant | 2026-09-29
+## 2026-09-30
+- Framework Desktop 192GB / Ryzen AI Max+ PRO 495 | https://frame.work/desktop | https://frame.work/blog/what-192gb-changes-for-local-ai-on-the-framework-desktop | 2026-09-30
+- Flourish 1 | https://flourish-robots.com/ | https://www.prnewswire.com/news-releases/flourish-robots-launches-flourish-1--a-3-555-home-robot-built-to-give-people-their-potential-back-302891638.html | 2026-09-29
+- DYNA 2.1 Physical Agent | https://dyna.co/ | https://www.prnewswire.com/news-releases/dyna-robotics-launches-dyna-2-1-physical-agent-a-semi-humanoid-robot-that-completes-full-workflows-such-as-a-commercial-laundry-shift-302892411.html | 2026-09-29
+- LumiSleep D1 (LumiMind) | https://lumimind.com/ | https://www.kickstarter.com/projects/71932623/lumisleep-d1-an-eeg-headband-with-adaptive-sound | 2026-09-29
+- LUCI Desktop (Memories.ai) | https://luci.memories.ai/ | https://www.producthunt.com/products/luci-desktop | 2026-09-29
+- Neubility Billy | https://www.techtimes.com/articles/328242/20260929/koreas-neubility-launches-billy-wheeled-humanoid-uses-camera-only-navigation-not-lidar.htm | https://en.sedaily.com/technology/2026/09/29/neubility-unveils-semi-humanoid-robot-billy-in-push-for | 2026-09-29
+- Sharpa D01 + W02 + AE01 | https://www.sharpa.com/ | https://www.prnewswire.com/apac/news-releases/sharpa-unveils-three-flagship-products-d01-robot-w02-dexterous-hand-and-ae01-data-glove-at-iros-2026-302892155.html | 2026-09-29
+- Vocci Ring（旧项目突然火起来·日本 GREEN FUNDING 预售） | https://vocci.ai/products/vocci-ring | https://ascii.jp/en/elem/000/004/437/4437294/ | 2026-09-30
