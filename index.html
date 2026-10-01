@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-09-30 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-10-01 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。09-28 至 09-30 窗口内最强可用项仍是 ElevenLabs Eleven v4；同时出现围绕 Gemini TTS 的本地工具、日本社区开源 TTS 与 ElevenAgents 上架 OpenAI Marketplace。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。09-29 至 10-01 窗口内没有新的基础模型级发布；值得跟的是本地工具链爆火、低时延托管 TTS 上架，以及开源 TTS 排行榜标准化。商用旗舰仍是 Eleven v4。</p>
       <table>
         <thead>
           <tr>
@@ -70,40 +70,40 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
+            <td>2026-09-28 起爆火（09-29/30 仍在 GitHub 趋势与 X 上被强推）</td>
+            <td>本地优先的开源语音工作台：克隆、声线设计、视频配音、听写/转写、有声书、Local API + MCP。可切换多个 TTS/ASR 引擎，宣称覆盖 646 种语言。</td>
+            <td>是（GitHub 可装、本机跑；v0.5.6 于 09-23 发布）</td>
+            <td>是（AGPL-3.0）</td>
+            <td>隐私配音、多语视频字幕/配音流水线、本地 Agent 声音接口</td>
+            <td class="score">8/10（能力齐全、不需云 API；质量取决于选的引擎，AGPL 对商用内部署需评估）</td>
+          </tr>
+          <tr>
+            <td><a href="https://x.com/FerraoEnrique/status/2104751460554772756" target="_blank">Atlas TTS（runAtlas，Pipeshift 上架）</a></td>
+            <td>2026-09-29</td>
+            <td>1.7B 参数 TTS，10+ 语言，约 3 秒音频零样本克隆。宣称首包 38ms；B300 上 10–12 路并发 p50 约 79ms。已在 Pipeshift 多区域可调。</td>
+            <td>是（Pipeshift 托管推理，多区域 API）</td>
+            <td>否（托管推理；权重是否公开以官网为准）</td>
+            <td>低时延语音 Agent、多区域部署的实时对话、短参考声线复制</td>
+            <td class="score">8/10（时延号称极强、已上架；品牌与评测板覆盖仍少于 Eleven/Cartesia/Google）</td>
+          </tr>
+          <tr>
             <td><a href="https://elevenlabs.io/blog/eleven-v4" target="_blank">ElevenLabs Eleven v4 / v4 Turbo</a></td>
-            <td>2026-09-28（09-29 继续落地到 Agent / Marketplace）</td>
-            <td>新架构旗舰 TTS：90+语言，约 10 秒音频即可克隆；长文本音色更稳，支持行内表演标签。v4 Turbo 首包约 100–150ms。Artificial Analysis Provider Voice Arena Elo 约 1319 暂列第一；09-29 ElevenAgents 上架 OpenAI Marketplace。</td>
-            <td>是（ElevenAgents、ElevenCreative、ElevenAPI；Agents 可在 OpenAI Marketplace 调用）</td>
+            <td>2026-09-28（09-29 起仍在 X 与排行榜被引用）</td>
+            <td>旗舰 TTS：90+语言，约 10 秒克隆；表演标签与长文本声色更稳。v4 Turbo 中位推理时延约 100ms。Artificial Analysis Provider Voice Arena 仍排第一。</td>
+            <td>是（ElevenAgents / Creative / API）</td>
             <td>否</td>
-            <td>语音客服与实时 Agent、有声书/播客、多语配音、游戏角色、品牌声线</td>
-            <td class="score">9.5/10（质量与时延双档齐全、生态成熟；单价高于 Google/Qwen，闭源）</td>
+            <td>客服 Agent、有声书/播客、多语配音、品牌声线</td>
+            <td class="score">9.5/10（质量+时延+生态最成熟；单价高且闭源）</td>
           </tr>
           <tr>
-            <td><a href="https://x.com/LULU_Apps/status/2105099736529453509" target="_blank">Koe Studio（Gemini TTS 本机演技工具）</a></td>
-            <td>2026-09-30</td>
-            <td>日本开发者开源的桌面工具：用 Gemini API 注册自己的声音，台本加「明亮/悲伤/声音发颤」等指示生成表演音频，可插入停顿、叹息、笑声，波形预览并导出 WAV。仅允许注册本人声音。</td>
-            <td>是（Mac/Windows 可用，GitHub + note 说明；依赖用户自己的 Gemini API Key）</td>
-            <td>是（GitHub 开源，许可证以仓库为准）</td>
-            <td>日/英文短视频旁白、本人声线配音、小规模演技录制</td>
-            <td class="score">7.5/10（即用、指令控演技清晰；能力等于 Gemini 3.8 TTS，费用挂在 API Key 上）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/rotejin/status/2104931840234782988" target="_blank">Irodori-TTS-v4-Large / v4.1-Small</a></td>
-            <td>2026-09-29（社区完成训练并公开试听）</td>
-            <td>日本社区开源 TTS：Large 被试听者描述为能传出口型发声等细微口型。v4.1-Small 更轻，可在 Mac 本地跑。常被拿来对比 Gemini 3.8 Flash TTS 的克隆质量。</td>
-            <td>部分（本地权重/社区 demo 可用；非云 API 产品）</td>
-            <td>是（社区权重，许可证视发布页面）</td>
-            <td>日语角色/动画风配音、本地私密合成、低成本创作</td>
-            <td class="score">7/10（日语本地质感好；生态与多语覆盖远不及商用旗舰）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/intelcapital/status/2104704051313258808" target="_blank">Inworld TTS-2 / Realtime TTS-2 Flash</a></td>
-            <td>2026-09-28（Intel Capital 等渠道再次强调可用能力）</td>
-            <td>用自然语言指挥停顿、笑声、叹息；已授权 5–15 秒音频可克隆。伴生 Realtime TTS-2 Flash 宣称首字节约 25ms，面向超低时延 Agent。Mandarin 等控制声线 Arena 上曾超过 Sonic 3.6。</td>
-            <td>是（Inworld API / 托管推理，开发者可调）</td>
-            <td>否</td>
-            <td>游戏 NPC、实时语音 Agent、多语互动角色</td>
-            <td class="score">8.5/10（时延极端、中文表现强；品牌与工具链少于 Eleven/Google）</td>
+            <td><a href="https://huggingface.co/spaces" target="_blank">Hugging Face Open TTS Leaderboard</a></td>
+            <td>2026-09-30（评测板与解读文章集中暴光）</td>
+            <td>开源 TTS 统一评测：多语 WER、零样本克隆 SIM、RTFx 与模型体积。英语 WER 前排常见 Kokoro-82M、supertonic-3、fishaudio/s2-pro；多语强项有 OmniVoice、Fun-CosyVoice3。</td>
+            <td>是（排行榜可查；被测模型多数已有 HF 权重）</td>
+            <td>是（评测协议与被测模型多为开源，许可证视各仓）</td>
+            <td>选开源 TTS/克隆模型、对比多语质量与推理速度</td>
+            <td class="score">8/10（让开源选型有标准；本身不是推理产品）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        09-30 没有新的基础模型级发布，市场进入「旗舰模型已出、围绕它做工具与入口」的阶段：Eleven v4 仍占据表现力 Arena，并通过 OpenAI Marketplace 把 Agent 插进更大开发者池；Gemini 3.8 Flash TTS 被个人开发者包成 Koe Studio 这类「台本+演技标签+本人声线」桌面流水线；日语社区则用 Irodori-TTS 跑通本地免费路线。趋势词：低时延 Agent、文生音色与表演标签、围绕云 API 的本地工具化、开源小模型抢尼质感、多语一致性。
+        10-01 没有新的基础模型级发布。近几天的主线是：商用旗舰（Eleven v4、Gemini 3.8 Flash TTS、Qwen-Audio-3.1）已就位，生态转向本地工作台、托管推理入口与统一评测。VoiceStudio 把克隆/配音/转写装进一个 AGPL 本机工具；Atlas TTS 等中型号抢「首包几十毫秒」的 Agent 货架；Open TTS Leaderboard 把开源多语 WER 与克隆 SIM 放到同一张表上。趋势词：低时延 Agent、本地隐私工作流、开源小/中模型抢多语一致性、云 API 降价与本地工具化并行。
       </div>
     </div>
 
