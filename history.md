@@ -198,3 +198,8 @@
 - Neubility Billy | https://www.techtimes.com/articles/328242/20260929/koreas-neubility-launches-billy-wheeled-humanoid-uses-camera-only-navigation-not-lidar.htm | https://en.sedaily.com/technology/2026/09/29/neubility-unveils-semi-humanoid-robot-billy-in-push-for | 2026-09-29
 - Sharpa D01 + W02 + AE01 | https://www.sharpa.com/ | https://www.prnewswire.com/apac/news-releases/sharpa-unveils-three-flagship-products-d01-robot-w02-dexterous-hand-and-ae01-data-glove-at-iros-2026-302892155.html | 2026-09-29
 - Vocci Ring（旧项目突然火起来·日本 GREEN FUNDING 预售） | https://vocci.ai/products/vocci-ring | https://ascii.jp/en/elem/000/004/437/4437294/ | 2026-09-30
+## 2026-10-01
+- Legato Frames | https://www.legatohearing.com/ | https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/ | 2026-10-01
+- TicNote Watch (Mobvoi) | https://ticnote.ai/products/ticnote-watch | https://www.prnewswire.com/news-releases/mobvoi-announces-ticnote-watch-the-ai-note-taker-that-captures-your-day-from-your-wrist-302894236.html | 2026-09-30
+- SKYNEA AR Eyewear | https://skynea.com/ | https://www.financialcontent.com/article/acnnewswire-2026-9-30-skynea-makes-global-debut-on-the-blonds-runway-at-new-york-fashion-week | 2026-09-30
+- OpenAI Dots | https://learn.chatgpt.com/docs/dots | https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/ | 2026-09-29
