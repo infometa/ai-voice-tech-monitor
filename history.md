@@ -203,3 +203,9 @@
 - TicNote Watch (Mobvoi) | https://ticnote.ai/products/ticnote-watch | https://www.prnewswire.com/news-releases/mobvoi-announces-ticnote-watch-the-ai-note-taker-that-captures-your-day-from-your-wrist-302894236.html | 2026-09-30
 - SKYNEA AR Eyewear | https://skynea.com/ | https://www.financialcontent.com/article/acnnewswire-2026-9-30-skynea-makes-global-debut-on-the-blonds-runway-at-new-york-fashion-week | 2026-09-30
 - OpenAI Dots | https://learn.chatgpt.com/docs/dots | https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/ | 2026-09-29
+## 2026-10-02
+- Galbot ET1 / 银河星仔 | https://www.galbot.com/et1/ | https://finance.sina.com.cn/wm/2026-10-02/doc-inituwtp5963713.shtml | 2026-10-02
+- NVIDIA DGX Spark 64GB | https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/ | https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/ | 2026-10-02
+- MemoMind One（极米记得·国内门店定金预定） | https://www.memo-mind.com/pages/memomind-one | https://www.ithome.com/1/009/302.htm | 2026-10-02
+- Cloudflare Clef / Clef-flash | https://blog.cloudflare.com/clef-decision-models | https://blog.cloudflare.com/clef-decision-models | 2026-10-01
+- Vocci Ring（旧项目突然火起来·日本 GREEN FUNDING 破 500 万日元） | https://greenfunding.jp/focal/projects/9034 | https://prtimes.jp/main/html/rd/p/000000663.000036256.html | 2026-10-02
