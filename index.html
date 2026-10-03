@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-02 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-10-03 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">2026-10-01 微软正式上线三款可调用语音模型（流式 ASR + 两档 TTS），并在 Foundry、MAI Playground、OpenRouter 与 Azure Voice Live 可用。以下为近 1–2 天去重后的可用发布；Eleven v4 仍是商用 TTS 质量基线。</p>
+      <p style="margin-bottom:16px;">10-03 无全新开源权重发布。窗口内新增可用产品是 Suno Speech 公测（10-01 官博，10-02 The Verge 报道）与 Decagon Voice 3 / Chord（10-01）。微软 10-01 的流式 ASR 与双档 TTS 仍是近期最可直接调用的模型发布。</p>
       <table>
         <thead>
           <tr>
@@ -70,9 +70,27 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://suno.com/blog/introducing-speech-beta" target="_blank">Suno Speech（beta）</a></td>
+            <td>2026-10-01（官博；公测当日对全用户开放，The Verge 10-02 报道）</td>
+            <td>把口语与原创背景音乐作为一条轨道生成，而非先配音再后期对轨。简易模式写意图，高级模式可贴脚本并调性别、语气与变化度；单条约 8 分钟。官方承认口音会漂、停顿过度。</td>
+            <td>是（Suno 网页与移动端 Create → Speech，公测可用；无独立开发者 API 说明）</td>
+            <td>否</td>
+            <td>有声故事、冥想/励志短片、广告口播、诗歌朗读、简易播客片头</td>
+            <td class="score">7/10（上手快、语音+配乐一步完成；仍是 beta，口音稳定性不足，不适合品牌声线精确克隆）</td>
+          </tr>
+          <tr>
+            <td><a href="https://decagon.ai/blog/voice-3" target="_blank">Decagon Voice 3 / Chord</a></td>
+            <td>2026-10-01</td>
+            <td>客服语音产品：Chord 为电话语气后训练，按短语控制语速（报号码会放慢）。新双工架构让低时延对话层与推理/工具层并行，说话时仍听得见打断，长任务不挂机。70+ 语言。</td>
+            <td>部分（Decagon 客户产品已上线；非公开权重或通用 TTS/ASR API）</td>
+            <td>否</td>
+            <td>客服外呼、医保授权电话、边查询边办理的语音 Agent</td>
+            <td class="score">7.5/10（双工与电话语气对客服实用；锁在平台内，外部开发者无法直接接入）</td>
+          </tr>
+          <tr>
             <td><a href="https://microsoft.ai/news/our-first-streaming-transcription-model/" target="_blank">MAI-Transcribe-2-Streaming</a></td>
             <td>2026-10-01</td>
-            <td>微软首个流式转写模型：60 语言、连续语言检测。首次 partial 约 100ms+ 出字；Artificial Analysis 流式识别终稿与 partial 准确率均排第一（外部报道终稿 WER 约 2.5%，终稿约 0.13 秒）。年底前引进价 $0.54/小时音频。</td>
+            <td>微软首个流式转写：60 语言、连续语言检测。首个 partial 约 100ms+出字，Artificial Analysis 流式终稿与 partial 准确率均排第一。年底前引进价 $0.54/小时音频。</td>
             <td>是（Microsoft Foundry、MAI Playground、Vercel、Azure Voice Live；LiveKit 即将上线）</td>
             <td>否</td>
             <td>实时字幕、听写、语音 Agent 中途工具调用、多语客服听识</td>
@@ -81,20 +99,11 @@
           <tr>
             <td><a href="https://microsoft.ai/news/our-first-streaming-transcription-model/" target="_blank">MAI-Voice-2.1 / MAI-Voice-2.1-Flash</a></td>
             <td>2026-10-01</td>
-            <td>同日发布的 TTS 双档：23 语言 / 26 地区，单一声线跨语言保持身份并切换本地口音。数秒参考音频即可克隆，带同意护栏。Flash 端到端约 150ms，可一次生成约 45 秒音频；2.1 为 $22/百万字符，Flash 为 $15/百万字符。</td>
+            <td>TTS 双档：23 语言 / 26 地区，同一声线跨语言保持身份并切换本地口音。数秒参考音频即可克隆，带同意护栏。Flash 端到端约 150ms，一次约 45 秒；2.1 为 $22/百万字符，Flash 为 $15/百万字符。</td>
             <td>是（OpenRouter、Foundry、MAI Playground Chatter 演示、Vercel、Azure Voice Live）</td>
             <td>否</td>
             <td>多语语音 Agent、品牌声线、教学配音、客服回复</td>
-            <td class="score">8/10（跨语言声线一致性实用、价格低于 Eleven v4；语言覆盖 23 种，表情控制仍弱于商用旗舰）</td>
-          </tr>
-          <tr>
-            <td><a href="https://elevenlabs.io/blog/eleven-v4" target="_blank">ElevenLabs Eleven v4 / v4 Turbo</a></td>
-            <td>2026-09-28（官博 10-01 仍有更新，排行榜仍在引用）</td>
-            <td>旗舰表情 TTS：90+ 语言，约 10 秒克隆，表演标签与长文本声色更稳。v4 Turbo 中位推理约 100ms、首包约 150ms。Artificial Analysis Provider Voice Arena 仍排第一。</td>
-            <td>是（ElevenAgents / ElevenCreative / ElevenAPI）</td>
-            <td>否</td>
-            <td>客服 Agent、有声书/播客、多语配音、品牌声线</td>
-            <td class="score">9.5/10（质量、时延与生态最成熟；单价高且闭源）</td>
+            <td class="score">8/10（跨语言声线一致性实用、价格低于商用旗舰；语言覆盖 23 种，表情控制仍弱于 Eleven v4）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-02 监测窗口的主线是「听→说」闭环产品化：微软把流式 ASR（首包约 100ms）和低延迟 TTS（Flash 约 150ms）打包进 Foundry / OpenRouter / Playground，并用同一声线跨 23 语言保持本地口音。这与 Eleven v4 Turbo、Gemini 3.8 TTS 抢的是同一层：语音 Agent 的首包时延、多语言一致性和同意约束下的短参考克隆。开源侧仍是小模型本机跑（如 MOSS-TTS-Nano）和工作台（VoiceStudio），但这两天没有新的权重发布。趋势词：低时延双工、跨语言声线不换人、云 API 降价与本地小模型并行。
+        10-03 监测：没有新的开源权重或通用 ASR/TTS API，增量在产品层。Suno 把口语和配乐压进同一次生成，面向创作而非对话时延；Decagon 用自研 Chord 加双工架构，让客服 Agent 边说边听、边办理不挂机。这与微软 10-01 把流式转写（首包约 100ms）和 Flash TTS（约 150ms）打包进 Foundry / OpenRouter 是同一条产品线：低时延双工、跨语言声线不换人、同意约束下的短参考克隆。开源小模型本机跑仍在，但这两天没有新权重。趋势词：低时延双工、语音与音乐一次生成、云 API 降价与本地小模型并行。
       </div>
     </div>
 
