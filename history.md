@@ -209,3 +209,22 @@
 - MemoMind One（极米记得·国内门店定金预定） | https://www.memo-mind.com/pages/memomind-one | https://www.ithome.com/1/009/302.htm | 2026-10-02
 - Cloudflare Clef / Clef-flash | https://blog.cloudflare.com/clef-decision-models | https://blog.cloudflare.com/clef-decision-models | 2026-10-01
 - Vocci Ring（旧项目突然火起来·日本 GREEN FUNDING 破 500 万日元） | https://greenfunding.jp/focal/projects/9034 | https://prtimes.jp/main/html/rd/p/000000663.000036256.html | 2026-10-02
+
+## 2026-10-03
+- Meta Muse Gadgets / Muse Home Link | https://gadgets.muse.ai/ | https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/ | 2026-10-02
+- TDK Meta-Optic Mirror（视网膜直投智能眼镜 demo） | https://www.tdk.com/en/news_center/press/20261002_01.html | https://www.tdk.com/en/news_center/press/20261002_01.html | 2026-10-02
+- Cubicle | https://github.com/caglarutkuguler/cubicle | https://www.producthunt.com/products/cubicle-2 | 2026-10-03
+- 启元机器人 Q1/T1（旧项目突然火起来·首批门店交付） | https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittvfv5083565.shtml | https://finance.sina.com.cn/jjxw/2026-10-01/doc-inittvfv5083565.shtml | 2026-10-01
+
+## 2026-10-04
+- RoboParty RP1 / ROBOTO 01 | https://roboparty.com/ | https://www.prnewswire.com/news-releases/roboparty-unveils-rp1-a-high-performance-full-stack-open-source-humanoid-robot-at-iros-302897655.html | 2026-10-03
+- MSI EdgeXpert 64GB | https://ipc.msi.com/product_detail/Industrial-Computer-Box-PC/AISupercomputer/EdgeXpert-MS-C931 | https://www.techpowerup.com/353341/msi-extends-edgexpert-lineup-with-64-gb-model | 2026-10-02
+- Notchware | https://ballmac.com/notchware | https://www.producthunt.com/leaderboard/daily/2026/10/3 | 2026-10-03
+- CoreSpeed | https://corespeed.io | https://www.producthunt.com/products/corespeed | 2026-10-04
+
+## 2026-10-05
+- SOXAI RING X（Kickstarter，72 小时破 63.5 万美元） | https://soxai.co.jp/en-intl/pages/soxai-ring-x-prelaunch-en | https://www.newswire.ca/news-releases/soxai-ring-x-tops-us-635-200-in-kickstarter-pledges-attracts-2-868-backers-in-first-72-hours-862825911.html | 2026-10-02
+- 神工·须弥·脑立方（3 克无创脑机一体化系统） | https://www.ithome.com/1/009/617.htm | https://www.ithome.com/1/009/617.htm | 2026-10-04
+- LocalDot（AAElectronics，Echo Dot 3 本地 Home Assistant 语音替换主板） | https://blog.circuit.rocks/localdot-give-an-echo-dot-a-local-home-assistant-brain | https://blog.circuit.rocks/localdot-give-an-echo-dot-a-local-home-assistant-brain | 2026-10-03
+- Astribot T1 北美开售 | https://www.astribot.com/en/product | https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/ | 2026-10-02
+- Aleph Alpha Kolibri-1 | https://huggingface.co/Aleph-Alpha/Kolibri-1 | https://postcutoff.com/e/2026-10-03-aleph-alpha-kolibri-open-weights/ | 2026-10-03
