@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-04 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-10-05 · 来源：X 与网页检索（最近 1-2 天重点）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布。以下为近期值得关注的更新：10-03 仍在推进的本地开源套件 VoiceStudio，以及窗口内已上线、可直接使用的 Suno Speech 与微软 MAI 语音组件。X 上 10-03/04 的语音讨论以管线搭建与 ElevenLabs 估值为主，没有新的权重或 API 上线。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：10-04 起 xAI 把旧转写 slug 全部路由到 Grok Voice Transcribe 2.0；Spotify Studio 研究预览带口语早报；窗口内仍可直接用的是 10-01 上线的微软 MAI 流式转写与 TTS。X 上 10-03/05 没有新的开源权重或通用语音 API 上线。</p>
       <table>
         <thead>
           <tr>
@@ -70,27 +70,27 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
-            <td>2026-04 首发；仓库 2026-10-03 仍有推送，并进入 GitHub Trending</td>
-            <td>本地 ElevenLabs 替代套件：默认引擎为 k2-fsa/OmniVoice，覆盖语音克隆、语音设计、视频配音、听写、转写与有声书，声称 646 语。带本地 API 与 MCP，可选远程 worker。</td>
-            <td>是（Electron 一键安装、<a href="https://github.com/debpalash/VoiceStudio" target="_blank">GitHub</a> 可跑；质量取决于所选引擎与本机显卡）</td>
-            <td>是（AGPL-3.0）</td>
-            <td>离线配音、本地语音 Agent、多语有声书、不想把声线上传云端的创作流</td>
-            <td class="score">7.5/10（本地闭环实用、语言覆盖宽；AGPL 对商用闭源集成不友好，声线表现力仍依赖底层模型）</td>
+            <td><a href="https://x.ai/news/grok-voice-transcribe-2" target="_blank">Grok Voice Transcribe 2.0（1.0 下线）</a></td>
+            <td>2.0 于 2026-09-18 发布；2026-10-04 起 1.0 请求全部路由到 2.0</td>
+            <td>官方称实世评测准确率约为 1.0 的两倍，Artificial Analysis 流式榜准确率第一。批量 $0.10/小时、流式 $0.20/小时，含说话人分离、时间戳与关键词。省略 model 即默认 2.0。</td>
+            <td>是（REST <code>api.x.ai/v1/stt</code> 与 WebSocket 流式；见 <a href="https://docs.x.ai/developers/model-capabilities/audio/speech-to-text" target="_blank">文档</a> 与 <a href="https://x.com/tetsuoai/status/2106873158603321586" target="_blank">X 通报</a>）</td>
+            <td>否</td>
+            <td>会议转写、实时字幕、语音 Agent 听写、多路音频文件</td>
+            <td class="score">8.5/10（同价换更高准确率，旧 slug 无需改代码；闭源，语言格式化覆盖有限）</td>
           </tr>
           <tr>
-            <td><a href="https://suno.com/blog/introducing-speech-beta" target="_blank">Suno Speech（beta）</a></td>
-            <td>2026-10-01（官博公测；The Verge 10-02 报道）</td>
-            <td>把口语与原创背景音乐作为一条轨道生成。简易模式写意图，高级模式可贴脚本并调性别、语气与变化度；单条约 8 分钟。官方承认口音会漂、停顿过度。</td>
-            <td>是（Suno 网页与移动端 Create → Speech；无独立开发者 API 说明）</td>
+            <td><a href="https://x.com/arjunkshah21/status/2106624454390644990" target="_blank">Spotify Studio（研究预览）</a></td>
+            <td>2026-10-04（X 上传出的研究预览演示）</td>
+            <td>把个人信息收成可收听内容的助手，内置 TTS 生成早报。目前只是研究预览，没有公开开发者 API。</td>
+            <td>部分（产品预览可看，无 API / 权重 / 可集成 demo）</td>
             <td>否</td>
-            <td>有声故事、冥想/励志短片、广告口播、诗歌朗读</td>
-            <td class="score">7/10（语音+配乐一步完成；仍是 beta，不适合品牌声线精确克隆）</td>
+            <td>个人早报、信息流听读；不适合当开发组件</td>
+            <td class="score">4/10（场景清晰但还是闭环预览，声线与时延不可控）</td>
           </tr>
           <tr>
             <td><a href="https://microsoft.ai/news/our-first-streaming-transcription-model/" target="_blank">MAI-Transcribe-2-Streaming + MAI-Voice-2.1 / Flash</a></td>
-            <td>2026-10-01（MarkTechPost / Thurrott 于 10-02 至 10-03 跟进报道）</td>
-            <td>微软把流式 ASR 与双档 TTS 打包：转写 60 语、首个 partial 约 100ms+，Artificial Analysis 流式终稿与 partial 准确率第一，年底前引进价 $0.54/小时。TTS 为 23 语 / 26 地区，同一声线跨语言换本地口音；Flash 端到端约 150ms、$15/百万字符，2.1 为 $22/百万字符。</td>
+            <td>2026-10-01</td>
+            <td>流式 ASR 覆盖 60 语，首个 partial 约 100ms+，Artificial Analysis 流式终稿与 partial 准确率第一，年底前引进价 $0.54/小时。TTS 为 23 语 / 26 地区，同一声线跨语言换本地口音；Flash 端到端约 150ms、$15/百万字符，2.1 为 $22/百万字符。</td>
             <td>是（Microsoft Foundry、MAI Playground、Vercel、Azure Voice Live；语音模型亦在 OpenRouter）</td>
             <td>否</td>
             <td>实时字幕、低时延语音 Agent、多语客服、品牌声线</td>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-04 监测：没有新的开源权重或通用 ASR/TTS API。增量在本地套件与资本面：VoiceStudio 继续把 OmniVoice 一类开源多语引擎包成可安装的克隆/配音/听写工作台；ElevenLabs 估值经回购上修至约 220 亿美元，但没有新产品。这与 10-01 微软把流式转写（首包约 100ms）和 Flash TTS（约 150ms）打进 Foundry / OpenRouter，以及 Suno 把口语和配乐压进同一次生成，是同一条产品线的两端：云端低时延双工、跨语言声线不换人，与本地小模型/工作台并行。趋势词：低时延双工、跨语言声线一致性、开源套件本机闭环、云 API 降价。
+        10-05 监测：没有新的开源权重或通用 TTS/ASR API。增量在运营侧：Grok Voice Transcribe 1.0 已到期，旧 slug 同价切到 2.0，说明低价高准确率转写正在并轨（微软 MAI-Transcribe-2-Streaming 也在 10-01 拿下 Artificial Analysis 流式榜首）。消费端仍是预览：Spotify Studio 用 TTS 做早报，没有开放接口。Coval 在 10-04 仍把开源 Qwen3-ASR/TTS 1.7B 测在约 40–70ms 首包，Open TTS Leaderboard 同日更新，说明小模型本地低时延与多语一致性仍是评测主轴。趋势词：低时延流式转写、同价换更高准确率、跨语言声线不换人、开源小模型本地闭环。
       </div>
     </div>
 
