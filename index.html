@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-05 · 来源：X 与网页检索（最近 1-2 天重点）</div>
+      <div class="meta">最后更新：2026-10-05 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-03 至 10-05）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：10-04 起 xAI 把旧转写 slug 全部路由到 Grok Voice Transcribe 2.0；Spotify Studio 研究预览带口语早报；窗口内仍可直接用的是 10-01 上线的微软 MAI 流式转写与 TTS。X 上 10-03/05 没有新的开源权重或通用语音 API 上线。</p>
+      <p style="margin-bottom:16px;">10-03 至 10-05 没有新的通用语音权重或大厂商 API 上线。窗口内能直接用的，仍是 10-04 起已并轨的 Grok 转写 2.0、10-01 上线并在 10-02/03 被跟进的微软 MAI 流式栈，以及已上线模型的实测：Cartesia Sonic 3.6 跨语言克隆、Gemini 3.8 Flash TTS 的 Batch 大量生成。纯论文 Tacit-TTS 单独标出，不计入可落地项。</p>
       <table>
         <thead>
           <tr>
@@ -73,28 +73,55 @@
             <td><a href="https://x.ai/news/grok-voice-transcribe-2" target="_blank">Grok Voice Transcribe 2.0（1.0 下线）</a></td>
             <td>2.0 于 2026-09-18 发布；2026-10-04 起 1.0 请求全部路由到 2.0</td>
             <td>官方称实世评测准确率约为 1.0 的两倍，Artificial Analysis 流式榜准确率第一。批量 $0.10/小时、流式 $0.20/小时，含说话人分离、时间戳与关键词。省略 model 即默认 2.0。</td>
-            <td>是（REST <code>api.x.ai/v1/stt</code> 与 WebSocket 流式；见 <a href="https://docs.x.ai/developers/model-capabilities/audio/speech-to-text" target="_blank">文档</a> 与 <a href="https://x.com/tetsuoai/status/2106873158603321586" target="_blank">X 通报</a>）</td>
+            <td>是（REST <code>api.x.ai/v1/stt</code> 与 WebSocket 流式；见 <a href="https://docs.x.ai/developers/model-capabilities/audio/speech-to-text" target="_blank">文档</a>）</td>
             <td>否</td>
             <td>会议转写、实时字幕、语音 Agent 听写、多路音频文件</td>
-            <td class="score">8.5/10（同价换更高准确率，旧 slug 无需改代码；闭源，语言格式化覆盖有限）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/arjunkshah21/status/2106624454390644990" target="_blank">Spotify Studio（研究预览）</a></td>
-            <td>2026-10-04（X 上传出的研究预览演示）</td>
-            <td>把个人信息收成可收听内容的助手，内置 TTS 生成早报。目前只是研究预览，没有公开开发者 API。</td>
-            <td>部分（产品预览可看，无 API / 权重 / 可集成 demo）</td>
-            <td>否</td>
-            <td>个人早报、信息流听读；不适合当开发组件</td>
-            <td class="score">4/10（场景清晰但还是闭环预览，声线与时延不可控）</td>
+            <td class="score">8.5/10（同价换更高准确率，旧 slug 无需改代码；闭源）</td>
           </tr>
           <tr>
             <td><a href="https://microsoft.ai/news/our-first-streaming-transcription-model/" target="_blank">MAI-Transcribe-2-Streaming + MAI-Voice-2.1 / Flash</a></td>
-            <td>2026-10-01</td>
-            <td>流式 ASR 覆盖 60 语，首个 partial 约 100ms+，Artificial Analysis 流式终稿与 partial 准确率第一，年底前引进价 $0.54/小时。TTS 为 23 语 / 26 地区，同一声线跨语言换本地口音；Flash 端到端约 150ms、$15/百万字符，2.1 为 $22/百万字符。</td>
-            <td>是（Microsoft Foundry、MAI Playground、Vercel、Azure Voice Live；语音模型亦在 OpenRouter）</td>
+            <td>2026-10-01（10-02/03 仍在被跟进）</td>
+            <td>流式 ASR 覆盖 60 语，自动语言检测，Artificial Analysis 流式终稿与 partial 准确率第一（约 2.51% WER），年底前引进价 $0.54/小时。TTS 为 23 语 / 26 地区，同一声线跨语言换本地口音；Flash 约 150ms 端到端、$15/百万字符，2.1 为 $22/百万字符。</td>
+            <td>是（Microsoft Foundry、MAI Playground、Vercel、Azure Voice Live）</td>
             <td>否</td>
             <td>实时字幕、低时延语音 Agent、多语客服、品牌声线</td>
-            <td class="score">8.5/10（流式准确率与首包速度可直接上生产；闭源，语言覆盖少于开源多语 TTS）</td>
+            <td class="score">8.5/10（流式准确率与首包速度可上生产；闭源，流式价高于批量转写）</td>
+          </tr>
+          <tr>
+            <td><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/" target="_blank">Gemini 3.8 Flash TTS / Flash-Lite TTS</a></td>
+            <td>2026-09-23 上线；2026-10-04 出现 Batch 大量生成实测</td>
+            <td>Flash TTS 约 130 语、Flash-Lite 约 101 语，2000+ 预置声线，可用自然语言设计声线或经同意的约 30 秒参考音克隆，带 SynthID。10-04 教材实测称 Batch API 约半价、避开 429，大量生成等待短于预期。</td>
+            <td>是（Gemini API、Google AI Studio；Notebook / Vids 已接入）</td>
+            <td>否</td>
+            <td>有声书、多语配音、教材批量音频、角色对白</td>
+            <td class="score">8/10（语言覆盖广、Batch 可用于批量；闭源，克隆需同意校验）</td>
+          </tr>
+          <tr>
+            <td><a href="https://x.com/omarsar0/status/2106392210023309338" target="_blank">Cartesia Sonic 3.6</a></td>
+            <td>模型 2026-08-17 beta；2026-10-03 X 上约 15 秒跨语言克隆实测</td>
+            <td>44 语 TTS，厂商称首包约 90ms 以内。实测用约 15 秒英语参考音在 playground 几秒内克隆，并直接说日语。非本窗口新权重，但是当前可用的跨语言声线方案。</td>
+            <td>是（Cartesia playground 与 API）</td>
+            <td>否</td>
+            <td>跨语言配音、短参考音品牌声线、低时延语音 Agent</td>
+            <td class="score">7.5/10（短样本跨语言可直接试；闭源，价格高于开源本地方案）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Shadowfetchapps/shadowfetch-voice-studio" target="_blank">Shadowfetch Voice Studio</a></td>
+            <td>2026-10-04（X 上推出的本地工作台）</td>
+            <td>号称离线、开源的 Linux 本地语音克隆工作台。星标与引擎细节未在主流评测中核实，视为小项目而非新基座。</td>
+            <td>部分（仓库可克隆，缺独立质量报告）</td>
+            <td>是（GitHub 开源）</td>
+            <td>离线配音试验、不愿上传参考音的本地克隆</td>
+            <td class="score">5/10（方向对，但体量小、缺公开基准）</td>
+          </tr>
+          <tr>
+            <td><a href="https://arxiv.org/abs/2609.38658" target="_blank">Tacit-TTS</a></td>
+            <td>2026-10-04（arXiv 预印本）</td>
+            <td>把自回归解码改成掩码预测，做无转写本的语音克隆。仅论文，无权重、API 或可复现 demo。</td>
+            <td>否（纯论文）</td>
+            <td>未发布权重</td>
+            <td>暂无生产场景；仅供跟踪无文本克隆研究</td>
+            <td class="score">2/10（不可落地，不计入可用栈）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +130,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-05 监测：没有新的开源权重或通用 TTS/ASR API。增量在运营侧：Grok Voice Transcribe 1.0 已到期，旧 slug 同价切到 2.0，说明低价高准确率转写正在并轨（微软 MAI-Transcribe-2-Streaming 也在 10-01 拿下 Artificial Analysis 流式榜首）。消费端仍是预览：Spotify Studio 用 TTS 做早报，没有开放接口。Coval 在 10-04 仍把开源 Qwen3-ASR/TTS 1.7B 测在约 40–70ms 首包，Open TTS Leaderboard 同日更新，说明小模型本地低时延与多语一致性仍是评测主轴。趋势词：低时延流式转写、同价换更高准确率、跨语言声线不换人、开源小模型本地闭环。
+        10-05 监测：窗口内没有新开源基座或通用 TTS/ASR API。增量在运营与实测。Grok Voice Transcribe 1.0 已到期，旧 slug 同价切到 2.0；微软 MAI-Transcribe-2-Streaming 仍占 Artificial Analysis 流式榜首，但流式价（$0.54/小时）明显高于批量。生成侧，10-03 的 Sonic 3.6 实测把约 15 秒英语参考音直接说成日语；10-04 的 Gemini 3.8 Flash TTS 教材实测改走 Batch，半价且避开限流。本地侧仍是工作台拼接：Chatterbox 被用来做短样本克隆，Shadowfetch 推离线 Linux 工作台，GPT-SoVITS 仓库 10-04 仍有更新。Tacit-TTS 只是预印本。趋势词：低时延流式转写并轨、同价换更高准确率、跨语言声线不换人、批量 TTS 走 Batch、开源小模型本地闭环。
       </div>
     </div>
 
