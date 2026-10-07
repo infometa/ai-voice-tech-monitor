@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-06 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-04 至 10-06）</div>
+      <div class="meta">最后更新：2026-10-07 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-05 至 10-07）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">2026-10-06 当日没有新的通用 TTS/ASR 权重或开源基座上线。窗口内唯一重大可用发布是 10-05 正式 GA 的 Amazon Nova 2.5 Sonic（语音到语音）。以下同时保留 1–3 个仍值得接入的近期生产栈，避免把代理商宣传页和纯论文算作新模型。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。2026-10-07 当日未检索到新的通用 TTS/ASR 权重或开源基座上线。窗口内可用增量集中在表情测量 API、Agent 搭建层与级联管线的轮次检测，而非新一代合成模型。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/" target="_blank">Amazon Nova 2.5 Sonic</a></td>
-            <td>2026-10-05 正式 GA</td>
-            <td>语音到语音模型，强化推理、指令遵循与工具调用，并降低延迟。支持 7 语表情声线、可控轮次、同会话语音+文本、异步工具调用与 256K 上下文。可配合同日 GA 的 Strands Bidi Agents 用少量代码搭生产语音 Agent。</td>
-            <td>是（AWS 宣布为 general availability，可直接接入客服与助手）</td>
+            <td><a href="https://x.com/AlecInRealTime/status/2107507979226366312" target="_blank">Hume Expression Measurement API（语音）</a></td>
+            <td>2026-10-06 重新发布</td>
+            <td>Hume 重新上线表情测量 API，新增语音与面部模型。语音模型把语调、节奏和发音方式转成可检索分数；官方称在 32 个公开情绪数据集上超过 Gemini 3.8 Flash。不生成语音，只分析说话方式。</td>
+            <td>是（Expression Measurement API 已可调用，含语音模型）</td>
             <td>否</td>
-            <td>客服查单/退货、个人语音助手、多步工具调用的实时通话</td>
-            <td class="score">8/10（端到端语音加工具调用，落在 AWS 上即可用；闭源，语言仅 7 种）</td>
+            <td>客服质检、情绪路由、语音 Agent 事后分析、多模态情绪检索</td>
+            <td class="score">7/10（补转写/合成的缺口，接入直接；闭源，且不是 TTS/ASR）</td>
           </tr>
           <tr>
-            <td><a href="https://microsoft.ai/news/our-first-streaming-transcription-model/" target="_blank">MAI-Transcribe-2-Streaming + MAI-Voice-2.1 / Flash</a></td>
-            <td>2026-10-01（10-05 仍被行业报道跟进）</td>
-            <td>流式 ASR 覆盖 60 语，自动语言检测，首假设约 100ms 出，Artificial Analysis 流式终稿与 partial 第一，年底前引进价 $0.54/小时。TTS 为 23 语 / 26 地区，同一声线跨语言换本地口音；Flash 约 150ms 端到端、$15/百万字符。</td>
-            <td>是（Microsoft Foundry、MAI Playground、Vercel、Azure Voice Live）</td>
+            <td><a href="https://x.com/drewcoffman/status/2107534417329827929" target="_blank">ElevenLabs ElevenAgents Architect</a></td>
+            <td>2026-10-06 周内上线（员工当周回顾）</td>
+            <td>搭建语音 Agent 的专家助手，叠在已 GA 的 Eleven v4 / v4 Turbo 之上（v4 仍据 Artificial Analysis TTS 榜前列，Turbo 首包约 150ms，90+ 语）。同周还完成 FedRAMP 20x Class A。</td>
+            <td>是（产品已对 ElevenLabs 用户开放；底层 v4 API 已可用）</td>
             <td>否</td>
-            <td>实时字幕、低时延语音 Agent、多语客服、品牌声线</td>
-            <td class="score">8.5/10（流式准确率与首包速度可上生产；闭源，流式价高于批量转写）</td>
+            <td>快速搭建客服/销售语音 Agent、合规场景选型</td>
+            <td class="score">8/10（降低搭建门槛，依赖现有闭源 API；不是新声学模型）</td>
           </tr>
           <tr>
-            <td><a href="https://elevenlabs.io/blog/eleven-v4" target="_blank">ElevenLabs Eleven v4 / v4 Turbo</a></td>
-            <td>2026-09-28（10-05 X 上仍在传播）</td>
-            <td>表情与多说话人对话增强，语言从 70 提到 90+。Instant Voice Clone 约 10 秒参考音。v4 Turbo 首包中位约 150ms，面向实时 Agent。</td>
-            <td>是（ElevenAgents、ElevenCreative 与 API）</td>
-            <td>否</td>
-            <td>实时语音 Agent、多语配音、短样本品牌声线、多角色对白</td>
-            <td class="score">8.5/10（生态成熟、接入广；闭源且按量计费）</td>
+            <td><a href="https://voximplant.com/blog/agentic-voicedsp" target="_blank">Voximplant Agentic VoiceDSP</a></td>
+            <td>2026-10-05</td>
+            <td>VoxEngine 模块，给自有 STT + LLM + TTS 级联管线做轮次检测：判断开说、说完、打断与沉默，默认对未完短语等待最多约 3 秒。跑在通话同一媒体服务器上，无额外部署框架。</td>
+            <td>是（VoxEngine 模块，面向已有开发者账号）</td>
+            <td>否（平台能力；相关 Agent Skills 在 GitHub）</td>
+            <td>自建级联语音 Agent 的抢话/等待、噪声线路、PSTN 客服</td>
+            <td class="score">7.5/10（直接补级联架构的轮次痛点；锁在 Voximplant 运行时）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-06 监测：当日无新开源基座或通用 TTS/ASR API。增量在端到端语音 Agent：Amazon Nova 2.5 Sonic 于 10-05 GA，把推理、工具调用和更低延迟放进同一个 speech-to-speech 会话，并配合 Strands Bidi Agents。分离式栈仍在并跑：微软 MAI-Transcribe-2-Streaming 仍占流式转写榜首，Eleven v4 Turbo 把首包压到约 150ms、语言扩到 90+。趋势词：低延迟 speech-to-speech、同会话工具调用、多语一致声线、流式转写按小时计费、闭源 API 仍是生产主路径。
+        10-07 监测：当日无新开源基座或通用 TTS/ASR API。增量从模型本体转到语音 Agent 的配套层：Hume 把语调测量做成可调用 API，ElevenLabs 用 Architect 降低 Agent 搭建门槛并拿到 FedRAMP，Voximplant 把语义轮次检测嵌进级联管线。10-05 的 Amazon Nova 2.5 Sonic 仍是最近一次 speech-to-speech GA；微软 MAI-Transcribe-2-Streaming 与 MAI-Voice-2.1 仍在公开预览、无 SLA。趋势词：低延迟 speech-to-speech、轮次与打断、表情/语调可计量、多语一致声线，生产主路径仍是闭源 API。
       </div>
     </div>
 
