@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-07 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-05 至 10-07）</div>
+      <div class="meta">最后更新：2026-10-08 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-06 至 10-08）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。2026-10-07 当日未检索到新的通用 TTS/ASR 权重或开源基座上线。窗口内可用增量集中在表情测量 API、Agent 搭建层与级联管线的轮次检测，而非新一代合成模型。</p>
+      <p style="margin-bottom:16px;">窗口内有三条可用增量：阿布扎比 TII 发布方言 ASR、土耳其语超小开源 TTS 上架 PyPI，以及 ElevenLabs 语音模型接入 OpenRouter。未把纯论文或旧模型二次宣传计入。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.com/AlecInRealTime/status/2107507979226366312" target="_blank">Hume Expression Measurement API（语音）</a></td>
-            <td>2026-10-06 重新发布</td>
-            <td>Hume 重新上线表情测量 API，新增语音与面部模型。语音模型把语调、节奏和发音方式转成可检索分数；官方称在 32 个公开情绪数据集上超过 Gemini 3.8 Flash。不生成语音，只分析说话方式。</td>
-            <td>是（Expression Measurement API 已可调用，含语音模型）</td>
-            <td>否</td>
-            <td>客服质检、情绪路由、语音 Agent 事后分析、多模态情绪检索</td>
-            <td class="score">7/10（补转写/合成的缺口，接入直接；闭源，且不是 TTS/ASR）</td>
+            <td><a href="https://falconllm.tii.ae/falcon-ocr-asr.html" target="_blank">Falcon-ASR（TII）</a></td>
+            <td>2026-10-07</td>
+            <td>1.6B 紧凑 ASR，覆盖阿联酋阿拉伯语、现代标准阿拉伯语，以及英/法/西/葡。官方称阿拉伯语测试集平均 WER 20.92，阿联酋内部基准 22.73，并输出词级时间戳。</td>
+            <td>部分（官方页与 WAM 已发布模型与基准；公开权重/推理入口仍以 TII 页面为准）</td>
+            <td>否（新闻稿未标明权重许可证）</td>
+            <td>阿联酋方言字幕、会议转写、可检索录音、阿拉伯语方言客服</td>
+            <td class="score">7/10（方言场景有对照基准，体积小；权重与 API 尚未完全公开）</td>
           </tr>
           <tr>
-            <td><a href="https://x.com/drewcoffman/status/2107534417329827929" target="_blank">ElevenLabs ElevenAgents Architect</a></td>
-            <td>2026-10-06 周内上线（员工当周回顾）</td>
-            <td>搭建语音 Agent 的专家助手，叠在已 GA 的 Eleven v4 / v4 Turbo 之上（v4 仍据 Artificial Analysis TTS 榜前列，Turbo 首包约 150ms，90+ 语）。同周还完成 FedRAMP 20x Class A。</td>
-            <td>是（产品已对 ElevenLabs 用户开放；底层 v4 API 已可用）</td>
-            <td>否</td>
-            <td>快速搭建客服/销售语音 Agent、合规场景选型</td>
-            <td class="score">8/10（降低搭建门槛，依赖现有闭源 API；不是新声学模型）</td>
+            <td><a href="https://huggingface.co/canberkkkkkk/ema-lightning" target="_blank">EMA Lightning</a></td>
+            <td>2026-10-06 发布，2026-10-07 上架 PyPI 1.0.3</td>
+            <td>8.6M 参数、约 34MB 的土耳其语 TTS。离线跑 CPU/GPU；作者在 Freya-TR-Eval 上报 WER 0.92%，RTX 4090 约 440× 实时。仅土耳其语。</td>
+            <td>是（Hugging Face 权重 + <code>pip install ema-lightning</code>，无 API）</td>
+            <td>是（Apache-2.0，含商用）</td>
+            <td>本地土耳其语播报、离线客服、低成本批量合成</td>
+            <td class="score">8/10（极小、可离线、许可证清楚；语种仅土耳其语，基准为自报）</td>
           </tr>
           <tr>
-            <td><a href="https://voximplant.com/blog/agentic-voicedsp" target="_blank">Voximplant Agentic VoiceDSP</a></td>
-            <td>2026-10-05</td>
-            <td>VoxEngine 模块，给自有 STT + LLM + TTS 级联管线做轮次检测：判断开说、说完、打断与沉默，默认对未完短语等待最多约 3 秒。跑在通话同一媒体服务器上，无额外部署框架。</td>
-            <td>是（VoxEngine 模块，面向已有开发者账号）</td>
-            <td>否（平台能力；相关 Agent Skills 在 GitHub）</td>
-            <td>自建级联语音 Agent 的抢话/等待、噪声线路、PSTN 客服</td>
-            <td class="score">7.5/10（直接补级联架构的轮次痛点；锁在 Voximplant 运行时）</td>
+            <td><a href="https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/" target="_blank">ElevenLabs on OpenRouter</a></td>
+            <td>2026-10-07</td>
+            <td>用现有 OpenRouter 密钥调用 9 个 TTS（含 Eleven v4 / v4 Turbo）与 2 个 STT（Scribe v2、Scribe v2 Medical）。至 2026-10-19 08:00 PT 公开价五折。</td>
+            <td>是（<code>/api/v1/audio/speech</code> 与 transcriptions 已可调；<a href="https://x.com/ElevenLabsDevs/status/2107855069689663921" target="_blank">官方帖</a>）</td>
+            <td>否</td>
+            <td>已有 LLM 网关的语音 Agent、长文本配音、会议转写与医疗转写</td>
+            <td class="score">8/10（接入成本低、模型已 GA；闭源按字符计费，折扣有截止日）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-07 监测：当日无新开源基座或通用 TTS/ASR API。增量从模型本体转到语音 Agent 的配套层：Hume 把语调测量做成可调用 API，ElevenLabs 用 Architect 降低 Agent 搭建门槛并拿到 FedRAMP，Voximplant 把语义轮次检测嵌进级联管线。10-05 的 Amazon Nova 2.5 Sonic 仍是最近一次 speech-to-speech GA；微软 MAI-Transcribe-2-Streaming 与 MAI-Voice-2.1 仍在公开预览、无 SLA。趋势词：低延迟 speech-to-speech、轮次与打断、表情/语调可计量、多语一致声线，生产主路径仍是闭源 API。
+        10-08 监测：增量分两条路。一是方言与超小模型——Falcon-ASR 把 1.6B 做成阿联酋/标准阿拉伯语基础设施，EMA Lightning 用 34MB、Apache-2.0 把土耳其语合成压到可离线。二是分发层——Eleven v4 / Scribe v2 未改权重，但通过 OpenRouter 与 LLM 调用合流，降低语音 Agent 的接入成本。低延迟仍是闭源主路径（v4 Turbo 首包约 150ms），开源侧更多是单语、可私有化的小模型。
       </div>
     </div>
 
