@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-08 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-06 至 10-08）</div>
+      <div class="meta">最后更新：2026-10-09 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-07 至 10-09）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">窗口内有三条可用增量：阿布扎比 TII 发布方言 ASR、土耳其语超小开源 TTS 上架 PyPI，以及 ElevenLabs 语音模型接入 OpenRouter。未把纯论文或旧模型二次宣传计入。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。窗口内未出现新权重或新 API 模型；可核实的增量是可商用声线授权、多厂商 TTS 对比台，以及已有模型的区域与延迟实测。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://falconllm.tii.ae/falcon-ocr-asr.html" target="_blank">Falcon-ASR（TII）</a></td>
-            <td>2026-10-07</td>
-            <td>1.6B 紧凑 ASR，覆盖阿联酋阿拉伯语、现代标准阿拉伯语，以及英/法/西/葡。官方称阿拉伯语测试集平均 WER 20.92，阿联酋内部基准 22.73，并输出词级时间戳。</td>
-            <td>部分（官方页与 WAM 已发布模型与基准；公开权重/推理入口仍以 TII 页面为准）</td>
-            <td>否（新闻稿未标明权重许可证）</td>
-            <td>阿联酋方言字幕、会议转写、可检索录音、阿拉伯语方言客服</td>
-            <td class="score">7/10（方言场景有对照基准，体积小；权重与 API 尚未完全公开）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/canberkkkkkk/ema-lightning" target="_blank">EMA Lightning</a></td>
-            <td>2026-10-06 发布，2026-10-07 上架 PyPI 1.0.3</td>
-            <td>8.6M 参数、约 34MB 的土耳其语 TTS。离线跑 CPU/GPU；作者在 Freya-TR-Eval 上报 WER 0.92%，RTX 4090 约 440× 实时。仅土耳其语。</td>
-            <td>是（Hugging Face 权重 + <code>pip install ema-lightning</code>，无 API）</td>
-            <td>是（Apache-2.0，含商用）</td>
-            <td>本地土耳其语播报、离线客服、低成本批量合成</td>
-            <td class="score">8/10（极小、可离线、许可证清楚；语种仅土耳其语，基准为自报）</td>
-          </tr>
-          <tr>
-            <td><a href="https://openrouter.ai/blog/announcements/elevenlabs-on-openrouter/" target="_blank">ElevenLabs on OpenRouter</a></td>
-            <td>2026-10-07</td>
-            <td>用现有 OpenRouter 密钥调用 9 个 TTS（含 Eleven v4 / v4 Turbo）与 2 个 STT（Scribe v2、Scribe v2 Medical）。至 2026-10-19 08:00 PT 公开价五折。</td>
-            <td>是（<code>/api/v1/audio/speech</code> 与 transcriptions 已可调；<a href="https://x.com/ElevenLabsDevs/status/2107855069689663921" target="_blank">官方帖</a>）</td>
+            <td><a href="https://x.com/OcularHQ/status/2108319704607785076" target="_blank">Ocular AI Default Voices</a></td>
+            <td>2026-10-08</td>
+            <td>面向 TTS 默认声线克隆的商用声库：职业配音、工作室录音、固定声线身份，并附合成与克隆授权。不是新模型，而是可清权的声音素材。</td>
+            <td>部分（有试听页与产品宣传；授权需联系销售，尚无公开 API）</td>
             <td>否</td>
-            <td>已有 LLM 网关的语音 Agent、长文本配音、会议转写与医疗转写</td>
-            <td class="score">8/10（接入成本低、模型已 GA；闭源按字符计费，折扣有截止日）</td>
+            <td>需要商用权的语音 Agent 默认声线、品牌客服、内容配音</td>
+            <td class="score">6/10（权利清晰有用，但购买流程未自助，不能直接接入）</td>
+          </tr>
+          <tr>
+            <td><a href="https://x.com/Sadaqath_Umair/status/2108176012911468960" target="_blank">Voicebid</a></td>
+            <td>2026-10-08（贝塔）</td>
+            <td>多厂商 TTS 对比台，可在同一页面试 Inworld、ElevenLabs 等模型，并以首包时延（TTFA）对比。作者称 Inworld TTS 2 Flash 当前首包最快，且可用单一 API 调多家供应商。</td>
+            <td>部分（贝塔可试听与对比；统一 API 仍在邀测，不是新合成模型）</td>
+            <td>否</td>
+            <td>选型评测、语音 Agent 供应商切换、延迟对比</td>
+            <td class="score">6/10（降低选型成本；贝塔、无公开价格与 SLA，不能当生产引擎）</td>
+          </tr>
+          <tr>
+            <td><a href="https://elevenlabs.io/blog/elevenlabs-singapore" target="_blank">ElevenLabs 新加坡枢纽</a></td>
+            <td>2026-10-08</td>
+            <td>现有 Eleven v4 / Scribe 等模型的区域落地，不是新权重。东南亚中心开业，已与 Funding Societies、Atome 等合作；同周还有比利时与荷兰上线。</td>
+            <td>是（官方 API 与产品面已可用，区域支持为增量）</td>
+            <td>否</td>
+            <td>东南亚语音 Agent、本地化配音、对数据驻留有要求的企业接入</td>
+            <td class="score">7/10（模型已成熟、接入现成；本次只是销售与区域覆盖，不改变能力）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-08 监测：增量分两条路。一是方言与超小模型——Falcon-ASR 把 1.6B 做成阿联酋/标准阿拉伯语基础设施，EMA Lightning 用 34MB、Apache-2.0 把土耳其语合成压到可离线。二是分发层——Eleven v4 / Scribe v2 未改权重，但通过 OpenRouter 与 LLM 调用合流，降低语音 Agent 的接入成本。低延迟仍是闭源主路径（v4 Turbo 首包约 150ms），开源侧更多是单语、可私有化的小模型。
+        10-09 监测：模型层暂停，增量在分发与合规。闭源 TTS 仍拼低延迟（Inworld TTS 2 Flash 官方服务端 P90 首包约 20ms，Eleven v4 Turbo 媒体值约 150ms）；Coval 在 10-08 测得 Qwen3-ASR 1.7B 专用推理约 39ms 到达最终片段、Qwen3 TTS Fast 约 68ms 首包。开源侧没有新权重，更多是小模型私有化与 OpenAI 兼容接口。另一条线是声线权利：默认声线开始单独授权，而不是只靠短音频克隆。
       </div>
     </div>
 
