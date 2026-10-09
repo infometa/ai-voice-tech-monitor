@@ -228,3 +228,23 @@
 - LocalDot（AAElectronics，Echo Dot 3 本地 Home Assistant 语音替换主板） | https://blog.circuit.rocks/localdot-give-an-echo-dot-a-local-home-assistant-brain | https://blog.circuit.rocks/localdot-give-an-echo-dot-a-local-home-assistant-brain | 2026-10-03
 - Astribot T1 北美开售 | https://www.astribot.com/en/product | https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/ | 2026-10-02
 - Aleph Alpha Kolibri-1 | https://huggingface.co/Aleph-Alpha/Kolibri-1 | https://postcutoff.com/e/2026-10-03-aleph-alpha-kolibri-open-weights/ | 2026-10-03
+
+## 2026-10-07
+- XREAL AURA（定价 + 预约用户开放预购） | https://www.xreal.com/aura | https://www.prnewswire.com/news-releases/xreal-aura-starts-at-1-279--bringing-wired-xr-glasses-with-android-xr-to-customers-this-year-302900445.html | 2026-10-07
+- Microsoft Surface RTX Spark Dev Box | https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/ | https://www.notebookcheck.net/Microsoft-launches-compact-local-AI-monster-with-128-GB-unified-memory.1418421.0.html | 2026-10-07
+- Minerva Humanoids Roger | https://www.minervahumanoids.com/ | https://www.globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html | 2026-10-06
+- VibeBuddy（VibeKeys） | https://vibekeys.dev/blog/introducing-vibebuddy/ | https://vibekeys.dev/blog/introducing-vibebuddy/ | 2026-10-06
+- Jio AI 眼镜 / AI 耳机（IMC 2026 展示） | https://telecomtalk.info/jio-ai-glasses-could-bring-upi-payments/1012606/ | https://telecomtalk.info/jio-ai-glasses-could-bring-upi-payments/1012606/ | 2026-10-07
+- Sesame 语音助手预览（眼镜用） | https://www.sesame.com/ | https://www.sesame.com/journal/a-new-form-of-eyewear | 2026-10-06
+- Pegasus 1.6（TwelveLabs） | https://www.twelvelabs.io | https://www.producthunt.com/products/twelvelabs | 2026-10-07
+- Incredible | https://incredible.one | https://www.producthunt.com/products/incredible | 2026-10-06
+- Mistral Large 4 | https://mistral.ai/news/mistral-large-4/ | https://mistral.ai/news/mistral-large-4/ | 2026-10-06
+
+## 2026-10-09
+- Natura Interface（AI 代理智能戒指） | https://natura.inc/interface | https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/ | 2026-10-08
+- Timekettle LiveTalk AI 同传耳机 | https://timekettle.co | https://www.streetinsider.com/PRNewswire/Timekettle+Launches+%24129+LiveTalk+Open-Ear+AI+Interpreter+Earbuds+for+Everyday+Translation/27164390.html | 2026-10-08
+- Lucyd Aero（无摄像头 AI 眼镜） | https://lucyd.co | https://finance.yahoo.com/technology/ai/articles/innovative-eyewear-inc-launches-lucyd-120000310.html | 2026-10-08
+- ASUS ProArt GR1X（RTX Spark 本地 AI 迷你主机，附 Dell Creator Edition Desktop） | https://www.asus.com/ | https://www.gizmochina.com/2026/10/08/asus-proart-gr1x-mini-pc-launched-specs-price/ | 2026-10-08
+- 西湖机器人 WR1 通用大脑（人形灵巧手叠衣演示） | 未找到官网 | https://ai123.com/news/14847 | 2026-10-09
+- JetBrains Mellum2.1 | https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/ | https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/ | 2026-10-08
+- OpenSwarm | https://openswarm.info/ | https://www.producthunt.com/products/openswarm-3 | 2026-10-08
