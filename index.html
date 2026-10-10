@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-09 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-07 至 10-09）</div>
+      <div class="meta">最后更新：2026-10-10 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-08 至 10-10）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。窗口内未出现新权重或新 API 模型；可核实的增量是可商用声线授权、多厂商 TTS 对比台，以及已有模型的区域与延迟实测。</p>
+      <p style="margin-bottom:16px;">今日有几个值得关注的更新：商业 TTS 新模型登顶榜单，以及极小开源蒸馏模型获得更多关注。窗口内主要是已上线产品与可运行开源模型。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.com/OcularHQ/status/2108319704607785076" target="_blank">Ocular AI Default Voices</a></td>
-            <td>2026-10-08</td>
-            <td>面向 TTS 默认声线克隆的商用声库：职业配音、工作室录音、固定声线身份，并附合成与克隆授权。不是新模型，而是可清权的声音素材。</td>
-            <td>部分（有试听页与产品宣传；授权需联系销售，尚无公开 API）</td>
+            <td><a href="https://x.com/HeyGen/status/2108608631696740793" target="_blank">HeyGen Voice</a></td>
+            <td>2026-10-09</td>
+            <td>商业 TTS 模型，支持即时声线克隆（短音频）与专业克隆。在 Artificial Analysis Controlled Voice Arena 登顶（Elo 1201），超过 Qwen-Audio-3.1-TTS-Plus 与 Eleven v4 Turbo。</td>
+            <td>是（产品与 API 已上线，支持流式；即时克隆几秒级）</td>
             <td>否</td>
-            <td>需要商用权的语音 Agent 默认声线、品牌客服、内容配音</td>
-            <td class="score">6/10（权利清晰有用，但购买流程未自助，不能直接接入）</td>
+            <td>数字人视频、语音 Agent、内容配音、品牌声线</td>
+            <td class="score">8/10（质量高、已落地、有限时优惠；闭源且成本不低）</td>
           </tr>
           <tr>
-            <td><a href="https://x.com/Sadaqath_Umair/status/2108176012911468960" target="_blank">Voicebid</a></td>
-            <td>2026-10-08（贝塔）</td>
-            <td>多厂商 TTS 对比台，可在同一页面试 Inworld、ElevenLabs 等模型，并以首包时延（TTFA）对比。作者称 Inworld TTS 2 Flash 当前首包最快，且可用单一 API 调多家供应商。</td>
-            <td>部分（贝塔可试听与对比；统一 API 仍在邀测，不是新合成模型）</td>
-            <td>否</td>
-            <td>选型评测、语音 Agent 供应商切换、延迟对比</td>
-            <td class="score">6/10（降低选型成本；贝塔、无公开价格与 SLA，不能当生产引擎）</td>
+            <td><a href="https://github.com/sahilmahendrakar/paradee" target="_blank">Paradee-8M</a></td>
+            <td>2026-10-05 至 10-08</td>
+            <td>极小英语 TTS，8M 参数（约 9MB int8），蒸馏自 Kokoro-82M 的单声线版本。单 CPU 线程可 18-25x 实时，UTMOS 接近教师模型。</td>
+            <td>是（GitHub + HF 权重与 Space Demo，可本地运行，浏览器可用）</td>
+            <td>是（Apache-2.0）</td>
+            <td>边缘设备、浏览器扩展、低成本离线语音、嵌入式 TTS</td>
+            <td class="score">8/10（极其小快、易部署；仅英语单声线，适合特定场景）</td>
           </tr>
           <tr>
-            <td><a href="https://elevenlabs.io/blog/elevenlabs-singapore" target="_blank">ElevenLabs 新加坡枢纽</a></td>
+            <td><a href="https://github.com/kadirnar/drifting-tts" target="_blank">Drifting-TTS (Turkish)</a></td>
             <td>2026-10-08</td>
-            <td>现有 Eleven v4 / Scribe 等模型的区域落地，不是新权重。东南亚中心开业，已与 Funding Societies、Atome 等合作；同周还有比利时与荷兰上线。</td>
-            <td>是（官方 API 与产品面已可用，区域支持为增量）</td>
-            <td>否</td>
-            <td>东南亚语音 Agent、本地化配音、对数据驻留有要求的企业接入</td>
-            <td class="score">7/10（模型已成熟、接入现成；本次只是销售与区域覆盖，不改变能力）</td>
+            <td>基于 drifting 方法的首个土耳其语 TTS，单步推理（传统 diffusion 多步），100 小时数据训练。</td>
+            <td>部分（GitHub 代码 + HF Demo，仍为早期结果）</td>
+            <td>是（开源）</td>
+            <td>土耳其语语音生成、低资源语言 TTS 实验</td>
+            <td class="score">5/10（新方法有趣、可试；语言专业且成熟度低）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-09 监测：模型层暂停，增量在分发与合规。闭源 TTS 仍拼低延迟（Inworld TTS 2 Flash 官方服务端 P90 首包约 20ms，Eleven v4 Turbo 媒体值约 150ms）；Coval 在 10-08 测得 Qwen3-ASR 1.7B 专用推理约 39ms 到达最终片段、Qwen3 TTS Fast 约 68ms 首包。开源侧没有新权重，更多是小模型私有化与 OpenAI 兼容接口。另一条线是声线权利：默认声线开始单独授权，而不是只靠短音频克隆。
+        10-10 监测：两条线并行。商业侧继续拼声线保真与榜单排名（HeyGen Voice 登顶 Controlled Voice Arena）；开源侧极小模型蒸馏成为亮点（Paradee-8M 将 Kokoro 压到 8M/9MB，CPU 实时）。低延迟、边缘可部署与多语言一致性仍是主线；HF speech-to-speech 框架持续集成 Qwen3-TTS、Kokoro、Pocket TTS 等，方便本地语音 Agent。
       </div>
     </div>
 
