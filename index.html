@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-10 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-08 至 10-10）</div>
+      <div class="meta">最后更新：2026-10-11 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-09 至 10-11）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日有几个值得关注的更新：商业 TTS 新模型登顶榜单，以及极小开源蒸馏模型获得更多关注。窗口内主要是已上线产品与可运行开源模型。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。主要为已上线可用的商业模型与开源小模型。</p>
       <table>
         <thead>
           <tr>
@@ -72,29 +72,29 @@
           <tr>
             <td><a href="https://x.com/HeyGen/status/2108608631696740793" target="_blank">HeyGen Voice</a></td>
             <td>2026-10-09</td>
-            <td>商业 TTS 模型，支持即时声线克隆（短音频）与专业克隆。在 Artificial Analysis Controlled Voice Arena 登顶（Elo 1201），超过 Qwen-Audio-3.1-TTS-Plus 与 Eleven v4 Turbo。</td>
+            <td>商业 TTS 模型，支持即时声线克隆（短音频）与专业克隆。在 Artificial Analysis Controlled Voice Arena 登顶（Elo 1201），超过 Qwen-Audio-3.1-TTS-Plus 与 Eleven v4 Turbo。API 促销价至 10/31。</td>
             <td>是（产品与 API 已上线，支持流式；即时克隆几秒级）</td>
             <td>否</td>
             <td>数字人视频、语音 Agent、内容配音、品牌声线</td>
             <td class="score">8/10（质量高、已落地、有限时优惠；闭源且成本不低）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/sahilmahendrakar/paradee" target="_blank">Paradee-8M</a></td>
-            <td>2026-10-05 至 10-08</td>
-            <td>极小英语 TTS，8M 参数（约 9MB int8），蒸馏自 Kokoro-82M 的单声线版本。单 CPU 线程可 18-25x 实时，UTMOS 接近教师模型。</td>
-            <td>是（GitHub + HF 权重与 Space Demo，可本地运行，浏览器可用）</td>
+            <td><a href="https://huggingface.co/Cactus-Compute/whistle" target="_blank">Whistle</a></td>
+            <td>2026-10-02（近期热议）</td>
+            <td>16.9 MB 超小 on-device ASR 模型，支持 7 语言（英/德/法/西/意/荷/波），带词级时间戳与语音嵌入。声称超过 Whisper base（更小更快），CPU 运行。</td>
+            <td>是（HF 权重 + GitHub 引擎，可本地/边缘部署）</td>
             <td>是（Apache-2.0）</td>
-            <td>边缘设备、浏览器扩展、低成本离线语音、嵌入式 TTS</td>
-            <td class="score">8/10（极其小快、易部署；仅英语单声线，适合特定场景）</td>
+            <td>移动端/穿戴设备离线转写、隐私优先语音交互、嵌入式 ASR</td>
+            <td class="score">8/10（极小、私有化、开源易用；语言覆盖中等，适合边缘）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/kadirnar/drifting-tts" target="_blank">Drifting-TTS (Turkish)</a></td>
-            <td>2026-10-08</td>
-            <td>基于 drifting 方法的首个土耳其语 TTS，单步推理（传统 diffusion 多步），100 小时数据训练。</td>
-            <td>部分（GitHub 代码 + HF Demo，仍为早期结果）</td>
-            <td>是（开源）</td>
-            <td>土耳其语语音生成、低资源语言 TTS 实验</td>
-            <td class="score">5/10（新方法有趣、可试；语言专业且成熟度低）</td>
+            <td><a href="https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice" target="_blank">Qwen3-TTS 1.7B CustomVoice / Base</a></td>
+            <td>2026-01（近期社区热度与开源实用）</td>
+            <td>开源 1.7B TTS，支持 10 语言、自然语言情绪/风格控制、声线克隆（3s 参考音频）与流式（首包约 97ms）。HF 下载量高。</td>
+            <td>是（HF/GitHub 开源权重 + pip 包 + Demo）</td>
+            <td>是（Apache-2.0）</td>
+            <td>自托管语音克隆、多语言配音、实时语音 Agent、本地生成</td>
+            <td class="score">9/10（开源成熟、低延迟、多语言；需 GPU 推理）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-10 监测：两条线并行。商业侧继续拼声线保真与榜单排名（HeyGen Voice 登顶 Controlled Voice Arena）；开源侧极小模型蒸馏成为亮点（Paradee-8M 将 Kokoro 压到 8M/9MB，CPU 实时）。低延迟、边缘可部署与多语言一致性仍是主线；HF speech-to-speech 框架持续集成 Qwen3-TTS、Kokoro、Pocket TTS 等，方便本地语音 Agent。
+        10-11 监测：商业侧继续拼声线保真与独立榜单（HeyGen Voice 登顶 Controlled Voice Arena）；开源侧极小模型与边缘部署成为亮点（Whistle 16.9MB on-device ASR 、Qwen3-TTS 开源克隆）。低延迟、隐私优先、多语言一致性与自托管可部署仍是主线；声线克隆门槛持续下降到几秒级参考音频。
       </div>
     </div>
 
