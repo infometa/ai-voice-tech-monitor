@@ -248,3 +248,33 @@
 - 西湖机器人 WR1 通用大脑（人形灵巧手叠衣演示） | 未找到官网 | https://ai123.com/news/14847 | 2026-10-09
 - JetBrains Mellum2.1 | https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/ | https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/ | 2026-10-08
 - OpenSwarm | https://openswarm.info/ | https://www.producthunt.com/products/openswarm-3 | 2026-10-08
+
+## 2026-10-10
+- UMEVO Note One（磁吸 AI 录音卡） | https://www.umevo.ai/products/umevo-note-one | https://www.umevo.ai/blogs/news/introducing-umevo-note-one-ai-voice-recorder | 2026-10-09
+- MINIX ER947-AI（Ryzen AI 9 HX 470 迷你主机） | https://www.einpresswire.com/article/948437430/minix-launches-er947-ai-mini-pc-powered-by-amd-ryzen-ai-9-hx-470-bringing-86-tops-to-the-desktop | https://www.einpresswire.com/article/948437430/minix-launches-er947-ai-mini-pc-powered-by-amd-ryzen-ai-9-hx-470-bringing-86-tops-to-the-desktop | 2026-10-09
+- 川崎重工 Home LEO（养老陪伴机器狗试作机，补收） | https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20261006_6729 | https://www.japantimes.co.jp/business/2026/10/07/companies/kawasaki-heavy-industries-dog-robots/ | 2026-10-06
+- Aether AI CRIS-0 | https://aetherlabs.ai/articles/real-world-autonomous-robotic-system-with-causality-driven-agent-and-world-model | https://www.humanoidsdaily.com/news/aether-ai-cris0-causal-robot-intelligence | 2026-10-08
+- Odyssey-3 | https://odyssey.systems/meet-odyssey-3 | https://www.producthunt.com/products/odyssey-3 | 2026-10-08
+- Underdog Saluki 27B | https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0 | https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/ | 2026-10-09
+- Babytalk（ESP32 离线语音识别+合成） | https://github.com/tlack/babytalk | https://news.ycombinator.com/item?id=50026819 | 2026-10-09
+- OpenPilot（开源桌面 AI 代理） | https://openpilot.in | https://www.producthunt.com/products/openpilot | 2026-10-09
+
+## 2026-10-11
+- Ghost Core（$3,499 本地 AI 主机，PH 上架 + 首批售罄） | 官网未核实 | https://hunted.space/dashboard/ghost-core | https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/ | 2026-10-11
+- Aisekar S1（本地 AI 院子守卫机器人，Kickstarter） | https://www.kickstarter.com/projects/155731086/aisekar-s1 | https://www.pledgebox.com/projects/aisekar-s1 | 2026-10-08
+- 高德途途（具身机器狗，首批交付澳门金沙） | https://www.prnewswire.com/news-releases/amap-and-sands-china-mark-the-delivery-of-the-first-tutu-robots-with-expected-indoor-navigation-and-3d-resort-previews-302905030.html | https://www.chinanews.com.cn/cj/2026/10-10/10710620.shtml | 2026-10-10
+- 东声智能 工业级具身机器人系列 | 未找到官网 | https://finance.sina.com.cn/stock/t/2026-10-10/doc-iniutcvm2187868.shtml | 2026-10-10
+- Philosopher Plush（全本地 AI 毛绒玩具 DIY，补收） | https://github.com/msalsas/philosopher | https://www.hackster.io/msalsas/the-philosopher-plush-a-diy-ai-toy-that-runs-100-local-d0d268 | 2026-10-10
+- KernelAI（手机端离线本地 AI） | https://hunted.space/product/kernelai | https://hunted.space/product/kernelai | 2026-10-10
+- Foley（语音待办，Apple Watch 采集） | https://hunted.space/dashboard/foley | https://hunted.space/dashboard/foley | 2026-10-11
+- THX-01（322M 开源决策模型，手机可跑） | https://huggingface.co/doofz/THX-01 | https://dev.to/montydrief/we-open-sourced-a-322m-decision-model-now-its-api-is-free-187e | 2026-10-08
+
+## 2026-10-12
+- Google Fitbit Edge（AI 健康教练健身手环） | https://store.google.com/ | https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/ | 2026-10-12
+- 库卡 开天 KAI + MIRO（工业智能平台 + 工业级轮式人形） | https://www.kuka.com/ | https://www.jiemian.com/article/15180106.html | 2026-10-12
+- Sabi（脑机接口棒球帽，$50M seed，补收） | https://www.sabi.com/ | https://financewire.com/2026/10/09/sabi-raises-50-million-seed-round-led-by-khosla-ventures-to-put-a-brain-ai-interface-inside-a-baseball-cap/ | 2026-10-09
+- Oki Home（$1,799 本地个人 AI 主机，补收） | https://okihome.ai/ | https://runtimewire.com/article/oki-home-local-ai-computer-launch | 2026-10-06
+- EmbeddingGemma 2（开源端侧多模态嵌入模型） | https://ai.google.dev/gemma/docs/embeddinggemma | https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ | 2026-10-06
+- Cue（AirPods 触发 Mac 专注模式） | https://wearcue.top | https://www.producthunt.com/products/cue-26 | 2026-10-10
+- Halo（Mac notch 通知/听写/Agent 状态） | https://halo-mac.com/ | https://hunted.space/product/halo-11 | 2026-10-11
+- SOXAI RING X（旧项目突然火起来·Kickstarter 收官） | https://soxai.co.jp/en-intl/pages/soxai-ring-x-prelaunch-en | https://www.kickstartnew.com/soxai-ring-x-worlds-smallest-up-to-10-day-battery-kickstarter-review/ | 2026-10-10
