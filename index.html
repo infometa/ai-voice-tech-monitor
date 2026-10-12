@@ -55,7 +55,7 @@
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新。主要为已上线可用的商业模型与开源小模型。</p>
+      <p style="margin-bottom:16px;">近期重点：商业 TTS 榜单竞争、开源全双工模型热议、垂直场景语音接口与本地替代方案。以下为已落地可用或强社区关注项目。</p>
       <table>
         <thead>
           <tr>
@@ -72,26 +72,53 @@
           <tr>
             <td><a href="https://x.com/HeyGen/status/2108608631696740793" target="_blank">HeyGen Voice</a></td>
             <td>2026-10-09</td>
-            <td>商业 TTS 模型，支持即时声线克隆（短音频）与专业克隆。在 Artificial Analysis Controlled Voice Arena 登顶（Elo 1201），超过 Qwen-Audio-3.1-TTS-Plus 与 Eleven v4 Turbo。API 促销价至 10/31。</td>
+            <td>商业内部 TTS 模型，支持即时声线克隆（短音频）与专业克隆。在 Artificial Analysis Controlled Voice Arena 登顶（Elo 1201），超过 Qwen-Audio-3.1 与 Eleven v4 Turbo。API 促销价至 10/31。</td>
             <td>是（产品与 API 已上线，支持流式；即时克隆几秒级）</td>
             <td>否</td>
             <td>数字人视频、语音 Agent、内容配音、品牌声线</td>
-            <td class="score">8/10（质量高、已落地、有限时优惠；闭源且成本不低）</td>
+            <td class="score">8.5/10（质量高、已落地、有限时优惠；闭源且成本中等）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/Cactus-Compute/whistle" target="_blank">Whistle</a></td>
-            <td>2026-10-02（近期热议）</td>
-            <td>16.9 MB 超小 on-device ASR 模型，支持 7 语言（英/德/法/西/意/荷/波），带词级时间戳与语音嵌入。声称超过 Whisper base（更小更快），CPU 运行。</td>
-            <td>是（HF 权重 + GitHub 引擎，可本地/边缘部署）</td>
-            <td>是（Apache-2.0）</td>
-            <td>移动端/穿戴设备离线转写、隐私优先语音交互、嵌入式 ASR</td>
-            <td class="score">8/10（极小、私有化、开源易用；语言覆盖中等，适合边缘）</td>
+            <td><a href="https://github.com/NVIDIA/personaplex" target="_blank">NVIDIA PersonaPlex-7B</a></td>
+            <td>2026-01（近期 X 热议 10-11/12）</td>
+            <td>开源全双工 speech-to-speech 对话模型，基于 Moshi 架构，支持同时听说、角色/声线控制（文本提示 + 音频条件）。低延迟转向与打断处理优异。</td>
+            <td>是（HF 权重 + GitHub 代码可用，支持本地 GPU 运行）</td>
+            <td>是（代码 MIT，权重 NVIDIA Open Model License）</td>
+            <td>实时语音 Agent、客服对话、角色扮演、本地全双工交互</td>
+            <td class="score">8/10（真全双工开源、可自托管；需较高 VRAM，训练数据主要合成）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice" target="_blank">Qwen3-TTS 1.7B CustomVoice / Base</a></td>
-            <td>2026-01（近期社区热度与开源实用）</td>
-            <td>开源 1.7B TTS，支持 10 语言、自然语言情绪/风格控制、声线克隆（3s 参考音频）与流式（首包约 97ms）。HF 下载量高。</td>
-            <td>是（HF/GitHub 开源权重 + pip 包 + Demo）</td>
+            <td><a href="https://www.ligolab.com/post/voice-is-the-new-user-interface-ligolab-introduces-ligolab-voice" target="_blank">LigoLab Voice</a></td>
+            <td>2026-10-09</td>
+            <td>嵌入病理 LIS 的 AI 语音接口，支持双手空闲拥写发现、导航、下单染色与语音反馈。超出传统 STT，直接驱动工作流。</td>
+            <td>是（已集成到 LigoLab 病理产品平台）</td>
+            <td>否</td>
+            <td>病理实验室拥写与导航、手术室无手操作、医疗工作流优化</td>
+            <td class="score">7.5/10（垂直场景实用、已落地；仅限特定 LIS 平台）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
+            <td>持续更新（~55k+ stars，近期 X 热议）</td>
+            <td>开源本地 ElevenLabs 替代方案，集成多个 TTS/ASR 引擎（默认 OmniVoice 等），支持声线克隆、视频配音、转写、调用等，聚合覆盖 600+ 语言。</td>
+            <td>是（GitHub 可本地安装运行，支持 CPU/GPU）</td>
+            <td>是（AGPL-3.0 + 各引擎许可）</td>
+            <td>本地语音克隆与配音、多语言视频本地化、隐私优先生成</td>
+            <td class="score">7.5/10（完全本地、引擎丰富；AGPL 限制商用，设置较复杂）</td>
+          </tr>
+          <tr>
+            <td><a href="https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol" target="_blank">ElevenLabs Synthetic Voice Detection</a></td>
+            <td>2026-10-09</td>
+            <td>ElevenAgents 中的合成语音检测功能，在通话前几秒分析来电是人类还是 AI 生成，可设规则路由。同时加入 Personal Agent Protocol。</td>
+            <td>是（企业客户可用，更广推出中）</td>
+            <td>否</td>
+            <td>客服通话筛查 AI Agent、反冒充、企业语音安全</td>
+            <td class="score">7/10（及时解决 Agent 通话问题；仅限 ElevenLabs 生态系）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank">Qwen3-TTS (1.7B Base 等)</a></td>
+            <td>2026-01（近期社区与下载量高）</td>
+            <td>开源多语言 TTS 家族，支持 10 语言、自然语言风格控制、3秒声线克隆、流式生成（首包约 97ms）。</td>
+            <td>是（HF/GitHub 权重 + pip 包 + Demo）</td>
             <td>是（Apache-2.0）</td>
             <td>自托管语音克隆、多语言配音、实时语音 Agent、本地生成</td>
             <td class="score">9/10（开源成熟、低延迟、多语言；需 GPU 推理）</td>
@@ -103,7 +130,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-12 监测：近 1-2 天无重大新模型发布。商业侧继续拼声线保真与独立榜单（HeyGen Voice 登顶 Controlled Voice Arena）；开源侧极小模型与边缘部署成为亮点（Whistle 16.9MB on-device ASR 、Qwen3-TTS 开源克隆）。低延迟、隐私优先、多语言一致性与自托管可部署仍是主线；声线克隆门槛持续下降到几秒级参考音频。
+        10-12 监测：近 1-2 天商业侧继续拼声线保真与独立榜单（HeyGen Voice 登顶 Controlled Voice Arena）；开源全双工模型 PersonaPlex 在 X 上强烈热议，强调本地可运行的实时听说能力；垂直场景语音接口（LigoLab Voice 进病理工作流）与本地替代套件（VoiceStudio）受关注；ElevenLabs 推出合成语音检测应对 AI Agent 通话潮。主线仍是低延迟全双工、声线克隆门槛降低、自托管/本地优先与企业安全检测。
       </div>
     </div>
 
