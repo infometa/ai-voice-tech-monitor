@@ -278,3 +278,9 @@
 - Cue（AirPods 触发 Mac 专注模式） | https://wearcue.top | https://www.producthunt.com/products/cue-26 | 2026-10-10
 - Halo（Mac notch 通知/听写/Agent 状态） | https://halo-mac.com/ | https://hunted.space/product/halo-11 | 2026-10-11
 - SOXAI RING X（旧项目突然火起来·Kickstarter 收官） | https://soxai.co.jp/en-intl/pages/soxai-ring-x-prelaunch-en | https://www.kickstartnew.com/soxai-ring-x-worlds-smallest-up-to-10-day-battery-kickstarter-review/ | 2026-10-10
+## 2026-10-13
+- Apple HomeView（含同场 HomePod mini 2 / Apple TV 4K / Apple Home Collection） | https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/ | https://www.theverge.com/tech/1009816/apple-smart-home-event-homeview-homepod-mini-roundup | 2026-10-13
+- 千问 AI 眼镜 N1 / N1 Pro + 千问 AI 耳夹式耳机（Bose 联名，现货开售） | https://www.ithome.com/1/012/400.htm | https://www.ithome.com/1/012/532.htm | 2026-10-13
+- Collov Labs NewEyes Sight / Halo / Clip | https://www.neweyesai.com/store/sight | https://www.metaversewatcher.io/neweyes-sight-199-ai-glasses-halo-clip-preorder-no-ship-date-october-12/ | 2026-10-12
+- ComboX（Electrocookie，Kickstarter） | https://www.combo-x.io/ | https://www.abnewswire.com/pressreleases/combox-turns-everyday-digital-chaos-into-something-you-actually-enjoy-launching-on-kickstarter-october-13-2026_839310.html | 2026-10-13
+- Natura-1（Nature Will） | https://www.naturewill.com/blog/natura-1?lang=en | https://www.prnewswire.com/news-releases/physical-ai-lab-nature-will-unveils-natura-1-as-first-general-foundational-model-for-the-physical-world-302906608.html | 2026-10-13
