@@ -284,3 +284,11 @@
 - Collov Labs NewEyes Sight / Halo / Clip | https://www.neweyesai.com/store/sight | https://www.metaversewatcher.io/neweyes-sight-199-ai-glasses-halo-clip-preorder-no-ship-date-october-12/ | 2026-10-12
 - ComboX（Electrocookie，Kickstarter） | https://www.combo-x.io/ | https://www.abnewswire.com/pressreleases/combox-turns-everyday-digital-chaos-into-something-you-actually-enjoy-launching-on-kickstarter-october-13-2026_839310.html | 2026-10-13
 - Natura-1（Nature Will） | https://www.naturewill.com/blog/natura-1?lang=en | https://www.prnewswire.com/news-releases/physical-ai-lab-nature-will-unveils-natura-1-as-first-general-foundational-model-for-the-physical-world-302906608.html | 2026-10-13
+## 2026-10-14
+- Ray-Ban Meta Audio | https://www.meta.com/blog/ray-ban-meta-audio-our-first-audio-glasses-are-here/ | 2026-10-13
+- 大眼橙 AI听记眼镜 Q1 | https://www.ithome.com/1/012/925.htm | 2026-10-13
+- Looktech BCI AI眼镜 | https://ai123.com/news/15127 | 2026-10-13
+- SeePhys Hub (破晓智能/PHANES) | https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefm7225771.shtml | 2026-10-14
+- Lantronix Spotter | https://www.lantronix.com/newsroom/press-releases/lantronix-introduces-spotter-to-close-the-compute-gap-holding-back-drone-and-robot-autonomy/ | 2026-10-13
+- Llama Windows | https://huggingface.co/blog/huggingface/llama-windows | 2026-10-13
+- Bees | https://bees.bot/ | 2026-10-13
