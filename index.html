@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-12 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-10 至 10-12）</div>
+      <div class="meta">最后更新：2026-10-14 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-12 至 10-14）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：商业 TTS 榜单竞争、开源全双工模型热议、垂直场景语音接口与本地替代方案。以下为已落地可用或强社区关注项目。</p>
+      <p style="margin-bottom:16px;">近期重点：开放权重高可控 TTS 挑战商业领先、小型本地部署模型持续受关注。以下为已落地可用或强社区关注项目。</p>
       <table>
         <thead>
           <tr>
@@ -70,54 +70,27 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.com/HeyGen/status/2108608631696740793" target="_blank">HeyGen Voice</a></td>
-            <td>2026-10-09</td>
-            <td>商业内部 TTS 模型，支持即时声线克隆（短音频）与专业克隆。在 Artificial Analysis Controlled Voice Arena 登顶（Elo 1201），超过 Qwen-Audio-3.1 与 Eleven v4 Turbo。API 促销价至 10/31。</td>
-            <td>是（产品与 API 已上线，支持流式；即时克隆几秒级）</td>
-            <td>否</td>
-            <td>数字人视频、语音 Agent、内容配音、品牌声线</td>
-            <td class="score">8.5/10（质量高、已落地、有限时优惠；闭源且成本中等）</td>
+            <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3</a></td>
+            <td>2026-10-13</td>
+            <td>Fish Audio 最新开放权重 TTS（35B MoE，约3B 活跃参数），支持自然语言指导情感/语气、中途切换声线、单字修复与音效。支持83种语言，在 Artificial Analysis 发音稳健性榜首（93.2%）。</td>
+            <td>是（Web/App/API 已上线，权重可从 HF 下载本地运行；Preview 阶段）</td>
+            <td>部分（开放权重，Fish Audio Community License；商业使用收入<$500K 免费，禁止未经同意克隆真人）</td>
+            <td>有声书、配音、语音 Agent、内容创作、多语言导演</td>
+            <td class="score">8.5/10（高度可控、多语言、可本地部署；许可证有限制，Preview 结果有波动）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/NVIDIA/personaplex" target="_blank">NVIDIA PersonaPlex-7B</a></td>
-            <td>2026-01（近期 X 热议 10-11/12）</td>
-            <td>开源全双工 speech-to-speech 对话模型，基于 Moshi 架构，支持同时听说、角色/声线控制（文本提示 + 音频条件）。低延迟转向与打断处理优异。</td>
-            <td>是（HF 权重 + GitHub 代码可用，支持本地 GPU 运行）</td>
-            <td>是（代码 MIT，权重 NVIDIA Open Model License）</td>
-            <td>实时语音 Agent、客服对话、角色扮演、本地全双工交互</td>
-            <td class="score">8/10（真全双工开源、可自托管；需较高 VRAM，训练数据主要合成）</td>
+            <td><a href="https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b" target="_blank">Audio8 TTS Preview 0.1B</a></td>
+            <td>持续更新（近期关注 ~10-12）</td>
+            <td>超小型零样本 TTS（主模型约170M 参数），支持语音克隆，中英主要、实验多语言。提供 ONNX INT8 CPU 部署方案。</td>
+            <td>是（HF 权重 + GitHub 代码 + ONNX 运行时可用）</td>
+            <td>是（Audio8 Community License）</td>
+            <td>轻量本地配音、语音原型、隐私优先生成、边缘设备</td>
+            <td class="score">7.5/10（极小可 CPU 运行、零样本克隆；多语言质量有限，仍为 Preview）</td>
           </tr>
           <tr>
-            <td><a href="https://www.ligolab.com/post/voice-is-the-new-user-interface-ligolab-introduces-ligolab-voice" target="_blank">LigoLab Voice</a></td>
-            <td>2026-10-09</td>
-            <td>嵌入病理 LIS 的 AI 语音接口，支持双手空闲拥写发现、导航、下单染色与语音反馈。超出传统 STT，直接驱动工作流。</td>
-            <td>是（已集成到 LigoLab 病理产品平台）</td>
-            <td>否</td>
-            <td>病理实验室拥写与导航、手术室无手操作、医疗工作流优化</td>
-            <td class="score">7.5/10（垂直场景实用、已落地；仅限特定 LIS 平台）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
-            <td>持续更新（~55k+ stars，近期 X 热议）</td>
-            <td>开源本地 ElevenLabs 替代方案，集成多个 TTS/ASR 引擎（默认 OmniVoice 等），支持声线克隆、视频配音、转写、调用等，聚合覆盖 600+ 语言。</td>
-            <td>是（GitHub 可本地安装运行，支持 CPU/GPU）</td>
-            <td>是（AGPL-3.0 + 各引擎许可）</td>
-            <td>本地语音克隆与配音、多语言视频本地化、隐私优先生成</td>
-            <td class="score">7.5/10（完全本地、引擎丰富；AGPL 限制商用，设置较复杂）</td>
-          </tr>
-          <tr>
-            <td><a href="https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol" target="_blank">ElevenLabs Synthetic Voice Detection</a></td>
-            <td>2026-10-09</td>
-            <td>ElevenAgents 中的合成语音检测功能，在通话前几秒分析来电是人类还是 AI 生成，可设规则路由。同时加入 Personal Agent Protocol。</td>
-            <td>是（企业客户可用，更广推出中）</td>
-            <td>否</td>
-            <td>客服通话筛查 AI Agent、反冒充、企业语音安全</td>
-            <td class="score">7/10（及时解决 Agent 通话问题；仅限 ElevenLabs 生态系）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank">Qwen3-TTS (1.7B Base 等)</a></td>
-            <td>2026-01（近期社区与下载量高）</td>
-            <td>开源多语言 TTS 家族，支持 10 语言、自然语言风格控制、3秒声线克隆、流式生成（首包约 97ms）。</td>
+            <td><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank">Qwen3-TTS (0.6B/1.7B)</a></td>
+            <td>2026-01（持续高下载与社区使用）</td>
+            <td>开源多语言 TTS，支持10语言、自然语言风格控制、3秒声线克隆、低延迟流式（首包约97ms）。</td>
             <td>是（HF/GitHub 权重 + pip 包 + Demo）</td>
             <td>是（Apache-2.0）</td>
             <td>自托管语音克隆、多语言配音、实时语音 Agent、本地生成</td>
@@ -130,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-12 监测：近 1-2 天商业侧继续拼声线保真与独立榜单（HeyGen Voice 登顶 Controlled Voice Arena）；开源全双工模型 PersonaPlex 在 X 上强烈热议，强调本地可运行的实时听说能力；垂直场景语音接口（LigoLab Voice 进病理工作流）与本地替代套件（VoiceStudio）受关注；ElevenLabs 推出合成语音检测应对 AI Agent 通话潮。主线仍是低延迟全双工、声线克隆门槛降低、自托管/本地优先与企业安全检测。
+        10-14 监测：近 1-2 天主要亮点为 Fish Audio Drama 3 的正式推广与榜单表现，开放权重、自然语言高度可控 TTS 正在挑战传统商业领先（发音稳健性超越 Eleven v4）。小型本地部署模型（如 Audio8 0.1B）与成熟开源方案（Qwen3-TTS）持续受欢迎。主线仍是低延迟、情感与发音精准控制、开放权重/本地优先与多语言一致性。
       </div>
     </div>
 
