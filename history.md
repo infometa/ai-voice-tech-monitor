@@ -292,3 +292,8 @@
 - Lantronix Spotter | https://www.lantronix.com/newsroom/press-releases/lantronix-introduces-spotter-to-close-the-compute-gap-holding-back-drone-and-robot-autonomy/ | 2026-10-13
 - Llama Windows | https://huggingface.co/blog/huggingface/llama-windows | 2026-10-13
 - Bees | https://bees.bot/ | 2026-10-13
+## 2026-10-15
+- Amazon Bee Frontier / Bee Eclipse | https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse | https://www.cnbc.com/2026/10/15/amazon-bee-frontier-eclipse-ai-devices.html | 2026-10-15
+- NEURA Neuron AI | https://neura-robotics.com/neuron-ai | https://neura-robotics.com/neura-robotics-introduces-neuron-ai/ | 2026-10-14
+- BrainChip Sequora | https://brainchip.com/ | https://brainchip.com/press/brainchip-launches-sequora-edge-ai-that-doesnt-just-recognize-it-understands-and-responds/ | 2026-10-14
+- Tether QVAC TranscribePsy | https://qvac.tether.io/blog/on-device-speech-recognition-transcribepsy | https://tether.io/news/tether-brings-on-device-speech-recognition-to-smart-glasses-and-humanoid-robots-as-smart-technology-moves-deeper-into-private-life/ | 2026-10-14
