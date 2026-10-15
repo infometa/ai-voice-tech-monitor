@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-14 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-12 至 10-14）</div>
+      <div class="meta">最后更新：2026-10-15 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-13 至 10-15）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：开放权重高可控 TTS 挑战商业领先、小型本地部署模型持续受关注。以下为已落地可用或强社区关注项目。</p>
+      <p style="margin-bottom:16px;">近期重点：语音到语音实时Agent模型竞争加剧、高可控开放权重TTS持续活跃、低延迟与词级精准控制成为亮点。以下为已落地可用或强社区关注项目。</p>
       <table>
         <thead>
           <tr>
@@ -70,6 +70,24 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://x.ai/news/grok-voice-3" target="_blank">Grok Voice 3.0</a></td>
+            <td>2026-10-14</td>
+            <td>xAI/SpaceXSI 发布的语音到语音模型，Artificial Analysis Speech-to-Speech Index 第1（86.9），支持实时工具调用、语音克隆（最长120秒）、多语言。子秒级延迟，API $0.08/分钟。</td>
+            <td>是（Voice Agent API 已上线，已用于Tesla/SpaceX/Starlink客服，有Realtime API与WebSocket）</td>
+            <td>否</td>
+            <td>客服电话自动化、实时语音Agent、车载/远程协助、多轮对话</td>
+            <td class="score">9/10（榜首性能、低延迟、成本合理、实战验证；非开源，依赖云API）</td>
+          </tr>
+          <tr>
+            <td><a href="https://neuphonic.com" target="_blank">Neuphonic 新 TTS API 模型</a></td>
+            <td>2026-10-14</td>
+            <td>Neuphonic 上线新版文本转语音API，新增词级时间戳与编辑、IPA发音控制、停顿控制、延迟优化，支持40+语言。超低延迟适合实时场景。</td>
+            <td>是（API已活，有Playground/SDK，支持SSE/WebSocket流式）</td>
+            <td>否（云API；公司有其他开源端侧小模型）</td>
+            <td>实时语音对话、字幕生成、精准发音控制、多语言配音</td>
+            <td class="score">8/10（词级精准控制与低延迟实用；非开源，依赖API）</td>
+          </tr>
+          <tr>
             <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3</a></td>
             <td>2026-10-13</td>
             <td>Fish Audio 最新开放权重 TTS（35B MoE，约3B 活跃参数），支持自然语言指导情感/语气、中途切换声线、单字修复与音效。支持83种语言，在 Artificial Analysis 发音稳健性榜首（93.2%）。</td>
@@ -78,24 +96,6 @@
             <td>有声书、配音、语音 Agent、内容创作、多语言导演</td>
             <td class="score">8.5/10（高度可控、多语言、可本地部署；许可证有限制，Preview 结果有波动）</td>
           </tr>
-          <tr>
-            <td><a href="https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b" target="_blank">Audio8 TTS Preview 0.1B</a></td>
-            <td>持续更新（近期关注 ~10-12）</td>
-            <td>超小型零样本 TTS（主模型约170M 参数），支持语音克隆，中英主要、实验多语言。提供 ONNX INT8 CPU 部署方案。</td>
-            <td>是（HF 权重 + GitHub 代码 + ONNX 运行时可用）</td>
-            <td>是（Audio8 Community License）</td>
-            <td>轻量本地配音、语音原型、隐私优先生成、边缘设备</td>
-            <td class="score">7.5/10（极小可 CPU 运行、零样本克隆；多语言质量有限，仍为 Preview）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank">Qwen3-TTS (0.6B/1.7B)</a></td>
-            <td>2026-01（持续高下载与社区使用）</td>
-            <td>开源多语言 TTS，支持10语言、自然语言风格控制、3秒声线克隆、低延迟流式（首包约97ms）。</td>
-            <td>是（HF/GitHub 权重 + pip 包 + Demo）</td>
-            <td>是（Apache-2.0）</td>
-            <td>自托管语音克隆、多语言配音、实时语音 Agent、本地生成</td>
-            <td class="score">9/10（开源成熟、低延迟、多语言；需 GPU 推理）</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-14 监测：近 1-2 天主要亮点为 Fish Audio Drama 3 的正式推广与榜单表现，开放权重、自然语言高度可控 TTS 正在挑战传统商业领先（发音稳健性超越 Eleven v4）。小型本地部署模型（如 Audio8 0.1B）与成熟开源方案（Qwen3-TTS）持续受欢迎。主线仍是低延迟、情感与发音精准控制、开放权重/本地优先与多语言一致性。
+        10-15 监测：近 1-2 天亮点为 Grok Voice 3.0 登顶 Speech-to-Speech 榜单并开放API，以及 Neuphonic 强化词级精准控制与低延迟。Fish Audio Drama 3 继续展示开放权重高可控TTS的竞争力。主线趋势仍为实时语音Agent低延迟、词级/情感精准控制、开放权重与本地部署优先、多语言一致性。
       </div>
     </div>
 
