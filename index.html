@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-15 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-13 至 10-15）</div>
+      <div class="meta">最后更新：2026-10-16 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-14 至 10-16）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：语音到语音实时Agent模型竞争加剧、高可控开放权重TTS持续活跃、低延迟与词级精准控制成为亮点。以下为已落地可用或强社区关注项目。</p>
+      <p style="margin-bottom:16px;">今日无重大全新模型发布，以下为近期（近 1-2 天内有新动态或落地进展）值得关注的更新，已去重合并。主线仍为开放权重高可控 TTS 本地化、区域语言优化与多语言 ASR 覆盖提升。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.ai/news/grok-voice-3" target="_blank">Grok Voice 3.0</a></td>
-            <td>2026-10-14</td>
-            <td>xAI/SpaceXSI 发布的语音到语音模型，Artificial Analysis Speech-to-Speech Index 第1（86.9），支持实时工具调用、语音克隆（最长120秒）、多语言。子秒级延迟，API $0.08/分钟。</td>
-            <td>是（Voice Agent API 已上线，已用于Tesla/SpaceX/Starlink客服，有Realtime API与WebSocket）</td>
-            <td>否</td>
-            <td>客服电话自动化、实时语音Agent、车载/远程协助、多轮对话</td>
-            <td class="score">9/10（榜首性能、低延迟、成本合理、实战验证；非开源，依赖云API）</td>
+            <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3（及社区 drama3-small 量化版）</a></td>
+            <td>2026-10-13（主模型）；2026-10-15（社区低显存版）</td>
+            <td>Fish Audio 发布的 35B MoE（约 3B 活跃参数）开放权重 TTS，支持自然语言指导情感/语气、中途切换、单字修复、多说话人场景。社区将模型压缩至约 9.7GB，峰值约 10.3GB VRAM，可在 RTX 4070 级显卡运行，支持零样本克隆（3-30秒）、标签控制与中英混合。发音稳健性榜首（93.2%）。</td>
+            <td>是（官方 Web/App/API 已上线；权重在 HF；社区量化版可本地运行）</td>
+            <td>部分（开放权重，Fish Audio Community License；年收入 <$500K 免费商业使用；禁止未经同意克隆真人）</td>
+            <td>有声书、配音、内容创作、语音 Agent、多语言导演、本地部署</td>
+            <td class="score">8.5/10（高可控性与多语言强，本地化后易用性大幅提升；许可证有限制，大模型原版硬件要求高）</td>
           </tr>
           <tr>
-            <td><a href="https://neuphonic.com" target="_blank">Neuphonic 新 TTS API 模型</a></td>
-            <td>2026-10-14</td>
-            <td>Neuphonic 上线新版文本转语音API，新增词级时间戳与编辑、IPA发音控制、停顿控制、延迟优化，支持40+语言。超低延迟适合实时场景。</td>
-            <td>是（API已活，有Playground/SDK，支持SSE/WebSocket流式）</td>
-            <td>否（云API；公司有其他开源端侧小模型）</td>
-            <td>实时语音对话、字幕生成、精准发音控制、多语言配音</td>
-            <td class="score">8/10（词级精准控制与低延迟实用；非开源，依赖API）</td>
+            <td><a href="https://www.sarvam.ai/blogs/bulbul-v4-flash" target="_blank">Sarvam AI Bulbul V4 Flash</a></td>
+            <td>2026-10-13/14</td>
+            <td>面向印度语言的高效 TTS，延迟 <250ms（生产环境），成本较 V3 降低约 33%（₹20/1万字符），支持 11 种语言（含印度英语与 Hinglish）、81+ 人设语音、更自然的情感与上下文处理。</td>
+            <td>是（API、Playground、Content Studio 已上线，兼容原接口）</td>
+            <td>否（云 API）</td>
+            <td>印度市场客服电话、实时语音 Agent、IVR、多语言配音与内容</td>
+            <td class="score">8/10（针对区域语言优化、低延迟低成本实用；仅限特定语言，非开源）</td>
           </tr>
           <tr>
-            <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3</a></td>
-            <td>2026-10-13</td>
-            <td>Fish Audio 最新开放权重 TTS（35B MoE，约3B 活跃参数），支持自然语言指导情感/语气、中途切换声线、单字修复与音效。支持83种语言，在 Artificial Analysis 发音稳健性榜首（93.2%）。</td>
-            <td>是（Web/App/API 已上线，权重可从 HF 下载本地运行；Preview 阶段）</td>
-            <td>部分（开放权重，Fish Audio Community License；商业使用收入<$500K 免费，禁止未经同意克隆真人）</td>
-            <td>有声书、配音、语音 Agent、内容创作、多语言导演</td>
-            <td class="score">8.5/10（高度可控、多语言、可本地部署；许可证有限制，Preview 结果有波动）</td>
+            <td><a href="https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/" target="_blank">Meta Omnilingual ASR</a></td>
+            <td>2025-11-10（原发布）；2026-10-15（TIME 年度最佳发明认可）</td>
+            <td>开源 ASR 套件，覆盖 1600+ 语言（含约 500 种此前无 ASR 支持的低资源语言），模型从 300M 到 7B，支持社区用少量样本扩展新语言。Apache 2.0。</td>
+            <td>是（模型、代码、数据集在 GitHub/HF 可用，有 demo）</td>
+            <td>是（Apache 2.0）</td>
+            <td>低资源语言转录、字幕、多语言会议记录、社区语言保护与应用</td>
+            <td class="score">8/10（语言覆盖极广、可扩展性强、完全开源；对主流语言优势不明显，需根据场景选模型大小）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-15 监测：近 1-2 天亮点为 Grok Voice 3.0 登顶 Speech-to-Speech 榜单并开放API，以及 Neuphonic 强化词级精准控制与低延迟。Fish Audio Drama 3 继续展示开放权重高可控TTS的竞争力。主线趋势仍为实时语音Agent低延迟、词级/情感精准控制、开放权重与本地部署优先、多语言一致性。
+        10-16 监测：今日无重大全新发布。近 1-2 天亮点为 Fish Audio Drama 3 社区量化版大幅降低硬件门槛（约 10GB VRAM 可运行）、Sarvam Bulbul V4 Flash 优化印度语言低延迟低成本 TTS，以及 Meta Omnilingual ASR 获得 TIME 年度最佳发明认可。主线趋势仍为实时语音 Agent 低延迟、开放权重与本地/边缘部署优先、多语言一致性与低资源语言覆盖提升、情感/词级精准控制成为差异化关键。开源小模型与社区量化持续缩小与闭源商业方案的差距。
       </div>
     </div>
 
