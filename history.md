@@ -297,3 +297,17 @@
 - NEURA Neuron AI | https://neura-robotics.com/neuron-ai | https://neura-robotics.com/neura-robotics-introduces-neuron-ai/ | 2026-10-14
 - BrainChip Sequora | https://brainchip.com/ | https://brainchip.com/press/brainchip-launches-sequora-edge-ai-that-doesnt-just-recognize-it-understands-and-responds/ | 2026-10-14
 - Tether QVAC TranscribePsy | https://qvac.tether.io/blog/on-device-speech-recognition-transcribepsy | https://tether.io/news/tether-brings-on-device-speech-recognition-to-smart-glasses-and-humanoid-robots-as-smart-technology-moves-deeper-into-private-life/ | 2026-10-14
+## 2026-10-16
+- FF Nova / FF Nova Mini（法拉第未来 $2,490 / $299 人形机器人） | https://app-us.ff.com/ff-v3/news/1669?lang=en-US | https://thenextweb.com/news/faraday-future-nova-humanoid-robots | 2026-10-15
+- 汇川 Inovance InoBot W1（液冷轮式工业人形，CIIF） | https://pandaily.com/inovance-inobot-w1-liquid-cooled-wheeled-industrial-humanoid-robot-ciif-2026 | https://robottoday.com/industry-briefing/inovance-launches-inobot-w1-a-liquid-cooled-humanoid-for-industrial-use/15877 | 2026-10-15
+- TonoCard（3.2mm AI 代接电话卡，Kickstarter） | https://www.tonocard.com | https://www.einpresswire.com/article/944497780/tonocard-announces-october-15-kickstarter-launch-of-3-2-mm-ai-call-screening-device | 2026-10-15
+- Rogbid VisionMax（$139.99 AI 拍摄眼镜） | https://store.rogbid.com/en-jp/products/rogbid-visionmax | https://www.gizmochina.com/2026/10/14/rogbid-visionmax-smart-glasses-launched-specs-price/ | 2026-10-14
+- BOYA Notra Neo / Notra Nano（AI 录音卡 / 可穿戴记录器） | https://androidguys.com/news/boya-notra-neo-ai-note-taker-launches-with-140-languages/ | https://prodg.kr/boya-ai-boya-notra-nano-20261014/ | 2026-10-13
+- UDEXREAL NiniQuu（纯触感无联网毛绒伴侣，Kickstarter） | https://www.auganix.org/xr-news-udexreal-niniquu-ai-plush-companion/ | https://www.auganix.org/xr-news-udexreal-niniquu-ai-plush-companion/ | 2026-10-15
+- Ludens AI INU（掌上 AI 陪伴机器人，日本众筹） | https://prtimes.jp/main/html/rd/p/000000003.000175570.html | https://prtimes.jp/main/html/rd/p/000000003.000175570.html | 2026-10-16
+- XREAL One Pro Plus（$599，AI HDR） | https://www.xreal.com/ | https://www.ithome.com/1/014/137.htm | 2026-10-16
+- NVIDIA RTX Spark 笔记本开售（ASUS/Dell/HP/Lenovo/Microsoft/MSI） | https://www.globenewswire.com/news-release/2026/10/16/3382553/0/en/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs.html | https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions | 2026-10-16
+- Meta Muse Spark Open（816B-A42B 开源权重，双 Mac Studio 本地跑） | https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B | https://research.meta.ai/blog/muse-spark-open | 2026-10-15
+- Rokid × 腾讯出行 AI 眼镜原生打车 | https://www.ithome.com/1/013/964.htm | https://www.ithome.com/1/013/964.htm | 2026-10-16
+- Talanoa（端侧 AI 邮件客户端，PH 当日第一） | https://talanoa.email | https://www.producthunt.com/leaderboard/daily/2026/10/15 | 2026-10-15
+- Unitree G1+（旧项目突然火起来·日本开放预订） | https://www.unitree.com/G1pl/ | https://techshooked.com/unitree-g1-plus-humanoid-robot-preorder-japan | 2026-10-13
