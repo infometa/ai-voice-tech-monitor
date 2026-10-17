@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-16 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-14 至 10-16）</div>
+      <div class="meta">最后更新：2026-10-17 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-15 至 10-17）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大全新模型发布，以下为近期（近 1-2 天内有新动态或落地进展）值得关注的更新，已去重合并。主线仍为开放权重高可控 TTS 本地化、区域语言优化与多语言 ASR 覆盖提升。</p>
+      <p style="margin-bottom:16px;">近期（近 1-2 天）有多个可用更新：高智能语音到语音模型、开放权重高可控 TTS、完全本地化替代方案等。以下为去重合并后的重点。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,58 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3（及社区 drama3-small 量化版）</a></td>
-            <td>2026-10-13（主模型）；2026-10-15（社区低显存版）</td>
-            <td>Fish Audio 发布的 35B MoE（约 3B 活跃参数）开放权重 TTS，支持自然语言指导情感/语气、中途切换、单字修复、多说话人场景。社区将模型压缩至约 9.7GB，峰值约 10.3GB VRAM，可在 RTX 4070 级显卡运行，支持零样本克隆（3-30秒）、标签控制与中英混合。发音稳健性榜首（93.2%）。</td>
-            <td>是（官方 Web/App/API 已上线；权重在 HF；社区量化版可本地运行）</td>
-            <td>部分（开放权重，Fish Audio Community License；年收入 <$500K 免费商业使用；禁止未经同意克隆真人）</td>
-            <td>有声书、配音、内容创作、语音 Agent、多语言导演、本地部署</td>
-            <td class="score">8.5/10（高可控性与多语言强，本地化后易用性大幅提升；许可证有限制，大模型原版硬件要求高）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.sarvam.ai/blogs/bulbul-v4-flash" target="_blank">Sarvam AI Bulbul V4 Flash</a></td>
-            <td>2026-10-13/14</td>
-            <td>面向印度语言的高效 TTS，延迟 <250ms（生产环境），成本较 V3 降低约 33%（₹20/1万字符），支持 11 种语言（含印度英语与 Hinglish）、81+ 人设语音、更自然的情感与上下文处理。</td>
-            <td>是（API、Playground、Content Studio 已上线，兼容原接口）</td>
+            <td><a href="https://x.ai/news/grok-voice-3" target="_blank">Grok Voice 3.0 (xAI/SpaceXSI)</a></td>
+            <td>2026-10-14</td>
+            <td>语音到语音（Speech-to-Speech）模型，Artificial Analysis Speech-to-Speech Index 排名第一（86.9）。低延迟（平均首包约0.81s）、高任务成功率（94.8%）、优秀全双工交互。API 可用，已用于 Tesla 与 Starlink 客服。</td>
+            <td>是（Voice Agent API 已上线，$0.08/分钟）</td>
             <td>否（云 API）</td>
-            <td>印度市场客服电话、实时语音 Agent、IVR、多语言配音与内容</td>
-            <td class="score">8/10（针对区域语言优化、低延迟低成本实用；仅限特定语言，非开源）</td>
+            <td>客服语音 Agent、车载语音、实时对话、低延迟语音助手</td>
+            <td class="score">9/10（性能领先、已大规模落地、定价竞争力强；非开源，长通话成本需评估）</td>
           </tr>
           <tr>
-            <td><a href="https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/" target="_blank">Meta Omnilingual ASR</a></td>
-            <td>2025-11-10（原发布）；2026-10-15（TIME 年度最佳发明认可）</td>
-            <td>开源 ASR 套件，覆盖 1600+ 语言（含约 500 种此前无 ASR 支持的低资源语言），模型从 300M 到 7B，支持社区用少量样本扩展新语言。Apache 2.0。</td>
-            <td>是（模型、代码、数据集在 GitHub/HF 可用，有 demo）</td>
+            <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3</a></td>
+            <td>2026-10-13</td>
+            <td>35B MoE（约3B 活跃参数）开放权重 TTS，支持自然语言指导情感/语气、多说话人、单词编辑/音频修复、长形式一致性。83 语言，发音稳健性榜首（93.2%）。</td>
+            <td>是（Web/App/API 已上线；HF 权重可本地运行）</td>
+            <td>部分（开放权重，Fish Audio Community License；年收入 <$500K 免费商业）</td>
+            <td>有声书、配音、内容创作、语音导演、多语言场景</td>
+            <td class="score">8.5/10（高可控性与多语言优秀；许可证有限制，原版硬件要求较高）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
+            <td>近期爆火（2026-10-15/16 趋势，项目持续更新）</td>
+            <td>完全本地开源 ElevenLabs 替代方案，支持语音克隆、语音设计、视频配音、转录、有声书等，声称覆盖 646 语言。集成多种 TTS/ASR 引擎，桌面应用，数据不出本地。</td>
+            <td>是（GitHub 可下载运行，有桌面客户端）</td>
+            <td>是（AGPL-3.0）</td>
+            <td>本地隐私优先的配音、播客、视频配音、个人语音工作流</td>
+            <td class="score">8/10（完全免费本地、功能全面、星标高；语言覆盖宣传需实测验证，硬件依赖本地）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sdsds222/Unitale" target="_blank">Unitale</a></td>
+            <td>2026-10-15 左右高光推广</td>
+            <td>浏览器端开源 AI 有声书制作工具（MIT）。用 LLM 自动拆解剧本、识别情绪，集成 IndexTTS 与 Qwen3TTS 做多角色配音，自动混入音效/背景乐，可导出音频或带图视频。</td>
+            <td>是（浏览器直接使用，有 GitHub Pages demo）</td>
+            <td>是（MIT）</td>
+            <td>有声书、播客剧、儿童故事、短剧音频生产</td>
+            <td class="score">7.5/10（完整生产管线、零配置易用；依赖外部 TTS 服务质量，星标较少）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/meituan-longcat/LongCat-AudioDiT" target="_blank">LongCat-AudioDiT (Meituan)</a></td>
+            <td>模型较早；GitHub 2026-10-15 更新</td>
+            <td>开源波形潜空间扩散 TTS（1B/3.5B），直接波形建模达到 SOTA 零样本语音克隆（Seed 基准 SIM 领先）。MIT 协议。</td>
+            <td>是（代码与权重在 GitHub/HF，可推理）</td>
+            <td>是（MIT）</td>
+            <td>高保真语音克隆、语音合成研究与集成</td>
+            <td class="score">8/10（克隆性能优秀、完全开源；推理速度与硬件要求需注意）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/facebookresearch/omnilingual-asr" target="_blank">Meta Omnilingual ASR</a></td>
+            <td>2025-11 发布；2026-10-15 TIME 最佳发明认可</td>
+            <td>开源 ASR 套件，覆盖 1600+ 语言（含约 500 种低资源语言），300M-7B 模型，支持少样本扩展新语言。Apache 2.0。</td>
+            <td>是（模型/代码/数据集在 GitHub/HF 可用）</td>
             <td>是（Apache 2.0）</td>
-            <td>低资源语言转录、字幕、多语言会议记录、社区语言保护与应用</td>
-            <td class="score">8/10（语言覆盖极广、可扩展性强、完全开源；对主流语言优势不明显，需根据场景选模型大小）</td>
+            <td>低资源语言转录、多语言字幕、会议记录</td>
+            <td class="score">8/10（语言覆盖极广、完全开源；主流语言需对比性能）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +130,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        10-16 监测：今日无重大全新发布。近 1-2 天亮点为 Fish Audio Drama 3 社区量化版大幅降低硬件门槛（约 10GB VRAM 可运行）、Sarvam Bulbul V4 Flash 优化印度语言低延迟低成本 TTS，以及 Meta Omnilingual ASR 获得 TIME 年度最佳发明认可。主线趋势仍为实时语音 Agent 低延迟、开放权重与本地/边缘部署优先、多语言一致性与低资源语言覆盖提升、情感/词级精准控制成为差异化关键。开源小模型与社区量化持续缩小与闭源商业方案的差距。
+        2026-10-17 监测：语音 AI 持续向「真正可用」加速。亮点包括 Grok Voice 3.0 登顶语音到语音榜单并已规模落地客服、Fish Audio Drama 3 提供高可控导演式 TTS（开放权重）、VoiceStudio 等完全本地开源替代方案爆火、以及开源小型高保真克隆模型（如 LongCat-AudioDiT）。主线趋势：1) 低延迟实时语音 Agent 成为竞争主战场；2) 开放权重 + 社区量化/本地部署持续缩小与闭源差距；3) 多语言一致性、情感/词级精细控制、低资源语言覆盖成为差异化关键。开源小模型与端侧/本地方案正在让专业级语音能力更易获得。
       </div>
     </div>
 
