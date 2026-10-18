@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-17 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-15 至 10-17）</div>
+      <div class="meta">最后更新：2026-10-18 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-16 至 10-18）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期（近 1-2 天）有多个可用更新：高智能语音到语音模型、开放权重高可控 TTS、完全本地化替代方案等。以下为去重合并后的重点。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：空间音频理解模型开源、全双工语音 Agent、高可控开放权重 TTS 等。</p>
       <table>
         <thead>
           <tr>
@@ -70,13 +70,22 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.ai/news/grok-voice-3" target="_blank">Grok Voice 3.0 (xAI/SpaceXSI)</a></td>
-            <td>2026-10-14</td>
-            <td>语音到语音（Speech-to-Speech）模型，Artificial Analysis Speech-to-Speech Index 排名第一（86.9）。低延迟（平均首包约0.81s）、高任务成功率（94.8%）、优秀全双工交互。API 可用，已用于 Tesla 与 Starlink 客服。</td>
-            <td>是（Voice Agent API 已上线，$0.08/分钟）</td>
-            <td>否（云 API）</td>
-            <td>客服语音 Agent、车载语音、实时对话、低延迟语音助手</td>
-            <td class="score">9/10（性能领先、已大规模落地、定价竞争力强；非开源，长通话成本需评估）</td>
+            <td><a href="https://github.com/xiaomi-research/midashenglm-spatial" target="_blank">MiDashengLM-Spatial (小米)</a></td>
+            <td>2026-10-15/16</td>
+            <td>业界首个开源端到端空间音频理解大模型（基于 MiDashengLM-7B），支持双耳音频，能同时理解声音内容与声源方位/运动轨迹/多声源空间关系。STAR-Bench 空间推理达 70.3%。</td>
+            <td>是（权重与推理代码开源，有项目主页与评估代码）</td>
+            <td>是（Apache 2.0）</td>
+            <td>智能家居声源定位、车载座舱空间交互、机器人空间听觉、环境音频结构化</td>
+            <td class="score">8/10（空间能力独特且开源可商用；需双耳/多声道数据，部署成本中等）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/nineninesix-ai/tyger-s2s" target="_blank">TYGER / Tyger-S2S</a></td>
+            <td>2026-10-15</td>
+            <td>开放权重全双工语音 Agent 模型（基于 NVIDIA Nemotron ASR + 14M 参数决策头）。80ms 帧决定说话/让出/插话，支持打断、背景响应。可配任意 LLM+TTS，有完整本地实现与演示站。</td>
+            <td>是（HF 模型、GitHub 代码、网站 demo 均可用；可本地运行）</td>
+            <td>是（模型 OpenMDW，代码 Apache 相关）</td>
+            <td>实时语音对话 Agent、客服、伴侣应用、低延迟交互</td>
+            <td class="score">8.5/10（解决全双工痛点、开源可部署；英文为主，硬件要求中等）</td>
           </tr>
           <tr>
             <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3</a></td>
@@ -89,39 +98,12 @@
           </tr>
           <tr>
             <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
-            <td>近期爆火（2026-10-15/16 趋势，项目持续更新）</td>
+            <td>近期爆火（2026-10-17 趋势，项目持续更新）</td>
             <td>完全本地开源 ElevenLabs 替代方案，支持语音克隆、语音设计、视频配音、转录、有声书等，声称覆盖 646 语言。集成多种 TTS/ASR 引擎，桌面应用，数据不出本地。</td>
             <td>是（GitHub 可下载运行，有桌面客户端）</td>
             <td>是（AGPL-3.0）</td>
             <td>本地隐私优先的配音、播客、视频配音、个人语音工作流</td>
             <td class="score">8/10（完全免费本地、功能全面、星标高；语言覆盖宣传需实测验证，硬件依赖本地）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/sdsds222/Unitale" target="_blank">Unitale</a></td>
-            <td>2026-10-15 左右高光推广</td>
-            <td>浏览器端开源 AI 有声书制作工具（MIT）。用 LLM 自动拆解剧本、识别情绪，集成 IndexTTS 与 Qwen3TTS 做多角色配音，自动混入音效/背景乐，可导出音频或带图视频。</td>
-            <td>是（浏览器直接使用，有 GitHub Pages demo）</td>
-            <td>是（MIT）</td>
-            <td>有声书、播客剧、儿童故事、短剧音频生产</td>
-            <td class="score">7.5/10（完整生产管线、零配置易用；依赖外部 TTS 服务质量，星标较少）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/meituan-longcat/LongCat-AudioDiT" target="_blank">LongCat-AudioDiT (Meituan)</a></td>
-            <td>模型较早；GitHub 2026-10-15 更新</td>
-            <td>开源波形潜空间扩散 TTS（1B/3.5B），直接波形建模达到 SOTA 零样本语音克隆（Seed 基准 SIM 领先）。MIT 协议。</td>
-            <td>是（代码与权重在 GitHub/HF，可推理）</td>
-            <td>是（MIT）</td>
-            <td>高保真语音克隆、语音合成研究与集成</td>
-            <td class="score">8/10（克隆性能优秀、完全开源；推理速度与硬件要求需注意）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/facebookresearch/omnilingual-asr" target="_blank">Meta Omnilingual ASR</a></td>
-            <td>2025-11 发布；2026-10-15 TIME 最佳发明认可</td>
-            <td>开源 ASR 套件，覆盖 1600+ 语言（含约 500 种低资源语言），300M-7B 模型，支持少样本扩展新语言。Apache 2.0。</td>
-            <td>是（模型/代码/数据集在 GitHub/HF 可用）</td>
-            <td>是（Apache 2.0）</td>
-            <td>低资源语言转录、多语言字幕、会议记录</td>
-            <td class="score">8/10（语言覆盖极广、完全开源；主流语言需对比性能）</td>
           </tr>
         </tbody>
       </table>
@@ -130,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-17 监测：语音 AI 持续向「真正可用」加速。亮点包括 Grok Voice 3.0 登顶语音到语音榜单并已规模落地客服、Fish Audio Drama 3 提供高可控导演式 TTS（开放权重）、VoiceStudio 等完全本地开源替代方案爆火、以及开源小型高保真克隆模型（如 LongCat-AudioDiT）。主线趋势：1) 低延迟实时语音 Agent 成为竞争主战场；2) 开放权重 + 社区量化/本地部署持续缩小与闭源差距；3) 多语言一致性、情感/词级精细控制、低资源语言覆盖成为差异化关键。开源小模型与端侧/本地方案正在让专业级语音能力更易获得。
+        2026-10-18 监测：语音 AI 持续向「真正可用」加速。亮点包括小米 MiDashengLM-Spatial 开源空间音频理解（从「听懂」进一步到「理解空间」）、TYGER 提供开源全双工交互能力（解决传统语音 Agent 等待问题）、Fish Audio Drama 3 与 VoiceStudio 推动高可控与完全本地方案。主线趋势：1) 低延迟实时语音 Agent 与全双工成为竞争主战场；2) 开放权重 + 社区量化/本地部署持续缩小与闭源差距；3) 多语言一致性、情感/词级精细控制、空间听觉与低资源语言覆盖成为差异化关键。开源小模型与端侧/本地方案正在让专业级语音能力更易获得。
       </div>
     </div>
 
