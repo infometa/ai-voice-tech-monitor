@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-18 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-16 至 10-18）</div>
+      <div class="meta">最后更新：2026-10-19 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-17 至 10-19）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大全新发布（最近1-2天无全新模型/产品上线），以下为近期（主要10月13-17日）值得关注的可用更新。已去重并聚焦有API/demo/开源代码的实际技术。</p>
+      <p style="margin-bottom:16px;">今日有新可用性上线：Kotoba 语音 API 在 fal.ai 正式可用。以下为去重后的近期（10月17-19日）值得关注的实际可用技术/工具，聚焦有API/demo/开源代码的项目。</p>
       <table>
         <thead>
           <tr>
@@ -70,49 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://x.ai/news/grok-voice-3" target="_blank">Grok Voice 3.0 (xAI/SpaceXSI)</a></td>
-            <td>2026-10-14</td>
-            <td>世界领先的speech-to-speech模型，Artificial Analysis Speech-to-Speech Index第1（86.9分），全双工处理优秀（Full Duplex Bench 97%），延迟低于1秒，成本$0.08/分钟。支持中断、自然对话，已用于Starlink客服等。</td>
-            <td>是（API、Voice Agent Builder、Grok App已上线）</td>
-            <td>否</td>
-            <td>实时客服、语音助手、电话自动化、多语言对话</td>
-            <td class="score">9/10（性能与性价比顶尖，落地成熟；闭源依赖API）</td>
+            <td><a href="https://fal.ai/models?query=kotoba" target="_blank">Kotoba Speech APIs (fal.ai)</a></td>
+            <td>2026-10-19</td>
+            <td>实时语音API上线fal：支持流式STT、TTS、语音到语音翻译（低延迟）。强于东亚语言（日/韩/中），预设声音，可实时输出文本+音频。</td>
+            <td>是（fal playground与API可用，有Python SDK）</td>
+            <td>否（API服务）</td>
+            <td>实时多语言翻译、东亚语言语音助手、会议字幕、客服</td>
+            <td class="score">8/10（实时可用、语言优势明显；性能需独立验证，偏东亚）</td>
           </tr>
           <tr>
-            <td><a href="https://fish.audio/blog/fish-audio-drama-3/" target="_blank">Fish Audio Drama 3</a></td>
-            <td>2026-10-13</td>
-            <td>35B MoE（约3B活跃）TTS，支持自然语言指导情感/语气/多说话人、单词级编辑、长形式一致性。83语言，发音稳健性榜首（93.2%）。开放权重。</td>
-            <td>是（Web/App/API上线；HF权重可本地运行，SGLang-Omni支持）</td>
-            <td>部分（开放权重，Fish Audio Community License；年收入<$500K免费商业）</td>
-            <td>有声书、配音、内容创作、语音导演、多语言场景</td>
-            <td class="score">8.5/10（高可控性与多语言优秀；许可证有限制，原版需较大GPU）</td>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
+            <td>近期热议（最新release 9月23日，10-18社区高赞）</td>
+            <td>开源本地桌面端语音工作室（ElevenLabs替代）：零样本克隆、语音设计、视频配音、听写、转写、有声书。支持646语言，本地API+MCP。</td>
+            <td>是（一键安装包、GitHub高星～75k、本地运行）</td>
+            <td>是（AGPL-3.0）</td>
+            <td>本地隐私克隆/配音、内容创作、Agent集成、多语言工作流</td>
+            <td class="score">8.5/10（完全本地、功能丰富、易用；质量依引擎，许可证对商用有要求）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/nineninesix-ai/tyger-s2s" target="_blank">TYGER / Tyger-S2S</a></td>
             <td>2026-10-15/17</td>
-            <td>开放权重全双工ASR+turn-control模型（Nemotron ASR + 14M决策头）。80ms帧决定说话/让出/插话，支持打断与背景响应。可配任意LLM+TTS，有完整本地实现与demo。</td>
+            <td>开放权重全双工语音Agent：Nemotron ASR + 14M决策头。80ms帧决定说话/让出/插话（mm-hm），支持打断。可配任意LLM+TTS，完整本地实现与demo。</td>
             <td>是（HF模型、GitHub代码、网站demo可用；可本地运行）</td>
-            <td>是（模型OpenMDW，代码相关Apache）</td>
+            <td>是（模型OpenMDW，代码Apache相关）</td>
             <td>实时语音对话Agent、客服、伴侣应用、低延迟交互</td>
-            <td class="score">8.5/10（解决全双工痛点、开源可部署；英文为主，硬件中等）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/KittenML/KittenTTS" target="_blank">KittenTTS 2</a></td>
-            <td>约2026-10上旬（近期活跃）</td>
-            <td>1.7B ternary TTS，CPU实时运行，5-30秒零样本语音克隆，47内置音色，20语言，表情控制。提供API与本地库。</td>
-            <td>是（pip安装、API、C++推理可用）</td>
-            <td>部分（代码Apache 2.0，权重Stellon Labs Community License有商业限制）</td>
-            <td>边缘设备TTS、本地隐私克隆、轻量语音应用</td>
-            <td class="score">8/10（CPU友好、易用；许可证限制，多语言需注意）</td>
-          </tr>
-          <tr>
-            <td><a href="https://openai.com" target="_blank">GPT-Live-1.1 (OpenAI)</a></td>
-            <td>2026-10-15</td>
-            <td>GPT-Live系列更新，全双工语音模型，更好的多语言口音与自然度，13个新声音（覆盖法/德/印地/日等）。减少填充词，ChatGPT/Codex/dots已上线。</td>
-            <td>是（产品内已上线；API即将跟进）</td>
-            <td>否</td>
-            <td>语音助手、多语言对话、实时交互</td>
-            <td class="score">8.5/10（自然度与多语言提升明显；闭源，API延迟待确认）</td>
+            <td class="score">8.5/10（解决全双工痛点、开源可部署；英文为主，硬件要求中等）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-18 监测：语音 AI 持续向「真正可用」加速。低延迟全双工speech-to-speech与Agent成为主战场（Grok Voice 3.0、GPT-Live-1.1、TYGER）；开放权重+本地/边缘部署持续缩小与闭源差距（Drama 3、KittenTTS 2、TYGER）；多语言一致性、情感/词级精细控制、性价比优化是差异化关键。开源小模型与API成本下降让专业级语音能力更易获得。
+        2026-10-19 监测：语音 AI 继续向低延迟全双工与实时多语言加速。今日Kotoba在fal上线强化东亚语言实时翻译与语音处理；开源本地工具如VoiceStudio获得高关注，让专业级克隆/配音在消费级硬件上可行；TYGER等推动真正对话式交互。整体趋势：低延迟流式、开源/本地优先、多语言一致性与专项优化（尤其亚洲语言）、API易访问性提升。
       </div>
     </div>
 
