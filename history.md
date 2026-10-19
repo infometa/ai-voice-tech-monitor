@@ -311,3 +311,33 @@
 - Rokid × 腾讯出行 AI 眼镜原生打车 | https://www.ithome.com/1/013/964.htm | https://www.ithome.com/1/013/964.htm | 2026-10-16
 - Talanoa（端侧 AI 邮件客户端，PH 当日第一） | https://talanoa.email | https://www.producthunt.com/leaderboard/daily/2026/10/15 | 2026-10-15
 - Unitree G1+（旧项目突然火起来·日本开放预订） | https://www.unitree.com/G1pl/ | https://techshooked.com/unitree-g1-plus-humanoid-robot-preorder-japan | 2026-10-13
+
+## 2026-10-17
+- HooRii StageGo（口袋/桌面 AI 代理语音设备，约 $100，11 月初 KS 预热） | https://hoorii.io | https://fortune.com/press-releases/hoorii-stagego-personal-ai-agents-desk-pocket-2026-10-15/ | 2026-10-15
+- 跃然创新「光之召唤」奥特曼 AI 互动对话器（¥599 开售） | https://www.163.com/tech/article/L99E1GUD00098IEO.html | https://stock.10jqka.com.cn/20261015/c680721893.shtml | 2026-10-15
+- 骅羲科技 HT-X2 居家具身养老机器人（上市 10 天预订 1058 台） | 官网未核实 | https://finance.sina.com.cn/roll/2026-10-16/doc-inivmprm8402215.shtml | 2026-10-16
+- Rice Robotics TOMO（轮式教育人形） | 官网未核实 | https://robot24.com/rice-robotics-debuts-education-humanoid-joins-hk-s-ai-hub | 2026-10-15
+- Sipeed MaixStation（AX8860 + 128GB 本地 LLM 主机，预计 $3,999，年底 KS） | https://sipeed.com | https://thequantumdispatch.com/articles/sipeed-maixstation-ax8860-128gb-local-ai | 2026-10-15
+- NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB | https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB | https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/ | 2026-10-15
+- MiniCPM-V 4.7（35B-A3B / 1B 端侧多模态） | https://github.com/OpenBMB | https://www.prnewswire.com/news-releases/modelbest-and-openbmb-launch-minicpm-v-4-7--bringing-a-35b-multimodal-moe-model-to-phones-and-tablets-with-about-3-gb-of-memory-302909881.html | 2026-10-15
+- PrismML Bonsai 2 2B/4B/9B（三元权重小模型） | https://prismml.com/ | https://www.tokenpost.com/news/technology/33424 | 2026-10-15
+- 腾讯混元 Hy-Memory 2.0 + MemHub | https://memory.hunyuan.tencent.com/ | https://github.com/Tencent-Hunyuan/Hy-Memory | 2026-10-16
+- 宇树 UniUni 集群控制软件 | https://uniuni.unitree.com/ | https://pandaily.com/unitree-uniuni-swarm-control-system-free-desktop-app-h2-g1-humanoids-choreography | 2026-10-16
+- Harness by Autonomous（PH 当日第二，含常亮桌面屏设备） | https://autonomous.ai | https://hunted.space/product/harness-by-autonomous | 2026-10-16
+- kubi 2.0（旧项目新进展·日本正式发售，首批 300 台） | https://ipresence.jp/kubi2/ | https://prtimes.jp/main/html/rd/p/000000015.000069565.html | 2026-10-15
+
+## 2026-10-18
+- Wooask × SKY 익스펜션 SKY Edition（三款 AI 同传耳机，韩国开售） | 官网未核实 | https://www.enetnews.co.kr/news/articleView.html?idxno=55338 | 2026-10-16
+- NeodraDynamics Neo1（4 米 1.2 吨液电混合重载人形，CIIF 演示，补收） | 官网未核实 | https://www.prnewswire.com/news-releases/neodradynamics-showcases-4-meter--1-2-ton-neo1-heavy-duty-hydraulic-robot-with-jd-industrial-at-ciif-hydraulicelectric-hybrid-solves-realworld-4d-industrial-challenges-302908332.html | 2026-10-14
+- MemoMind One（旧项目新进展·正式预售 ¥2,699） | https://www.memo-mind.com/pages/memomind-one | https://www.metaversewatcher.io/xgimi-memomind-one-china-presale-2699-yuan-camera-free-auto-meeting-memory-october-15/ | 2026-10-15
+- 微信输入法 AI 录音笔（Windows 3.0 上线） | https://weixin.qq.com/ | https://www.woshipm.com/ai/6479316.html | 2026-10-16
+- Parrot（开源 Mac 会中会议助手，PH） | https://github.com/turantekin/Parrot | https://www.producthunt.com/products/parrot-10 | 2026-10-17
+- NVIDIA Nemotron Labs Dory1.0-4B（循环层小模型） | https://huggingface.co/collections/nvidia/nemotron-labs-dory | https://openmodelweights.com/news/nvidia-dory-4b-looped-reasoning-weights-20261017/ | 2026-10-16
+- StepFun Step 5 Preview（600B-A27B 开放权重，PH） | https://huggingface.co/stepfun-ai/Step-5-Preview | https://www.producthunt.com/leaderboard/daily/2026/10/17 | 2026-10-15
+- Emochi（语音日记 App，PH 当日第四） | https://www.kente-labs.com/emochi/ | https://hunted.space/product/emochi-2 | 2026-10-17
+
+## 2026-10-19
+- 李未可 Lawaken X-AI 记忆眼镜（国内预售 ¥699 起） | https://www.lawaken.com/ | https://www.ithome.com/1/014/477.htm | 2026-10-18
+- Figurobot FR-NIA（11 寸仿生表情桌面伴侣，新闻稿称 KS 开众筹早鸟 $599 起；官网仍有预约定金） | https://us.figurobot.com/products/nia-bionic-facial-robot | https://www.globenewswire.com/news-release/2026/10/19/3383018/0/en/figurobot-launches-fr-nia-a-11-inch-bionic-ai-companion-robot-bringing-intelligent-interaction-into-everyday-life.html | 2026-10-19
+- Beam.win（跨 Mac 把 agent 窗口搬到眼前，PH 当日第一） | https://beam.win | https://www.producthunt.com/leaderboard/daily/2026/10/19 | 2026-10-19
+- walkai-talkai（对讲机遥控本机 coding agent，本地 Whisper） | https://walkai-talkai.com | https://www.producthunt.com/products/walkai-talkai | 2026-10-19
