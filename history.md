@@ -341,3 +341,18 @@
 - Figurobot FR-NIA（11 寸仿生表情桌面伴侣，新闻稿称 KS 开众筹早鸟 $599 起；官网仍有预约定金） | https://us.figurobot.com/products/nia-bionic-facial-robot | https://www.globenewswire.com/news-release/2026/10/19/3383018/0/en/figurobot-launches-fr-nia-a-11-inch-bionic-ai-companion-robot-bringing-intelligent-interaction-into-everyday-life.html | 2026-10-19
 - Beam.win（跨 Mac 把 agent 窗口搬到眼前，PH 当日第一） | https://beam.win | https://www.producthunt.com/leaderboard/daily/2026/10/19 | 2026-10-19
 - walkai-talkai（对讲机遥控本机 coding agent，本地 Whisper） | https://walkai-talkai.com | https://www.producthunt.com/products/walkai-talkai | 2026-10-19
+
+## 2026-10-20
+- 2026-10-20 | 讯飞 AI 录音环（磁吸手机环形 AI 录音设备，¥1,299 / 听见会员版 ¥1,099） | https://www.ithome.com/1/014/953.htm
+- 2026-10-20 | 空灵 AI 语音戒指（双击录音、长按唤醒 AI，支持自定义模型 API） | https://finance.sina.cn/2026-10-18/detail-inivqimv7001416.d.html?vt=4
+- 2026-10-20 | Cephalon Lucy AI Studio（本地 AI + NAS 一体机，Kickstarter 上线） | https://x.com/CephalonAI/status/2112544805880504535 | https://www.xda-developers.com/cephalon-lucy-ai-studio/
+- 2026-10-20 | Synaptics Astra SR200 系列 xMCU（Google Coral NPU，面向 AI 可穿戴） | https://investor.synaptics.com/news-releases/news-release-details/synaptics-launches-xmcutm-era-astrar-sr200-series-multimodal
+- 2026-10-20 | Samsung Galaxy Buds On（耳夹式，免手 Gemini Live，韩国 10/27 开售） | https://www.ajupress.com/view/20261020113270099 | https://www.androidauthority.com/samsung-galaxy-buds-on-3717717/
+- 2026-10-20 | Rayove Watch（AI 翻译手表，Kickstarter） | https://presswire.com/release/a-watch-that-acts-as-an-interpreter-introducing-the-rayove-watch-a-smartwatch-featuring-online-ai-translation-in-73-languages-and-camera-based-ocr-translation/
+- 2026-10-20 | Menlo Research Asimov 1（$20,000 开源人形机器人套件，PH 上架） | https://menlo.ai/asimov-1 | https://www.producthunt.com/products/asimov-1
+- 2026-10-20 | 乐鑫 ESP-Mosaico（ESP32-S31 面向编程 agent 的模块化开发板，PH 上架） | https://mosaico.espressif.com/ | https://www.producthunt.com/products/esp-mosaico
+- 2026-10-20 | PHYBOT PhyHand（23 自由度直驱灵巧手，广交会首秀） | https://pandaily.com/phybot-phyhand-23-dof-direct-drive-dexterous-hand-canton-fair-phybot-c-humanoid-double-fish
+- 2026-10-20 | Wajo Fo MCP（让 AI agent 控制台灯/扫地机等实体设备） | https://wajo.ai/docs/mcp-server.md | https://agihunt.info/en/p/1a1553c3a75a674f4dd07b58879
+- 2026-10-20 | Dream Labs Dream-1 / Dream API（跨机器人零样本基础模型公开 API） | https://dreamlabs.ai/research/dream-1/ | https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots
+- 2026-10-20 | CleanYourTV（AI 编程助手通过 ADB 给安卓电视去广告，开源爆火） | https://cleanyour.tv/ | https://github.com/Gathin23/cleanyourtv
+- 2026-10-20 | Snap Specs（旧项目突然火起来·小罗伯特·唐尼出任荣誉 CCEO，电视广告首播） | https://specs.com/ | https://newsroom.snap.com/robert-downey-jr-joins-specs-as-cceo
