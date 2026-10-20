@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-19 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-17 至 10-19）</div>
+      <div class="meta">最后更新：2026-10-20 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-18 至 10-20）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日有新可用性上线：Kotoba 语音 API 在 fal.ai 正式可用。以下为去重后的近期（10月17-19日）值得关注的实际可用技术/工具，聚焦有API/demo/开源代码的项目。</p>
+      <p style="margin-bottom:16px;">今日有重大新发布：Ant Group / inclusionAI 于2026-10-19开源 Ming-3.0 语音模型家族（含TTS、ASR、Audio）。以下为去重后的实际可用技术。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,13 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://fal.ai/models?query=kotoba" target="_blank">Kotoba Speech APIs (fal.ai)</a></td>
+            <td><a href="https://github.com/inclusionAI/Ming-3.0-tts" target="_blank">Ming-3.0 TTS 系列（Ant Group / inclusionAI）</a><br><small>同时发布ASR与Audio模型</small></td>
             <td>2026-10-19</td>
-            <td>实时语音API上线fal：支持流式STT、TTS、语音到语音翻译（低延迟）。强于东亚语言（日/韩/中），预设声音，可实时输出文本+音频。</td>
-            <td>是（fal playground与API可用，有Python SDK）</td>
-            <td>否（API服务）</td>
-            <td>实时多语言翻译、东亚语言语音助手、会议字幕、客服</td>
-            <td class="score">8/10（实时可用、语言优势明显；性能需独立验证，偏东亚）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a></td>
-            <td>近期热议（最新release 9月23日，10-18社区高赞）</td>
-            <td>开源本地桌面端语音工作室（ElevenLabs替代）：零样本克隆、语音设计、视频配音、听写、转写、有声书。支持646语言，本地API+MCP。</td>
-            <td>是（一键安装包、GitHub高星～75k、本地运行）</td>
-            <td>是（AGPL-3.0）</td>
-            <td>本地隐私克隆/配音、内容创作、Agent集成、多语言工作流</td>
-            <td class="score">8.5/10（完全本地、功能丰富、易用；质量依引擎，许可证对商用有要求）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/nineninesix-ai/tyger-s2s" target="_blank">TYGER / Tyger-S2S</a></td>
-            <td>2026-10-15/17</td>
-            <td>开放权重全双工语音Agent：Nemotron ASR + 14M决策头。80ms帧决定说话/让出/插话（mm-hm），支持打断。可配任意LLM+TTS，完整本地实现与demo。</td>
-            <td>是（HF模型、GitHub代码、网站demo可用；可本地运行）</td>
-            <td>是（模型OpenMDW，代码Apache相关）</td>
-            <td>实时语音对话Agent、客服、伴侣应用、低延迟交互</td>
-            <td class="score">8.5/10（解决全双工痛点、开源可部署；英文为主，硬件要求中等）</td>
+            <td>0.5B dense与Tiny MoE（7.9B/1.3B激活）TTS：支持零样本语音克隆、文字语音设计、自由形式控制、情绪/语速/音高，内联笑声、叹息等语调标签；7种语言+川普/粤语。44.1kHz。AA Controlled Voice 开源第1（1069 Elo）。配套ASR-tiny（方言+上下文）与Audio模型（理解+工具调用+对话）。</td>
+            <td>是（HF/GitHub权重与推理代码、Cookbook、Demo站、vLLM/SGLang支持；已有浏览器WASM编译示例）</td>
+            <td>是（MIT许可证）</td>
+            <td>本地语音助手、角色配音、有声书/播客、多语言内容、全栈语音Agent（听+理解+说）、方言识别</td>
+            <td class="score">9/10（小模型性能强、控制细腻度高、完全开源易部署、榜单领先；硬件要求依模型规模，Tiny较高）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +85,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-19 监测：语音 AI 继续向低延迟全双工与实时多语言加速。今日Kotoba在fal上线强化东亚语言实时翻译与语音处理；开源本地工具如VoiceStudio获得高关注，让专业级克隆/配音在消费级硬件上可行；TYGER等推动真正对话式交互。整体趋势：低延迟流式、开源/本地优先、多语言一致性与专项优化（尤其亚洲语言）、API易访问性提升。
+        2026-10-20 监测：开源语音模型进一步成熟，小型高性能TTS（0.5B级）已能达到开源榜单第一，并支持细粒度控制（语调、情绪、文字设计）与多语言一致性。全栈开源（ASR+Audio理解+TTS）使得本地语音Agent可行；浏览器端WASM部署开始出现。整体趋势：低延迟控制型合成、开源小模型优势扩大、本地/私有优先、多语言与方言支持加强。
       </div>
     </div>
 
