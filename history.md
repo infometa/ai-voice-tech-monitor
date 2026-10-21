@@ -356,3 +356,12 @@
 - 2026-10-20 | Dream Labs Dream-1 / Dream API（跨机器人零样本基础模型公开 API） | https://dreamlabs.ai/research/dream-1/ | https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots
 - 2026-10-20 | CleanYourTV（AI 编程助手通过 ADB 给安卓电视去广告，开源爆火） | https://cleanyour.tv/ | https://github.com/Gathin23/cleanyourtv
 - 2026-10-20 | Snap Specs（旧项目突然火起来·小罗伯特·唐尼出任荣誉 CCEO，电视广告首播） | https://specs.com/ | https://newsroom.snap.com/robert-downey-jr-joins-specs-as-cceo
+
+## 2026-10-21
+- AiMOGA MOBO（奇瑞 0.9 米家庭陪伴人形，全球开放预订） | 官网未核实 | https://autonews.gasgoo.com/articles/news/cherys-aimoga-opens-global-pre-orders-for-mobo-home-companion-humanoid-2112844054328393729 | 2026-10-21
+- Dunyaverse Plato（$199 气声语音 AI 戒指，预订，12 月首批） | https://theresanaiforthat.com/device/plato-ring/ | https://agihunt.info/p/1a15a7fe76b7aa1a0abf88f78ef | 2026-10-21
+- Tuesday Labs Voxel Series-1（双足家务人形，$200 预约，约 $20,000，2028 交付） | 官网未核实 | https://interestingengineering.com/ai-robotics/voxel-humanoid-robot-to-find-lost-items | 2026-10-21
+- Agile Robots Agile ONE SN（NVIDIA GTC Berlin 参考人形，2027 初可得） | https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data | https://www.unite.ai/nvidia-expands-isaac-platform-with-agile-one-sn-reference-humanoid/ | 2026-10-21
+- 宇树 H2-X「功夫传奇·守护者」（安保向人形演示视频） | https://www.unitree.com/ | https://www.techradar.com/ai-platforms-assistants/unitree-reveals-its-h2-x-bodyguard-robot-a-kung-fu-humanoid-with-an-8-hour-battery-life-and-some-serious-martial-arts-skills | 2026-10-21
+- TwinMind for Desktop（Mac/Windows 会议转写+随处听写，PH 当日第五） | https://twinmind.com | https://www.producthunt.com/products/twinmind | 2026-10-21
+- Hugging Face AnyLanguageModel 1.0（Apple 平台本地模型统一 Swift API） | https://github.com/huggingface/AnyLanguageModel | https://huggingface.co/blog/anylanguagemodel-1-0 | 2026-10-20
