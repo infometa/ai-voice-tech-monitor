@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-20 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-18 至 10-20）</div>
+      <div class="meta">最后更新：2026-10-21 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-19 至 10-21）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日有重大新发布：Ant Group / inclusionAI 于2026-10-19开源 Ming-3.0 语音模型家族（含TTS、ASR、Audio）。以下为去重后的实际可用技术。</p>
+      <p style="margin-bottom:16px;">今日有重大新发布：Gradium 开源 Phonon 端侧超小TTS（2026-10-20）；Kyutai 发布 Pocket TTS 极小模型版本（2026-10-20）。以下为去重后的实际可用技术。</p>
       <table>
         <thead>
           <tr>
@@ -70,13 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/inclusionAI/Ming-3.0-tts" target="_blank">Ming-3.0 TTS 系列（Ant Group / inclusionAI）</a><br><small>同时发布ASR与Audio模型</small></td>
-            <td>2026-10-19</td>
-            <td>0.5B dense与Tiny MoE（7.9B/1.3B激活）TTS：支持零样本语音克隆、文字语音设计、自由形式控制、情绪/语速/音高，内联笑声、叹息等语调标签；7种语言+川普/粤语。44.1kHz。AA Controlled Voice 开源第1（1069 Elo）。配套ASR-tiny（方言+上下文）与Audio模型（理解+工具调用+对话）。</td>
-            <td>是（HF/GitHub权重与推理代码、Cookbook、Demo站、vLLM/SGLang支持；已有浏览器WASM编译示例）</td>
+            <td><a href="https://github.com/gradium-ai/xn-ptts" target="_blank">Phonon（Gradium）</a><br><small>HF: gradium/phonon-31m-en</small></td>
+            <td>2026-10-20</td>
+            <td>端侧超小TTS模型家族（<50M参数，最小Phonon-31m）。极低延迟（约10ms首字节）、高自然度与发音准确度（尤其难文本）、支持多语言版本；可在手机、浏览器（WebGPU）、CPU上运行，无需云端。</td>
+            <td>是（HF权重、GitHub推理代码、Transformers支持、speech-to-speech集成、浏览器demo、MLX/CoreML等）</td>
+            <td>是（Phonon-31m为Apache 2.0；更大模型为CC BY-NC 4.0非商用）</td>
+            <td>本地实时语音助手、离线应用、浏览器端TTS、移动端嵌入、隐私优先场景</td>
+            <td class="score">9/10（极小体积+超低延迟+开源易部署；自然度对尺寸表现优秀，商用需注意许可证）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/kyutai-labs/pocket-tts" target="_blank">Kyutai Pocket TTS 小型版本</a><br><small>18.2M / 6.9M / 1.9M</small></td>
+            <td>2026-10-20</td>
+            <td>原约100M CPU端TTS进一步压缩至18.2M/6.9M/1.9M参数版本，支持语音克隆与流式；1.9M模型单核CPU可达约103倍实时。质量接近原版（18.2M旗舰）。</td>
+            <td>是（HF权重、GitHub代码与二进制、PyPI、在线demo）</td>
             <td>是（MIT许可证）</td>
-            <td>本地语音助手、角色配音、有声书/播客、多语言内容、全栈语音Agent（听+理解+说）、方言识别</td>
-            <td class="score">9/10（小模型性能强、控制细腻度高、完全开源易部署、榜单领先；硬件要求依模型规模，Tiny较高）</td>
+            <td>CPU-only本地TTS、嵌入式/边缘设备、低功耗语音合成、克隆配音</td>
+            <td class="score">8.5/10（极致轻量与速度、CPU友好、克隆支持；小模型质量有权衡，多语言主要在较大版本）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/inclusionAI/Ming-3.0-tts" target="_blank">Ming-3.0 TTS/ASR/Audio（inclusionAI / Ant Group）</a><br><small>全栈家族</small></td>
+            <td>2026-10-19</td>
+            <td>开源全栈语音家族：0.5B TTS支持语音设计、短音频克隆、内联副语言标签（笑声/叹息等）、7语言+方言；Tiny MoE版适合长篇/多说话人。配套方言+上下文ASR与音频理解模型。AA榜单开源领先。</td>
+            <td>是（HF/ModelScope权重、GitHub推理代码、Cookbook、vLLM/SGLang支持、Demo）</td>
+            <td>是（MIT许可证）</td>
+            <td>本地语音Agent全栈、角色配音/有声书、多语言内容、方言识别、可控合成</td>
+            <td class="score">9/10（控制细腻、榜单强、完全开源；不同规模硬件需求差异大）</td>
           </tr>
         </tbody>
       </table>
@@ -85,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-20 监测：开源语音模型进一步成熟，小型高性能TTS（0.5B级）已能达到开源榜单第一，并支持细粒度控制（语调、情绪、文字设计）与多语言一致性。全栈开源（ASR+Audio理解+TTS）使得本地语音Agent可行；浏览器端WASM部署开始出现。整体趋势：低延迟控制型合成、开源小模型优势扩大、本地/私有优先、多语言与方言支持加强。
+        2026-10-21 监测：端侧与超小模型快速成熟，Phonon与Pocket TTS将低延迟、CPU/浏览器可运行的高质量TTS推向新低参数门槛；开源全栈（ASR+理解+TTS）使本地语音Agent更可行；细粒度控制（副语言标签、语音设计）与多语言/方言一致性持续加强，同时隐私优先与零云端成本成为关键卖点。
       </div>
     </div>
 
