@@ -365,3 +365,13 @@
 - 宇树 H2-X「功夫传奇·守护者」（安保向人形演示视频） | https://www.unitree.com/ | https://www.techradar.com/ai-platforms-assistants/unitree-reveals-its-h2-x-bodyguard-robot-a-kung-fu-humanoid-with-an-8-hour-battery-life-and-some-serious-martial-arts-skills | 2026-10-21
 - TwinMind for Desktop（Mac/Windows 会议转写+随处听写，PH 当日第五） | https://twinmind.com | https://www.producthunt.com/products/twinmind | 2026-10-21
 - Hugging Face AnyLanguageModel 1.0（Apple 平台本地模型统一 Swift API） | https://github.com/huggingface/AnyLanguageModel | https://huggingface.co/blog/anylanguagemodel-1-0 | 2026-10-20
+
+## 2026-10-22
+- INMO GO3（双目 MicroLED AI 眼镜，Gemini/ChatGPT，98 语翻译，可换电池，$509 开售） | https://www.inmo.com/ | https://9to5google.com/2026/10/21/inmo-go3-smart-glasses-pack-a-display-and-gemini-integration-with-clever-camera-privacy/ | 2026-10-21
+- Memoket Gem（11g 可挂 Apple Watch 的 AI 录音器，日本正式发布） | https://memoket.ai/ | https://memoket.ai/blogs/news/memoket-japan-launch-tokyo-2026 | 2026-10-21
+- Plaud One（eSIM 充电盒 AI 录音耳机，日本发布，预定价 ¥44,000） | https://www.plaud.ai/blogs/news/meet-plaud-one-wearable-ai | https://aipicks.jp/news/20261022-plaud-ai-plaud-one-44-000 | 2026-10-21
+- Alloop Trio（手环/戒指可组合的模块化 AI 健康穿戴） | 官网未核实 | https://offscreenspace.com/news/alloop-launches-modular-ai-powered-health-wearable-trio-149761 | 2026-10-21
+- 百度搭子 × 联想开天 全栈国产通用智能体 AI 工作站 | 官网未核实 | https://finance.eastmoney.com/a/202610213902566143.html | 2026-10-21
+- Recursive Flint（Apache-2.0 开放权重对话模型，262K 上下文，4-bit 约 26GB） | https://huggingface.co/RecursiveSI/flint | https://theopenweights.com/news/flint-fhnt | 2026-10-21
+- KRAFTON Raon-1 mini preview（30B-A4B MoE，Apache-2.0，附 GGUF） | https://huggingface.co/KRAFTON/Raon-1-mini-preview | https://raon-mini.krafton.ai/en | 2026-10-21
+- UseIt Studio（AI 设计实体可印刷品，PH 当日第一） | https://useit.im | https://www.producthunt.com/leaderboard/daily/2026/10/21 | 2026-10-21
