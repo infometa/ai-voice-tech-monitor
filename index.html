@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-22 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-20 至 10-22）</div>
+      <div class="meta">最后更新：2026-10-23 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-20 至 10-23）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：Mistral Voxtral 3、Scaled Cognition Voice 与 Ming-3.0 家族等。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：Gradium Phonon、Mistral Voxtral 3、Ming-3.0 家族与 Scaled Cognition Voice 等。</p>
       <table>
         <thead>
           <tr>
@@ -70,40 +70,40 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://mistral.ai/news/voxtral-3/" target="_blank">Mistral Voxtral 3</a><br><small>语音Agent SDK + STT/TTS</small></td>
-            <td>2026-10-20</td>
-            <td>Mistral发布的实时语音套件：支持50+语言转写（含实时<500ms、说话人标注）、35+语言/方言TTS（情感/节奏控制、Pro Voice克隆30分钟参考），以及基于LiveKit的Voice Agent SDK（监听+推理+工具调用+说话，单轮<1s）。低成本API。</td>
-            <td>是（API公开预览，EU/US/global端点；自托部联系销售；Studio可试用）</td>
-            <td>部分（STT权重可能开放，TTS为非商用或需许可；无公开HF权重）</td>
-            <td>客服语音Agent、实时会话、多语言联系中心、企业工具调用语音助手</td>
-            <td class="score">8.5/10（低延迟全栈、多语言强、价格友好；开源不完整，自托需联系）</td>
+            <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Gradium Phonon</a><br><small>端侧微型 TTS</small></td>
+            <td>2026-10-20/21</td>
+            <td>超轻量端侧 TTS 家族（31M/40M 参数，~64MB），完全离线运行于手机/笔记本/嵌入式/浏览器。英语等 5 语言，极低延迟（CPU ~7ms TTFA），支持流式。</td>
+            <td>是（HF 权重、GitHub 推理代码、Python/Rust/JS/Swift、Transformers 支持、demo）</td>
+            <td>是（31M 英语 Apache 2.0；40M 为 CC BY-NC）</td>
+            <td>离线助手、移动 App、无障碍、车载/嵌入式、隐私优先语音输出</td>
+            <td class="score">9/10（极致轻量快速、完全离线、易集成；多语言商用需许可）</td>
           </tr>
           <tr>
-            <td><a href="https://www.scaledcognition.com/" target="_blank">Scaled Cognition Voice</a><br><small>企业CX TTS</small></td>
+            <td><a href="https://mistral.ai/news/voxtral-3/" target="_blank">Mistral Voxtral 3</a><br><small>语音 Agent SDK + STT/TTS</small></td>
             <td>2026-10-20</td>
-            <td>专为企业客户体验设计的TTS：70ms首音频延迟、25+语言、语音克隆、优秀数字/代码/地址发音准确度。可与现有Agent/电话系统集成。</td>
-            <td>是（API一般可用 $9/1M字符；自托部 $1/1M；即日上线）</td>
-            <td>否（闭源产品）</td>
-            <td>企业客服语音、联系中心、交易确认、低成本高质量语音交互</td>
-            <td class="score">8/10（超低延迟+低成本+企业优化；闭源、需评估实际质量）</td>
+            <td>全栈实时语音套件：3 款 STT（含实时）、1 款 TTS、基于 LiveKit 的 Voice Agent SDK。高准确率（2.1% AA-WER）、多语言（50+ ASR / 35+ TTS）、低延迟全双工对话。</td>
+            <td>是（API 公开预览，EU/US/global；自托需联系销售）</td>
+            <td>否（暂无公开权重；早期 Voxtral 有开源）</td>
+            <td>客服语音 Agent、实时会话、多语言联系中心、工具调用语音助手</td>
+            <td class="score">8.5/10（低延迟全栈、多语言强、价格友好；开源不完整）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/inclusionAI/Ming-3.0-tts" target="_blank">Ming-3.0 语音家族（inclusionAI / Ant Group）</a><br><small>TTS + Audio + ASR</small></td>
-            <td>2026-10-19</td>
-            <td>开源全栈：0.5B稠密TTS支持语音设计/克隆、自然语言控制情绪节奏、内联副语言标签、7语言+方言；Tiny MoE适合长篇。配套方言上下文ASR与大规模音频理解模型。AA开源榜单领先。</td>
-            <td>是（HF/ModelScope权重、GitHub代码、Cookbook、vLLM/SGLang支持、Demo）</td>
-            <td>是（MIT许可证）</td>
-            <td>本地语音Agent全栈、角色配音/有声书、方言识别、可控合成</td>
+            <td>2026-10-19/20</td>
+            <td>开源全栈：0.5B TTS 支持语音设计/克隆、自然语言控制情绪节奏、副语言标签、7 语言+方言；配套 ASR 与音频理解模型。AA 开源榜单领先。</td>
+            <td>是（HF/ModelScope 权重、GitHub 代码、Cookbook、vLLM/SGLang、Demo）</td>
+            <td>是（MIT 许可证）</td>
+            <td>本地语音 Agent 全栈、角色配音/有声书、方言识别、可控合成</td>
             <td class="score">9/10（控制细腻、榜单强、完全开源；不同规模硬件需求差异大）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/kyutai-labs/pocket-tts" target="_blank">Kyutai Pocket TTS 小型版本</a><br><small>18.2M / 6.9M / 1.9M</small></td>
+            <td><a href="https://www.scaledcognition.com/" target="_blank">Scaled Cognition Voice</a><br><small>企业 CX TTS</small></td>
             <td>2026-10-20</td>
-            <td>原约100M CPU端TTS进一步压缩至18.2M/6.9M/1.9M参数，支持语音克隆与流式；1.9M模型单核CPU可达约103倍实时。18.2M质量接近原版。</td>
-            <td>是（HF权重、GitHub代码与二进制、PyPI、在线demo）</td>
-            <td>是（MIT许可证）</td>
-            <td>CPU-only本地TTS、嵌入式/边缘设备、低功耗语音合成、克隆配音</td>
-            <td class="score">8.5/10（极致轻量与速度、CPU友好、克隆支持；小模型质量有权衡）</td>
+            <td>专为企业客户体验设计的 TTS：70ms 首音频延迟、25+ 语言、语音克隆、优秀数字/代码/地址发音准确度。可与现有 Agent/电话系统集成。</td>
+            <td>是（API 一般可用 $9/1M 字符；自托 $1/1M；即日上线）</td>
+            <td>否（闭源产品）</td>
+            <td>企业客服语音、联系中心、交易确认、低成本高质量语音交互</td>
+            <td class="score">8/10（超低延迟+低成本+企业优化；闭源、需评估实际质量）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-22 监测：语音AI加速朝向低延迟全栈语音Agent（STT+LLM工具+表达性TTS）、企业级低成本高准确度TTS以及完全开源小模型。开源方向推进方言与细粒度控制（情绪、副语言、语音设计），闭源供应商侧重开箱即用与超低延迟；端侧超小模型让CPU/边缘部署更可行，多语言一致性与隐私优先仍是核心趋势。
+        2026-10-23 监测：语音 AI 加速朝向低延迟全栈语音 Agent（STT + LLM 工具 + 表达性 TTS）、企业级低成本高准确 TTS 以及完全开源超小端侧模型。开源方向推进方言与细粒度控制（情绪、副语言、语音设计），闭源供应商侧重开箱即用与超低延迟；端侧超小模型（如 Phonon 31M）让 CPU/边缘/离线部署更可行，多语言一致性与隐私优先仍是核心趋势。
       </div>
     </div>
 
