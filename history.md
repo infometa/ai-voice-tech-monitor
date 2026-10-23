@@ -375,3 +375,14 @@
 - Recursive Flint（Apache-2.0 开放权重对话模型，262K 上下文，4-bit 约 26GB） | https://huggingface.co/RecursiveSI/flint | https://theopenweights.com/news/flint-fhnt | 2026-10-21
 - KRAFTON Raon-1 mini preview（30B-A4B MoE，Apache-2.0，附 GGUF） | https://huggingface.co/KRAFTON/Raon-1-mini-preview | https://raon-mini.krafton.ai/en | 2026-10-21
 - UseIt Studio（AI 设计实体可印刷品，PH 当日第一） | https://useit.im | https://www.producthunt.com/leaderboard/daily/2026/10/21 | 2026-10-21
+
+## 2026-10-23
+- 极米记得 AI 记忆眼镜 G1（17.9g 钛金属 3D 打印，全天候录音+自动纪要，京东上架） | 官网未核实 | https://www.ithome.com/1/016/723.htm | 2026-10-22
+- 极米记得 AI 记忆手环 L1（手环/吊坠两用全天候 AI 录音） | 官网未核实 | https://www.ithome.com/1/016/753.htm | 2026-10-22
+- Nirva 吊坠（只听佩戴者本人声音的 8g AI 首饰，$249，11 月开订） | 官网未核实 | https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/ | 2026-10-22
+- OKA Mori（蘑菇台灯形态本地 AI 陪伴机器人，创始版 $649） | 官网未核实 | https://www.digitaltrends.com/computing/mori-might-be-the-cutest-ai-companion-robot-yet-and-it-reacts-to-you-like-a-pet/ | 2026-10-22
+- Meta Adventurer（$249 黑框灰片插电盒版正式开售） | https://www.meta.com/ai-glasses/meta-glasses/adventurer/ | https://www.meta.com/blog/ray-ban-meta-audio-and-deepest-ai-glasses-lineup/ | 2026-10-23
+- ElevenLabs Realtime Translation（双向实时语音同传 API，90+ 语言，企业 alpha） | https://elevenlabs.io/realtime-translation | https://elevenlabs.io/blog/realtime-translation | 2026-10-21
+- Mistral Voxtral 3（语音转写/TTS/语音 agent SDK，API 预览，不开放权重；PH 10/22） | https://mistral.ai/news/voxtral-3/ | https://www.producthunt.com/leaderboard/daily/2026/10/22 | 2026-10-20
+- 腾讯 WeVisOne-VL-4B/2B（Apache-2.0 统一视觉模型，含人像抠图 matting） | https://huggingface.co/tencent/WeVisOne-VL-4B | https://tpsreport.news/news/tencent-wevisone-vl-4b-unified-perception | 2026-10-22
+- SparkLLM Spark-X2.6-4B（Apache-2.0 端侧 4B 小模型，三档思考） | 官网未核实 | https://aiinsiders.net/article/sparkllm-ships-a-small-open-model-built-to-run-on-your-own | 2026-10-21
