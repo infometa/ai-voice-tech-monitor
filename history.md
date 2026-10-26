@@ -386,3 +386,21 @@
 - Mistral Voxtral 3（语音转写/TTS/语音 agent SDK，API 预览，不开放权重；PH 10/22） | https://mistral.ai/news/voxtral-3/ | https://www.producthunt.com/leaderboard/daily/2026/10/22 | 2026-10-20
 - 腾讯 WeVisOne-VL-4B/2B（Apache-2.0 统一视觉模型，含人像抠图 matting） | https://huggingface.co/tencent/WeVisOne-VL-4B | https://tpsreport.news/news/tencent-wevisone-vl-4b-unified-perception | 2026-10-22
 - SparkLLM Spark-X2.6-4B（Apache-2.0 端侧 4B 小模型，三档思考） | 官网未核实 | https://aiinsiders.net/article/sparkllm-ships-a-small-open-model-built-to-run-on-your-own | 2026-10-21
+
+## 2026-10-24
+- HTC VIVEE（鸡蛋大小 AI 数字生活伙伴，可换外装，预购 $99 / 建议价 $119，12 月上旬出货） | https://hivivee.com | https://news.tvbs.com.tw/tech/4040359 | 2026-10-22
+- 科大讯飞 Gununu（毛绒 AI 潮玩，多模态交互+五层记忆+成长系统，即将上市） | 官网未核实 | https://www.ithome.com/1/017/050.htm | 2026-10-23
+- NEURA Robotics 4NE1 Gen 4（减重 20% 面向量产的人形，触觉手+Neuron AI） | https://neura-robotics.com/ | https://interestingengineering.com/ai-robotics/neuras-lighter-humanoid-unveiled | 2026-10-22
+- NVIDIA Nemotron 3.5 Bolt E4B 4GB（基于 Gemma 4 E4B 的约 4GB 本地对话/工具调用小模型，面向语音助手、机器人、Jetson） | https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/ | https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/ | 2026-10-23
+
+## 2026-10-25
+- sideOS.ai（Mac notch 本地/自带密钥 AI：听写、会议转写、后台任务、操控本机；$89.90 一次买断，PH 10/24） | https://sideos.ai/ | https://www.producthunt.com/products/sideos-ai | 2026-10-24
+- AgentValley（Mac notch 开源面板，总览 Claude Code 会话/子 agent 状态，PH 10/24 #4） | https://agentvalley.app/ | https://www.producthunt.com/products/agentvalley | 2026-10-24
+- Microduck（旧项目突然火起来·黄仁勋 GTC Berlin 把玩后预售破约 2 万，圣诞玩具叙事） | https://store.pollen-robotics.com/products/microduck | https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/ | 2026-10-23
+
+## 2026-10-26
+- 小米 HachimoDock 哈基米机（小米技术委孵化的开源桌面 AI 桌宠，语音派活给电脑端 Agent+米家联动，复刻成本约 150 元） | https://github.com/YizhengWw/HachimoDock | https://www.ithome.com/1/017/842.htm | 2026-10-26
+- 肯綮 VIGX π6 口袋级 AI 外骨骼（消费级，主机约 1.2kg 可折叠进包，雷达+视觉预判路况，3 秒换电约 20km） | 官网未核实 | https://ai123.com/news/16365 | 2026-10-26
+- Realbotix Echo 人形陪伴机器人系列（桌面款 $11,950 / 全身款 $59,950，$199 定金，2027 下半年美国交付） | https://shop.realbotix.com/ | https://www.businesswire.com/news/home/20261026986313/en/Realbotix-Launches-Echo-Humanoid-Robot-Line | 2026-10-26
+- 蒙通智能 双目全彩光波导 AI 眼镜 Pro（38g）/ Ultra（45g） | 官网未核实 | https://www.93913.com/125690.html | 2026-10-26
+- Nanbeige4.3-33B（BOSS 直聘南北阁开源 33B 稠密 agent/编码模型，Apache 2.0，512K 上下文） | https://huggingface.co/Nanbeige/Nanbeige4.3-33B | https://huggingface.co/Nanbeige/Nanbeige4.3-33B | 2026-10-24
