@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-26 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-22 至 10-26）</div>
+      <div class="meta">最后更新：2026-10-26 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-24 至 10-26）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（10-26）无重大全新模型发布，以下为近期（10-20 至 10-25）值得关注的已上线/可用更新：</p>
+      <p style="margin-bottom:16px;">今日（10-26）焦点：Block Dessa 纯语音端到端模型引发广泛关注；以下为近期（10-20 至 10-26）值得关注的已上线或研究预览更新：</p>
       <table>
         <thead>
           <tr>
@@ -70,49 +70,58 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank">Qwen3-TTS 家族</a><br><small>0.6B/1.7B 开源 TTS</small></td>
-            <td>2026-01-22（权重）<br>10-24 企业部署热点</td>
-            <td>阿里巴巴开源多语言 TTS 套件：支持 3 秒语音克隆、自然语言语音设计、流式生成（约 97ms 首包）、10 语言。模块化离散码本架构，适合端侧到服务器部署。</td>
-            <td>是（GitHub/HF/ModelScope 权重、推理代码、vLLM、官方 Demo 与 API）</td>
-            <td>是（Apache-2.0）</td>
-            <td>实时语音助手、有声书/配音、语音克隆、私有化企业部署</td>
-            <td class="score">9/10（完全开源、低延迟、质量高、易部署；多语言表现优秀）</td>
+            <td><a href="https://block.xyz/dessa" target="_blank">Block Dessa</a><br><small>纯语音全双工语音到语音</small></td>
+            <td>2026-10-23/24</td>
+            <td>Jack Dorsey 旗下 Block 研究实验室发布的端到端语音模型，仅用人类对话音频训练（无文本、无预训练 LLM），支持全双工（边听边说）、自然情感（笑、吹气、幽默）、本地运行于 MacBook M4 Max+，推理快于实时。研究预览，等待安全研究者测试。</td>
+            <td>否（研究预览/等待列表，无公开 API 或权重）</td>
+            <td>否（未发布权重/代码）</td>
+            <td>未来自然对话 Agent、端侧语音助手、情感交互、隐私优先场景</td>
+            <td class="score">7/10（新颖架构与体验极佳，但尚未开放、缺乏独立评测；安全风险需关注）</td>
+          </tr>
+          <tr>
+            <td><a href="https://mistral.ai/news/voxtral-3" target="_blank">Mistral Voxtral TTS 3 / Voxtral 3</a><br><small>TTS + 语音 Agent 栈</small></td>
+            <td>2026-10-20</td>
+            <td>零样本与专业语音克隆、情绪/语速标签、流式约 90ms 首包、支持 35+ 语言与 50+ 方言。配套转写与 LiveKit 语音 Agent SDK，下 1 秒交互。</td>
+            <td>是（Mistral API Premier 预览可用）</td>
+            <td>否（专有，早期版本有开源权重）</td>
+            <td>实时语音 Agent、多语言客服、语音克隆、实时翻译</td>
+            <td class="score">8.5/10（低延迟高质量、已落地 API；成本与闭源）</td>
+          </tr>
+          <tr>
+            <td><a href="https://elevenlabs.io/blog/realtime" target="_blank">ElevenLabs Eleven Realtime</a><br><small>v1 Mini / Max Speech-to-Speech</small></td>
+            <td>2026-10-20~22</td>
+            <td>端到端语音到语音模型，集成听、推理、说。约 0.57s 首音频，90+ 语言，17000+ 声音，OpenAI Realtime API 兼容。Mini 偏低成本，Max 偏复杂任务。</td>
+            <td>是（ElevenAgents 平台与 Realtime API 可用）</td>
+            <td>否（闭源服务）</td>
+            <td>自然语音助手、客服机器人、教学、实时翻译与交互角色</td>
+            <td class="score">8.5/10（低延迟高质量端到端、易集成；成本与平台锁定）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/meituan-longcat/LongCat-AudioDiT" target="_blank">LongCat-AudioDiT</a><br><small>1B / 3.5B 波形潜空间 DiT</small></td>
-            <td>2026-03（论文）<br>10-15 代码更新，10-25/26 热点</td>
-            <td>美团开源的端到端扩散 TTS，直接在波形潜空间生成（Wav-VAE + DiT），零样本语音克隆 Seed 基准 SOTA（3.5B SIM 0.818 ZH）。</td>
-            <td>是（GitHub 代码、HF 权重、推理脚本、本地服务器适配器）</td>
+            <td>2026-03（论文）<br>10-25/26 热点</td>
+            <td>美团开源端到端扩散 TTS，直接在波形潜空间生成（Wav-VAE + DiT），零样本语音克隆 Seed 基准 SOTA（3.5B SIM 0.818 ZH）。</td>
+            <td>是（GitHub 代码、HF 权重、推理脚本可用）</td>
             <td>是（MIT）</td>
             <td>高保真语音克隆、中英文配音、研究与私有化合成</td>
             <td class="score">8.5/10（克隆质量领先、完全开源；非流式、硬件要求较高）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/inclusionAI/Ming-3.0-tts" target="_blank">Ming-3.0 语音家族</a><br><small>TTS + Audio + ASR</small></td>
-            <td>2026-10-19/20</td>
-            <td>蚂蚁百灵开源全栈：0.5B TTS 支持语音设计/克隆、导演模式情绪控制、副语言标签；配套 ASR 与音频理解。开源榜单表现强劲。</td>
-            <td>是（HF/ModelScope 权重、GitHub 代码、Cookbook、vLLM/SGLang、Demo）</td>
-            <td>是（MIT）</td>
-            <td>本地语音 Agent 全栈、角色配音/有声书、方言识别、可控合成</td>
-            <td class="score">9/10（控制细腻、榜单强、完全开源；不同规模硬件需求差异大）</td>
-          </tr>
-          <tr>
-            <td><a href="https://chariot.in/news/introducing-chariot-1-asr-realtime/" target="_blank">Chariot-1-ASR Realtime</a><br><small>10 印度语言实时 ASR</small></td>
+            <td><a href="https://thursdai.news/topics/voice-ai" target="_blank">Underdog Bark 3.0</a><br><small>163MB 端侧 STT</small></td>
             <td>2026-10-22</td>
-            <td>印度本土实时语音识别模型，支持 10 种主要印度语言 + 印度英语，在流式与批量测试中声称超越 Google Gemini、ElevenLabs、Sarvam 等。</td>
-            <td>是（Chariot 平台现已上线，API 可用）</td>
-            <td>否（闭源平台服务）</td>
-            <td>印度市场客服、会议转写、实时字幕、多语言语音助手</td>
-            <td class="score">8/10（印度语言实时准确率领先、已落地；非开源、地域专注）</td>
+            <td>极小开源语音识别模型（163MB），CC-BY 4.0 许可，声称结尼 NVIDIA Parakeet，可完全端侧运行。</td>
+            <td>是（开放权重可下载）</td>
+            <td>是（CC-BY 4.0）</td>
+            <td>端侧实时字幕、离线转写、资源受限设备 ASR</td>
+            <td class="score">7.5/10（极小易部署、开源；精度与语言覆盖需验证）</td>
           </tr>
           <tr>
-            <td><a href="https://elevenlabs.io/blog/realtime" target="_blank">ElevenLabs Eleven Realtime</a><br><small>Speech-to-Speech Agent</small></td>
+            <td><a href="https://digitalitnews.com/scaled-cognition-launches-voice-ai-model-for-enterprise-customer-experience/" target="_blank">Scaled Cognition Voice</a><br><small>企业 TTS</small></td>
             <td>2026-10-20</td>
-            <td>端到端语音到语音模型（v1 Mini/Max），集成听、推理、说。约 0.57s 首音频，90+ 语言，OpenAI Realtime API 兼容。</td>
-            <td>是（ElevenAgents 平台与 Realtime API 可用）</td>
-            <td>否（闭源服务）</td>
-            <td>自然语音助手、客服机器人、教学、实时翻译与交互角色</td>
-            <td class="score">8.5/10（低延迟高质量端到端、易切换；成本与平台锁定）</td>
+            <td>专为企业 CX 设计的 TTS，70ms 延迟、语音克隆、25+ 语言、低成本（API $9/百万字符或自托管 $1）。可与现有 Agent 集成。</td>
+            <td>是（API 与自托管可用）</td>
+            <td>否（闭源）</td>
+            <td>企业客服语音、交易确认、低成本高量合成</td>
+            <td class="score">8/10（低延迟低价、已落地；非开源）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +130,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-26 监测：语音 AI 继续朝向<strong>开源高质量可部署模型</strong>（Qwen3-TTS、Ming-3.0、LongCat-AudioDiT 等 Apache/MIT 许可证）与<strong>低延迟全栈/端到端语音 Agent</strong>（Eleven Realtime、Voxtral 3 等）发展。区域语言专注方向也在加速（如印度 Chariot 实时 ASR）。开源小模型使端侧与私有化更可行，低延迟、多语言一致性与细粒度控制（语音设计、情绪、副语言）仍是核心趋势。
+        2026-10-26 监测：语音 AI 进入“纯语音端到端”新阶段。Block Dessa 展示了仅用人类对话音频训练的全双工模型，能保留情感与自然交互节奏，并可在消费级硬件本地运行，被誉为“语音领域的 GPT-3 时刻”，但仍处于研究预览阶段。与此同时，商业端到端语音 Agent（Eleven Realtime、Voxtral 3）与低延迟 TTS（Scaled Cognition）快速落地，开源高质量克隆（LongCat-AudioDiT）与轻量 STT（Bark 3.0）持续推动可部署性。核心趋势：低延迟全双工、情感与控制细粒度提升、开源与端侧可行、安全与同意机制重要性增加。
       </div>
     </div>
 
