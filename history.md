@@ -404,3 +404,10 @@
 - Realbotix Echo 人形陪伴机器人系列（桌面款 $11,950 / 全身款 $59,950，$199 定金，2027 下半年美国交付） | https://shop.realbotix.com/ | https://www.businesswire.com/news/home/20261026986313/en/Realbotix-Launches-Echo-Humanoid-Robot-Line | 2026-10-26
 - 蒙通智能 双目全彩光波导 AI 眼镜 Pro（38g）/ Ultra（45g） | 官网未核实 | https://www.93913.com/125690.html | 2026-10-26
 - Nanbeige4.3-33B（BOSS 直聘南北阁开源 33B 稠密 agent/编码模型，Apache 2.0，512K 上下文） | https://huggingface.co/Nanbeige/Nanbeige4.3-33B | https://huggingface.co/Nanbeige/Nanbeige4.3-33B | 2026-10-24
+
+## 2026-10-27
+- 乐奇 Rokid Glasses 2 / Rokid Color / Rokid Ring（Jungle 2026 发布会，¥3,699 起 / ¥4,999 起 / ¥1,699；含 AI 会议纪要、89 语通话翻译、桌面智能体眼镜连接器） | https://global.rokid.com/ | https://www.ithome.com/1/018/475.htm | https://www.tmtpost.com/8183616.html | 2026-10-27
+- Even Realities G2 Brown 2 + v2.4.0（Even AI 2.0、Knowledge Base、Conversate Pro Mode beta；$649） | https://www.evenrealities.com/ | https://www.androidauthority.com/even-g2-brown-2-launch-3727850/ | https://9to5google.com/2026/10/26/even-realities-g2-glasses-update-adds-knowledge-based/ | 2026-10-26
+- Yahyah Portrait（实木 AI 角色画框，本地人脸识别、无订阅，Kickstarter 至 12/10） | https://yahyah.ai | https://www.financialcontent.com/article/marketersmedia-2026-10-27-yahyah-launches-kickstarter-campaign-for-living-ai-portrait-bringing-character-driven-ai-into-the-home | 2026-10-27
+- SwitchBot AI Art Frame 2（全彩 E Ink AI 画框，支持 Home Assistant，$169.99 起） | https://www.switch-bot.com/ | https://www.prnewswire.com/news-releases/switchbot-launches-ai-art-frame-2-with-full-color-e-ink-and-personalized-art-302920470.html | 2026-10-27
+- Adafruit Metro ESP32-P4 Hydra（ESP32-P4+C6 双芯 UNO 形开发板，面向本地视觉/音频） | https://www.adafruit.com/ | https://www.cnx-software.com/2026/10/26/adafruit-metro-esp32-p4-hydra-an-arduino-uno-shaped-esp32-p4-esp32-c6-board-with-wifi-6-mipi-interfaces/ | 2026-10-26
