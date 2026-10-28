@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-27 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-25 至 10-27）</div>
+      <div class="meta">最后更新：2026-10-28 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-20 至 10-28）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日有重要新发布：腾讯混元 Hy-SimulMT 开源实时同声传译模型；以下为近期（10-25 至 10-27）已上线或可用更新：</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期（10-20 至 10-27）值得关注的已上线/可用更新：</p>
       <table>
         <thead>
           <tr>
@@ -79,31 +79,31 @@
             <td class="score">9/10（低延迟开源同传实用、已完整部署工具；仅中英，需外部 TTS）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/erayyapagci/balbal-v1" target="_blank">Turkish ASR/TTS 模型</a><br><small>balbal-v1 / seda-v0.2 / drama-3-tr-speaker</small></td>
-            <td>2026-10-25</td>
-            <td>新上传的土耳其语小型 ASR（balbal-v1、seda-v0.2）与 TTS（drama-3-tr-speaker），专为土耳其语优化。</td>
-            <td>是（Hugging Face 权重可下载）</td>
-            <td>是（具体许可证见模型卡）</td>
-            <td>土耳其语语音识别、语音合成、本地化应用</td>
-            <td class="score">6.5/10（语言特定开源可用；规模较小、通用性有限）</td>
-          </tr>
-          <tr>
-            <td><a href="https://subtitld.org/addons/qwen3-tts" target="_blank">Qwen3-TTS Subtitld 加成</a><br><small>离线语音克隆加成</small></td>
-            <td>2026-10-26</td>
-            <td>基于 Qwen3-TTS 1.7B 的离线加成，支持 10 语言、内置音色与少量参考音克隆，适用视频字幕配音。</td>
-            <td>是（Subtitld 加成可下载，权重 Apache 2.0）</td>
-            <td>是（Apache 2.0）</td>
-            <td>视频字幕配音、多语言语音克隆、离线内容创作</td>
-            <td class="score">8/10（开源易集成、克隆实用；依赖具体软件）</td>
-          </tr>
-          <tr>
             <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Phonon</a><br><small>Gradium 端侧 TTS</small></td>
             <td>2026-10-20/21</td>
-            <td>31M/40M 参数超小开源端侧 TTS，CPU 上 7ms 首包，多语言，支持浏览器/WASM 等。已集成到 speech-to-speech。</td>
-            <td>是（HF 权重、GitHub 推理代码、多平台支持）</td>
-            <td>是（31M Apache 2.0，部分 CC BY-NC）</td>
-            <td>端侧语音助手、隐私优先应用、低成本实时合成</td>
+            <td>31M/40M 参数超小开源端侧 TTS，CPU 上约 7ms 首包，多语言支持，可运行于浏览器/WASM、手机、嵌入式设备。</td>
+            <td>是（HF 权重、GitHub 推理代码、多平台集成）</td>
+            <td>是（31M Apache 2.0，40M 部分 CC BY-NC）</td>
+            <td>端侧语音助手、隐私优先应用、低成本实时合成、离线场景</td>
             <td class="score">8.5/10（极低延迟开源小模型；质量与语言覆盖持续优化）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny" target="_blank">Ming-3.0 TTS</a><br><small>Ant Group / inclusionAI</small></td>
+            <td>2026-10-19/20</td>
+            <td>MIT 开源 TTS 家族（0.5B 与 MoE Tiny），支持语音克隆、语音设计、多语言/方言、情感与副语言控制，在开源榜单上表现强劲。</td>
+            <td>是（HF/ModelScope 权重、GitHub 代码、ZeroGPU Spaces）</td>
+            <td>是（MIT）</td>
+            <td>多语言内容创作、语音克隆、播客/视频配音、端侧应用</td>
+            <td class="score">8/10（开源小模型性能优秀；部署需一定资源）</td>
+          </tr>
+          <tr>
+            <td><a href="https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-tts-next" target="_blank">Qwen-Audio 3.1 TTS-Next</a><br><small>阿里百炼统一音频生成</small></td>
+            <td>2026-09-22（近期文档更新）</td>
+            <td>一次生成对话+音效+环境声的统一音频模型，支持多说话人、播客、影视声景等，托管于百炼 Model Studio API。</td>
+            <td>是（百炼 Model Studio 托管 API，非流式）</td>
+            <td>否（无开源权重）</td>
+            <td>播客制作、短视频、游戏音频、影视后期声景</td>
+            <td class="score">7.5/10（统一生成能力强；仅托管、成本与延迟需评估）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-27 监测：语音 AI 继续向实时多语言交互与端侧部署演进。腾讯 Hy-SimulMT 开源实时中英同传（约 3s 延迟 + 音色克隆）显著降低了高质量流式翻译门槛；小型端侧 TTS（Phonon）与语言特定开源模型不断出现，加强隐私与成本控制。核心趋势：低延迟流式同传与全双工、开源小模型端侧可行、多语言/方言一致性提升、实时音色克隆与情感控制普及。
+        2026-10-28 监测：今日无重大新发布。语音 AI 继续向低延迟实时交互、开源小模型端侧部署与多语言一致性演进。腾讯 Hy-SimulMT 开源实时中英同传（约 3s 延迟 + 音色克隆）降低了高质量流式翻译门槛；Phonon、Ming-3.0 等超小/中小开源 TTS 使端侧与本地部署更可行；托管方（Qwen-Audio 3.1）则提供统一音频生成与实时交互能力。核心趋势：低延迟流式同传与全双工、开源小模型端侧可行、多语言/方言一致性提升、实时音色克隆与情感控制普及。
       </div>
     </div>
 
