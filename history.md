@@ -411,3 +411,9 @@
 - Yahyah Portrait（实木 AI 角色画框，本地人脸识别、无订阅，Kickstarter 至 12/10） | https://yahyah.ai | https://www.financialcontent.com/article/marketersmedia-2026-10-27-yahyah-launches-kickstarter-campaign-for-living-ai-portrait-bringing-character-driven-ai-into-the-home | 2026-10-27
 - SwitchBot AI Art Frame 2（全彩 E Ink AI 画框，支持 Home Assistant，$169.99 起） | https://www.switch-bot.com/ | https://www.prnewswire.com/news-releases/switchbot-launches-ai-art-frame-2-with-full-color-e-ink-and-personalized-art-302920470.html | 2026-10-27
 - Adafruit Metro ESP32-P4 Hydra（ESP32-P4+C6 双芯 UNO 形开发板，面向本地视觉/音频） | https://www.adafruit.com/ | https://www.cnx-software.com/2026/10/26/adafruit-metro-esp32-p4-hydra-an-arduino-uno-shaped-esp32-p4-esp32-c6-board-with-wifi-6-mipi-interfaces/ | 2026-10-26
+
+## 2026-10-28
+- Brilliant Labs Halo Glasses（开源、隐私优先、端侧 AI 眼镜，Noa 长期记忆 + Narrative 自适应游戏，$399 现货） | https://brilliant.xyz/products/halo | https://www.businesswire.com/news/home/20261027712724/en/Brilliant-Labs-Launches-Halo-Glasses-A-New-Generation-of-Privacy-First-Smartglasses | 2026-10-27
+- BUTTONS CLIP PRO（耳夹式 AI 会议耳机，现场/线上会议与来电录音、转写、摘要、中英互译，全国约 400 家店发售） | 官网未核实 | https://cn.ai123.com/news/16577 | 2026-10-27
+- 广和通 MagiCore 2.0（AI 毛绒包挂机芯/模组，IP Agent 定制、离线唤醒、4G 待机 7 天，客户送样） | https://www.fibocom.com/ | https://www.fibocom.com/newscenter/info_itemid_9844.html | 2026-10-28
+- Liquid AI LFM3（6 款 2B 级开放权重端侧模型：文本/视觉/语音/全模态/决策，4-bit 约 1GB） | https://huggingface.co/blog/LiquidAI/lfm3 | https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/ | 2026-10-27
