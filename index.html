@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-28 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-20 至 10-28）</div>
+      <div class="meta">最后更新：2026-10-29 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-27 至 10-29）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期（10-20 至 10-27）值得关注的已上线/可用更新：</p>
+      <p style="margin-bottom:16px;">今日有重要新发布（重点窗口：10-27 至 10-29），以下为去重后实际可用的技术/模型/产品更新：</p>
       <table>
         <thead>
           <tr>
@@ -70,40 +70,40 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank">Nemotron 3.5 Transcribe</a><br><small>NVIDIA 开源语音模型</small></td>
+            <td>2026-10-28</td>
+            <td>开源权重多语言离线语音模型（约34B总参、~4.3B激活），单模型支持40语言转写、31语言翻译、最多8说话人标注、音频问答与词级时间戳，指令可控。HF Open ASR榜开源最佳。</td>
+            <td>是（HF权重/Transformers支持、GitHub NeMo、HF Spaces Demo、多家托管端点）</td>
+            <td>是（OpenMDW-1.1，允许商用）</td>
+            <td>会议记录、媒体转写与本地化、客服分析、长音频处理、领域微调</td>
+            <td class="score">9/10（精度与多任务强、开源可部署；非实时流式，需GPU）</td>
+          </tr>
+          <tr>
+            <td><a href="https://elevenlabs.io/blog/cue-aligner" target="_blank">Cue</a><br><small>ElevenLabs 强制对齐</small></td>
+            <td>2026-10-28</td>
+            <td>强制对齐（Forced Alignment）模型，字符级精准时间戳匹配音频与文本。支持29+语言、任意长度单次处理、小时级音频亚秒完成，已集成进Scribe STT，提供独立API。</td>
+            <td>是（Forced Alignment API、Scribe产品内置）</td>
+            <td>否（专有）</td>
+            <td>字幕生成、有声书时间轴、视频配音对齐、歌词同步</td>
+            <td class="score">8/10（精度与速度突出、易用API；闭源按量计费）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/HojoAI/Hojo-TTS-Light" target="_blank">Hojo-TTS-Light</a><br><small>HojoAI 超轻量TTS</small></td>
+            <td>近期持续更新（10-27前后Demo/优化）</td>
+            <td>超轻量开源TTS（40M/80M），ONNX运行，CPU可跑，中英双语，40M带预设音色，80M支持短参考音频克隆，DNSMOS>4.0。</td>
+            <td>是（GitHub代码+ONNX推理、HF权重、浏览器/WASM可尝试）</td>
+            <td>是（Apache 2.0）</td>
+            <td>端侧/本地语音助手、离线通知与短播报、隐私优先应用、低成本合成</td>
+            <td class="score">8.5/10（极轻量易部署、CPU友好；语言覆盖与长文本质量仍在完善）</td>
+          </tr>
+          <tr>
             <td><a href="https://github.com/Tencent-Hunyuan/Hy-SimulMT" target="_blank">Hy-SimulMT</a><br><small>腾讯混元实时同声传译</small></td>
             <td>2026-10-26</td>
-            <td>30B-A3B MoE 模型，支持中英双向语音到语音实时同传（边听边译），StreamLAAL 约 3 秒，配合 TTS 可实时克隆说话人音色。超过多数开源与部分商用 API。</td>
-            <td>是（HF/ModelScope 权重、GitHub 推理服务、Hy 翻译 App 体验）</td>
+            <td>30B-A3B MoE实时中英双向同传（边听边译），StreamLAAL约3秒，配合TTS可实时音色克隆。质量超过多数开源及部分商用API。</td>
+            <td>是（HF/ModelScope权重、GitHub推理服务SimulInfer、Hy翻译App体验）</td>
             <td>是（Apache 2.0）</td>
             <td>国际会议同传、实时访谈翻译、多语言客服、教育场景</td>
-            <td class="score">9/10（低延迟开源同传实用、已完整部署工具；仅中英，需外部 TTS）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Phonon</a><br><small>Gradium 端侧 TTS</small></td>
-            <td>2026-10-20/21</td>
-            <td>31M/40M 参数超小开源端侧 TTS，CPU 上约 7ms 首包，多语言支持，可运行于浏览器/WASM、手机、嵌入式设备。</td>
-            <td>是（HF 权重、GitHub 推理代码、多平台集成）</td>
-            <td>是（31M Apache 2.0，40M 部分 CC BY-NC）</td>
-            <td>端侧语音助手、隐私优先应用、低成本实时合成、离线场景</td>
-            <td class="score">8.5/10（极低延迟开源小模型；质量与语言覆盖持续优化）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/inclusionAI/Ming-3.0-tts-tiny" target="_blank">Ming-3.0 TTS</a><br><small>Ant Group / inclusionAI</small></td>
-            <td>2026-10-19/20</td>
-            <td>MIT 开源 TTS 家族（0.5B 与 MoE Tiny），支持语音克隆、语音设计、多语言/方言、情感与副语言控制，在开源榜单上表现强劲。</td>
-            <td>是（HF/ModelScope 权重、GitHub 代码、ZeroGPU Spaces）</td>
-            <td>是（MIT）</td>
-            <td>多语言内容创作、语音克隆、播客/视频配音、端侧应用</td>
-            <td class="score">8/10（开源小模型性能优秀；部署需一定资源）</td>
-          </tr>
-          <tr>
-            <td><a href="https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-audio-3-1-tts-next" target="_blank">Qwen-Audio 3.1 TTS-Next</a><br><small>阿里百炼统一音频生成</small></td>
-            <td>2026-09-22（近期文档更新）</td>
-            <td>一次生成对话+音效+环境声的统一音频模型，支持多说话人、播客、影视声景等，托管于百炼 Model Studio API。</td>
-            <td>是（百炼 Model Studio 托管 API，非流式）</td>
-            <td>否（无开源权重）</td>
-            <td>播客制作、短视频、游戏音频、影视后期声景</td>
-            <td class="score">7.5/10（统一生成能力强；仅托管、成本与延迟需评估）</td>
+            <td class="score">9/10（低延迟开源同传实用、完整部署工具；目前仅中英，语音输出需外部TTS）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-28 监测：今日无重大新发布。语音 AI 继续向低延迟实时交互、开源小模型端侧部署与多语言一致性演进。腾讯 Hy-SimulMT 开源实时中英同传（约 3s 延迟 + 音色克隆）降低了高质量流式翻译门槛；Phonon、Ming-3.0 等超小/中小开源 TTS 使端侧与本地部署更可行；托管方（Qwen-Audio 3.1）则提供统一音频生成与实时交互能力。核心趋势：低延迟流式同传与全双工、开源小模型端侧可行、多语言/方言一致性提升、实时音色克隆与情感控制普及。
+        2026-10-29 监测：语音AI继续向开源高质量多任务模型（如NVIDIA的指令可控转写+翻译+说话人）与超轻量端侧/本地部署（Hojo等CPU可跑小模型）并行发展。同时，精准对齐与实时同传（Cue、Hy-SimulMT）降低了字幕、配音与跨语言交互的门槛。核心趋势：低延迟与离线高精兼顾、开源权重与商业可用许可增多、多语言一致性与说话人/时间戳能力成为标配、端侧可行性快速提升。
       </div>
     </div>
 
