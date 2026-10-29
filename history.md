@@ -417,3 +417,9 @@
 - BUTTONS CLIP PRO（耳夹式 AI 会议耳机，现场/线上会议与来电录音、转写、摘要、中英互译，全国约 400 家店发售） | 官网未核实 | https://cn.ai123.com/news/16577 | 2026-10-27
 - 广和通 MagiCore 2.0（AI 毛绒包挂机芯/模组，IP Agent 定制、离线唤醒、4G 待机 7 天，客户送样） | https://www.fibocom.com/ | https://www.fibocom.com/newscenter/info_itemid_9844.html | 2026-10-28
 - Liquid AI LFM3（6 款 2B 级开放权重端侧模型：文本/视觉/语音/全模态/决策，4-bit 约 1GB） | https://huggingface.co/blog/LiquidAI/lfm3 | https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/ | 2026-10-27
+
+## 2026-10-29
+- 今日宜休 ISHO Ring / Ring Pro（王腾创立，AI 睡眠健康戒指，Apollo 330B Plus 端侧 AI、32MB 存储离线 7 天、续航 6–10 天，¥1,799 / ¥2,199，11/11 发货；同场发布 iFlow 智能温控床垫系统） | 官网未核实 | https://www.ithome.com/1/019/746.htm | https://tech.ifeng.com/c/8xcpCTtyu6f | 2026-10-29
+- RT「ARES」摄像头开放式 AI 耳机（8MP 第一视角拍摄/直播、视觉问答、142 语翻译与录音转写+AI 摘要，约 40g，Makuake 众筹最高 40% off） | https://www.makuake.com/project/kretaares/ | https://prtimes.jp/main/html/rd/p/000000073.000184990.html | 2026-10-28
+- VERTU Agent Watch（水晶表壳智能表，腕上收语音、交给手机 Agent 执行后语音回执，1.75" AMOLED，8+ 天续航） | https://vertu.com/ | https://vertu.com/news/product-launches/vertu-agent-watch-launch | 2026-10-28
+- NVIDIA Nemotron 3.5 Transcribe + Granary v2（开放权重可提示转写模型：40 语转写、31 语翻译、13 语说话人区分最多 8 人、1 小时录音、音频问答；约 4B 激活/30B 总参；量化本地版即将推出） | https://huggingface.co/blog/nvidia/nemotron-transcribe-granary | https://huggingface.co/blog/nvidia/nemotron-transcribe-granary | 2026-10-28
