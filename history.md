@@ -423,3 +423,10 @@
 - RT「ARES」摄像头开放式 AI 耳机（8MP 第一视角拍摄/直播、视觉问答、142 语翻译与录音转写+AI 摘要，约 40g，Makuake 众筹最高 40% off） | https://www.makuake.com/project/kretaares/ | https://prtimes.jp/main/html/rd/p/000000073.000184990.html | 2026-10-28
 - VERTU Agent Watch（水晶表壳智能表，腕上收语音、交给手机 Agent 执行后语音回执，1.75" AMOLED，8+ 天续航） | https://vertu.com/ | https://vertu.com/news/product-launches/vertu-agent-watch-launch | 2026-10-28
 - NVIDIA Nemotron 3.5 Transcribe + Granary v2（开放权重可提示转写模型：40 语转写、31 语翻译、13 语说话人区分最多 8 人、1 小时录音、音频问答；约 4B 激活/30B 总参；量化本地版即将推出） | https://huggingface.co/blog/nvidia/nemotron-transcribe-granary | https://huggingface.co/blog/nvidia/nemotron-transcribe-granary | 2026-10-28
+
+## 2026-10-30
+- Raven Prism（Raven Resonance × Avegant，独立运行的 Linux 单目全彩 AR 眼镜电脑，30° 视场，<70g，可 SSH，热插拔电池，$1,499 起，2027 年 1 月发货） | https://raven.computer | https://avegant.com/raven-prism-launch/ | 2026-10-29
+- 心言机器人 巴布 Bubbo 1（具身家庭情感陪伴智能体，26 个传感器、6 自由度、双表情屏、摄像头心率检测，京东开售 ¥9,499，前 1000 名 ¥7,999；同场预告配套智能戒指） | 官网未核实 | https://www.jiemian.com/article/15266288.html | 2026-10-29
+- Amazon Echo Dot（第 6 代，AZ3 端侧 AI 芯片、四麦、内置 Zigbee/Matter/Thread 智能家居网关+eero 扩展，$99.99）/ Echo Studio with Home Camera（$249.99） | https://www.aboutamazon.com/news/devices/echo-speaker-lineup | https://www.theverge.com/tech/1020241/amazon-echo-studio-home-camera-dot-smart-home-hub | 2026-10-28
+- Hugging Face AnySpeechRecognizer + AnyDecisionModel（Apple 平台本地语音识别+说话人区分 / 本地判定模型 Swift 包，支持 Parakeet、Qwen3-ASR、Sortformer Core ML） | https://huggingface.co/blog/anydecisionmodel | https://huggingface.co/blog/anydecisionmodel | 2026-10-29
+- JIMMY（Windows 本机 AI agent，用 WhatsApp 自聊天派活，发送前确认、定时任务、撤销日志；PH 10/29 #14） | https://www.producthunt.com/products/jimmy | https://hunted.space/product/jimmy | 2026-10-29
