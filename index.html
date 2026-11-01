@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-10-31 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-28 至 10-31）</div>
+      <div class="meta">最后更新：2026-11-01 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-30 至 11-01）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期（10-28 至 10-31）有多项实际可用的语音AI新发布，重点关注开源小模型语音克隆、多任务ASR与音效生成：</p>
+      <p style="margin-bottom:16px;">近期（10-28 至 11-01）无全新重大发布，但以下开源小模型与企业级语音技术值得持续关注：</p>
       <table>
         <thead>
           <tr>
@@ -81,29 +81,29 @@
           <tr>
             <td><a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank">Nemotron 3.5 Transcribe</a><br><small>NVIDIA 开源多任务ASR</small></td>
             <td>2026-10-28</td>
-            <td>开源权重多任务离线语音模型（级34B总参、~4.3B激活），单模型支持40语言转写、31语言翻译、最多8说话人标注、音频问答与词级时间戳，指令可控。在开源ASR榜单表现优异。</td>
+            <td>开源权重多任务离线语音模型（约34B总参、~4.3B激活），单模型支持40语言转写、31语言翻译、最多8说话人标注、音频问答与词级时间戳，指令可控。在开源ASR榜单表现优异。</td>
             <td>是（HF权重/Transformers支持、GitHub NeMo、HF Spaces Demo、多家托管端点）</td>
             <td>是（OpenMDW-1.1，允许商用）</td>
             <td>会议记录、媒体转写与本地化、客服分析、长音频处理、领域微调</td>
             <td class="score">9/10（精度与多任务强、开源可部署；非实时流式，需GPU）</td>
           </tr>
           <tr>
+            <td><a href="https://www.rime.ai/prism" target="_blank">Rime Prism</a><br><small>Rime 企业语音对话模型</small></td>
+            <td>2026-10-28</td>
+            <td>企业级可微调speech-to-speech模型，单模型听音频推理并生成语音，内置文本检查点供守门检查，支持本地/私有云部署。低延迟（~300-570ms），在语音代理基准表现突出。</td>
+            <td>是（API/SDK可用、快速启动、支持微调与本地部署）</td>
+            <td>否（闭源，企业API/SDK）</td>
+            <td>企业客服语音代理、合规对话系统、高控制实时交互、内部工具集成</td>
+            <td class="score">8.5/10（企业控制强、延迟低、可微调；闭源、主要英语）</td>
+          </tr>
+          <tr>
             <td><a href="https://elevenlabs.io/blog/sound-effects-v3" target="_blank">ElevenLabs SFX v3</a><br><small>ElevenLabs 音效生成模型</small></td>
-            <td>2026-10-29</td>
+            <td>2026-10-29/30</td>
             <td>新版文本转音效模型，更好处理多声音提示、音乐与人声，生成更清晰自然的音频。支持场景级音效生成。</td>
             <td>是（ElevenCreative内置、ElevenAPI、移动App可用，信用积分计费）</td>
             <td>否（闭源，通过API/平台访问）</td>
             <td>视频制作、游戏音效、播客、影视后期、创意内容声音设计</td>
-            <td class="score">8/10（质量与易用性高、积分成本可控；闭源依赖平台，限制访问可能）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>开源本地语音工作室</small></td>
-            <td>持续更新（近期活跃，已达高星数）</td>
-            <td>完全本地开源ElevenLabs替代方案，支持语音克隆、语音设计、视频配音、听写、转写、有声书创作，多语言支持。集成多个TTS/ASR引擎，提供桌面App与本地API/MCP。</td>
-            <td>是（GitHub代码与发布、桌面安装包、一键安装脚本、本地API）</td>
-            <td>是（AGPL-3.0，商用可选付费许可）</td>
-            <td>本地语音克隆与配音、隐私优先内容创作、多语言有声书、开发者集成</td>
-            <td class="score">8.5/10（功能完整、本地运行易用；多引擎配置有一定学习成本，AGPL对闭源产品有限制）</td>
+            <td class="score">8/10（质量与易用性高、积分成本可控；闭源依赖平台）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-10-31 监测：语音AI趋势继续集中在开源小参数高质量语音克隆（如Audio8-TTS-Realistic）与多任务离线ASR（Nemotron 3.5 Transcribe）上，同时商业平台加强音效生成能力（SFX v3）。本地与端侧工具（VoiceStudio）持续普及，降低使用门槛。核心趋势：开源小模型与商用可部署权重增多、低延迟与多语言一致性提升、语音克隆从短参考到多语言支持快速成熟、离线高精度与实时交互并行发展。
+        2026-11-01 监测：语音AI持续向开源高质量小模型（Audio8-TTS-Realistic 的零样本多语言克隆）与多任务离线ASR（Nemotron 3.5 Transcribe 的40语言与说话人标注）倾斜，同时企业级speech-to-speech（Rime Prism）强调可控、可微调与低延迟部署。核心趋势：开源小模型降低部署门槛、多语言一致性提升、企业对守门与本地部署需求增加，语音克隆与智能转写并行成熟。
       </div>
     </div>
 
