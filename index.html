@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-01 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-30 至 11-01）</div>
+      <div class="meta">最后更新：2026-11-02 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-31 至 11-02）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期（10-28 至 11-01）无全新重大发布，但以下开源小模型与企业级语音技术值得持续关注：</p>
+      <p style="margin-bottom:16px;">今日（11-02）新增超轻量开源TTS，以下为近期（10-28 至 11-02）值得关注的实际可用技术/模型：</p>
       <table>
         <thead>
           <tr>
@@ -70,40 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic</a><br><small>Edge0 开源语音克隆TTS</small></td>
-            <td>2026-10-29</td>
-            <td>0.6B参数开源权重TTS模型，支持从单一参考音频+文本的零样本语音克隆，覆盖23语言。采用44.1kHz编解码器，在HF TTS Arena中表现突出，多语言准确率竞争力强。</td>
-            <td>是（HF权重、GitHub代码、HF Spaces演现、示例页面；支持本地部署与SGLang API）</td>
-            <td>是（Apache 2.0）</td>
-            <td>本地语音克隆、多语言配音、内容创作、实时语音助手、开源替代付费TTS</td>
-            <td class="score">9/10（小模型易部署、开源商用友好、克隆质量高；部分低资源语言表现较弱）</td>
+            <td><a href="https://huggingface.co/empero-ai/PiVo-1.4M" target="_blank">PiVo-1.4M</a><br><small>Empero 超轻量英文TTS</small></td>
+            <td>2026-11-01/02</td>
+            <td>极轻量英文TTS模型，仅约1.4M参数（含声码器），总大小约5.8MB，提供Pi和Vo两种声音。纯CPU运行，无需GPU或PyTorch，支持Python API、CLI与小型HTTP服务。</td>
+            <td>是（HF权重、GitHub推理代码、本地离线可用，可转载边缘设备）</td>
+            <td>是（Apache-2.0，部分组件保留原许可证）</td>
+            <td>边缘设备、嵌入式语音、离线助手、资源受限场景、教育/演示工具</td>
+            <td class="score">8.5/10（极低门槛、易部署、开源友好；仅英文、音质较基础）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank">Nemotron 3.5 Transcribe</a><br><small>NVIDIA 开源多任务ASR</small></td>
+            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic-0.6b</a><br><small>Edge0 开源零样本语音克隆TTS</small></td>
+            <td>2026-10-29</td>
+            <td>0.6B参数开源权重TTS，支持从短参考音频零样本语音克隆，覆盖23语言。拟真度提升，低VRAM可部署，兼容Transformers与SGLang Omni API。</td>
+            <td>是（HF权重、GitHub代码、在线Demo、本地推理与API服务）</td>
+            <td>是（Apache-2.0）</td>
+            <td>本地语音克隆、多语言配音、内容创作、实时语音助手、开源替代商业TTS</td>
+            <td class="score">9/10（小模型易部署、克隆质量高、商用友好；部分低资源语言表现较弱）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank">Nemotron 3.5 Transcribe</a><br><small>NVIDIA 开源多任务语音LLM</small></td>
             <td>2026-10-28</td>
-            <td>开源权重多任务离线语音模型（约34B总参、~4.3B激活），单模型支持40语言转写、31语言翻译、最多8说话人标注、音频问答与词级时间戳，指令可控。在开源ASR榜单表现优异。</td>
-            <td>是（HF权重/Transformers支持、GitHub NeMo、HF Spaces Demo、多家托管端点）</td>
+            <td>开源权重离线语音模型（约34B总参、~4.3B激活），单模型支持40语言转写、翻译、最多8说话人标注、音频问答与词级时间戳。指令可控，开源ASR榜单领先。</td>
+            <td>是（HF权重/Transformers、NeMo工具、HF Spaces Demo、量化版本）</td>
             <td>是（OpenMDW-1.1，允许商用）</td>
             <td>会议记录、媒体转写与本地化、客服分析、长音频处理、领域微调</td>
-            <td class="score">9/10（精度与多任务强、开源可部署；非实时流式，需GPU）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.rime.ai/prism" target="_blank">Rime Prism</a><br><small>Rime 企业语音对话模型</small></td>
-            <td>2026-10-28</td>
-            <td>企业级可微调speech-to-speech模型，单模型听音频推理并生成语音，内置文本检查点供守门检查，支持本地/私有云部署。低延迟（~300-570ms），在语音代理基准表现突出。</td>
-            <td>是（API/SDK可用、快速启动、支持微调与本地部署）</td>
-            <td>否（闭源，企业API/SDK）</td>
-            <td>企业客服语音代理、合规对话系统、高控制实时交互、内部工具集成</td>
-            <td class="score">8.5/10（企业控制强、延迟低、可微调；闭源、主要英语）</td>
-          </tr>
-          <tr>
-            <td><a href="https://elevenlabs.io/blog/sound-effects-v3" target="_blank">ElevenLabs SFX v3</a><br><small>ElevenLabs 音效生成模型</small></td>
-            <td>2026-10-29/30</td>
-            <td>新版文本转音效模型，更好处理多声音提示、音乐与人声，生成更清晰自然的音频。支持场景级音效生成。</td>
-            <td>是（ElevenCreative内置、ElevenAPI、移动App可用，信用积分计费）</td>
-            <td>否（闭源，通过API/平台访问）</td>
-            <td>视频制作、游戏音效、播客、影视后期、创意内容声音设计</td>
-            <td class="score">8/10（质量与易用性高、积分成本可控；闭源依赖平台）</td>
+            <td class="score">9/10（精度与多任务强、开源可部署；非实时流式，需一定GPU）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-01 监测：语音AI持续向开源高质量小模型（Audio8-TTS-Realistic 的零样本多语言克隆）与多任务离线ASR（Nemotron 3.5 Transcribe 的40语言与说话人标注）倾斜，同时企业级speech-to-speech（Rime Prism）强调可控、可微调与低延迟部署。核心趋势：开源小模型降低部署门槛、多语言一致性提升、企业对守门与本地部署需求增加，语音克隆与智能转写并行成熟。
+        2026-11-02 监测：语音AI持续向极端轻量化与高可用性倾斜。PiVo-1.4M证明了百万参数级CPU TTS的可行性；Audio8-TTS-Realistic 展示开源小模型在零样本多语言克隆上的竞争力；Nemotron 3.5 Transcribe 则将多任务离线ASR推向开源先列。核心趋势：开源小模型降低部署门槛与成本、多语言一致性持续提升、低延迟与边缘友好并行发展，语音克隆与智能转写技术同步成熟。
       </div>
     </div>
 
