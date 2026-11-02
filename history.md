@@ -430,3 +430,18 @@
 - Amazon Echo Dot（第 6 代，AZ3 端侧 AI 芯片、四麦、内置 Zigbee/Matter/Thread 智能家居网关+eero 扩展，$99.99）/ Echo Studio with Home Camera（$249.99） | https://www.aboutamazon.com/news/devices/echo-speaker-lineup | https://www.theverge.com/tech/1020241/amazon-echo-studio-home-camera-dot-smart-home-hub | 2026-10-28
 - Hugging Face AnySpeechRecognizer + AnyDecisionModel（Apple 平台本地语音识别+说话人区分 / 本地判定模型 Swift 包，支持 Parakeet、Qwen3-ASR、Sortformer Core ML） | https://huggingface.co/blog/anydecisionmodel | https://huggingface.co/blog/anydecisionmodel | 2026-10-29
 - JIMMY（Windows 本机 AI agent，用 WhatsApp 自聊天派活，发送前确认、定时任务、撤销日志；PH 10/29 #14） | https://www.producthunt.com/products/jimmy | https://hunted.space/product/jimmy | 2026-10-29
+
+## 2026-10-31
+- SpeakON Agent（iPhone 实体语音按钮+Agent：锁屏按住说话，生成日程/邮件/Slack 等待确认动作；PH 10/30 #3） | https://www.speakon.app/pages/ai-agent | https://www.producthunt.com/products/speakon | 2026-10-30
+- 智元 GO-3 Preview 具身模型（WRAM 架构，精灵 G2 便利店上岗 5 天成功率 28.6%→85.7%，年底开源） | 官网未核实 | https://www.ithome.com/1/019/806.htm | 2026-10-29
+- 极空间 Z4Air 四盘位 AI NAS（海思 Hi3781V730，4TOPS NPU，AI 相册+Docker，首发 ¥1,899） | 官网未核实 | https://www.ithome.com/1/020/318.htm | 2026-10-30
+- Microsoft Mage-VL-Cowork（4B 开放权重电脑操作 agent，点界面+写代码二合一，OSWorld-Verified 66.0%，Apache-2.0） | https://microsoft.github.io/Mage/cowork/ | https://huggingface.co/microsoft/Mage-VL-Cowork | 2026-10-30
+- DiffuSpace Clover-35B-A3B-Preview（Apache 开源扩散语言模型，支持 llama.cpp，INT4 可在 16GB 显卡运行） | https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview | https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview | 2026-10-30
+
+## 2026-11-02
+- TOZO AIVU AI 眼镜（45g 墨镜款，称首款茶色波导片，"Hey TOZO" 语音+视觉识别，11/3 上架 TOZO 官方店与 Amazon） | 官网未核实 | https://www.accessnewswire.com/newsroom/en/consumer-and-retail-products/tozo-aivu-ai-glasses-officially-hit-the-market-with-worlds-first-tinte-1244287 | 2026-11-02
+- 朱庇特 JOVE Glasses Wise 1（面向中老年的 AI 眼镜：翻折镜片、智能辅听、防诈骗来电提示，补收） | 官网未核实 | https://www.dian8dian.com/zhu-bi-te-wise-1-rang-zhong-lao-nian-yong-hu-shao-zhai-dai | 2026-10-29
+- 千问 AI 眼镜 OTA（新增通话翻译、媒体翻译，抗噪升级） | 官网未核实 | https://www.ithome.com/1/020/768.htm | 2026-11-01
+- SKI（语音优先的编程 agent 驾驭器，同时跑多个 agent、语音问答，PH 10/31 #2） | https://justski.it | https://www.producthunt.com/products/ski | 2026-10-31
+- Fluent 2（Mac 本地运行的 AI 同事，可用本地模型，PH 11/1） | 官网未核实 | https://upvote0.com/daily/2026-11-01 | 2026-11-01
+- Nace AI Drex Max v1（27B 开放权重决策模型，Q4 可在 24GB Apple Silicon 本地跑） | 官网未核实 | https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/ | 2026-11-01
