@@ -445,3 +445,11 @@
 - SKI（语音优先的编程 agent 驾驭器，同时跑多个 agent、语音问答，PH 10/31 #2） | https://justski.it | https://www.producthunt.com/products/ski | 2026-10-31
 - Fluent 2（Mac 本地运行的 AI 同事，可用本地模型，PH 11/1） | 官网未核实 | https://upvote0.com/daily/2026-11-01 | 2026-11-01
 - Nace AI Drex Max v1（27B 开放权重决策模型，Q4 可在 24GB Apple Silicon 本地跑） | 官网未核实 | https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/ | 2026-11-01
+
+## 2026-11-03
+- The Subvocal Company Subvocal 静默语音眼镜（射频感知口型无声转文字，200+ WPM，$199 定金预订，早鸟 $499，2027 Q1 美国发货） | https://subvocal.company/ | https://www.ycombinator.com/launches/Wf9-the-subvocal-company-talk-without-talking | 2026-11-01
+- Temple 太阳穴贴片式心率/体温穿戴（Deepinder Goyal，全球预订，₹85,000 含终身订阅） | 官网未核实 | https://www.indiatoday.in/technology/news/story/temple-pre-orders-are-live-in-india-price-features-and-how-to-book-3029829-2026-11-01 | 2026-11-01
+- 华鲲灵悦 G3 Pro AR 双目智能眼镜（HUD、139 语翻译、会议纪要、文旅导览，昆山发布会；同场 S20 坐姿矫正镜） | 官网未核实 | https://feng.ifeng.com/c/8xkRjov7ZrM | 2026-11-02
+- Cyclon AI 手机（YC，系统级 AI 跨 App 执行，$199 可退定金，首批送 Pixel 8a 原型机，定制机 2027 Q2） | https://cyclon.ai/ | https://www.digitaltrends.com/phones/cyclon-is-an-ai-phone-that-wants-to-replace-your-iphone/ | 2026-11-02
+- Hume AI Audio Decision API（直接对音频提问返回概率：语气、停顿、抢话等，中位延迟约 0.23 秒） | https://www.hume.ai/blog/introducing-hume-audio-decision-api | https://dev.hume.ai/audio-decisions/changelog | 2026-11-02
+- CuriousLM（手机/电脑本地运行的私密 AI，无账号无服务器，离线维基，PH 11/2 #15） | 官网未核实 | https://hunted.space/product/curiouslm | 2026-11-02
