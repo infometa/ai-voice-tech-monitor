@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-02 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-31 至 11-02）</div>
+      <div class="meta">最后更新：2026-11-03 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-29 至 11-03）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（11-02）新增超轻量开源TTS，以下为近期（10-28 至 11-02）值得关注的实际可用技术/模型：</p>
+      <p style="margin-bottom:16px;">今日（11-03）无全新重大模型发布，以下为近期（10-29 至 11-03）值得关注的实际可用技术/模型/产品：</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,40 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/empero-ai/PiVo-1.4M" target="_blank">PiVo-1.4M</a><br><small>Empero 超轻量英文TTS</small></td>
-            <td>2026-11-01/02</td>
-            <td>极轻量英文TTS模型，仅约1.4M参数（含声码器），总大小约5.8MB，提供Pi和Vo两种声音。纯CPU运行，无需GPU或PyTorch，支持Python API、CLI与小型HTTP服务。</td>
-            <td>是（HF权重、GitHub推理代码、本地离线可用，可转载边缘设备）</td>
-            <td>是（Apache-2.0，部分组件保留原许可证）</td>
-            <td>边缘设备、嵌入式语音、离线助手、资源受限场景、教育/演示工具</td>
-            <td class="score">8.5/10（极低门槛、易部署、开源友好；仅英文、音质较基础）</td>
+            <td><a href="https://www.hume.ai/blog/introducing-hume-audio-decision-api" target="_blank">Hume Audio Decision API</a><br><small>Hume 音频决策层</small></td>
+            <td>2026-11-02/03</td>
+            <td>原始音频输入，输出对自定义问题（如情绪、说话人数量、是否AI声音、是否打断等）的置信度评分。无需完整转写，支持实时与长音频。</td>
+            <td>是（官方API上线，Python/TS SDK、文档与示例可用，需申请访问）</td>
+            <td>否（商业API，按输入token计费）</td>
+            <td>客服质量监控、情感分析、AI声音检测、会议洞察、实时语音代理决策层</td>
+            <td class="score">8.5/10（直接音频理解、易集成；需API密钥与费用）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic-0.6b</a><br><small>Edge0 开源零样本语音克隆TTS</small></td>
+            <td><a href="https://huggingface.co/empero-ai/PiVo-1.4M" target="_blank">PiVo-1.4M</a><br><small>Empero 超轻量英文TTS</small></td>
+            <td>2026-11-01/02</td>
+            <td>极轻量英文TTS（Pi/Vo两声），约1.4M参数（含声码器），总大小~5.8MB。纯CPU运行（NumPy+ONNX），无需GPU/PyTorch，支持CLI、Python API与小型HTTP服务。</td>
+            <td>是（HF权重、GitHub代码、本地离线可用，官方免费API）</td>
+            <td>是（Apache-2.0，部分组件保留原许可证）</td>
+            <td>边缘设备、嵌入式语音、离线助手、资源受限场景、教育演示</td>
+            <td class="score">8.5/10（极低门槛、易部署、开源友好；仅英文、音质基础）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic-Air</a><br><small>Edge0 开源零样本语音克隆TTS</small></td>
             <td>2026-10-29</td>
-            <td>0.6B参数开源权重TTS，支持从短参考音频零样本语音克隆，覆盖23语言。拟真度提升，低VRAM可部署，兼容Transformers与SGLang Omni API。</td>
+            <td>0.6B参数开源权重TTS，支持短参考音频零样本语音克隆，覆盖23语言。拟真度提升，兼容Transformers与SGLang Omni（OpenAI兼容API）。</td>
             <td>是（HF权重、GitHub代码、在线Demo、本地推理与API服务）</td>
             <td>是（Apache-2.0）</td>
             <td>本地语音克隆、多语言配音、内容创作、实时语音助手、开源替代商业TTS</td>
             <td class="score">9/10（小模型易部署、克隆质量高、商用友好；部分低资源语言表现较弱）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B" target="_blank">Nemotron 3.5 Transcribe</a><br><small>NVIDIA 开源多任务语音LLM</small></td>
-            <td>2026-10-28</td>
-            <td>开源权重离线语音模型（约34B总参、~4.3B激活），单模型支持40语言转写、翻译、最多8说话人标注、音频问答与词级时间戳。指令可控，开源ASR榜单领先。</td>
-            <td>是（HF权重/Transformers、NeMo工具、HF Spaces Demo、量化版本）</td>
-            <td>是（OpenMDW-1.1，允许商用）</td>
-            <td>会议记录、媒体转写与本地化、客服分析、长音频处理、领域微调</td>
-            <td class="score">9/10（精度与多任务强、开源可部署；非实时流式，需一定GPU）</td>
+            <td><a href="https://huggingface.co/ServiceNow-AI/Apriel-Voice-27B-preview" target="_blank">Apriel Voice 27B Preview</a><br><small>ServiceNow 开源语音理解+工具模型</small></td>
+            <td>2026-10-29</td>
+            <td>开放权重语音-语言模型，直接处理语音输入并输出推理结果与工具调用（非纯TTS）。基于Gemma 4，支持多模态，平均延迟约1.91s。</td>
+            <td>是（HF权重、在线Demo、技术报告；需外接TTS完成语音输出）</td>
+            <td>是（MIT）</td>
+            <td>语音代理、工具调用助手、企业工作流自动化、多轮对话系统</td>
+            <td class="score">8/10（统一语音理解与行动、开源可部署；需外部TTS、资源需求较高）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-02 监测：语音AI持续向极端轻量化与高可用性倾斜。PiVo-1.4M证明了百万参数级CPU TTS的可行性；Audio8-TTS-Realistic 展示开源小模型在零样本多语言克隆上的竞争力；Nemotron 3.5 Transcribe 则将多任务离线ASR推向开源先列。核心趋势：开源小模型降低部署门槛与成本、多语言一致性持续提升、低延迟与边缘友好并行发展，语音克隆与智能转写技术同步成熟。
+        2026-11-03 监测：语音AI向“直接音频理解+轻量开源生成”双轨发展。Hume Audio Decision API 代表原始音频决策层（情感/事件检测，无需完整转写）；PiVo-1.4M 与 Audio8-TTS-Realistic 展示了极端轻量化与竞争力开源零样本克隆的可行性；Apriel Voice 则将语音理解与工具调用统一到单模型。核心趋势：低延迟边缘友好、开源小模型降低门槛、多语言一致性持续提升、以及从纯生成/转写向可行动的语音智能代理转型。
       </div>
     </div>
 
