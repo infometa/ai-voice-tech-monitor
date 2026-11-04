@@ -453,3 +453,13 @@
 - Cyclon AI 手机（YC，系统级 AI 跨 App 执行，$199 可退定金，首批送 Pixel 8a 原型机，定制机 2027 Q2） | https://cyclon.ai/ | https://www.digitaltrends.com/phones/cyclon-is-an-ai-phone-that-wants-to-replace-your-iphone/ | 2026-11-02
 - Hume AI Audio Decision API（直接对音频提问返回概率：语气、停顿、抢话等，中位延迟约 0.23 秒） | https://www.hume.ai/blog/introducing-hume-audio-decision-api | https://dev.hume.ai/audio-decisions/changelog | 2026-11-02
 - CuriousLM（手机/电脑本地运行的私密 AI，无账号无服务器，离线维基，PH 11/2 #15） | 官网未核实 | https://hunted.space/product/curiouslm | 2026-11-02
+
+## 2026-11-04
+- Pixl Nub 专注桌面机器人（无摄像头，双雷达测在座/心率呼吸，锁社交 App；Kickstarter 公开价 $260，零售 $399） | https://pixlrobotics.com/ | https://www.kickstarter.com/projects/pixl-robotics-inc/pixl-nub-focus-deskbot-that-stares-at-people-who-interrupt | 2026-11-04
+- ACTRA Mag 4G AI 吊坠（自带 4G、无屏无摄像头、长期记忆+会议纪要/待办执行，美国早鸟 $199.9） | https://actra.ai | https://www.einpresswire.com/article/954088260/actra-mag-4g-makes-its-debut-as-an-always-connected-ai-wearable | 2026-11-03
+- Addmotor Cybergen Cadens / Carego 消费级 AI 髋部外骨骼（2kg 镁合金，1000W 峰值，续航约 24km，$1,099 / $1,299 美国现货） | https://www.addmotor.com/ | https://www.usatoday.com/press-release/story/55533/addmotor-announces-consumer-grade-wearable-ai-powered-exoskeleton-cybergen-series/ | 2026-11-03
+- Oculosense Drishti Vision Live（印度开放 SDK 实时视觉 AI 眼镜，单次最长 30 分钟连续描述，₹30,000） | 官网未核实 | https://www.tribuneindia.com/news/business/indias-first-open-sdk-live-ai-glasses-oculosense-launches-drishti-vision-live-for-visually-impaired-and-industry/ | 2026-11-03
+- Eyedaptic Eva（EYE7 助视眼镜内置 agent 式视觉助手，按意图自动调放大/对比，99 语） | 官网未核实 | https://www.womeninoptometry.com/news/article/ai-assistant-smart-glasses/ | 2026-11-03
+- Navier AI Prism（硬件工程 agent 桌面平台：CAD+仿真求解+固件+报告，PH 11/3 #11） | https://navier.ai/prism | https://hunted.space/product/prism-40 | 2026-11-03
+- Wavefunction（开源极简 Mac 编程 agent，可用本地模型，电脑操作跑在独立桌面，PH 11/3） | 官网未核实 | https://upvote0.com/daily/2026-11-03 | 2026-11-03
+- MagicaLCore 2.0（iPad 本机无代码训练 6 类 ML 模型并导出 Core ML，PH 11/3） | 官网未核实 | https://makeaieverywhere.com/startups/ph/2026-11-03 | 2026-11-03
