@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-04 · 来源：X 与网页检索（最近 1-2 天重点，窗口 10-29 至 11-04）</div>
+      <div class="meta">最后更新：2026-11-05 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-03 至 11-05）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（11-04）无全新重大模型发布，以下为近期（10-29 至 11-04）值得关注的实际可用技术/模型/产品：</p>
+      <p style="margin-bottom:16px;">今日（11-05）无全新重大模型发布，以下为近期（11-03 至 11-05）值得关注的实际可用技术/模型/产品：</p>
       <table>
         <thead>
           <tr>
@@ -70,8 +70,17 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic-Air</a><br><small>Edge0 开源零样本语音克隆TTS</small></td>
-            <td>2026-10-29</td>
+            <td><a href="https://soniox.com/blog/soniox-stt-v6" target="_blank">Soniox STT v6</a><br><small>语音智能体专用STT（代理文本输入+回声过滤）</small></td>
+            <td>2026-11-03</td>
+            <td>世界首款能识别语音代理发言并自动过滤代理声音的STT模型。支持Agent Text Input提供双侧上下文，显著提升短回复与专业术语识别准确率；60+语言，流式与异步双模式。</td>
+            <td>是（云端API可用，stt-rt-v6/异步，完整文档与在线测试）</td>
+            <td>否（专有托管API）</td>
+            <td>语音代理/电话客服、实时会议转写、多语言语音助手、低延迟交互场景</td>
+            <td class="score">8.5/10（专为语音代理优化、价格低、无缝升级；v6独立基准尚少）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air" target="_blank">Audio8-TTS-Realistic-Air</a><br><small>Edge0 开源紧凑零样本语音克隆TTS</small></td>
+            <td>2026-10-29前后（持续更新）</td>
             <td>0.6B参数开源权重TTS，支持短参考音频零样本语音克隆，覆盖23语言。拟真度提升，兼容Transformers与SGLang Omni（OpenAI兼容API）。</td>
             <td>是（HF权重、GitHub代码、在线Demo、本地推理与API服务）</td>
             <td>是（Apache-2.0）</td>
@@ -79,31 +88,13 @@
             <td class="score">9/10（小模型易部署、克隆质量高、商用友好；部分低资源语言表现较弱）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/collections/inclusionAI/ming-30" target="_blank">Ming-3.0 语音系列</a><br><small>蚂蚁百灵全链路开源语音栈</small></td>
-            <td>2026-10-20</td>
-            <td>五款模型覆盖TTS（0.5B/tiny）、音频理解与对话（flash/tiny MoE）、ASR（tiny）。支持导演模式情绪控制、方言、热词上下文ASR，中文表现优异。</td>
-            <td>是（HF/ModelScope权重、GitHub、Ling Studio API与在线体验）</td>
-            <td>是（MIT）</td>
-            <td>本地语音助手、配音与角色播客、会议转写、企业客服、多方言语音交互</td>
-            <td class="score">8.5/10（全链路开源商用友好、小模型易部署、中文强；大模型资源需求较高）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/NVIDIA-NeMo/Speech" target="_blank">NVIDIA NeMo Speech 3.0</a><br><small>英伟达语音框架与Nemotron模型</small></td>
-            <td>2026-10-31 前后</td>
-            <td>集成ASR、TTS、语音大模型的开源框架，支持Nemotron 3.5 Transcribe（MoE ASR，多语言、讲者分离、时间戳）及流式ASR/TTS模型。</td>
-            <td>是（GitHub发布、HF权重、示例代码、本地推理可用）</td>
-            <td>是（商业友好许可证）</td>
-            <td>研究开发、企业语音应用、多语言转写、实时语音代理构建</td>
-            <td class="score">8/10（全栈框架成熟、性能强、开源可扩展；部署有一定学习成本）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/QwenLM/Qwen3-TTS" target="_blank">Qwen3-TTS 全家桶</a><br><small>阿里Qwen开源多语言TTS套件</small></td>
-            <td>2026-01-22（持续更新与部署）</td>
-            <td>0.6B/1.7B开源TTS家族，支持语音克隆、自由语音设计、低延迟流式生成。10语言，消费级GPU可运行。</td>
-            <td>是（HF/GitHub/ModelScope权重与代码、Demo、API）</td>
-            <td>是（Apache-2.0）</td>
-            <td>多语言配音、语音克隆、实时语音交互、开源语音应用</td>
-            <td class="score">8.5/10（功能完整、低延迟、易部署；发布较早但仍高活跃）</td>
+            <td><a href="https://www.assemblyai.com/blog/text-to-speech-api" target="_blank">AssemblyAI-TTS-1</a><br><small>专为语音代理设计的低延迟TTS</small></td>
+            <td>2026-10-27</td>
+            <td>首款为语音代理优化的TTS，首包延迟约90ms，4000+声音，支持即时语音克隆。6语言。价格$15/百万字符，无限并发无年约。</td>
+            <td>是（API全量可用，HTTP/WebSocket/OpenAI兼容端点）</td>
+            <td>否（专有API）</td>
+            <td>实时语音代理、电话客服、低延迟交互应用、多语言配音</td>
+            <td class="score">8/10（低延迟与价格优势明显、并发友好；语言覆盖较少，控制功能还在路上）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-04 监测：语音AI继续向“开源小模型 + 全链路集成 + 低延迟边缘友好”方向发展。Audio8-TTS-Realistic 展示紧凑高质量零样本克隆；Ming-3.0 以MIT协议提供TTS/ASR/音频理解一体化栈，降低中文及方言场景门槛；NeMo Speech 3.0 与Qwen3-TTS强化开发者可用性。核心趋势：低延迟流式生成、开源轻量模型普及、多语言与方言一致性提升、以及从单点生成/转写向可部署的端到端语音智能代理转型。
+        2026-11-05 监测：语音AI继续向“为语音代理优化的低延迟上下文感知 + 开源紧凑高质量模型”方向发展。Soniox STT v6 引入代理文本输入与回声过滤，显著提升双向对话可靠性；Audio8-TTS 展示小型开源零样本克隆的高可用性；AssemblyAI-TTS-1 以极低延迟与价格参与竞争。核心趋势：低延迟流式交互、代理场景专项优化（上下文+回声）、开源轻量模型普及，以及从单点转写/合成向端到端可部署语音智能代理转型。
       </div>
     </div>
 
