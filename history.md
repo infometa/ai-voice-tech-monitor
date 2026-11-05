@@ -463,3 +463,8 @@
 - Navier AI Prism（硬件工程 agent 桌面平台：CAD+仿真求解+固件+报告，PH 11/3 #11） | https://navier.ai/prism | https://hunted.space/product/prism-40 | 2026-11-03
 - Wavefunction（开源极简 Mac 编程 agent，可用本地模型，电脑操作跑在独立桌面，PH 11/3） | 官网未核实 | https://upvote0.com/daily/2026-11-03 | 2026-11-03
 - MagicaLCore 2.0（iPad 本机无代码训练 6 类 ML 模型并导出 Core ML，PH 11/3） | 官网未核实 | https://makeaieverywhere.com/startups/ph/2026-11-03 | 2026-11-03
+## 2026-11-05
+- 影目 INMO Future（第四代 AI+AR 空间智能眼镜，独立运行，双目 1080P 全彩、36° 视场、3 秒多平面检测；11/11 南京西路首店） | https://www.inmo.com/ | https://finance.sina.com.cn/wm/2026-11-04/doc-inixqnsx0092792.shtml | 2026-11-04
+- OHO SUNSHINE Alite（28g 无屏音频 AI 眼镜，165 语实时翻译，10 小时续航，$119.99，11 月全球开售） | 官网未核实 | https://news.marketersmedia.com/oho-sunshine-introduces-alite-smart-glasses-a-28g-ultra-lightweight-design-built-for-everyday-comfort/89208136 | 2026-11-04
+- Flic Cue（按住说话的 AI 语音按钮：听写插入任意 App、甩动撤销、旋转切换 agent 会话，支持 webhook/MCP；Kickstarter 11/5 上线，早鸟 $59 起） | https://cue.flic.io/ | https://www.kickstarter.com/projects/shortcutlabs/flic-cue | 2026-11-05
+- NoteOwl（Mac 全本地 AI 会议记录：无机器人入会、说话人区分、摘要/承诺追踪、离线问答，34 语；11/4 上架） | https://www.noteowl.ai/ | https://startupcorners.com/digest/product-digest-2026-11-04 | 2026-11-04
