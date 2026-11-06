@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-05 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-03 至 11-05）</div>
+      <div class="meta">最后更新：2026-11-06 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-04 至 11-06）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（11-05）无全新重大模型发布，以下为近期（11-03 至 11-05）值得关注的实际可用技术/模型/产品：</p>
+      <p style="margin-bottom:16px;">今日（11-06）无重大新发布，以下为近期值得关注的实际可用技术/模型/产品：</p>
       <table>
         <thead>
           <tr>
@@ -70,6 +70,15 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Phonon 31M TTS</a><br><small>Gradium 开源端侧超小TTS</small></td>
+            <td>2026-10-20（近期社区推广与浏览器实现火热）</td>
+            <td>31M参数超小流式TTS（q8权重仅64.5MB），英语高质量语音合成，支持CPU/浏览器/WebGPU/手机端侧运行，首包延迟极低（可达数毫秒）。多个预设音色，基于Kyutai技术。</td>
+            <td>是（HF权重、GitHub推理代码、浏览器Demo、WASM/WebGPU实现、Python/Rust/Swift包）</td>
+            <td>是（Apache-2.0，31m英语版；40m为CC BY-NC）</td>
+            <td>端侧离线TTS、隐私优先语音助手、浏览器嵌入语音、移动应用、低延迟实时交互</td>
+            <td class="score">9.5/10（极小体积、真正端侧可用、开源商用友好、低延迟；仅英语为主，多语言受限）</td>
+          </tr>
+          <tr>
             <td><a href="https://soniox.com/blog/soniox-stt-v6" target="_blank">Soniox STT v6</a><br><small>语音智能体专用STT（代理文本输入+回声过滤）</small></td>
             <td>2026-11-03</td>
             <td>世界首款能识别语音代理发言并自动过滤代理声音的STT模型。支持Agent Text Input提供双侧上下文，显著提升短回复与专业术语识别准确率；60+语言，流式与异步双模式。</td>
@@ -80,21 +89,12 @@
           </tr>
           <tr>
             <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air" target="_blank">Audio8-TTS-Realistic-Air</a><br><small>Edge0 开源紧凑零样本语音克隆TTS</small></td>
-            <td>2026-10-29前后（持续更新）</td>
+            <td>2026-10-29前后</td>
             <td>0.6B参数开源权重TTS，支持短参考音频零样本语音克隆，覆盖23语言。拟真度提升，兼容Transformers与SGLang Omni（OpenAI兼容API）。</td>
             <td>是（HF权重、GitHub代码、在线Demo、本地推理与API服务）</td>
             <td>是（Apache-2.0）</td>
             <td>本地语音克隆、多语言配音、内容创作、实时语音助手、开源替代商业TTS</td>
             <td class="score">9/10（小模型易部署、克隆质量高、商用友好；部分低资源语言表现较弱）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.assemblyai.com/blog/text-to-speech-api" target="_blank">AssemblyAI-TTS-1</a><br><small>专为语音代理设计的低延迟TTS</small></td>
-            <td>2026-10-27</td>
-            <td>首款为语音代理优化的TTS，首包延迟约90ms，4000+声音，支持即时语音克隆。6语言。价格$15/百万字符，无限并发无年约。</td>
-            <td>是（API全量可用，HTTP/WebSocket/OpenAI兼容端点）</td>
-            <td>否（专有API）</td>
-            <td>实时语音代理、电话客服、低延迟交互应用、多语言配音</td>
-            <td class="score">8/10（低延迟与价格优势明显、并发友好；语言覆盖较少，控制功能还在路上）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-05 监测：语音AI继续向“为语音代理优化的低延迟上下文感知 + 开源紧凑高质量模型”方向发展。Soniox STT v6 引入代理文本输入与回声过滤，显著提升双向对话可靠性；Audio8-TTS 展示小型开源零样本克隆的高可用性；AssemblyAI-TTS-1 以极低延迟与价格参与竞争。核心趋势：低延迟流式交互、代理场景专项优化（上下文+回声）、开源轻量模型普及，以及从单点转写/合成向端到端可部署语音智能代理转型。
+        2026-11-06 监测：语音AI继续向“端侧超轻量开源模型 + 语音代理专项优化”方向发展。Phonon 31M展示了真正可在浏览器/手机CPU运行的高质量开源TTS的可行性；Soniox STT v6 强化代理上下文与回声过滤，提升双向对话可靠性；Audio8等紧凑开源克隆模型降低了本地部署门槛。核心趋势：极端低延迟与端侧部署、代理场景上下文感知、开源小模型普及，以及从云端API向隐私优先、可离线运行的语音能力迁移。
       </div>
     </div>
 
