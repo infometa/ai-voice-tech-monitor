@@ -468,3 +468,10 @@
 - OHO SUNSHINE Alite（28g 无屏音频 AI 眼镜，165 语实时翻译，10 小时续航，$119.99，11 月全球开售） | 官网未核实 | https://news.marketersmedia.com/oho-sunshine-introduces-alite-smart-glasses-a-28g-ultra-lightweight-design-built-for-everyday-comfort/89208136 | 2026-11-04
 - Flic Cue（按住说话的 AI 语音按钮：听写插入任意 App、甩动撤销、旋转切换 agent 会话，支持 webhook/MCP；Kickstarter 11/5 上线，早鸟 $59 起） | https://cue.flic.io/ | https://www.kickstarter.com/projects/shortcutlabs/flic-cue | 2026-11-05
 - NoteOwl（Mac 全本地 AI 会议记录：无机器人入会、说话人区分、摘要/承诺追踪、离线问答，34 语；11/4 上架） | https://www.noteowl.ai/ | https://startupcorners.com/digest/product-digest-2026-11-04 | 2026-11-04
+## 2026-11-06
+- Aina AI Ring | https://www.aina.com/ | https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/ | 2026-11-05
+- Rollme AuraCam | https://www.rollmefit.com/products/rollme-auracam | https://www.ithome.com/1/022/916.htm | 2026-11-05
+- 酷哇 Kuwa D0 / X1 | 官网未核实 | https://ai123.com/newshub/17507 | 2026-11-06
+- Pauta | https://www.pauta-ai.com/en | https://www.producthunt.com/leaderboard/daily/2026/11/6 | 2026-11-06
+- Pinku | https://aisagalab.com/pinku/ (via PH) | https://www.hunted.space/product/pinku | 2026-11-05
+- Electros LaunchPad | 官网未核实 | https://www.hunted.space/product/electros-launchpad-hybrid-ai | 2026-11-05
