@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-06 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-04 至 11-06）</div>
+      <div class="meta">最后更新：2026-11-07 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-05 至 11-07）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（11-06）无重大新发布，以下为近期值得关注的实际可用技术/模型/产品：</p>
+      <p style="margin-bottom:16px;">今日（11-07）无重大全新模型发布，以下为近期值得关注的实际可用技术/模型/产品（包含今日社区推广）：</p>
       <table>
         <thead>
           <tr>
@@ -70,13 +70,22 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Phonon 31M TTS</a><br><small>Gradium 开源端侧超小TTS</small></td>
-            <td>2026-10-20（近期社区推广与浏览器实现火热）</td>
-            <td>31M参数超小流式TTS（q8权重仅64.5MB），英语高质量语音合成，支持CPU/浏览器/WebGPU/手机端侧运行，首包延迟极低（可达数毫秒）。多个预设音色，基于Kyutai技术。</td>
-            <td>是（HF权重、GitHub推理代码、浏览器Demo、WASM/WebGPU实现、Python/Rust/Swift包）</td>
-            <td>是（Apache-2.0，31m英语版；40m为CC BY-NC）</td>
-            <td>端侧离线TTS、隐私优先语音助手、浏览器嵌入语音、移动应用、低延迟实时交互</td>
-            <td class="score">9.5/10（极小体积、真正端侧可用、开源商用友好、低延迟；仅英语为主，多语言受限）</td>
+            <td><a href="https://github.com/lowkeytea/scyllasband" target="_blank">Scylla's Band v4</a><br><small>开源表现力强TTS（支持歌唱/长叙事）</small></td>
+            <td>2026-11-07（社区发布更新推广）</td>
+            <td>开源多语言多音色表现力TTS，14种音色、7种语言，Apache 2.0。支持CPU上30倍实时速度、CoreML/ONNX/WebGPU、流式长叙事与歌唱能力。</td>
+            <td>是（GitHub代码、HF权重、本地推理与流式示例）</td>
+            <td>是（Apache-2.0）</td>
+            <td>本地语音助手、内容创作配音、长音频叙事、歌唱/歌曲生成、浏览器端侧运行</td>
+            <td class="score">8.5/10（真正开源快速本地、多后端支持、表现力强；语言与音色数量有限，歌唱能力需实测验证）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.heygen.com/blog/heygen-voice-turbo" target="_blank">HeyGen Voice Turbo Free</a><br><small>Artificial Analysis #1 TTS，免费至11-30</small></td>
+            <td>2026-10-21发布，免费持续至2026-11-30（今日推广）</td>
+            <td>排名第一的文本转语音模型（Artificial Analysis），支持公开音色与即时语音克隆，39语言。免费API至11月30日，之后转付费。</td>
+            <td>是（官方API可用、OpenRouter支持、无需信用卡、即时克隆）</td>
+            <td>否（闭源云端API）</td>
+            <td>原型开发、内容配音、语音助手测试、多语言叙事、高质量低成本语音生成</td>
+            <td class="score">9/10（排名顶尖、完全免费期间极便实测、支持克隆；有容量限制与429风险，非开源）</td>
           </tr>
           <tr>
             <td><a href="https://soniox.com/blog/soniox-stt-v6" target="_blank">Soniox STT v6</a><br><small>语音智能体专用STT（代理文本输入+回声过滤）</small></td>
@@ -87,15 +96,6 @@
             <td>语音代理/电话客服、实时会议转写、多语言语音助手、低延迟交互场景</td>
             <td class="score">8.5/10（专为语音代理优化、价格低、无缝升级；v6独立基准尚少）</td>
           </tr>
-          <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air" target="_blank">Audio8-TTS-Realistic-Air</a><br><small>Edge0 开源紧凑零样本语音克隆TTS</small></td>
-            <td>2026-10-29前后</td>
-            <td>0.6B参数开源权重TTS，支持短参考音频零样本语音克隆，覆盖23语言。拟真度提升，兼容Transformers与SGLang Omni（OpenAI兼容API）。</td>
-            <td>是（HF权重、GitHub代码、在线Demo、本地推理与API服务）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地语音克隆、多语言配音、内容创作、实时语音助手、开源替代商业TTS</td>
-            <td class="score">9/10（小模型易部署、克隆质量高、商用友好；部分低资源语言表现较弱）</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-06 监测：语音AI继续向“端侧超轻量开源模型 + 语音代理专项优化”方向发展。Phonon 31M展示了真正可在浏览器/手机CPU运行的高质量开源TTS的可行性；Soniox STT v6 强化代理上下文与回声过滤，提升双向对话可靠性；Audio8等紧凑开源克隆模型降低了本地部署门槛。核心趋势：极端低延迟与端侧部署、代理场景上下文感知、开源小模型普及，以及从云端API向隐私优先、可离线运行的语音能力迁移。
+        2026-11-07 监测：语音AI继续向“高质量开源本地模型 + 语音代理专项优化 + 免费商业级原型”方向发展。Scylla's Band等开源TTS展现表现力与极速本地推理；HeyGen Voice Turbo免费期让开发者低成本测试顶尖TTS；Soniox STT v6强化代理上下文与回声过滤，提升双向对话可靠性。核心趋势：低延迟流式与端侧部署、开源小模型普及、代理场景上下文感知、以及商业模型通过限时免费降低试用门槛。
       </div>
     </div>
 
