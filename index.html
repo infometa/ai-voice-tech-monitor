@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-07 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-05 至 11-07）</div>
+      <div class="meta">最后更新：2026-11-08 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-06 至 11-08）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（11-07）无重大全新模型发布，以下为近期值得关注的实际可用技术/模型/产品（包含今日社区推广）：</p>
+      <p style="margin-bottom:16px;">今日无重大新发布，以下为近期值得关注的更新：</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/lowkeytea/scyllasband" target="_blank">Scylla's Band v4</a><br><small>开源表现力强TTS（支持歌唱/长叙事）</small></td>
-            <td>2026-11-07（社区发布更新推广）</td>
-            <td>开源多语言多音色表现力TTS，14种音色、7种语言，Apache 2.0。支持CPU上30倍实时速度、CoreML/ONNX/WebGPU、流式长叙事与歌唱能力。</td>
-            <td>是（GitHub代码、HF权重、本地推理与流式示例）</td>
+            <td><a href="https://docs.oracle.com/en-us/iaas/releasenotes/speech/realtime-tts.htm" target="_blank">Oracle Realtime TTS</a><br><small>OCI Speech WebSocket 流式文本转语音</small></td>
+            <td>2026-11-04</td>
+            <td>支持通过 WebSocket API 增量发送文本并实时接收 MP3 音频。专为响应式语音助手和交互体验设计，可在生成文本时立即发出声音。</td>
+            <td>是（官方 API 可用，文档完整，仅 API 方式）</td>
+            <td>否（闭源云端服务）</td>
+            <td>实时语音助手、交互式应用、客服系统、流式内容叙事</td>
+            <td class="score">7.5/10（企业级可靠流式 TTS，低延迟支持好；仅限特定区域、非开源、需 OCI 账户）</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.boson.ai/blog/higgs-realtime-duplex" target="_blank">Higgs Realtime Duplex</a><br><small>Boson AI 全双工多模态实时语音模型</small></td>
+            <td>2026-11-05</td>
+            <td>全双工交互模型，可同时听、看、说（160ms 块），支持工具调用与后台思考，能自主决定发言时机。基于 45B MoE。</td>
+            <td>部分（已宣布并有演示，但新 Duplex 版本暂无公开 API；基础 Higgs Realtime 有 API）</td>
+            <td>否（闭源）</td>
+            <td>高级语音代理、多模态助手、实时工具调用对话、视频+语音交互</td>
+            <td class="score">7/10（技术前沿的全双工能力，低延迟交互强；新版本尚未开放 API，成熟度待验证）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic</a><br><small>Edge0 开源 0.6B 零样本语音克隆 TTS</small></td>
+            <td>2026-10-29</td>
+            <td>仅 601M 参数的开权重 TTS，支持从短音频零样本克隆，23 语言，人类般音律与表现力。HF TTS Arena 排名靠前。</td>
+            <td>是（HF 权重、GitHub 代码、在线 demo、SGLang 适配、MLX 支持）</td>
             <td>是（Apache-2.0）</td>
-            <td>本地语音助手、内容创作配音、长音频叙事、歌唱/歌曲生成、浏览器端侧运行</td>
-            <td class="score">8.5/10（真正开源快速本地、多后端支持、表现力强；语言与音色数量有限，歌唱能力需实测验证）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.heygen.com/blog/heygen-voice-turbo" target="_blank">HeyGen Voice Turbo Free</a><br><small>Artificial Analysis #1 TTS，免费至11-30</small></td>
-            <td>2026-10-21发布，免费持续至2026-11-30（今日推广）</td>
-            <td>排名第一的文本转语音模型（Artificial Analysis），支持公开音色与即时语音克隆，39语言。免费API至11月30日，之后转付费。</td>
-            <td>是（官方API可用、OpenRouter支持、无需信用卡、即时克隆）</td>
-            <td>否（闭源云端API）</td>
-            <td>原型开发、内容配音、语音助手测试、多语言叙事、高质量低成本语音生成</td>
-            <td class="score">9/10（排名顶尖、完全免费期间极便实测、支持克隆；有容量限制与429风险，非开源）</td>
-          </tr>
-          <tr>
-            <td><a href="https://soniox.com/blog/soniox-stt-v6" target="_blank">Soniox STT v6</a><br><small>语音智能体专用STT（代理文本输入+回声过滤）</small></td>
-            <td>2026-11-03</td>
-            <td>世界首款能识别语音代理发言并自动过滤代理声音的STT模型。支持Agent Text Input提供双侧上下文，显著提升短回复与专业术语识别准确率；60+语言，流式与异步双模式。</td>
-            <td>是（云端API可用，stt-rt-v6/异步，完整文档与在线测试）</td>
-            <td>否（专有托管API）</td>
-            <td>语音代理/电话客服、实时会议转写、多语言语音助手、低延迟交互场景</td>
-            <td class="score">8.5/10（专为语音代理优化、价格低、无缝升级；v6独立基准尚少）</td>
+            <td>本地/端侧语音克隆、多语言内容配音、低成本语音助手、细调与部署</td>
+            <td class="score">8.5/10（开源小模型、克隆强、多语言、易部署；部分语言表现仍有差距）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-07 监测：语音AI继续向“高质量开源本地模型 + 语音代理专项优化 + 免费商业级原型”方向发展。Scylla's Band等开源TTS展现表现力与极速本地推理；HeyGen Voice Turbo免费期让开发者低成本测试顶尖TTS；Soniox STT v6强化代理上下文与回声过滤，提升双向对话可靠性。核心趋势：低延迟流式与端侧部署、开源小模型普及、代理场景上下文感知、以及商业模型通过限时免费降低试用门槛。
+        2026-11-08 监测：语音 AI 继续朝低延迟流式交互、开源小模型普及与全双工多模态方向发展。企业云服务如 Oracle 增加实时 TTS，开源端如 Audio8-TTS-Realistic 展现高性价比克隆能力，而 Higgs Realtime Duplex 代表下一代可同时听说与工具调用的语音代理。核心趋势：低延迟与流式优先、开源端侧小模型成熟、多模态与代理上下文一致性提升。
       </div>
     </div>
 
