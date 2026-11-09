@@ -475,3 +475,23 @@
 - Pauta | https://www.pauta-ai.com/en | https://www.producthunt.com/leaderboard/daily/2026/11/6 | 2026-11-06
 - Pinku | https://aisagalab.com/pinku/ (via PH) | https://www.hunted.space/product/pinku | 2026-11-05
 - Electros LaunchPad | 官网未核实 | https://www.hunted.space/product/electros-launchpad-hybrid-ai | 2026-11-05
+## 2026-11-07
+- Seeed reGoggles | https://www.seeedstudio.com/regoggles | https://www.seeedstudio.com/blog/2026/11/06/introducing-regoggles-building-open-smart-goggles-together/ | 2026-11-06
+- Samsung / Gentle Monster / Warby Parker Intelligent Eyewear（Android XR，11/12 预售） | https://www.samsung.com/ | https://9to5google.com/2026/11/05/android-xr-glasses-pre-order/ | 2026-11-05
+- Codiclens | https://codiclens.codicstack.com/ | https://www.producthunt.com/products/codiclens-local-ai-powerd-mac-launcher | 2026-11-06
+- Kivo | https://www.trykivo.space/ | https://www.hunted.space/product/kivo-4 | 2026-11-06
+- Make0 Brain OSS | https://make0.ai/ | https://www.producthunt.com/products/make0-brain | 2026-11-06
+- Sequence Tool（PH 上架 / v1.4 端侧说话人+MCP） | https://sequencetool.com/ | https://hunted.space/dashboard/sequence-tool | 2026-11-07
+
+## 2026-11-08
+- 科大讯飞聆葵 AI 看护陪伴摄像头（儿童/老人家庭看护+陪聊，联合中国移动、海思） | 官网未核实 | https://ycpai.ycwb.com/content/ikimvjjtkl/content_54341416.html | 2026-11-06
+- Embodied AI AIR（瑞士轮式人形，腱驱动柔顺手臂，看人操作录像学工厂活） | https://embodiedai.ch/ | https://www.businesswire.com/news/home/20261106661068/en/Embodied-AI-Unveils-AIR-a-Physically-Safe-Humanoid-Robot-That-Learns-on-the-Job | 2026-11-06
+- Cactus Compute Mirage（51.3M 参数 / 21.6MB 端侧视觉模型，输出 JSON 给纯文本 LLM） | https://huggingface.co/Cactus-Compute/mirage | https://richland.au/blog/mirage-a-216-mb-on-device-vlm-that-hands-a-json-record-to-text-only-llms-qwen3-06b-gains-vqa-without-fine-tuning | 2026-11-07
+- PFN PLaMo 3 Translate（0.8B–31B 翻译开放权重，手机飞行模式离线翻译） | https://huggingface.co/pfnet/plamo-3-translate-2b-W4AFP8 | https://www.alextech.ai/en/news/pfn-releases-plamo-3-translate-open-weights-offline-on-phones/ | 2026-11-07
+- seam（Mac 刘海变灵动岛，本机语音听写，$19.90 买断） | https://getseam.app | https://www.producthunt.com/products/seam-2 | 2026-11-07
+
+## 2026-11-09
+- 宇树 × Star Plus Legend UNI-DOGGIE（首款消费级潮玩机器狗，¥43,900，限量 2,000 台，CIIE 首发当日 1,000 台订单） | 官网未核实 | https://www.globaltimes.cn/page/202611/1373965.shtml | 2026-11-07
+- Homer 好马 AI 助视眼镜 G2（视障/低视力端侧流式多模态助视眼镜，即将首发） | 官网未核实 | https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyrxh7510846.shtml | 2026-11-08
+- Enzo（Mac 本机听写+无机器人会议转写+屏幕回忆助手，PH 上架） | https://tryenzo.ai/ | https://upvote0.com/daily/2026-11-08 | 2026-11-08
+- MicroNotch（Mac 刘海本机英文听写+剪贴板/AI 编程会话面板，£14.99 买断，PH 上架） | https://micronotch.app/ | https://hunted.space/product/micronotch | 2026-11-08
