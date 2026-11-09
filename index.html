@@ -50,7 +50,7 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-08 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-06 至 11-08）</div>
+      <div class="meta">最后更新：2026-11-09 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-07 至 11-09）</div>
     </header>
 
     <div class="card">
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://docs.oracle.com/en-us/iaas/releasenotes/speech/realtime-tts.htm" target="_blank">Oracle Realtime TTS</a><br><small>OCI Speech WebSocket 流式文本转语音</small></td>
-            <td>2026-11-04</td>
-            <td>支持通过 WebSocket API 增量发送文本并实时接收 MP3 音频。专为响应式语音助手和交互体验设计，可在生成文本时立即发出声音。</td>
-            <td>是（官方 API 可用，文档完整，仅 API 方式）</td>
+            <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Phonon TTS (Gradium)</a><br><small>端侧开源 TTS，31M 参数</small></td>
+            <td>2026-10-20 至 21</td>
+            <td>超小型端侧文本转语音模型（31M，约 64MB），可在 CPU/手机/浏览器运行，首包延迟极低（约 7ms），支持英语及多语言变体，自然度高。</td>
+            <td>是（HF 权重、GitHub 代码、多平台推理、Apache 2.0 商业可用）</td>
+            <td>是（Phonon 31m Apache-2.0；40m 为 CC BY-NC）</td>
+            <td>离线语音助手、移动应用、无障碍工具、嵌入式设备、本地隐私保护语音生成</td>
+            <td class="score">9/10（超低延迟、极小体积、完全离线、开源易用；多语言表现优秀但非完全商业开源）</td>
+          </tr>
+          <tr>
+            <td><a href="https://kiadev.net/news/2026-11-03-soniox-stt-v6-voice-agents" target="_blank">Soniox STT v6</a><br><small>语音代理专用实时 ASR</small></td>
+            <td>2026-11-03</td>
+            <td>新一代托管语音识别 API，支持将代理回复文本作为上下文，并过滤漏音代理音频，专为语音代理对话优化。</td>
+            <td>是（官方云 API 可用，stt-rt-v6 / stt-async-v6）</td>
             <td>否（闭源云端服务）</td>
-            <td>实时语音助手、交互式应用、客服系统、流式内容叙事</td>
-            <td class="score">7.5/10（企业级可靠流式 TTS，低延迟支持好；仅限特定区域、非开源、需 OCI 账户）</td>
+            <td>实时语音代理、客服系统、会议转写、带上下文的对话识别</td>
+            <td class="score">8/10（专为代理场景优化、定价明确、易集成；v6 独立准确率数据尚待验证）</td>
           </tr>
           <tr>
-            <td><a href="https://www.boson.ai/blog/higgs-realtime-duplex" target="_blank">Higgs Realtime Duplex</a><br><small>Boson AI 全双工多模态实时语音模型</small></td>
-            <td>2026-11-05</td>
-            <td>全双工交互模型，可同时听、看、说（160ms 块），支持工具调用与后台思考，能自主决定发言时机。基于 45B MoE。</td>
-            <td>部分（已宣布并有演示，但新 Duplex 版本暂无公开 API；基础 Higgs Realtime 有 API）</td>
-            <td>否（闭源）</td>
-            <td>高级语音代理、多模态助手、实时工具调用对话、视频+语音交互</td>
-            <td class="score">7/10（技术前沿的全双工能力，低延迟交互强；新版本尚未开放 API，成熟度待验证）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-0.6b" target="_blank">Audio8-TTS-Realistic</a><br><small>Edge0 开源 0.6B 零样本语音克隆 TTS</small></td>
-            <td>2026-10-29</td>
-            <td>仅 601M 参数的开权重 TTS，支持从短音频零样本克隆，23 语言，人类般音律与表现力。HF TTS Arena 排名靠前。</td>
-            <td>是（HF 权重、GitHub 代码、在线 demo、SGLang 适配、MLX 支持）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地/端侧语音克隆、多语言内容配音、低成本语音助手、细调与部署</td>
-            <td class="score">8.5/10（开源小模型、克隆强、多语言、易部署；部分语言表现仍有差距）</td>
+            <td><a href="https://developers.heygen.com/docs/models/heygen-voice" target="_blank">HeyGen Voice Turbo Free</a><br><small>限时免费 TTS API</small></td>
+            <td>2026-10-22 起（免费至 11-30）</td>
+            <td>HeyGen Voice Turbo 模型提供限时免费 API（heygen-voice-1-turbo-free），支持公开声音与即时克隆，多语言，无需信用卡，至 2026-11-30。</td>
+            <td>是（官方 API、OpenRouter、Playground 可用；共享容量有限）</td>
+            <td>否（闭源云端，仅限时免费）</td>
+            <td>原型测试、小规模语音生成、多语言配音、语音克隆快速验证</td>
+            <td class="score">8.5/10（免费期间性价比极高、质量靠前；免费档无 SLA、有限制、到期后付费）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-08 监测：语音 AI 继续朝低延迟流式交互、开源小模型普及与全双工多模态方向发展。企业云服务如 Oracle 增加实时 TTS，开源端如 Audio8-TTS-Realistic 展现高性价比克隆能力，而 Higgs Realtime Duplex 代表下一代可同时听说与工具调用的语音代理。核心趋势：低延迟与流式优先、开源端侧小模型成熟、多模态与代理上下文一致性提升。
+        2026-11-09 监测：语音 AI 继续朝低延迟端侧与开源小模型、代理专用 ASR 以及企业级可用性方向发展。Phonon 等超小型开源模型让离线高质量 TTS 成为现实，Soniox v6 强化语音代理上下文与回声处理，HeyGen Turbo 免费活动降低尝试门槛。核心趋势：端侧开源小模型成熟、代理场景优化的 ASR/TTS、低延迟流式与多语言一致性提升。
       </div>
     </div>
 
