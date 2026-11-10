@@ -495,3 +495,10 @@
 - Homer 好马 AI 助视眼镜 G2（视障/低视力端侧流式多模态助视眼镜，即将首发） | 官网未核实 | https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixyrxh7510846.shtml | 2026-11-08
 - Enzo（Mac 本机听写+无机器人会议转写+屏幕回忆助手，PH 上架） | https://tryenzo.ai/ | https://upvote0.com/daily/2026-11-08 | 2026-11-08
 - MicroNotch（Mac 刘海本机英文听写+剪贴板/AI 编程会话面板，£14.99 买断，PH 上架） | https://micronotch.app/ | https://hunted.space/product/micronotch | 2026-11-08
+
+## 2026-11-10
+- 妙动科技 Beni 多地形跟拍机器人（双轮足自主跟拍，4K60P，KS 7,926 人超 500 万美元；11/10 全球现货，¥4,999 / ¥5,799，京东） | 官网未核实 | https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkme2797946.shtml | 2026-11-10
+- 智元 AGIBOT WITA-Omni（具身全模态端到端交互大模型：触觉/本体输入、动作表情输出，全双工约 600ms，免唤醒词） | 官网未核实 | https://www.ithome.com/1/025/122.htm | 2026-11-10
+- Cue（Mac 刘海会议助手：会前简报、无机器人入会记笔记、会后承诺与跟进草稿，含听写，PH 11/9） | 官网未核实 | https://www.hunted.space/product/cue-voice-keyboard | 2026-11-09
+- Watchflows（本地优先 Mac 可视化自动化，AI 节点可用 Apple 端侧模型/Ollama，$49 买断，PH 11/9） | 官网未核实 | https://www.hunted.space/dashboard/watchflows | 2026-11-09
+- Meta Muse 登陆 Apple Watch / Wear OS（手表上语音、文字、听写调用 Muse agent） | https://muse.ai/ | https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/ | 2026-11-09
