@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-09 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-07 至 11-09）</div>
+      <div class="meta">最后更新：2026-11-10 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-08 至 11-10）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期开源本地语音工具与多语言零样本 TTS 热度高涨，以下为重点关注：</p>
+      <p style="margin-bottom:16px;">近期重点：开源端侧实时 TTS 与语音代理优化持续推进。以下为重点关注：</p>
       <table>
         <thead>
           <tr>
@@ -70,58 +70,40 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>本地多引擎语音工作站（默认 OmniVoice）</small></td>
-            <td>2026-04 起，近期高热（100k+星）</td>
-            <td>开源桌面应用，集成 14+ TTS 引擎（默认 k2-fsa OmniVoice），支持 646 语言语音克隆、声音设计、视频配音、听写、转写、有声书，本地运行 + MCP/API 集成代理。</td>
+            <td><a href="https://github.com/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆 TTS</small></td>
+            <td>2026-11-09</td>
+            <td>紧凑开源 MoE TTS 模型（100M 激活 / 800M 总参数），支持零样本语音克隆、词级情绪/语速/口音控制，可在浏览器 WebGPU、手机、Mac 等设备上实时运行（Pixel 9 首音频 <570ms，M3 Air <150ms）。44.1kHz 输出，多运行时（SGLang/vLLM/GGML/MLX）。</td>
+            <td>是（HF 权重、GitHub 代码与多运行时、浏览器即可试用 demo、云端推理）</td>
+            <td>是（Apache-2.0）</td>
+            <td>端侧语音助手、游戏角色配音、本地隐私语音生成、实时代理语音、内容创作</td>
+            <td class="score">9/10（端侧实时强、开源免费商用、控制细粒度高、易部署；独立评测尚少）</td>
+          </tr>
+          <tr>
+            <td><a href="https://soniox.com/blog/soniox-stt-v6" target="_blank">Soniox STT v6</a><br><small>语音代理专用实时 ASR</small></td>
+            <td>2026-11-03</td>
+            <td>新一代流式与异步 ASR API，新增 Agent Text Input（接收代理说话文本作上下文）与 Agent Voice Echo Cancellation（过滤代理自己声音），60+ 语言，显著提升语音代理场景短回复识别与准确率。</td>
+            <td>是（官方 API 即时可用，stt-rt-v6 / stt-async-v6）</td>
+            <td>否（闭源 API）</td>
+            <td>实时语音代理、客服电话、会议转写、语音输入、多语言识别</td>
+            <td class="score">8.5/10（代理场景优化实用、价格合理、多语言；闭源且独立基准尚缺）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>本地多引擎语音工作站</small></td>
+            <td>2026-04 起，持续高热</td>
+            <td>开源桌面应用，集成 14+ TTS 引擎（默认 OmniVoice），支持语音克隆、声音设计、视频配音、听写、转写、有声书，本地运行 + MCP/API。</td>
             <td>是（完整桌面应用、Docker、安装包、活跃维护）</td>
             <td>是（AGPL-3.0，有 Pro 商业授权）</td>
-            <td>本地隐私语音生成、多语言配音、AI 代理语音、内容创作、无云端依赖的工作流</td>
+            <td>本地隐私语音生成、多语言配音、AI 代理语音、内容创作</td>
             <td class="score">9.5/10（功能全面、易用、本地隐私、社区极活跃；AGPL 对商业服务有要求）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/k2-fsa/OmniVoice" target="_blank">OmniVoice (Xiaomi k2-fsa)</a><br><small>600+ 语言零样本 TTS</small></td>
             <td>2026-04（持续更新）</td>
-            <td>小米开源的大规模多语言零样本 TTS，支持 600+ 语言，3-10 秒音频克隆，自然语言声音设计，扩散 LM 架构，速度极快（RTF~0.025），中文 WER 极低。</td>
-            <td>是（GitHub/HF 权重与代码、PyPI、多种推理包装）</td>
+            <td>小米开源大规模多语言零样本 TTS，支持 600+ 语言，3-10 秒音频克隆，自然语言声音设计，速度极快。</td>
+            <td>是（GitHub/HF 权重与代码、PyPI）</td>
             <td>是（Apache-2.0）</td>
-            <td>多语言语音合成、语音克隆、本地应用、低资源语言支持、嵌入语音产品</td>
-            <td class="score">9/10（语言覆盖极广、质量高、开源免费商用、易部署；需一定硬件）</td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/meituan-longcat/LongCat-AudioDiT" target="_blank">LongCat-AudioDiT (Meituan)</a><br><small>波形潜空间扩散 TTS</small></td>
-            <td>2026-03（近期开源推广）</td>
-            <td>美团开源的扩散 TTS，直接在波形潜空间生成（非 Mel），1B/3.5B 版本，Seed 基准 SOTA 语音克隆相似度（SIM 0.818），单阶段训练。</td>
-            <td>是（GitHub/HF 权重、推理脚本、适配器可用）</td>
-            <td>是（MIT）</td>
-            <td>高保真语音克隆、内容生成、研究与产品化语音合成</td>
-            <td class="score">8.5/10（克隆质量优秀、架构简洁、开源；推理需一定 GPU）</td>
-          </tr>
-          <tr>
-            <td><a href="https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/" target="_blank">GPT-Realtime-2 (OpenAI)</a><br><small>GPT-5 级推理实时语音</small></td>
-            <td>2026-05（API GA）</td>
-            <td>OpenAI Realtime API 中的新一代语音模型，具备 GPT-5 级推理、128K 上下文、工具调用、中断处理，配套实时翻译与流式转写。</td>
-            <td>是（官方 Realtime API 可用，生产级）</td>
-            <td>否（闭源 API）</td>
-            <td>实时语音代理、客服、翻译、复杂任务语音交互、电话集成</td>
-            <td class="score">9/10（推理强、生产就绪、功能全；付费且闭源）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/nvidia/Nemotron-3.5-Transcribe" target="_blank">Nemotron 3.5 Transcribe (NVIDIA)</a><br><small>开源多语言 ASR</small></td>
-            <td>2026-10-28</td>
-            <td>NVIDIA 开源权重 ASR 模型，支持 40 语言、长音频（小时级）、最多 8 说话人分离、翻译，性能优于 Whisper。</td>
-            <td>是（HF 权重、可本地部署）</td>
-            <td>是（开源权重，OpenMDW 等）</td>
-            <td>会议转写、多说话人分离、多语言语音识别、边缘设备</td>
-            <td class="score">8.5/10（准确率高、功能强、开源；模型较大）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic" target="_blank">Audio8-TTS-Realistic (Edge0)</a><br><small>0.6B 紧凑零样本 TTS</small></td>
-            <td>2026-10-29</td>
-            <td>超小参数（0.6B）开源 TTS，23 语言零样本克隆，自然韵律与表达，HF TTS Arena 排名靠前，易细调与部署。</td>
-            <td>是（HF 权重、Apache 2.0 代码）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地细调语音克隆、轻量应用、边缘 TTS、研究</td>
-            <td class="score">8.5/10（体积小、质量好、开源易用；语言较少）</td>
+            <td>多语言语音合成、语音克隆、本地应用、低资源语言</td>
+            <td class="score">9/10（语言覆盖极广、质量高、开源免费商用）</td>
           </tr>
         </tbody>
       </table>
@@ -130,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-09 监测：开源本地语音工具套件（如 VoiceStudio 冲破 10 万星）成为热点，大规模多语言零样本 TTS（OmniVoice 600+语言）与波形潜空间扩散模型（LongCat-AudioDiT）推动克隆质量与易用性。实时语音代理加强推理与工具调用（OpenAI GPT-Realtime-2），开源 ASR 持续进步（Nemotron 3.5）。核心趋势：本地隐私优先、超多语言覆盖、端到端工具集成代理、开源权重成熟与商用可行。
+        2026-11-10 监测：开源端侧小模型 TTS 迎来重大突破（Zyphra ZONOS3-Mini 将实时语音克隆与词级控制压缩到可在手机浏览器运行，Apache-2.0），语音代理优化加速（Soniox STT v6 引入代理上下文与回声过滤）。本地隐私优先、低延迟端侧部署、细粒度可控表达与多运行时支持成为主流。开源权重成熟度持续提升，使开发者更易在边缘设备上构建完整语音闭环。
       </div>
     </div>
 
