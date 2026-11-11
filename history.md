@@ -502,3 +502,11 @@
 - Cue（Mac 刘海会议助手：会前简报、无机器人入会记笔记、会后承诺与跟进草稿，含听写，PH 11/9） | 官网未核实 | https://www.hunted.space/product/cue-voice-keyboard | 2026-11-09
 - Watchflows（本地优先 Mac 可视化自动化，AI 节点可用 Apple 端侧模型/Ollama，$49 买断，PH 11/9） | 官网未核实 | https://www.hunted.space/dashboard/watchflows | 2026-11-09
 - Meta Muse 登陆 Apple Watch / Wear OS（手表上语音、文字、听写调用 Muse agent） | https://muse.ai/ | https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/ | 2026-11-09
+
+## 2026-11-11
+- Ring Robotics Ring Drone Cam / Ring Rover Cam（室内自主巡逻飞行摄像头 $249.99 2027/1/27 发货；商户巡逻机器人 $999.99 12/16 发货；AI Pilot 建图导航） | https://ring.com/ring-robotics | https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot | 2026-11-10
+- AROTI R1（<27g 无摄像头 AI+AR 单目绿字眼镜：对话翻译、提词器、步行导航、会议纪要；Kickstarter 11/16 上线） | 官网未核实 | https://www.globenewswire.com/news-release/2026/11/10/3399804/0/en/aroti-introduces-27-gram-r1-ai-ar-glasses-ahead-of-november-16-kickstarter-launch.html | 2026-11-10
+- 雷鸟 iO AI 眼镜 OTA（接入高德步行/骑行 HUD 导航，全天智记加声纹注册，新增离线翻译） | 官网未核实 | https://www.ithome.com/1/024/860.htm | 2026-11-10
+- 极米记得 MemoMind One（旧项目新进展·11/10 全渠道正式发售，首搭蔡司翎思 AI 显示眼镜专属镜片） | https://www.memo-mind.com/pages/memomind-one | https://biz.ifeng.com/c/8xwFS9SMN4I | 2026-11-10
+- ElevenLabs Scribe v3 / Scribe v3 Live（语音转写新模型：102 语 WER 降 27%，实时版首次支持说话人区分与语境断句） | https://elevenlabs.io/blog/scribe-v3 | https://elevenlabs.io/blog/scribe-v3 | 2026-11-10
+- CALL-E（让 ChatGPT/Claude 等 AI 助手确认后替你拨打美加真实电话，穿过语音菜单与等待，回传摘要与转写；PH 11/11 #3） | https://heycall-e.com | https://hunted.space/dashboard/call-e | 2026-11-11
