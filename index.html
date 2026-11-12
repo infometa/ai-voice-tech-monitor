@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-11 · 来源：X 与网页检索（最近 1-2 天重点，窗口 11-09 至 11-11）</div>
+      <div class="meta">最后更新：2026-11-12 · 今日无重大新发布，以下为近期值得关注的更新（窗口 11-08 至 11-12）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：ASR 精度提升、开源端侧实时 TTS 与全双工语音模型持续推进。以下为重点关注：</p>
+      <p style="margin-bottom:16px;">今日无重大新发布。以下为近期值得关注的更新：ASR 精度提升、开源端侧实时 TTS 与全双工语音模型持续推进。</p>
       <table>
         <thead>
           <tr>
@@ -72,7 +72,7 @@
           <tr>
             <td><a href="https://elevenlabs.io/blog/scribe-v3" target="_blank">ElevenLabs Scribe v3 & v3 Live</a><br><small>高精度 ASR（录音+实时）</small></td>
             <td>2026-11-10</td>
-            <td>ElevenLabs 最新语音识别模型。Scribe v3 在 102 语言 FLEURS 上比 v2 减少 27% 词错误，话者分离更准；Scribe v3 Live 实时版语义 WER 降低 43%，首次支持实时话者标注、上下文轮次检测（约 150ms 延迟），支持关键词库与实体检测。</td>
+            <td>ElevenLabs 最新语音识别模型。Scribe v3 在 102 语言 FLEURS 上比 v2 减少约 27% 词错误，话者分离更准；Scribe v3 Live 实时版语义 WER 降低约 43%，首次支持实时话者标注、上下文轮次检测（约 150ms 延迟），支持关键词库与实体检测。</td>
             <td>是（ElevenAPI 立即可用，模型 ID scribe_v3 / scribe_v3_live；Live 已集成至 ElevenAgents；应用默认）</td>
             <td>否（闭源 API）</td>
             <td>实时语音代理、会议转写、客服通话、多人对话标注、混语言识别</td>
@@ -81,7 +81,7 @@
           <tr>
             <td><a href="https://github.com/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆 TTS</small></td>
             <td>2026-11-09</td>
-            <td>紧凑开源 MoE TTS 模型（100M 激活 / 800M 总参数），支持零样本语音克隆、词级情绪/语速/口音控制，可在浏览器 WebGPU、手机、Mac 等设备上实时运行（Pixel 9 首音频 <570ms，M3 Air <150ms）。44.1kHz 输出，多运行时（SGLang/vLLM/GGML/MLX）。</td>
+            <td>紧凑开源 MoE TTS 模型（约 100M 激活 / 800M 总参数），支持零样本语音克隆、词级情绪/语速/口音控制，可在浏览器 WebGPU、手机、Mac 等设备上实时运行（Pixel 9 首音频 <570ms，M3 Air <150ms）。44.1kHz 输出，多运行时支持。</td>
             <td>是（HF 权重、GitHub 代码与多运行时、浏览器即可试用 demo、云端推理）</td>
             <td>是（Apache-2.0）</td>
             <td>端侧语音助手、游戏角色配音、本地隐私语音生成、实时代理语音、内容创作</td>
@@ -96,15 +96,6 @@
             <td>本地部署语音代理、伴侣式对话、客服电话、实时互动应用、隐私敏感场景</td>
             <td class="score">8.5/10（开源全双工突破、单卡可部署、实用接口；主要英中语言，基准为自报）</td>
           </tr>
-          <tr>
-            <td><a href="https://huggingface.co/gradium/phonon-31m-en" target="_blank">Phonon (Gradium)</a><br><small>超小端侧 TTS（31M）</small></td>
-            <td>2026-10-20 起，持续更新</td>
-            <td>超轻量开源端侧 TTS（31M/40M），支持英语等多语言，CPU/浏览器实时运行，首音频极低（约 28ms），在 HF Open TTS 榜单可懂度与速度表现优异。</td>
-            <td>是（HF 权重、GitHub 推理代码、多后端，可本地/浏览器运行）</td>
-            <td>是（31m 英文 Apache-2.0；其他 CC BY-NC）</td>
-            <td>离线语音助手、嵌入式设备、浏览器应用、低延迟本地 TTS</td>
-            <td class="score">8.5/10（极小体积、速度快、开源易用；语言与控制能力相对有限）</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -112,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-11 监测：ASR 精度与实时能力继续迈进（ElevenLabs Scribe v3 在多语言与噪声环境下显著降错，并强化话者分离与轮次检测）。开源端侧小模型 TTS 趋势明显（ZONOS3-Mini 将语音克隆与词级控制压缩到可在手机浏览器实时运行；Phonon 极小体积高性能）。全双工开源模型（Sophon-Realtime）使得自托管语音代理更可行。整体趋势：低延迟端侧部署、细粒度可控表达、开源权重成熟度提升，以及闭源 API 在精度与生态完善度上的竞争。
+        2026-11-12 监测：今日无重大新发布。近期重点仍为 ASR 精度与实时能力继续迈进（ElevenLabs Scribe v3 在多语言与噪声环境下显著降错，并强化话者分离与轮次检测）。开源端侧小模型 TTS 趋势明显（ZONOS3-Mini 将语音克隆与词级控制压缩到可在手机浏览器实时运行）。全双工开源模型（Sophon-Realtime）使得自托管语音代理更可行。整体趋势：低延迟端侧部署、细粒度可控表达、开源权重成熟度提升，以及闭源 API 在精度与生态完善度上的竞争。
       </div>
     </div>
 
