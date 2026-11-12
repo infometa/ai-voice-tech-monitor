@@ -510,3 +510,12 @@
 - 极米记得 MemoMind One（旧项目新进展·11/10 全渠道正式发售，首搭蔡司翎思 AI 显示眼镜专属镜片） | https://www.memo-mind.com/pages/memomind-one | https://biz.ifeng.com/c/8xwFS9SMN4I | 2026-11-10
 - ElevenLabs Scribe v3 / Scribe v3 Live（语音转写新模型：102 语 WER 降 27%，实时版首次支持说话人区分与语境断句） | https://elevenlabs.io/blog/scribe-v3 | https://elevenlabs.io/blog/scribe-v3 | 2026-11-10
 - CALL-E（让 ChatGPT/Claude 等 AI 助手确认后替你拨打美加真实电话，穿过语音菜单与等待，回传摘要与转写；PH 11/11 #3） | https://heycall-e.com | https://hunted.space/dashboard/call-e | 2026-11-11
+
+## 2026-11-12
+- SlashVibe AI agent 桌面副屏（3.96 吋屏+可拆无线摇杆控制器，盯 20+ 编程 agent 会话、语音派活、会议模式实时笔记；Kickstarter $169，2027/3 发货） | 官网未核实 | https://thegadgetflow.com/blog/slashvibe-gives-your-ai-tools-their-own-spot-on-the-desk/ | 2026-11-10
+- Home Assistant Connect AUX-2（Nabu Casa 智能家居多功能盒：音频串流、RS-232/Modbus、蓝牙中枢、PoE 带 Z-Wave，ESP32-S3+ESPHome，全本地；$69/€59 全球开售） | https://www.home-assistant.io/connect/aux-2/ | https://www.home-assistant.io/blog/2026/11/11/no-device-left-behind-home-assistant-connect-aux-2/ | 2026-11-11
+- 技嘉 AI TOP AERO 迷你主机（英伟达 RTX Spark N1X，20 核 Grace+Blackwell GPU，最高 128GB 统一内存，1 升机箱端侧 AI 节点） | 官网未核实 | https://www.ithome.com/1/025/213.htm | 2026-11-11
+- 成都人形机器人创新中心 第五代「贡嘎」人形机器人（家庭场景：三维场景图、物理时空记忆、因果规划、动作世界模型） | 官网未核实 | http://www.sc.chinanews.com.cn/bwbd/2026-11-11/251990.html | 2026-11-11
+- Earlybird-29M（29M 参数 / 16.8MB 端侧流式语音转写，词说完前约 90ms 预测出词并给置信度，MIT 开放权重，PH 11/11） | https://huggingface.co/sahilmahendrakar/Earlybird-29M | https://upvote0.com/daily/2026-11-11 | 2026-11-11
+- Nod by n8n（开源个人 agent，自带本机沙盒电脑+浏览器替你办事，越界前先问，可接本地模型，Apache 2.0，PH 11/11） | https://nod.n8n.io/ | https://blog.n8n.io/meet-nod/ | 2026-11-11
+- RigSpark（先查内存/GPU/硬盘再告诉你哪些开源模型跑得动，本机跑聊天/图像/视频/语音，MIT，Rust，PH 11/11） | 官网未核实 | https://hunted.space/product/rigspark | 2026-11-11
