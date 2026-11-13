@@ -519,3 +519,11 @@
 - Earlybird-29M（29M 参数 / 16.8MB 端侧流式语音转写，词说完前约 90ms 预测出词并给置信度，MIT 开放权重，PH 11/11） | https://huggingface.co/sahilmahendrakar/Earlybird-29M | https://upvote0.com/daily/2026-11-11 | 2026-11-11
 - Nod by n8n（开源个人 agent，自带本机沙盒电脑+浏览器替你办事，越界前先问，可接本地模型，Apache 2.0，PH 11/11） | https://nod.n8n.io/ | https://blog.n8n.io/meet-nod/ | 2026-11-11
 - RigSpark（先查内存/GPU/硬盘再告诉你哪些开源模型跑得动，本机跑聊天/图像/视频/语音，MIT，Rust，PH 11/11） | 官网未核实 | https://hunted.space/product/rigspark | 2026-11-11
+
+## 2026-11-13
+- 华硕 Gallop（工厂人形机器人，主板配件装箱工位示教，Jetson Thor + 自研触觉手；客户试点 2027，供应目标 2028 H2） | 官网未核实 | https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/ | https://interestingengineering.com/ai-robotics/asus-gallop-humanoid-robot-unveiled | 2026-11-13
+- Blue Phone（Pixel 10 Pro / Pro XL + Blue OS 公测，系统级跨 App AI 幕僚；$1,299，30 天内寄回旧 iPhone 免单，美国 11–12 月发货） | https://heyblue.com | https://www.ycombinator.com/launches/XMY-blue-phone-a-phone-with-a-chief-of-staff-built-in | https://www.androidauthority.com/blue-os-google-pixel-10-pro-3733835/ | 2026-11-11
+- Yogurt（开源本地会议笔记，不入会，Mac/Windows/Linux，MIT） | https://www.yogurt.so/ | https://github.com/frigadehq/yogurt | https://upvote0.com/daily/2026-11-12 | 2026-11-12
+- Kikko（Mac 端侧会议笔记，无账号、默认无网络权限，录音转写免费，解锁 €44.99 买断；PH 上架，App Store 即将上架） | https://kikkonotes.com/ | https://upvote0.com/daily/2026-11-13 | 2026-11-13
+- Runway Praxis-1（27B 开放权重世界-动作模型，Apache 2.0 可商用，RoboLab-120 46.2%） | https://runway.com/product/robotics | https://huggingface.co/collections/runwayml/praxis-1 | https://github.com/runwayml/praxis-1-oss | https://runway.com/news/company-news/praxis-1-is-now-available | 2026-11-11
+- Claude Meetings（Google Meet 可见入会协作，Team/Enterprise beta，会中写文档/白板并出纪要） | https://claude.com/resources/articles/claude-meetings | https://upvote0.com/daily/2026-11-13 | 2026-11-13
