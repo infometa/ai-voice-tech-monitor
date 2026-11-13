@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-12 · 今日无重大新发布，以下为近期值得关注的更新（窗口 11-08 至 11-12）</div>
+      <div class="meta">最后更新：2026-11-13 · 新增开源 tokenizer-free TTS 模型 VoxMel（窗口 11-11 至 11-13）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布。以下为近期值得关注的更新：ASR 精度提升、开源端侧实时 TTS 与全双工语音模型持续推进。</p>
+      <p style="margin-bottom:16px;">今日有新发布：VoxDance Lab 开源了 tokenizer-free 零样本语音克隆 TTS 模型 VoxMel。以下为近期值得关注的实用技术（已上线/HF/GitHub/有demo）。</p>
       <table>
         <thead>
           <tr>
@@ -70,31 +70,31 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://elevenlabs.io/blog/scribe-v3" target="_blank">ElevenLabs Scribe v3 & v3 Live</a><br><small>高精度 ASR（录音+实时）</small></td>
-            <td>2026-11-10</td>
-            <td>ElevenLabs 最新语音识别模型。Scribe v3 在 102 语言 FLEURS 上比 v2 减少约 27% 词错误，话者分离更准；Scribe v3 Live 实时版语义 WER 降低约 43%，首次支持实时话者标注、上下文轮次检测（约 150ms 延迟），支持关键词库与实体检测。</td>
-            <td>是（ElevenAPI 立即可用，模型 ID scribe_v3 / scribe_v3_live；Live 已集成至 ElevenAgents；应用默认）</td>
-            <td>否（闭源 API）</td>
-            <td>实时语音代理、会议转写、客服通话、多人对话标注、混语言识别</td>
-            <td class="score">9/10（精度与实时性强、即用成熟、多语言；闭源成本取决于用量）</td>
+            <td><a href="https://github.com/VoxDance-Lab/VoxMel" target="_blank">VoxMel (VoxDance Lab)</a><br><small>tokenizer-free 零样本语音克隆 TTS</small></td>
+            <td>2026-11-12</td>
+            <td>开源 tokenizer-free TTS，通过 Haar 小波分解直接建模 mel-频谱图（粗结构 + 细节精炼），支持英语/中文零样本语音克隆（0.3B/0.6B）。GRPO 后训练提升相似度与降低 WER。24kHz 输出，需参考音频及其转写。</td>
+            <td>是（GitHub 代码、HF 权重、Python API/CLI/Gradio 本地接口、有样例页）</td>
+            <td>是（Apache-2.0）</td>
+            <td>本地语音工具、中英语音克隆实验、定制语音生成、研究与轻量部署</td>
+            <td class="score">8/10（新颖架构有亮点、开源易用、小模型；语言较少、需转写、成熟度仍在验证）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆 TTS</small></td>
             <td>2026-11-09</td>
-            <td>紧凑开源 MoE TTS 模型（约 100M 激活 / 800M 总参数），支持零样本语音克隆、词级情绪/语速/口音控制，可在浏览器 WebGPU、手机、Mac 等设备上实时运行（Pixel 9 首音频 <570ms，M3 Air <150ms）。44.1kHz 输出，多运行时支持。</td>
+            <td>紧凑开源 MoE TTS 模型（约 100M 激活 / 800M 总参数），支持零样本语音克隆、词级情绪/语速/口音控制，可在浏览器 WebGPU、手机、Mac 等设备上实时运行（Pixel 9 首音频 <570ms，M3 Air <150ms）。44.1kHz 输出，43 语言。</td>
             <td>是（HF 权重、GitHub 代码与多运行时、浏览器即可试用 demo、云端推理）</td>
             <td>是（Apache-2.0）</td>
             <td>端侧语音助手、游戏角色配音、本地隐私语音生成、实时代理语音、内容创作</td>
             <td class="score">9/10（端侧实时强、开源免费商用、控制细粒度高、易部署；独立评测尚少）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/adventists-ai/sophon-realtime" target="_blank">Sophon-Realtime v1 (Adventists AI)</a><br><small>开源全双工语音模型</small></td>
-            <td>2026-11-08</td>
-            <td>开源全双工语音模型家族（Tag/Flash/E2E），共享 32B 「大脑」（基于 Qwen3-VL-32B）。持续听音、自动判断话轮、支持打断（barge-in），听得懂语气并带情绪回应（笑声、叹气等标签）。Flash 首音频约 0.31s，单张 80GB GPU 可支持多路并发。</td>
-            <td>是（GitHub/HF/ModelScope 权重与代码、PyPI 安装、WebSocket API、兼容 OpenAI GPT-Live 协议）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地部署语音代理、伴侣式对话、客服电话、实时互动应用、隐私敏感场景</td>
-            <td class="score">8.5/10（开源全双工突破、单卡可部署、实用接口；主要英中语言，基准为自报）</td>
+            <td><a href="https://elevenlabs.io/blog/scribe-v3" target="_blank">ElevenLabs Scribe v3 & v3 Live</a><br><small>高精度 ASR（录音+实时）</small></td>
+            <td>2026-11-10</td>
+            <td>ElevenLabs 最新语音识别模型。Scribe v3 在 102 语言 FLEURS 上比 v2 减少约 27% 词错误，话者分离更准；Scribe v3 Live 实时版语义 WER 降低约 43%，首次支持实时话者标注、上下文轮次检测，支持关键词库。</td>
+            <td>是（ElevenAPI 立即可用，模型 ID scribe_v3 / scribe_v3_live；Live 已集成至 ElevenAgents；应用默认）</td>
+            <td>否（闭源 API）</td>
+            <td>实时语音代理、会议转写、客服通话、多人对话标注、混语言识别</td>
+            <td class="score">9/10（精度与实时性强、即用成熟、多语言；闭源成本取决于用量）</td>
           </tr>
         </tbody>
       </table>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-12 监测：今日无重大新发布。近期重点仍为 ASR 精度与实时能力继续迈进（ElevenLabs Scribe v3 在多语言与噪声环境下显著降错，并强化话者分离与轮次检测）。开源端侧小模型 TTS 趋势明显（ZONOS3-Mini 将语音克隆与词级控制压缩到可在手机浏览器实时运行）。全双工开源模型（Sophon-Realtime）使得自托管语音代理更可行。整体趋势：低延迟端侧部署、细粒度可控表达、开源权重成熟度提升，以及闭源 API 在精度与生态完善度上的竞争。
+        2026-11-13 监测：开源语音 AI 持续加速。新出的 VoxMel 采用 tokenizer-free 架构（小波分解 mel）实现更自然的零样本克隆，与 ZONOS3-Mini 一起推动小模型端侧/本地部署。闭源方面 ElevenLabs Scribe v3 在多语言精度与实时话者分离上仍领先。整体趋势：低延迟开源小模型普及、tokenizer-free 与细粒度控制变得常见、端侧实时运行成为标配，以及闭源 API 在生产级精度与生态上的持续优化。
       </div>
     </div>
 
