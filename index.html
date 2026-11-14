@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-13 · 新增开源 tokenizer-free TTS 模型 VoxMel（窗口 11-11 至 11-13）</div>
+      <div class="meta">最后更新：2026-11-14 · 新增 Fluid Speech Pro 开源小模型 ASR 与 higurashi Haru-4B 全双工模型（窗口 11-12 至 11-14）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日有新发布：VoxDance Lab 开源了 tokenizer-free 零样本语音克隆 TTS 模型 VoxMel。以下为近期值得关注的实用技术（已上线/HF/GitHub/有demo）。</p>
+      <p style="margin-bottom:16px;">近日有新发布：FluidVoice 发布了高精度开源小模型 ASR Fluid Speech Pro；日本 higurashi 开源了全双工语音对话基础模型 Haru-4B。以下为近期值得关注的实用技术（已上线/HF/GitHub/有demo）。</p>
       <table>
         <thead>
           <tr>
@@ -70,13 +70,22 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/VoxDance-Lab/VoxMel" target="_blank">VoxMel (VoxDance Lab)</a><br><small>tokenizer-free 零样本语音克隆 TTS</small></td>
-            <td>2026-11-12</td>
-            <td>开源 tokenizer-free TTS，通过 Haar 小波分解直接建模 mel-频谱图（粗结构 + 细节精炼），支持英语/中文零样本语音克隆（0.3B/0.6B）。GRPO 后训练提升相似度与降低 WER。24kHz 输出，需参考音频及其转写。</td>
-            <td>是（GitHub 代码、HF 权重、Python API/CLI/Gradio 本地接口、有样例页）</td>
+            <td><a href="https://huggingface.co/FluidVoice-Labs/fluid-speech-pro" target="_blank">Fluid Speech Pro (FluidVoice)</a><br><small>开源小模型高精度 ASR</small></td>
+            <td>2026-11-13</td>
+            <td>0.6B 参数开源 ASR，在 Hugging Face OpenASR 排行榜上位列开源模型第2、<1B 第1。6.06% 平均 WER，支持 25 语言，专为听写/实时转写优化，可在日常设备（手机/笔记本）运行。基于 Parakeet v3 等。</td>
+            <td>是（HF 权重、Transformers 一行加载、GGUF/MLX 等多后端、已集成至 FluidVoice 应用）</td>
+            <td>是（CC BY 4.0）</td>
+            <td>本地听写、手机语音输入、离线转写、隐私优先的语音代理</td>
+            <td class="score">9/10（精度高、体积小、开源易用、端侧友好；语言以欧洲为主）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/higurashi-ai/Haru" target="_blank">Haru-4B (higurashi)</a><br><small>全双工低延迟语音对话基础模型</small></td>
+            <td>2026-11-13</td>
+            <td>日本 higurashi 开源的 4B 全双工 speech-to-speech 基础模型，基于 Qwen3.5-4B，7.5Hz 同步处理输入/输出，支持相榭、打断等自然对话。4000万小时多语言预训练，MacBook 约 65ms 延迟，9 语言（含日/英/中）。</td>
+            <td>部分（HF 权重 + GitHub 推理代码与 Web demo，需约 12GB GPU；为预训练基础模型，非完整助手）</td>
             <td>是（Apache-2.0）</td>
-            <td>本地语音工具、中英语音克隆实验、定制语音生成、研究与轻量部署</td>
-            <td class="score">8/10（新颖架构有亮点、开源易用、小模型；语言较少、需转写、成熟度仍在验证）</td>
+            <td>研究全双工代理、低延迟语音对话实验、多语言实时交互、端侧语音助手原型</td>
+            <td class="score">8/10（新颖全双工开源、低延迟、多语言；需微调才能直接用作助手）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆 TTS</small></td>
@@ -103,7 +112,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-13 监测：开源语音 AI 持续加速。新出的 VoxMel 采用 tokenizer-free 架构（小波分解 mel）实现更自然的零样本克隆，与 ZONOS3-Mini 一起推动小模型端侧/本地部署。闭源方面 ElevenLabs Scribe v3 在多语言精度与实时话者分离上仍领先。整体趋势：低延迟开源小模型普及、tokenizer-free 与细粒度控制变得常见、端侧实时运行成为标配，以及闭源 API 在生产级精度与生态上的持续优化。
+        2026-11-14 监测：开源语音 AI 加速向端侧与全双工进化。Fluid Speech Pro 展示小模型（<1B）在开源 ASR 排行榜上的竞争力，Haru-4B 推动原生全双工开源基础模型，ZONOS3-Mini 继续强化端侧实时 TTS。整体趋势：低延迟开源小模型普及、全双工与细粒度控制成为热点、端侧/本地运行成为标配，以及闭源 API 在生产级精度与生态上的持续领先。
       </div>
     </div>
 
