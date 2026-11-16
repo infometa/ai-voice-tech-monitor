@@ -527,3 +527,48 @@
 - Kikko（Mac 端侧会议笔记，无账号、默认无网络权限，录音转写免费，解锁 €44.99 买断；PH 上架，App Store 即将上架） | https://kikkonotes.com/ | https://upvote0.com/daily/2026-11-13 | 2026-11-13
 - Runway Praxis-1（27B 开放权重世界-动作模型，Apache 2.0 可商用，RoboLab-120 46.2%） | https://runway.com/product/robotics | https://huggingface.co/collections/runwayml/praxis-1 | https://github.com/runwayml/praxis-1-oss | https://runway.com/news/company-news/praxis-1-is-now-available | 2026-11-11
 - Claude Meetings（Google Meet 可见入会协作，Team/Enterprise beta，会中写文档/白板并出纪要） | https://claude.com/resources/articles/claude-meetings | https://upvote0.com/daily/2026-11-13 | 2026-11-13
+
+## 2026-11-14
+- Vexo（YC F26 常听 AI 手环：记住对话并起草跟进邮件/改日程/交给 Claude/ChatGPT 办事，发出前需确认，不存音频、转写加密；预订 $199） | https://www.vexoai.com/ | https://www.ycombinator.com/launches/XTy-vexo-an-always-listening-ai-bracelet-that-remembers-and-acts | 2026-11-13
+- Notecapt A2 Pro（口袋 AI 录音+拍照笔记：每张照片对齐到录音时间点，Mac/Windows 端 Notecapt Agent 出转写/摘要/图文报告，原始文件存可拆卸本地存储） | 官网未核实 | https://www.abnewswire.com/pressreleases/notecapt-introduces-a2-pro-an-ai-recorder-that-keeps-every-photo-connected-to-the-conversation_848129.html | 2026-11-14
+- Genki Robotics 人形机器人原型（Andy Rubin 创办，东京；11/12 首相官邸首次公开，自研关节与相机，软件拟做开放平台，年底前做首个产品型号） | 官网未核实 | https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei | 2026-11-12
+- Replay（Mac 无机器人会议录制：Meet/Zoom/Teams 双轨录音，本机转写/摘要/待办，本地文件可搜，一次买断两台 Mac；PH 11/14） | 官网未核实 | https://upvote0.com/daily/2026-11-14 | 2026-11-14
+- Edge0-145B / Edge0-120B（开源端侧稀疏 MoE，约 10B 激活参数，号称兼容笔记本峰值内存 29GB、>80 tok/s，附推理框架与部署工具） | https://edge0.ai/ | https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer | 2026-11-12
+- Vbot 维他动力 Exo2EgoPolicy + Vbot Echo + Echo App（手机拍人类操作视频→第三转第一视角→重定向+仿真→机器人训练数据） | 官网未核实 | https://news.qq.com/rain/a/20261113A08MKK00 | 2026-11-13
+- Gemini Robotics 2.5（DeepMind VLA 机器人模型，成功率较上代高 30%–100%，奔驰配件分拣试点 96%；仅向合作伙伴开放；PH 11/14 上架） | https://deepmind.google/models/gemini-robotics/ | https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/ | 2026-11-10（PH 2026-11-14）
+- Google Home 11 月更新（Home MCP 早期体验：个人 agent 可建/改自动化，不能永久删除，安全敏感操作被拦；Aliro 数字门钥预览） | https://home.google.com/ | https://smarthomeassistant.co.uk/articles/home-automation/google-home-november-2026-update-uk | 2026-11-11
+
+## 2026-11-15
+- antimattr Project Mnemosyne（YC F26：隔噪耳机号称滤掉约 90dB 背景噪声、转写错误率由约 30% 降到 <5%，配控制 agent 的戒指；称 2,000+ 预订，Q4 2026 发布） | https://www.antimattr.one/project-mnemosyne | https://www.ycombinator.com/launches/XSv-antimattr-voice-first-hardware-interface-for-human-agent-interaction | 2026-11-13
+- 中国移动杭研 灵犀四足机器狗（家庭陪伴/看护：伴读、抓拍成长瞬间、出行陪伴，可搭载上百款智能体应用，音色/人设可换） | 官网未核实 | http://www.ce.cn/xwzx/kj/202611/t20261114_3294358.shtml | 2026-11-13
+- SwitchBot Hub 4（内置云端语音助手 Kata 的 IR+Matter 桥接中枢，2.8 寸屏+旋钮；美国 $119.98 预售 12 月初发货，欧洲 11/16 开售 €129.99） | https://www.switch-bot.com/products/switchbot-hub-4 | https://en.soth.pl/news/switchbot-hub-4-reaches-europe-on-16-november-at-eur12999-with-a-cloud-voice-assistant-called-kata-and-a-matter-bridge | 2026-11-11（欧洲开售 2026-11-16）
+- Apple HomeView 开售跟进（7 寸屏家庭中枢+Siri AI，人脸识别最多 6 人，$299，11/13 起在美英等地开售；欧盟暂不售） | https://www.apple.com/store | https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/ | 2026-11-13
+- Reolink Home Hub 2（本地 AI 视频搜索+跨摄像头追踪、无订阅本地录像，最多 8 路，SATA 至 16TB；英国 £149.99，美国 $199.99） | https://reolink.com/ | https://smarthomeassistant.co.uk/articles/smart-security/reolink-home-hub-2-uk | 2026-11-12（英国定价文章；美国 2026-10-15 上市）
+- Natura Interface（旧项目突然火起来：Kickstarter 11/10 上线，72 小时订单超 Oura 一代首月 2,383 单；截至抓取约 2,533 位支持者、约 $399,730） | https://natura.inc/interface | https://www.kickstarter.com/projects/rollingsquare/interface-ai-smart-ring-for-voice-notes-agents-and-health | 2026-11-13（热度）
+- Home Assistant 下一代语音 Voice support（Labs 预览：自动安装托管 Voice 应用，二次校验唤醒词、判断指令结束；Voice PE 固件可回传缓冲唤醒音频） | https://www.home-assistant.io/integrations/labs/ | https://paulusschoutsen.nl/ohf-daily/edition/2026-11-14/article/voice-labs-managed-preview/ | 2026-11-13（文档合入）/ 2026-11-14（报道）
+- Bland Tofu-1（全双工语音到语音模型，面向嘈杂电话：说话人追踪、噪声分离、副语言识别；企业研究预览，称 1 月开放） | https://www.bland.ai/speech-to-speech | https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/ | 2026-11-13
+- 近期关注（未单列）：Magic Ring（metaXring，KS 11/11–12/16） https://www.pledgebox.com/projects/memo-the-next-gen-ai-recording-ring ；Edifier Hecate Sona Clip（11/20 中国开售 ¥468） https://www.gizmochina.com/2026/11/11/edifier-hecate-sona-clip-earbuds-launched-specs-price/ ；NVIDIA GR00T 2（11/9 发布，权重 12 月） https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/
+
+## 2026-11-15（拍照文创景区专题）
+- FaceVibe Booth（PressLogic，香港活动 AI 拍照体验：拍完扫码取图、可选现场打印，默认活动结束后 3 天删除照片；11/4–11/5 数码港创投论坛落地） | https://booth.facevibe.ai/ | https://www.presslogic.ai/post/presslogic-showcases-facevibe-booth-at-cyberport-venture-capital-forum-2026-bringing-ai-powered-cre | 2026-11-04 至 2026-11-05
+- Gig Game Photo Booth（把电视/显示器/触摸屏加网络摄像头变成 AI 拍照亭，73 种风格，支持扫码排队、下载、邮件和打印；适合婚礼和活动） | https://www.giggamestudios.com/en/app/b8bb4b73-747e-4142-926d-4e61286961d1.html | https://www.giggamestudios.com/en/release-notes/turn-any-screen-into-an-ai-powered-photo-booth-e06795fc-f403-4737-9a9a-dfedc8661f29.html | 2026-11-14
+- PhotoMeBooth AI Image-to-Video（活动现场把客人照片生成主题短视频，成片在客人离开机位后送达，避免在镜头前等待） | https://www.photomebooth.com/news-and-updates/ai-image-to-video-event-experiences | https://www.photomebooth.com/news-and-updates/ai-image-to-video-event-experiences | 2026-11-03
+- 广西锦韵智旅 AR 冰箱贴（广西人工智能应用文旅产业成果展现场爆款：AR 交互、多语种数字人解说和 AI 写真旅拍，扫码可玩，可上传素材定制视频） | 官网未核实 | http://gx.people.com.cn/n2/2026/1109/c179464-41745636.html | 展览 2026-11-06 至 2026-11-08（报道 2026-11-09）
+- 蓝鹦鹉博物馆 AI 导游（中采文化 × 北京熠朵科技，第十一届博博会首发：AI 眼镜导览，注视或移动触发讲解，换展不必重布信标，含内容审校） | 官网未核实 | http://hi.people.com.cn/n2/2026/1113/c231190-41750594.html | 展会 2026-11-13 至 2026-11-16（报道 2026-11-13）
+- 承德智慧文旅升级（一部手机游承德、避暑山庄 AI 数字人导览、核心景区客流监测，以及行前规划到行后旅拍的 AI 平台） | 官网未核实 | http://www.92chengde.com/m/view.php?aid=583 | 2026-11-12
+- 新疆景区客流提示与预警（喀纳斯四色游览舒适度提示、天山天池客流监测与分流；文旅部“人工智能+文化和旅游”试点含旅游公路智能服务） | 官网未核实 | http://xj.people.com.cn/n2/2026/1101/c186332-41738624.html | 2026-11-01
+- 上海南京路「白虹·探索」外骨骼租赁试运行（11/14 起世纪广场试运行，支付宝扫码免押金，约 30 元/小时，整机约 2.2 公斤；豫园同步设点） | 官网未核实 | https://www.thepaper.cn/newsDetail_forward_34486632 | 试运行 2026-11-14（报道 2026-11-15）
+- 西湖景区拟投放超千台「踏山」智能外骨骼（11/3 签约共建杭州西湖智能文旅创新实验室，计划多点随借随还，整机 2.4 公斤，定价计划约 30 元/小时） | 官网未核实 | https://zjnews.zjol.com.cn/zjnews/202611/t20261105_32009483.shtml | 签约 2026-11-03（报道 2026-11-05）；同周古隆中引入外骨骼 https://www.hj.cn/content/2026-11/12/content_20251565.html （2026-11-12）
+- 妙动科技 Beni 跟拍机器人全球现货开售（双轮足多地形自主跟拍，4K60P，京东标准套装 ¥4,999、探索套装 ¥5,799） | https://www.mondorobotics.com/zh-cn/blogs/news/mondo-robotics-debut-robot-beni-available-for-consumers | https://www.jiemian.com/article/15319217.html | 2026-11-10
+- 《文化和旅游部技术创新中心管理办法》发布（文旅科教发〔2026〕75号，11/6 印发、11/12 公开，规范申报、建设、验收和三年一次评估） | https://zwgk.mct.gov.cn/zfxxgkml/zcfg/gfxwj/202611/t20261112_967637.html | https://feng.ifeng.com/c/8xzeLFRpBYt | 公开 2026-11-12
+
+## 2026-11-16
+- 福建泰宁外骨骼+无人机跟拍常态化租赁（寨下大峡谷10套外骨骼+5台跟拍无人机，扫码<2分钟，大金湖同步） | 官网未核实 | https://www.chinanews.com.cn/sh/2026/11-16/10732928.shtml | 2026-11-16
+- 珠海长隆飞船乐园300+机器人常态化运营（智元，百万次互动，二期近千台） | https://www.chimelong.com/zh/zh-park-science/ | https://www.bjnews.com.cn/detail/1794755362189789.html | 2026-11-15
+- 文旅具身机器人「小芯」（天绛芯华，博博会，累计服务60万+人次） | 官网未核实 | http://news.cyol.com/gb/lvyou/articles/2026-11/15/content_bmOLKMhdYd.html | 2026-11-13（报道 2026-11-15）
+- Disney Imagineering Labs App（AR 游戏+即将上线 AI 导游）；同周 Spaxial 乐园 AI 平台 | 官网未核实 | https://www.theverge.com/tech/1031182/disney-imagineering-labs-mobile-app-augmented-reality-star-wars-ai-assistant ; https://www.experienceuk.org/disney-magicband-inventor-launches-spaxial-ai-platform-for-visitor-attractions | 2026-11-10 / 2026-11-12
+- KTC VMAX 全感知智能体主机+VMAX GO 随行录音屏（本地会议纪要，好书记相关） | 官网未核实 | https://www.ithome.com/1/027/819.htm | 2026-11-16
+- 优奈柯恩 AURA 智能眼镜（Android XR 有线，X1S 芯片） | 官网未核实 | http://tj.people.com.cn/n2/2026/1116/c415051-41752484.html | 2026-11-16
+- Cozio 宠物陪伴机器人（双机械臂，KS 11/18 上线） | 官网未核实 | https://globenewwire.com/press-release/2026-11-16/38452/cozio-launches-world-s-first-pet-companion-robot-with-dual-robotic-arms-on-kickstarter | 2026-11-16
+- Home Assistant AI Evaluate 自动化指南 | https://www.home-assistant.io/actions/ai_task.evaluate/ | https://paulusschoutsen.nl/ohf-daily/edition/2026-11-15/article/ai-evaluation-automation-guide/ | 2026-11-15
+- 近期关注（未单列）：GuestGrin AI 漫画像拍照亭 https://guestgrin.com/ ；OATs 物体智能体 https://www.ithome.com/1/027/443.htm
