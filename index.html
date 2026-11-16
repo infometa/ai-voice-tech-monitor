@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-15 · 新增 DeepSeek ASR/TTS API，更新 ZONOS3-Mini 状态（窗口 11-13 至 11-15）</div>
+      <div class="meta">最后更新：2026-11-16 · 新增 Salesforce SOV-Transcribe-1，确认近期已落地更新（窗口 11-13 至 11-16）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大全新模型权重发布，以下为近期已落地、值得关注的实用更新。主要亮点：DeepSeek 于11月13日正式开放独立 ASR/TTS API；ZONOS3-Mini 持续强化端侧实时开源 TTS。</p>
+      <p style="margin-bottom:16px;">今日无重大全新模型权重或产品首次上线，以下为近期已落地、值得关注的实用更新。主要亮点：Salesforce SOV-Transcribe-1 开源高精度ASR；ZONOS3-Mini、Haru-4B、Fluid Speech Pro 等端侧开源模型持续强化；DeepSeek 低价ASR/TTS API。</p>
       <table>
         <thead>
           <tr>
@@ -70,40 +70,49 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://api-docs.deepseek.com/" target="_blank">DeepSeek ASR & TTS API</a><br><small>独立低价语音服务</small></td>
-            <td>2026-11-13</td>
-            <td>DeepSeek 开放独立 ASR（约21语言）与 TTS（约10语言、2个声音）API，支持流式，与 deepseek-flash 集成。限时五折：ASR 约 $0.058/小时，TTS 约 $0.225/万字符。中文识别表现较强。</td>
-            <td>是（官方 API 立即可用，文档齐全，独立端点 + 对话内调用）</td>
-            <td>否（闭源 API 服务）</td>
-            <td>语音代理、聊天应用语音交互、低成本实时转写/合成、多语言内容生产</td>
-            <td class="score">8/10（价格极低、即用、中文友好；模型细节未完全公开，延迟中等）</td>
+            <td><a href="https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1" target="_blank">SOV-Transcribe-1 (Salesforce)</a><br><small>开源高精度非流式ASR</small></td>
+            <td>2026-11-12</td>
+            <td>开源高精度非流式ASR，Whisper large-v3编码器+Gemma 4 MoE（26.6B总/4.6B激活），AA-WER 2.3%（开源第一、综合第7），支持7种语言、指令控制与上下文偏置，最长约30分钟音频。</td>
+            <td>是（HF权重、Transformers/vLLM插件，OpenAI兼容端点）</td>
+            <td>是（Apache-2.0）</td>
+            <td>会议/通话转写、企业私有部署、指令式转录、多语言内容处理</td>
+            <td class="score">9/10（开源精度领先、易自托管、数据控制强；非实时）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆 TTS</small></td>
-            <td>2026-11-09（HF/代码持续更新至11-13）</td>
-            <td>紧凑开源 MoE TTS（约100M激活 / 800M总参数），零样本语音克隆、词级情绪/语速/口音控制，43语言，44.1kHz。可在浏览器 WebGPU、手机、Mac 实时运行（Pixel 9 TTFA <570ms，M3 Air <150ms，H100 约80ms）。</td>
-            <td>是（HF 权重、GitHub 多运行时、浏览器 demo、Zyphra Cloud API）</td>
+            <td>2026-11-09（持续更新至11月）</td>
+            <td>紧凑开源MoE TTS（约100M激活 / 800M总），零样本语音克隆、词级情绪/语速控制，43语言，44.1kHz。可浏览器WebGPU、手机、Mac实时运行（H100约80ms TTFA）。</td>
+            <td>是（HF权重、GitHub多运行时、浏览器demo、Zyphra Cloud API）</td>
             <td>是（Apache-2.0）</td>
-            <td>端侧语音助手、游戏角色配音、本地隐私语音生成、实时代理语音、内容创作</td>
-            <td class="score">9/10（端侧实时强、开源免费商用、控制细粒度高、易部署；独立评测尚少）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/FluidVoice-Labs/fluid-speech-pro" target="_blank">Fluid Speech Pro (FluidVoice)</a><br><small>开源小模型高精度 ASR</small></td>
-            <td>2026-11-13</td>
-            <td>0.6B 参数开源 ASR，在 Hugging Face OpenASR 排行榜上位列开源模型第2、<1B 第1。6.06% 平均 WER，支持 25 语言，专为听写/实时转写优化，可在日常设备（手机/笔记本）运行。</td>
-            <td>是（HF 权重、Transformers 一行加载、多后端）</td>
-            <td>是（CC BY 4.0）</td>
-            <td>本地听写、手机语音输入、离线转写、隐私优先的语音代理</td>
-            <td class="score">9/10（精度高、体积小、开源易用、端侧友好）</td>
+            <td>端侧语音助手、游戏配音、本地隐私合成、实时语音代理</td>
+            <td class="score">9/10（端侧实时强、开源免费商用、控制细；独立评测仍少）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/higurashi-ai/Haru" target="_blank">Haru-4B (higurashi)</a><br><small>全双工低延迟语音对话基础模型</small></td>
             <td>2026-11-13</td>
-            <td>日本 higurashi 开源的 4B 全双工 speech-to-speech 基础模型，基于 Qwen3.5-4B，支持打断等自然对话。4000万小时多语言预训练，MacBook 约 65ms 延迟，9 语言（含日/英/中）。</td>
-            <td>部分（HF 权重 + GitHub 推理代码与 Web demo；为预训练基础模型，非完整助手）</td>
+            <td>日本团队开源的4B全双工speech-to-speech基础模型（基于Qwen3.5-4B），支持同时听与说、打断/相槌等自然行为。4000万小时多语言预训练，MacBook约65ms延迟，覆盖9语言。</td>
+            <td>部分（HF权重+GitHub推理代码/Web demo；预训练基础模型，需微调）</td>
             <td>是（Apache-2.0）</td>
-            <td>研究全双工代理、低延迟语音对话实验、多语言实时交互、端侧语音助手原型</td>
-            <td class="score">8/10（新颖全双工开源、低延迟、多语言；需微调才能直接用作助手）</td>
+            <td>全双工语音代理研究、低延迟实时对话实验、多语言端侧原型</td>
+            <td class="score">8/10（新颖全双工开源、低延迟；直接生产需进一步调优）</td>
+          </tr>
+          <tr>
+            <td><a href="https://api-docs.deepseek.com/" target="_blank">DeepSeek ASR & TTS API</a><br><small>独立低价语音服务</small></td>
+            <td>2026-11-13</td>
+            <td>独立低价ASR（约21语言）与TTS（约10语言、2音色）API，支持流式TTS，与deepseek-flash集成。限时五折：ASR约$0.058/小时，TTS约$0.225/万字符。中文识别较强。</td>
+            <td>是（官方API立即可用，文档齐全）</td>
+            <td>否（闭源API）</td>
+            <td>语音代理、聊天应用交互、低成本实时转写/合成</td>
+            <td class="score">8/10（价格极低、即用、中文友好；模型细节未完全公开）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/FluidVoice-Labs/fluid-speech-pro" target="_blank">Fluid Speech Pro (FluidVoice)</a><br><small>开源小模型高精度ASR</small></td>
+            <td>2026-11-13</td>
+            <td>0.6B开源ASR，HF OpenASR排行榜开源第2、<1B第1，平均WER 6.06%，25语言，专为听写/实时优化，支持MLX/CoreML/ONNX端侧运行。</td>
+            <td>是（HF权重、多后端、已集成FluidVoice App）</td>
+            <td>是（CC BY 4.0）</td>
+            <td>本地听写、手机语音输入、离线转写、隐私优先代理</td>
+            <td class="score">9/10（精度高、体积小、端侧友好、易部署）</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-15 监测：低延迟端侧开源小模型持续加速（ZONOS3-Mini、Fluid Speech Pro 等），全双工与细粒度控制成为新热点；同时闭源 API（DeepSeek、ElevenLabs 等）通过极低价格与完整工具套件快速扩大生态。整体方向：隐私优先的本地运行 + 低成本云端补充并行发展，多语言一致性与实时交互能力快速成熟。
+        2026-11-16 监测：低延迟端侧开源小模型（ZONOS3-Mini、Fluid Speech Pro、Haru-4B 等）持续加速成熟，全双工与细粒度控制成为新热点；同时闭源API（DeepSeek、ElevenLabs Scribe v3等）通过极低价格与完整工具套件快速扩大生态。整体方向：隐私优先的本地运行 + 低成本云端补充并行发展，多语言一致性与实时交互能力快速成熟。
       </div>
     </div>
 
