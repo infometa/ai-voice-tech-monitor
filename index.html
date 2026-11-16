@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-16 · 新增 Salesforce SOV-Transcribe-1，确认近期已落地更新（窗口 11-13 至 11-16）</div>
+      <div class="meta">最后更新：2026-11-16 · 新增 Haru-4B、tiny-voca、Tontaube V1.1、DeepL Aure 等近期落地更新（窗口 11-14 至 11-16）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大全新模型权重或产品首次上线，以下为近期已落地、值得关注的实用更新。主要亮点：Salesforce SOV-Transcribe-1 开源高精度ASR；ZONOS3-Mini、Haru-4B、Fluid Speech Pro 等端侧开源模型持续强化；DeepSeek 低价ASR/TTS API。</p>
+      <p style="margin-bottom:16px;">近 1-2 天重点关注：全双工开源语音对话、超小端侧 TTS、长篇叙事 TTS 与商业语音翻译进展。主要亮点：Haru-4B 实现真实全双工互动；tiny-voca 以极低成本验证合成数据训练可行性；ZONOS3-Mini 持续引领端侧实时克隆。</p>
       <table>
         <thead>
           <tr>
@@ -70,17 +70,17 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://huggingface.co/salesforce-sovereign-intelligence/SOV-Transcribe-1" target="_blank">SOV-Transcribe-1 (Salesforce)</a><br><small>开源高精度非流式ASR</small></td>
-            <td>2026-11-12</td>
-            <td>开源高精度非流式ASR，Whisper large-v3编码器+Gemma 4 MoE（26.6B总/4.6B激活），AA-WER 2.3%（开源第一、综合第7），支持7种语言、指令控制与上下文偏置，最长约30分钟音频。</td>
-            <td>是（HF权重、Transformers/vLLM插件，OpenAI兼容端点）</td>
+            <td><a href="https://github.com/higurashi-ai/Haru" target="_blank">Haru-4B (higurashi)</a><br><small>全双工低延迟语音对话基础模型</small></td>
+            <td>2026-11-13</td>
+            <td>日本团队开源的4B全双工 speech-to-speech 基础模型（基于 Qwen3.5-4B），支持同时听与说、打断/相槵等自然行为。4000万小时多语言实语音预训练，MacBook 约65ms 延迟，覆盖9语言。</td>
+            <td>部分（HF权重+GitHub推理代码/Web demo；预训练基础模型，需微调）</td>
             <td>是（Apache-2.0）</td>
-            <td>会议/通话转写、企业私有部署、指令式转录、多语言内容处理</td>
-            <td class="score">9/10（开源精度领先、易自托管、数据控制强；非实时）</td>
+            <td>全双工语音代理研究、低延迟实时对话实验、多语言端侧原型</td>
+            <td class="score">8/10（新颖全双工开源、低延迟；直接生产需进一步调优）</td>
           </tr>
           <tr>
             <td><a href="https://github.com/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆 TTS</small></td>
-            <td>2026-11-09（持续更新至11月）</td>
+            <td>2026-11-09（持续热议）</td>
             <td>紧凑开源MoE TTS（约100M激活 / 800M总），零样本语音克隆、词级情绪/语速控制，43语言，44.1kHz。可浏览器WebGPU、手机、Mac实时运行（H100约80ms TTFA）。</td>
             <td>是（HF权重、GitHub多运行时、浏览器demo、Zyphra Cloud API）</td>
             <td>是（Apache-2.0）</td>
@@ -88,31 +88,31 @@
             <td class="score">9/10（端侧实时强、开源免费商用、控制细；独立评测仍少）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/higurashi-ai/Haru" target="_blank">Haru-4B (higurashi)</a><br><small>全双工低延迟语音对话基础模型</small></td>
-            <td>2026-11-13</td>
-            <td>日本团队开源的4B全双工speech-to-speech基础模型（基于Qwen3.5-4B），支持同时听与说、打断/相槌等自然行为。4000万小时多语言预训练，MacBook约65ms延迟，覆盖9语言。</td>
-            <td>部分（HF权重+GitHub推理代码/Web demo；预训练基础模型，需微调）</td>
+            <td><a href="https://github.com/n4ze3m/tiny-voca" target="_blank">tiny-voca</a><br><small>超小 4.5M 参数英语 TTS</small></td>
+            <td>2026-11-14</td>
+            <td>仅18MB、4.5M参数的英语TTS，仅使用合成语音训练（来自Qwen3-TTS），CPU/浏览器实时运行（约70x实时）。采用Source-Filter架构，完全开源。</td>
+            <td>是（HF权重、GitHub代码/数据集/训练配方、浏览器demo）</td>
             <td>是（Apache-2.0）</td>
-            <td>全双工语音代理研究、低延迟实时对话实验、多语言端侧原型</td>
-            <td class="score">8/10（新颖全双工开源、低延迟；直接生产需进一步调优）</td>
+            <td>超低资源端侧合成、嵌入式设备、教育/实验、离线简单语音</td>
+            <td class="score">7/10（极致轻量、完全开源；仅英语、无克隆/流式，适合原型）</td>
           </tr>
           <tr>
-            <td><a href="https://api-docs.deepseek.com/" target="_blank">DeepSeek ASR & TTS API</a><br><small>独立低价语音服务</small></td>
-            <td>2026-11-13</td>
-            <td>独立低价ASR（约21语言）与TTS（约10语言、2音色）API，支持流式TTS，与deepseek-flash集成。限时五折：ASR约$0.058/小时，TTS约$0.225/万字符。中文识别较强。</td>
-            <td>是（官方API立即可用，文档齐全）</td>
-            <td>否（闭源API）</td>
-            <td>语音代理、聊天应用交互、低成本实时转写/合成</td>
-            <td class="score">8/10（价格极低、即用、中文友好；模型细节未完全公开）</td>
+            <td><a href="https://github.com/craitech/tontaube" target="_blank">Tontaube V1.1</a><br><small>长篇叙事与代理 TTS</small></td>
+            <td>2026-11-12~13</td>
+            <td>2.9B参数开权重TTS，专注长篇叙事/有声书、零样本克隆（5-60s）、7欧洲语言。4-bit版可在桌面CPU实时运行，支持语速/音高等控制。</td>
+            <td>是（HF权重、GitHub服务器、API/App）</td>
+            <td>是（社区许可）</td>
+            <td>有声书生成、长文本叙事、语音代理、本地低成本合成</td>
+            <td class="score">8/10（长篇表现优、CPU友好；许可需确认，主要英/德）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/FluidVoice-Labs/fluid-speech-pro" target="_blank">Fluid Speech Pro (FluidVoice)</a><br><small>开源小模型高精度ASR</small></td>
+            <td><a href="https://www.deepl.com/" target="_blank">DeepL Aure</a><br><small>生动语音翻译模型</small></td>
             <td>2026-11-13</td>
-            <td>0.6B开源ASR，HF OpenASR排行榜开源第2、<1B第1，平均WER 6.06%，25语言，专为听写/实时优化，支持MLX/CoreML/ONNX端侧运行。</td>
-            <td>是（HF权重、多后端、已集成FluidVoice App）</td>
-            <td>是（CC BY 4.0）</td>
-            <td>本地听写、手机语音输入、离线转写、隐私优先代理</td>
-            <td class="score">9/10（精度高、体积小、端侧友好、易部署）</td>
+            <td>DeepL 最新语音AI翻译模型，实时适应语调、情绪、节奏变化，保留说话者个性与表达。集成于DeepL Voice产品与API。</td>
+            <td>是（产品与API立即可用）</td>
+            <td>否（闭源）</td>
+            <td>企业多语言会议、实时口语翻译、跨语言客服</td>
+            <td class="score">9/10（即用商业级、表达丰富；依赖云端与付费）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-16 监测：低延迟端侧开源小模型（ZONOS3-Mini、Fluid Speech Pro、Haru-4B 等）持续加速成熟，全双工与细粒度控制成为新热点；同时闭源API（DeepSeek、ElevenLabs Scribe v3等）通过极低价格与完整工具套件快速扩大生态。整体方向：隐私优先的本地运行 + 低成本云端补充并行发展，多语言一致性与实时交互能力快速成熟。
+        2026-11-16 监测：开源端侧实时语音（尤其全双工与超小模型）进展迅速，合成数据训练路径被验证可行；商业语音翻译在情感与表达保真上再上台阶。整体：本地隐私优先与云端低成本服务并行，全双工互动与长篇自然度成为差异化焦点。
       </div>
     </div>
 
