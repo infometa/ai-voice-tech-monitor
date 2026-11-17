@@ -572,3 +572,19 @@
 - Cozio 宠物陪伴机器人（双机械臂，KS 11/18 上线） | 官网未核实 | https://globenewwire.com/press-release/2026-11-16/38452/cozio-launches-world-s-first-pet-companion-robot-with-dual-robotic-arms-on-kickstarter | 2026-11-16
 - Home Assistant AI Evaluate 自动化指南 | https://www.home-assistant.io/actions/ai_task.evaluate/ | https://paulusschoutsen.nl/ohf-daily/edition/2026-11-15/article/ai-evaluation-automation-guide/ | 2026-11-15
 - 近期关注（未单列）：GuestGrin AI 漫画像拍照亭 https://guestgrin.com/ ；OATs 物体智能体 https://www.ithome.com/1/027/443.htm
+
+## 2026-11-17
+- Foto Master Retro Newspaper Booth（AI 写报纸头版拍照亭，IAAPA 首发，$5,950 起，2027/1 发货） | https://fotomaster.com/pages/retro-newspaper-booth | https://fotomaster.com/blogs/blog/introducing-the-retro-newspaper-booth | 2026-11-17
+- AI 文创打印机景区常态化专题（北京动物园、兴元科技、咔忆AI文创机、大唐不夜城） | 官网未核实 | https://www.ctnews.com.cn/chanye/content/2026-11/17/content_194527.html | 2026-11-17
+- APEC 深圳会议新闻中心 AI 自主拍照机 | 官网未核实 | https://news.bjd.com.cn/2026/11/17/90095092.shtml | 2026-11-17
+- 科大讯飞 AI 导览机（博博会）＋讯飞×海淀文旅合作 | 官网未核实 | https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/snl9a7/stories/WS6afac1c7e4b0e14252fcb668.html ; https://finance.sina.com.cn/roll/2026-11-16/doc-iniyxiqz1228071.shtml | 2026-11-16
+- 杭州西湖“算法管家”（大华，22 个算法场景含无证商拍治理） | 官网未核实 | http://zj.people.com.cn/n2/2026/1116/c228592-41751915.html | 2026-11-16
+- Oveit AI（Sell with Oveit / Ask Oveit 乐园票务智能体，IAAPA） | https://oveit.com | https://blooloop.com/oveit-ai-iaapa-expo-2026/ | 2026-11-17
+- Anker Soundcore Work for Notta（10g 企业 AI 录音夹，¥29,990，好书记相关） | 官网未核实 | https://kcehc.com/2026/11/16/news-anker-soundcore-work-for-notta | 2026-11-15
+- Yanvi Robotics 表情化 AI 电脑（无摄像头、离线本地 AI，BTS 首秀） | 官网未核实 | https://www.etvbharat.com/en/technology/no-camera-physical-mute-offline-ai-inside-yanvi-robotics-new-expressive-ai-computer-enn26111704236 | 2026-11-17
+- HIYD 表底健康传感器（KS 5 天约 $850k） | https://hiyd.ai/ | https://www.einpresswire.com/article/957112911/first-time-founder-who-left-apple-raises-850-000-on-kickstarter-in-five-days | 2026-11-16
+- 跟进：Samsung × Google Intelligent Eyewear 首批预订售罄 | https://www.samsung.com/ | https://www.koreaherald.com/article/10938540 | 2026-11-16
+- 跟进：影目 INMO Future 首发价 5999 元 | https://www.inmo.com/ | https://www.ithome.com/1/028/270.htm | 2026-11-17
+- 跟进：Memoket（穗升科技）Pre-A 数千万元（好书记相关） | https://memoket.ai/ | https://www.36kr.com/p/4072342767047814 | 2026-11-17
+- Degla AI（无人机机载 VLM 自主，PH 11/16） | 官网未核实 | https://www.ycombinator.com/launches/XEX-degla-your-intent-onboard-autonomous-execution | 2026-11-16
+- Spiik（无机器人会议/课堂 AI 笔记，PH 11/15，好书记相关） | 官网未核实 | https://hunted.space/product/spiik | 2026-11-15
