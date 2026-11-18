@@ -588,3 +588,16 @@
 - 跟进：Memoket（穗升科技）Pre-A 数千万元（好书记相关） | https://memoket.ai/ | https://www.36kr.com/p/4072342767047814 | 2026-11-17
 - Degla AI（无人机机载 VLM 自主，PH 11/16） | 官网未核实 | https://www.ycombinator.com/launches/XEX-degla-your-intent-onboard-autonomous-execution | 2026-11-16
 - Spiik（无机器人会议/课堂 AI 笔记，PH 11/15，好书记相关） | 官网未核实 | https://hunted.space/product/spiik | 2026-11-15
+
+## 2026-11-18
+- Sweet Robo ARTI（AI 机器人画像机，IAAPA 首发展示） | https://sweetrobo.com/vending-machines/sketch-robot/ | https://connectplus.iaapa.org/event/iaapa-expo-2026/product/UHJvZHVjdF8xNTY0NDMx ; https://www.amusementsandattractions.com/amusements/products/sweet-robo-to-showcase-ai-robot-artist-at-iaapa-expo | 2026-11-17
+- 首都博物馆「智能伴游」导览系统（博博会阶段成果） | 官网未核实 | https://news.bjd.com.cn/2026/11/17/12033466.shtml | 展示 2026-11-14（报道 2026-11-17）
+- 宁夏海原县博物馆人形双足导览机器人 + 智慧小程序（近日落地） | 官网未核实 | https://www.stdaily.com/web/gdxw/2026-11/18/content_615152.html | 报道 2026-11-18
+- 西安城墙海尔 AI 运动外骨骼（今年初投入使用，本周落地报道） | 官网未核实 | http://m.cnwest.com/sxxw/a/2026/11/18/23475099.html ; http://m.cnwest.com/bwyc/a/2026/11/17/23474838.html | 报道 2026-11-18 / 2026-11-17
+- 乎零（Huling）AI 语音健康戒指（好书记相关） | 官网未核实 | https://cn.technode.com/post/2026-11-17/huling-ai-recording-ring/ ; https://news.pedaily.cn/202611/571958.shtml | 2026-11-17
+- 漫步者花再 Halo PixelBar AI 桌面音箱 | http://item.jd.com/100240526846.html | https://www.ithome.com/1/027/928.htm | 2026-11-16
+- Stringman（Neufangled 房间级缆绳机器人） | https://neufangled.com/stringman | https://hunted.space/product/stringman | 2026-11-18
+- DR H IntelliShade Sunglasses Gen2 / IntelliView Glasses Gen2 | https://www.drhhh.com/ | https://www.globenewswire.com/news-release/2026/11/18/3405351/0/en/dr-h-launches-next-generation-smart-glasses-accelerating-the-mainstream-adoption-of-smart-eyewear.html | 2026-11-18
+- 跟进：Gentle Monster 16 款 Intelligent Eyewear 纽约预览；Warby Parker 首套镜框系列 | 官网未单列产品页 | https://www.prnewswire.com/news-releases/gentle-monster-unveils-full-intelligent-eyewear-collection-with-immersive-new-york-public-preview-302941922.html ; https://glance.eyesoneyecare.com/stories/2026-11-18/warby-parker-introduces-first-intelligent-eyewear-frame-collection/ | 2026-11-17 / 2026-11-18
+- Bluedot Phone Calls / 2.2（好书记相关） | https://www.bluedothq.com/ | https://www.bluedothq.com/blog/bluedot-2-2 ; https://www.producthunt.com/products/bluedot-2 | 2026-11-18
+- 智能家居补充：smarthomeassistant.co.uk 更新 HA 2026.11.1 / 2026.11.2 补丁说明（无 AI 新品） | https://smarthomeassistant.co.uk/articles/home-automation/home-assistant-2026-11-1-patch-fixes-uk ; https://smarthomeassistant.co.uk/articles/home-automation/home-assistant-2026-11-2-patch-uk | 2026-11-18
