@@ -601,3 +601,11 @@
 - 跟进：Gentle Monster 16 款 Intelligent Eyewear 纽约预览；Warby Parker 首套镜框系列 | 官网未单列产品页 | https://www.prnewswire.com/news-releases/gentle-monster-unveils-full-intelligent-eyewear-collection-with-immersive-new-york-public-preview-302941922.html ; https://glance.eyesoneyecare.com/stories/2026-11-18/warby-parker-introduces-first-intelligent-eyewear-frame-collection/ | 2026-11-17 / 2026-11-18
 - Bluedot Phone Calls / 2.2（好书记相关） | https://www.bluedothq.com/ | https://www.bluedothq.com/blog/bluedot-2-2 ; https://www.producthunt.com/products/bluedot-2 | 2026-11-18
 - 智能家居补充：smarthomeassistant.co.uk 更新 HA 2026.11.1 / 2026.11.2 补丁说明（无 AI 新品） | https://smarthomeassistant.co.uk/articles/home-automation/home-assistant-2026-11-1-patch-fixes-uk ; https://smarthomeassistant.co.uk/articles/home-automation/home-assistant-2026-11-2-patch-uk | 2026-11-18
+
+## 2026-11-19
+- 天津天后宫 AI金属冰箱贴现场制作 | 官网未核实 | https://www.thepaper.cn/newsDetail_forward_34509075 | 报道 2026-11-19
+- 灵伴科技 AR/AI 眼镜景区导览（称已落地 200 余家博物馆/景区）＋成都杜甫草堂 AI「杜甫」数字人（数智文旅对接活动） | 官网未核实 | https://travel.gmw.cn/2026-11/18/content_39107546.htm | 报道 2026-11-18
+- Flowtica Verso（MagSafe 电子墨水屏 AI 录音器，好书记相关） | https://www.flowtica.ai/products/flowtica-verso-e-ink-ai-notetaker | https://techmymoney.com/2026/11/19/flowtica-verso-preorder-live-e-ink-transcription/ | 预购开启 2026-11-17（报道 2026-11-19）
+- Breezm in*sight 音频智能眼镜 | https://breezm.com/ | https://www.etnews.com/20261119000287 | 2026-11-19
+- EcoFlow STREAM 5000 / STREAM AC 5000 官方 Home Assistant 集成＋本地模式 | https://github.com/ecoflow-oasis-official/ha-ecoflow-official | https://www.computerbase.de/news/smart-home/ecoflow-stream-balkonkraftwerk-home-assistant-integration-und-lokaler-modus-starten.100349/ | 2026-11-17
+- Spellar for Chrome（无机器人入会笔记，好书记相关） | https://www.spellar.ai/chrome | https://upvote0.com/daily/2026-11-19 | 2026-11-19
