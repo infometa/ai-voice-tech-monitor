@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-18 · 今日无重大全新发布，以下为近期值得关注的更新（窗口约 11-13 至 11-18）</div>
+      <div class="meta">最后更新：2026-11-19 · 今日无重大全新模型发布，以下为近期值得关注的更新（窗口约 11-17 至 11-19）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：极致轻量化开源TTS、高精度端侧ASR、统一本地音频推理引擎与自托管语音平台。主要亮点：tiny-voca推动超小模型实时性；Fluid Speech Pro提升开源ASR精度；audio.cpp简化多模型本地部署。</p>
+      <p style="margin-bottom:16px;">近期重点：AssemblyAI 推出低延迟用途分型ASR；VoiceStudio作为开源本地语音工作室爆发增长；端侧开源TTS持续强化。主要亮点：实时语音代理专用模型、多引擎本地工作室、超轻量与端侧实时合成。</p>
       <table>
         <thead>
           <tr>
@@ -70,22 +70,22 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/n4ze3m/tiny-voca" target="_blank">tiny-voca</a><br><small>超轻量英语TTS模型</small></td>
-            <td>2026-11-15~16</td>
-            <td>4.5M参数、18MB的完全开源英语TTS（两固定声线），采用source-filter合成，CPU上约70倍实时。支持PyTorch/ONNX/浏览器运行，训练成本低于10美元。</td>
-            <td>是（GitHub代码与权重、HF、浏览器demo、ONNX）</td>
-            <td>是（Apache-2.0，含数据集与训练配方）</td>
-            <td>端侧/浏览器实时语音、低功耗语音助手、嵌入式设备合成</td>
-            <td class="score">8.5/10（极低资源、完全开源、超快；仅英语、无克隆、语音自然度有限）</td>
+            <td><a href="https://www.assemblyai.com/" target="_blank">AssemblyAI-STT-3.7</a><br><small>用途分型低延迟ASR家族</small></td>
+            <td>2026-11-17</td>
+            <td>三模型家族：Realtime（会议/通话实时，轮次结束即确认说话人）、Realtime-Agent（语音代理专用86ms最终转写，背景噪声抑制）、STT-3.7（录音文件，32语言最低说话人归因错误）。全部已上线API与游乐场。</td>
+            <td>是（官方API、游乐场、文档完善）</td>
+            <td>否（闭源API服务）</td>
+            <td>实时会议记录、语音代理/电话机器人、高精度录音转写与分析</td>
+            <td class="score">9/10（低延迟、用途精准、已生产可用；闭源按量计费）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/FluidVoice-Labs/fluid-speech-pro" target="_blank">Fluid Speech Pro</a><br><small>开源高精度多语言ASR</small></td>
-            <td>2026-11-13</td>
-            <td>0.6B参数开源ASR模型，Open ASR Leaderboard上开源模型第2、下于1B第1。支持25语言，可在日常设备（含手机）运行，支持MLX/CoreML/ONNX/GGUF。</td>
-            <td>是（HF权重、FluidVoice应用集成、多格式推理）</td>
-            <td>是（CC BY 4.0）</td>
-            <td>端侧语音转写、离线记录、多语言听写、隐私优先应用</td>
-            <td class="score">9/10（精度高、多语言、端侧可用、开源；需一定硬件资源）</td>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>开源本地语音工作室</small></td>
+            <td>持续更新（近期爆火，10万+ stars）</td>
+            <td>完全本地运行的语音工作室，支持语音克隆、语音设计、视频配音、听写、转写与有声书，自称支持646语言。集成多种引擎（默认OmniVoice等），本地API与MCP。</td>
+            <td>是（GitHub开源、安装包、桌面应用、本地运行）</td>
+            <td>是（AGPL-3.0（应用），模型权重分别见各自许可）</td>
+            <td>本地配音/克隆、视频汉化、有声书制作、离线转写、创作工作流</td>
+            <td class="score">8.5/10（完全本地、功能全、社区活跃；模型下载需硬件，部分引擎许可需注意）</td>
           </tr>
           <tr>
             <td><a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆TTS</small></td>
@@ -97,22 +97,22 @@
             <td class="score">9/10（端侧实时强、开源免费商用、控制细；独立评测仍少）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/0xShug0/audio.cpp" target="_blank">audio.cpp</a><br><small>纯C++ ggml音频推理引擎</small></td>
-            <td>持续更新（近期突出）</td>
-            <td>基于ggml的纯C++音频推理引擎，支持149+模型家族（TTS/ASR/语音克隆/音乐生成等），无Python依赖。支持CUDA/Metal/Vulkan/CPU等后端，统一CLI与服务器API。</td>
-            <td>是（GitHub代码、预编译二进制、模型管理器、多后端）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地多模型语音应用、离线TTS/ASR、嵌入式部署、统一音频工具链</td>
-            <td class="score">8.5/10（极其实用于本地部署、性能优、无依赖地狱；模型适配需时间）</td>
+            <td><a href="https://github.com/n4ze3m/tiny-voca" target="_blank">tiny-voca</a><br><small>超轻量英语TTS模型</small></td>
+            <td>2026-11-15~16</td>
+            <td>4.5M参数、18MB的完全开源英语TTS（两固定声线），采用source-filter合成，CPU上约70倍实时。支持PyTorch/ONNX/浏览器运行，训练成本低于10美元。</td>
+            <td>是（GitHub代码与权重、HF、浏览器demo、ONNX）</td>
+            <td>是（Apache-2.0，含数据集与训练配方）</td>
+            <td>端侧/浏览器实时语音、低功耗语音助手、嵌入式设备合成</td>
+            <td class="score">8.5/10（极低资源、完全开源、超快；仅英语、无克隆、语音自然度有限）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/andyhuo520/beanpod" target="_blank">BeanPod</a><br><small>本机macOS录音转写应用</small></td>
-            <td>2026-11-16</td>
-            <td>原生macOS应用，支持Anker录音豆与本机录音，使用Qwen3-ASR 0.6B本地转写、纪要待办、知识库问答。支持MCP接入Claude/Codex，英语学习模式。</td>
-            <td>是（GitHub开源、DMG下载、本地运行）</td>
-            <td>是（MIT）</td>
-            <td>本地会议转写、播客/视频学习、隐私记录管理、AI助手集成</td>
-            <td class="score">8/10（完全本地、易用、开源；仅macOS，需一定配置）</td>
+            <td><a href="https://mimo.mi.com/" target="_blank">MiMo-V2.5-TTS Series (小米)</a><br><small>限时免费高控制TTS</small></td>
+            <td>2026-04（近期限时免费亮点）</td>
+            <td>三模型：预置音色、一句话语音设计、少样本克隆。支持自然语言风格指令、内联情绪标签、唱歌等。API限时免费，ASR部分开源。</td>
+            <td>是（小米MiMo API、Studio试用，限时免费）</td>
+            <td>部分（TTS API闭源，ASR开源）</td>
+            <td>数字人配音、视频配音、有声书、创作语音设计与克隆</td>
+            <td class="score">8/10（控制细、限时免费吸引；发布较早、免费可能随时结束）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-18 监测：超小型开源TTS模型（如tiny-voca 4.5M）与纯C++本地推理引擎（audio.cpp）加速普及，端侧实时与高精度开源ASR（Fluid Speech Pro）持续强化。整体：低延迟、开源小模型、多语言一致性与完全本地隐私部署成为核心趋势，云端高精度服务与端侧开源并行发展。
+        2026-11-19 监测：低延迟专用ASR（如AssemblyAI STT-3.7分型优化实时与代理场景）与开源本地语音工作室（VoiceStudio火速增长，集成多引擎）并行发展。端侧实时开源小模型（ZONOS3-Mini、tiny-voca）持续降低部署门槛。整体：低延迟、用途分型优化、完全本地隐私部署与多语言一致性成为核心趋势，云端高精度API与端侧开源并存。
       </div>
     </div>
 
