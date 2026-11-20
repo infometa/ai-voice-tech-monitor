@@ -609,3 +609,10 @@
 - Breezm in*sight 音频智能眼镜 | https://breezm.com/ | https://www.etnews.com/20261119000287 | 2026-11-19
 - EcoFlow STREAM 5000 / STREAM AC 5000 官方 Home Assistant 集成＋本地模式 | https://github.com/ecoflow-oasis-official/ha-ecoflow-official | https://www.computerbase.de/news/smart-home/ecoflow-stream-balkonkraftwerk-home-assistant-integration-und-lokaler-modus-starten.100349/ | 2026-11-17
 - Spellar for Chrome（无机器人入会笔记，好书记相关） | https://www.spellar.ai/chrome | https://upvote0.com/daily/2026-11-19 | 2026-11-19
+
+## 2026-11-20
+- 优龙「如影」（Shadow Dance）消费级情绪感知外骨骼 | https://www.eulon.com/ | https://www.chinanews.com.cn/cj/shipin/cns-d/2026/11-20/news1075606.shtml ; http://k.sina.com.cn/article_3363163410_c875cd12020021xny.html （红网时刻） | 2026-11-20
+- 2026广州文交会开幕（国博/故宫首秀、数字人导览、凤冠主题合影、法国展位 AI 合影、数字装备展） | http://wglj.gz.gov.cn/xxgk/gzdt/zwxx/content/post_11114450.html | https://www.chinanews.com.cn/dwq/2026/11-20/10735458.shtml ; https://news.dayoo.com/guangzhou/202611/20/139995_55025602.htm ; https://www.21jingji.com/article/20261119/herald/d03c00c38c2cd99d84b92d9dc35b5633.html ; http://www.senn.com.cn/sx/2026/11/20/26298.html | 2026-11-20
+- 漫步者花再 Sona Clip 耳夹耳机开售（英文报道称接入豆包/DeepSeek、21 语翻译） | 官网未单独核实 | https://www.ithome.com/1/029/875.htm ; https://www.gizmochina.com/2026/11/11/edifier-hecate-sona-clip-earbuds-launched-specs-price/ | 开售 2026-11-20（11-11 发布）
+- Tamekoshi / Tame（电子宠物式桌面 AI 助手，含分说话人会议笔记，好书记相关） | https://www.tamekoshi.com/ | https://upvote0.com/daily/2026-11-20 ; https://hunted.space/dashboard/tamekoshi | 2026-11-20
+- 跟进：Meta Muse Charm 定价传闻 300 美元，拟 12 月假日季上市（旧项目热度） | https://www.meta.com/ | https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/ ; https://www.investing.com/news/stock-market-news/meta-to-price-muse-charm-gadget-at-300-the-information-reports-5039863 | 报道 2026-11-19
