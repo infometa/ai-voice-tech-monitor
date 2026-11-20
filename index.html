@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-19 · 今日无重大全新模型发布，以下为近期值得关注的更新（窗口约 11-17 至 11-19）</div>
+      <div class="meta">最后更新：2026-11-20 · 今日无重大全新模型发布，以下为近期值得关注的更新（窗口约 11-12 至 11-19）</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：AssemblyAI 推出低延迟用途分型ASR；VoiceStudio作为开源本地语音工作室爆发增长；端侧开源TTS持续强化。主要亮点：实时语音代理专用模型、多引擎本地工作室、超轻量与端侧实时合成。</p>
+      <p style="margin-bottom:16px;">近期重点：TokenAI发布阿拉伯方言优化开源轻量TTS；Haru-4B开源全双工口语对话模型；端侧实时开源TTS持续强化。主要亮点：全双工与端侧实时、区域语言覆盖、开源可部署性。</p>
       <table>
         <thead>
           <tr>
@@ -70,49 +70,49 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.assemblyai.com/" target="_blank">AssemblyAI-STT-3.7</a><br><small>用途分型低延迟ASR家族</small></td>
+            <td><a href="https://tokenai.llc/models" target="_blank">TokenAI Replica Preview</a><br><small>0.5B/0.6B/0.7B EN 开源TTS</small></td>
             <td>2026-11-17</td>
-            <td>三模型家族：Realtime（会议/通话实时，轮次结束即确认说话人）、Realtime-Agent（语音代理专用86ms最终转写，背景噪声抑制）、STT-3.7（录音文件，32语言最低说话人归因错误）。全部已上线API与游乐场。</td>
-            <td>是（官方API、游乐场、文档完善）</td>
-            <td>否（闭源API服务）</td>
-            <td>实时会议记录、语音代理/电话机器人、高精度录音转写与分析</td>
-            <td class="score">9/10（低延迟、用途精准、已生产可用；闭源按量计费）</td>
+            <td>三款轻量开源TTS原型，支持零样本语音克隆、可控语音设计、句子级流式与非语言声音。重点优化阿拉伯方言（尤其埃及）+英语等，计算需求低。</td>
+            <td>是（官方站点权重、模型页、公告）</td>
+            <td>是（MIT/Apache-2.0，开放权重）</td>
+            <td>中东/阿拉伯语语音代理、本地客服、方言合成、低成本边缘部署</td>
+            <td class="score">8/10（区域针对性好、开源免费、轻量；原型阶段、生态尚早）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>开源本地语音工作室</small></td>
-            <td>持续更新（近期爆火，10万+ stars）</td>
-            <td>完全本地运行的语音工作室，支持语音克隆、语音设计、视频配音、听写、转写与有声书，自称支持646语言。集成多种引擎（默认OmniVoice等），本地API与MCP。</td>
-            <td>是（GitHub开源、安装包、桌面应用、本地运行）</td>
-            <td>是（AGPL-3.0（应用），模型权重分别见各自许可）</td>
-            <td>本地配音/克隆、视频汉化、有声书制作、离线转写、创作工作流</td>
-            <td class="score">8.5/10（完全本地、功能全、社区活跃；模型下载需硬件，部分引擎许可需注意）</td>
+            <td><a href="https://github.com/higurashi-ai/Haru" target="_blank">Haru-4B</a><br><small>higurashi 全双工口语对话</small></td>
+            <td>2026-11-12~13</td>
+            <td>全双工连续口语对话模型，可同时听与说（支持打断、backchannel）。基于Qwen3.5-4B，7.5Hz帧率，约65ms处理延迟声明，9种主要语言。需约12GB VRAM。</td>
+            <td>是（HF权重、GitHub推理代码、Web demo、MLX macOS应用、vLLM插件）</td>
+            <td>是（Apache-2.0）</td>
+            <td>实时语音代理、电话式对话、低延迟口语交互、本地全双工助手</td>
+            <td class="score">8/10（架构新颖、开源完整、低延迟潜力高；尚偏研究基础模型，稳定性需验证）</td>
           </tr>
           <tr>
             <td><a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>端侧实时零样本语音克隆TTS</small></td>
             <td>2026-11-09~12</td>
-            <td>紧凑开源MoE TTS（约100M激活/800M总），零样本语音克隆、词级情绪/语速控制，43语言。44.1kHz输出。支持浏览器WebGPU、手机、Mac实时运行。</td>
-            <td>是（HF权重、GitHub多运行时、浏览器demo、Zyphra Cloud API）</td>
+            <td>紧凑开源MoE TTS（约100M激活/800M总），零样本克隆、词级情绪/语速控制，43语言。44.1kHz输出。支持浏览器WebGPU、手机、Mac实时运行。</td>
+            <td>是（HF权重、GitHub多运行时、浏览器demo、Zyphra Cloud）</td>
             <td>是（Apache-2.0）</td>
             <td>端侧语音助手、游戏配音、本地隐私合成、实时语音代理</td>
             <td class="score">9/10（端侧实时强、开源免费商用、控制细；独立评测仍少）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/n4ze3m/tiny-voca" target="_blank">tiny-voca</a><br><small>超轻量英语TTS模型</small></td>
-            <td>2026-11-15~16</td>
-            <td>4.5M参数、18MB的完全开源英语TTS（两固定声线），采用source-filter合成，CPU上约70倍实时。支持PyTorch/ONNX/浏览器运行，训练成本低于10美元。</td>
-            <td>是（GitHub代码与权重、HF、浏览器demo、ONNX）</td>
-            <td>是（Apache-2.0，含数据集与训练配方）</td>
-            <td>端侧/浏览器实时语音、低功耗语音助手、嵌入式设备合成</td>
-            <td class="score">8.5/10（极低资源、完全开源、超快；仅英语、无克隆、语音自然度有限）</td>
+            <td><a href="https://www.assemblyai.com/" target="_blank">AssemblyAI STT-3.7系列</a><br><small>用途分型低延迟ASR</small></td>
+            <td>2026-11-17</td>
+            <td>三模型家族：Realtime（会议/通话实时）、Realtime-Agent（语音代理专用约86ms最终转写）、STT-3.7（录音文件，32语言低说话人归因错误）。</td>
+            <td>是（官方API、Playground、文档完善）</td>
+            <td>否（闭源API服务）</td>
+            <td>实时会议记录、语音代理/电话机器人、高精度录音转写与分析</td>
+            <td class="score">9/10（低延迟、用途精准、已生产可用；闭源按量计费）</td>
           </tr>
           <tr>
-            <td><a href="https://mimo.mi.com/" target="_blank">MiMo-V2.5-TTS Series (小米)</a><br><small>限时免费高控制TTS</small></td>
-            <td>2026-04（近期限时免费亮点）</td>
-            <td>三模型：预置音色、一句话语音设计、少样本克隆。支持自然语言风格指令、内联情绪标签、唱歌等。API限时免费，ASR部分开源。</td>
-            <td>是（小米MiMo API、Studio试用，限时免费）</td>
-            <td>部分（TTS API闭源，ASR开源）</td>
-            <td>数字人配音、视频配音、有声书、创作语音设计与克隆</td>
-            <td class="score">8/10（控制细、限时免费吸引；发布较早、免费可能随时结束）</td>
+            <td><a href="https://saeedai.com/phonon-tts-on-device-speech-model/" target="_blank">Phonon TTS (Gradium)</a><br><small>超小端侧TTS 31M/40M</small></td>
+            <td>2026-10-20（11月跟进）</td>
+            <td>超小端侧TTS（31M约65MB），英语优先，部分多语言版本。CPU上极低延迟（声称数毫秒级首音频），纯本地无网络。</td>
+            <td>是（开源权重、HF、文档）</td>
+            <td>部分（31M英语Apache-2.0，其他CC BY-NC）</td>
+            <td>浏览器/手机实时语音、低功耗嵌入式、隐私合成</td>
+            <td class="score">8/10（极轻量、超低延迟、易部署；语言覆盖有限、部分非商用许可）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-19 监测：低延迟专用ASR（如AssemblyAI STT-3.7分型优化实时与代理场景）与开源本地语音工作室（VoiceStudio火速增长，集成多引擎）并行发展。端侧实时开源小模型（ZONOS3-Mini、tiny-voca）持续降低部署门槛。整体：低延迟、用途分型优化、完全本地隐私部署与多语言一致性成为核心趋势，云端高精度API与端侧开源并存。
+        2026-11-20 监测：低延迟持续主导（全双工如Haru-4B、端侧实时如ZONOS3-Mini/Phonon、专用ASR分型）。开源小模型与端侧部署加速普及（浏览器/手机可跑、Apache/MIT友好），区域语言与方言覆盖提升（阿拉伯语、多语言一致性）。云端高精度API与完全本地隐私方案并行，语音代理与实时交互成为落地核心。
       </div>
     </div>
 
