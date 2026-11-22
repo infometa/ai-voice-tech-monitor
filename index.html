@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-21 · 今日重点关注：全双工语音对话、开源降噪与低延迟托管TTS可用性提升</div>
+      <div class="meta">最后更新：2026-11-22 · 今日无重大新发布，以下为近期值得关注的更新：低延迟托管TTS、全双工语音对话与端侧开源小模型</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期重点：Haru-4B开源全双工口语对话模型持续受关注；Inworld开源Voice Isolator与SAVA降噪/轮次检测；Qwen3 TTS上线Together AI低延迟托管；Fluid Speech Pro开源端侧ASR表现强劲。主要亮点：全双工与低延迟、开源小模型、端侧可部署。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布。近期重点：Qwen3 TTS 已上线 Together AI 低延迟托管；Haru-4B 开源全双工口语对话持续受关注；ZONOS3-Mini 端侧实时语音克隆实用性强。主要亮点：低延迟、开源小模型与多语言一致性。</p>
       <table>
         <thead>
           <tr>
@@ -70,46 +70,28 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://www.together.ai/blog/qwen3-tts" target="_blank">Qwen3 TTS (Together AI)</a><br><small>开源TTS托管低延迟</small></td>
+            <td>2026-11-20</td>
+            <td>开源Apache-2.0 TTS（9预设音色×10语言），自然语言控制语气/情绪，首音频低至97ms。支持流式HTTP/WebSocket与语音克隆/设计。</td>
+            <td>是（Together AI Serverless/Dedicated API，HF原始权重，可自托管）</td>
+            <td>是（Apache-2.0）</td>
+            <td>多语言语音代理、实时客服、内容创作、跨语言一致语音</td>
+            <td class="score">9/10（低延迟、多语言一致、开源易用；托管成本透明）</td>
+          </tr>
+          <tr>
             <td><a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank">Haru-4B</a><br><small>higurashi 全双工语音对话</small></td>
-            <td>2026-11-13</td>
-            <td>4B参数全双工speech-to-speech模型，同时听与说（支持打断、backchannel）。7.5Hz帧率（约133ms），9语言，约12GB VRAM。基于Qwen3.5-4B。</td>
+            <td>2026-11-12~13</td>
+            <td>4B参数全双工speech-to-speech模型，同时听与说（支持打断）。7.5Hz帧率（约133ms），9语言，约12GB VRAM。基于Qwen3.5-4B。</td>
             <td>是（HF权重、GitHub推理代码与Web demo、MLX macOS应用、vLLM插件）</td>
             <td>是（Apache-2.0）</td>
             <td>实时语音代理、电话式对话、低延迟口语交互、本地全双工助手</td>
             <td class="score">8.5/10（架构新颖、开源完整、低延迟潜力高；基础模型稳定性需验证）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/inworld-ai/voice-isolator" target="_blank">Inworld Voice Isolator</a><br><small>开源语音隔离/降噪</small></td>
-            <td>2026-11-18</td>
-            <td>两款48kHz开源模型（64M离线 + 58M实时），去除背景噪声保留笑声/呼吸/音色。实时版20ms look-ahead。配套SAVA轮次检测。</td>
-            <td>是（pip安装、HF权重、GitHub代码、本地demo）</td>
-            <td>是（Apache-2.0）</td>
-            <td>语音代理前处理、会议记录清理、实时通话降噪、端侧ASR增强</td>
-            <td class="score">8/10（轻量开源、实时友好、易集成；新发布生态待成熟）</td>
-          </tr>
-          <tr>
-            <td><a href="https://www.together.ai/blog/qwen3-tts" target="_blank">Qwen3 TTS (Together AI)</a><br><small>开源TTS托管低延迟</small></td>
-            <td>2026-11-20</td>
-            <td>开源Apache-2.0 TTS（9预设音色×10语言），自然语言控制语气/情绪，首音频低至97ms。支持流式HTTP/WebSocket。</td>
-            <td>是（Together AI Serverless/Dedicated API，HF原始权重）</td>
-            <td>是（Apache-2.0，也可自托管）</td>
-            <td>多语言语音代理、实时客服、内容创作、跨语言一致语音</td>
-            <td class="score">9/10（低延迟、多语言一致、开源易用；托管成本透明）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/FluidVoice-Labs/fluid-speech-pro" target="_blank">Fluid Speech Pro</a><br><small>0.6B开源端侧ASR</small></td>
-            <td>2026-11-13~14</td>
-            <td>0.6B参数ASR，OpenASR榜单上开源<1B第一、总榜第二。25语言自动检测，噪声鲁棒。可跑手机/端侧设备。</td>
-            <td>是（HF权重、demo、FluidVoice应用集成、ONNX/MLX/GGUF）</td>
-            <td>是（CC BY 4.0）</td>
-            <td>本地听写、实时字幕、会议记录、噪声环境语音输入</td>
-            <td class="score">8.5/10（准确率高、轻量开源、端侧友好；新模型生态发展中）</td>
-          </tr>
-          <tr>
             <td><a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini</a><br><small>端侧实时语音克隆TTS</small></td>
-            <td>2026-11-12</td>
-            <td>100M激活开源TTS，零样本克隆、词级控制、43语言。支持浏览器WebGPU、手机、笔记本实时运行。</td>
-            <td>是（HF权重、GitHub多运行时、浏览器Space demo）</td>
+            <td>2026-11-09~12</td>
+            <td>100M激活开源TTS（MoE，800M总参），零样本克隆、词级控制、43语言。支持浏览器WebGPU、手机、笔记本实时运行。</td>
+            <td>是（HF权重、GitHub多运行时、浏览器与云端demo）</td>
             <td>是（Apache-2.0）</td>
             <td>端侧语音助手、游戏配音、隐私合成、实时代理</td>
             <td class="score">9/10（端侧实时强、开源商用、控制细；独立评测较少）</td>
@@ -121,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-21 监测：低延迟与全双工持续主导（Haru-4B等speech-to-speech、端侧实时TTS）。开源小模型与端侧部署加速（降噪、ASR、TTS均可本地跑，Apache/CC友好）。多语言一致性与区域覆盖提升，云端托管API与完全本地方案并行。语音代理、实时交互与音频前处理成为落地关键。
+        2026-11-22 监测：低延迟仍是核心竞争点（首音频低于100ms的托管与端侧方案并存）。开源小模型与完全本地部署加速（Apache-2.0 权重易获得，支持浏览器与移动端）。全双工speech-to-speech架构成为实时对话新方向，多语言一致性与语音控制细粒度提升。云端托管API与端侧开源方案并行，语音代理落地成本与延迟持续优化。
       </div>
     </div>
 
