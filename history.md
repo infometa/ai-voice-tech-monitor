@@ -616,3 +616,29 @@
 - 漫步者花再 Sona Clip 耳夹耳机开售（英文报道称接入豆包/DeepSeek、21 语翻译） | 官网未单独核实 | https://www.ithome.com/1/029/875.htm ; https://www.gizmochina.com/2026/11/11/edifier-hecate-sona-clip-earbuds-launched-specs-price/ | 开售 2026-11-20（11-11 发布）
 - Tamekoshi / Tame（电子宠物式桌面 AI 助手，含分说话人会议笔记，好书记相关） | https://www.tamekoshi.com/ | https://upvote0.com/daily/2026-11-20 ; https://hunted.space/dashboard/tamekoshi | 2026-11-20
 - 跟进：Meta Muse Charm 定价传闻 300 美元，拟 12 月假日季上市（旧项目热度） | https://www.meta.com/ | https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/ ; https://www.investing.com/news/stock-market-news/meta-to-price-muse-charm-gadget-at-300-the-information-reports-5039863 | 报道 2026-11-19
+
+## 2026-11-21
+- 伊春「一部手机游伊春」平台 2.0（AI+森林文旅） | 官网未核实（微信小程序） | https://www.hlj.chinanews.com.cn/hljnews/2026/1120/163978.html ; http://hlj.people.com.cn/n2/2026/1121/c220005-41756824.html | 发布近日（报道 2026-11-20 / 2026-11-21）
+- 敦煌城市超级智能体（联想擎天，数字人伴游/多语种讲解/票根经济） | 官网未核实 | http://finance.people.com.cn/n1/2026/1121/c1004-40838097.html | 2026-11-20（报道 2026-11-21）
+- 《广州地区博物馆资源推介与合作需求手册》文交会首发 | 官网未核实 | https://news.dayoo.com/guangzhou/202611/21/139995_55026018.htm ; https://ycpai.ycwb.com/content/ikimvjjtij/content_54353470.html | 2026-11-21
+- Pophie（InsBotics 对话型家庭 AI 机器人，日本 Makuake 开订） | https://pophie.com/ja/ ; https://www.makuake.com/project/pophie/ | https://prtimes.jp/main/html/rd/p/000000001.000191046.html ; https://gori.me/gadget/172855 | 2026-11-20
+- 影石 Mic Pro / Wave 免费固件升级，原生接入腾讯 WorkBuddy（好书记相关） | 官网未单独核实 | https://www.ithome.com/1/030/221.htm ; https://www.geekpark.net/news/374296 | 上线报道 2026-11-20
+- OpenVorld（开源本地 AI agent 像素世界，PH 11/21） | https://openvorld.com/ ; https://github.com/DigitalDreams-Lab/OpenVorld | https://upvote0.com/daily/2026-11-21 | 2026-11-21
+- 跟进：CyboPal ONE Kickstarter 收官（旧项目热度，HK$11,401,279 / 548 人） | https://cybopal.com/ | https://www.kickstarter.com/projects/cybopal/cybopal-worlds-first-active-tracking-ai-robotic-monitor ; https://the-gadgeteer.com/2026/11/20/cybopal-one-desktop-robotic-terminal-kickstarter/ | 众筹 2026-09-22–2026-11-21
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（Aqara 灯具评测 11/19，对应 11/17 开售，未纳入本次硬件清单） | https://smarthomeassistant.co.uk/ | https://smarthomeassistant.co.uk/articles/smart-lighting/aqara-smart-lights-uk-launch | 2026-11-19
+
+## 2026-11-22
+- 影石 Insta360 Toast（彩色墨水屏相纸，可当电子冰箱贴） | https://www.insta360.com/cn/product/insta360-toast | https://www.ithome.com/1/027/947.htm | 2026-11-16
+- Nothing 首款 AI 原生硬件（无屏会议记录向设备）定档 12 月 8 日亮相（好书记相关） | 官网未单独核实 | https://www.ithome.com/1/030/379.htm ; https://www.theverge.com/tech/1038405/nothing-screen-free-ai-device-announce-december-8 ; https://www.androidauthority.com/nothing-ai-hardware-december-8-teaser-3737727/ | 定档公布 2026-11-21（发布日 2026-12-08）
+- Thinking Machines Inkling 2 Mini（Apache-2.0 开源权重循环 MoE 本地模型） | https://thinkingmachines.ai/news/inkling-2-mini/ ; https://huggingface.co/thinkingmachines/Inkling-2-Mini | https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/ ; https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops | 2026-11-20（报道 2026-11-21）
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（近期多为 Home Assistant 自动化指南；EcoFlow STREAM、Aqara 灯具、Reolink Home Hub 2 均为此前已收录或更早发布，未纳入本次硬件清单） | https://smarthomeassistant.co.uk/ | 2026-11-22 复查
+
+
+## 2026-11-23
+- 华山「AI华山·智绘山河」全球创作者大赛 | 官网未单独核实（华山旅游服务平台报名） | http://www.sn.news.cn/20261123/e3923058138949c19885e7bb5f2259af/c.html | 启动 2026-11-22（报道 2026-11-23）
+- 四川文旅五大 AI 场景合作（智慧游览、安全防控、数字文博、产业建圈、行业治理） | 官网未核实 | https://sichuan.scol.com.cn/ggxw/202611/83361949.html | 2026-11-23
+- 蚂蚁阿福「福环」AI健康手环、「福戒」AI健康戒指 | https://www.antafu.com/ （品牌站当天未能打开完整产品页） | https://www.ithome.com/1/030/788.htm ; https://www.yicai.com/news/103449886.html ; https://technode.com/2026/11/23/ant-group-unveils-ai-health-ring-and-wristband-under-afu-brand/ | 2026-11-23
+- Sutyo Cue 记忆眼镜（好书记相关） | https://sutyo.ai/products/cue-240 | https://www.prnewswire.com/news-releases/introducing-sutyo-cue-memory-glasses-that-remember-what-matters-so-you-can-be-present-302948298.html | 预购开启 2026-11-23
+- Genspark SecondBrain VoicePad（好书记相关） | https://shop.genspark.ai/pages/voicepad | https://www.notebookcheck.com/SecondBrain-VoicePad-Kompakte-KI-Steuerung-und-Diktierhilfe-fuer-den-Schreibtisch.1456754.0.html | 报道 2026-11-22（Kickstarter 2026-11-24 开启）
+- oovi（本地优先桌面多智能体） | https://oovi.conuron.com/ | https://www.producthunt.com/products/oovi ; https://hunted.space/product/oovi | 2026-11-22
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（多为 Home Assistant 门锁提醒、晚安脚本等自动化指南；Google Home 11 月更新撰于 11 月 13 日，未纳入本次清单） | https://smarthomeassistant.co.uk/ | 2026-11-23 复查
