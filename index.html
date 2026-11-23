@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-22 · 今日无重大新发布，以下为近期值得关注的更新：低延迟托管TTS、全双工语音对话与端侧开源小模型</div>
+      <div class="meta">最后更新：2026-11-23 · 今日无重大新发布，以下为近期值得关注的更新：超小CPU TTS、全本地语音智能体与低延迟托管TTS</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日无重大新发布。近期重点：Qwen3 TTS 已上线 Together AI 低延迟托管；Haru-4B 开源全双工口语对话持续受关注；ZONOS3-Mini 端侧实时语音克隆实用性强。主要亮点：低延迟、开源小模型与多语言一致性。</p>
+      <p style="margin-bottom:16px;">今日无重大新发布。近期重点：tiny-voca 以 4.5M 参数实现 CPU 高速英语TTS；vicidial-ai-voice-agent 提供完全本地零外部依赖的呼叫中心语音智能体；Qwen3 TTS 继续通过 Together AI 提供低延迟多语言托管。主要亮点：超小开源模型、全本地部署与低延迟实时能力。</p>
       <table>
         <thead>
           <tr>
@@ -70,6 +70,24 @@
         </thead>
         <tbody>
           <tr>
+            <td><a href="https://github.com/n4ze3m/tiny-voca" target="_blank">tiny-voca</a><br><small>超小英语CPU TTS</small></td>
+            <td>2026-11-14</td>
+            <td>4.5M参数英语TTS（18MB），两个固定音色（F2/M2），CPU上约70倍实时速度，支持PyTorch/ONNX/浏览器运行。从零训练于合成语音。</td>
+            <td>是（GitHub代码、HF权重、浏览器demo、ONNX导出）</td>
+            <td>是（Apache-2.0）</td>
+            <td>边缘设备、浏览器内嵌、低成本配音、离线TTS</td>
+            <td class="score">8.5/10（极小极快、开源易部署；仅英语固定音色，自然度受合成数据限制）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/shujaanazhar/vicidial-ai-voice-agent" target="_blank">vicidial-ai-voice-agent</a><br><small>全本地电话语音智能体</small></td>
+            <td>2026-11-22</td>
+            <td>完全本地的AI电话语音智能体：faster-whisper STT + Ollama LLM + Piper TTS，通过Asterisk AudioSocket接入VICIdial，支持打断，亚秒级延迟，零外部依赖。</td>
+            <td>是（完整GitHub代码、MIT协议，可自建部署）</td>
+            <td>是（MIT）</td>
+            <td>呼叫中心AI外呼/呼入、隐私保护语音代理、零成本自托管语音系统</td>
+            <td class="score">8/10（完全本地、可打断、成本为零；硬件门槛与组件组合需自行调优）</td>
+          </tr>
+          <tr>
             <td><a href="https://www.together.ai/blog/qwen3-tts" target="_blank">Qwen3 TTS (Together AI)</a><br><small>开源TTS托管低延迟</small></td>
             <td>2026-11-20</td>
             <td>开源Apache-2.0 TTS（9预设音色×10语言），自然语言控制语气/情绪，首音频低至97ms。支持流式HTTP/WebSocket与语音克隆/设计。</td>
@@ -78,24 +96,6 @@
             <td>多语言语音代理、实时客服、内容创作、跨语言一致语音</td>
             <td class="score">9/10（低延迟、多语言一致、开源易用；托管成本透明）</td>
           </tr>
-          <tr>
-            <td><a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank">Haru-4B</a><br><small>higurashi 全双工语音对话</small></td>
-            <td>2026-11-12~13</td>
-            <td>4B参数全双工speech-to-speech模型，同时听与说（支持打断）。7.5Hz帧率（约133ms），9语言，约12GB VRAM。基于Qwen3.5-4B。</td>
-            <td>是（HF权重、GitHub推理代码与Web demo、MLX macOS应用、vLLM插件）</td>
-            <td>是（Apache-2.0）</td>
-            <td>实时语音代理、电话式对话、低延迟口语交互、本地全双工助手</td>
-            <td class="score">8.5/10（架构新颖、开源完整、低延迟潜力高；基础模型稳定性需验证）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini</a><br><small>端侧实时语音克隆TTS</small></td>
-            <td>2026-11-09~12</td>
-            <td>100M激活开源TTS（MoE，800M总参），零样本克隆、词级控制、43语言。支持浏览器WebGPU、手机、笔记本实时运行。</td>
-            <td>是（HF权重、GitHub多运行时、浏览器与云端demo）</td>
-            <td>是（Apache-2.0）</td>
-            <td>端侧语音助手、游戏配音、隐私合成、实时代理</td>
-            <td class="score">9/10（端侧实时强、开源商用、控制细；独立评测较少）</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -103,7 +103,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-22 监测：低延迟仍是核心竞争点（首音频低于100ms的托管与端侧方案并存）。开源小模型与完全本地部署加速（Apache-2.0 权重易获得，支持浏览器与移动端）。全双工speech-to-speech架构成为实时对话新方向，多语言一致性与语音控制细粒度提升。云端托管API与端侧开源方案并行，语音代理落地成本与延迟持续优化。
+        2026-11-23 监测：超小开源TTS（如个位数MB级）在CPU与浏览器端的可用性大幅提升，降低边缘部署门槛。全本地、零外部API依赖的语音智能体（STT+LLM+TTS）成为呼叫中心与隐私场景的可行方案。低延迟仍是核心（托管方案已达亚100ms级首音频），开源权重与细粒度语音控制并行发展，多语言一致性与端侧实时性持续优化。
       </div>
     </div>
 
