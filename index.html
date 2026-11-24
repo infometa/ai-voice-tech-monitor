@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-23 · 今日重点：开源端侧/TTS 加速、阿拉伯语语音平台上线、实时语音智能体框架升级</div>
+      <div class="meta">最后更新：2026-11-24 · 今日重点：Phonic-1.1 S2S迭代、Sado ASR开源、Qwen3 TTS托管持续可用</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">过去 1-2 天重点：Qwen3 TTS 在 Together AI 提供 97ms 级低延迟托管；HUMAIN Voice 阿拉伯语首发平台上线并开源轻量 ASR；Pipecat 1.17.0 新增原生 SIP 传输；Reverb-TTS 与 DviTTS 等轻量开源模型强化端侧与多语言能力。主要亮点：开源权重普及、端侧实时、非英语覆盖提升。</p>
+      <p style="margin-bottom:16px;">过去1-2天重点：Phonic-1.1升级speech-to-speech并占据榜首；VoiceLab开源Sado ASR v1并上HF；Qwen3 TTS在Together AI持续提供97ms级低延迟托管。主要亮点：S2S智能化、开源权重普及、低延迟与多语言一致性。</p>
       <table>
         <thead>
           <tr>
@@ -79,40 +79,40 @@
             <td class="score">9/10（低延迟、多语言一致、开源易用；托管成本透明）</td>
           </tr>
           <tr>
-            <td><a href="https://www.zawya.com/en/press-release/companies-news/humain-launches-humain-voice-an-arabic-first-speech-ai-platform-built-for-how-people-actually-speak-2405269" target="_blank">HUMAIN Voice + Lite-80M</a><br><small>阿拉伯语首发语音平台</small></td>
-            <td>2026-11-19</td>
-            <td>沙特阿拉伯语优先平台（ASR+TTS+语音代理），支持沙特/海湾方言与阿英代码切换。同步发布 Apache-2.0 开源的 80M 轻量 ASR（端侧/边缘可用）。</td>
-            <td>是（平台上线，价格已公布；Lite 模型权重即将可下载）</td>
-            <td>部分（Lite ASR 开源，平台不开源）</td>
-            <td>阿拉伯语客服、区域语音助手、边缘 ASR、方言语音应用</td>
-            <td class="score">8/10（方言与代码切换实用价值高；开源仅轻量模型）</td>
+            <td><a href="https://phonic.ai/blog/phonic-1-1" target="_blank">Phonic-1.1</a><br><small>端到端 Speech-to-Speech</small></td>
+            <td>2026-11-23</td>
+            <td>端到端speech-to-speech模型，强化turn-taking、自然度与工具调用（可在说话时行动）。AA Speech-to-Speech Index新#1（89.1），支持50+语言。</td>
+            <td>是（API可用，有免费额度）</td>
+            <td>否（闭源API）</td>
+            <td>智能语音代理、客服自动化、实时对话Agent</td>
+            <td class="score">8.5/10（S2S智能与自然度领先，迭代快；价格中等，闭源）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/pipecat-ai/pipecat/releases/tag/v1.17.0" target="_blank">Pipecat AI v1.17.0</a><br><small>开源实时语音智能体框架</small></td>
-            <td>2026-11-22</td>
-            <td>开源实时语音代理框架升级：新增原生 SIP 传输、更多 STT/TTS 集成、自动语言识别、评估与遥测改进。</td>
-            <td>是（稳定版发布，可直接用于生产）</td>
-            <td>是</td>
-            <td>构建生产级语音代理、SIP 电话集成、多模态实时应用</td>
-            <td class="score">9/10（框架成熟、生产就绪、社区活跃）</td>
+            <td><a href="https://x.com/voicelabio/status/2124853958921294262" target="_blank">Sado ASR v1 (VoiceLab)</a><br><small>开源低资源语言ASR</small></td>
+            <td>2026-11-23</td>
+            <td>VoiceLab开源的ASR模型，专注低资源语言，已在其生态验证。权重上HF，便于本地部署。</td>
+            <td>是（HF权重发布，可用）</td>
+            <td>是（具体许可证待查，社区开源）</td>
+            <td>低资源语言转录、本地ASR、多语言语音应用</td>
+            <td class="score">7/10（开源易用、填补空白；生态与基准仍在早期）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/software-mansion/Reverb-TTS" target="_blank">Reverb-TTS</a><br><small>轻量端侧语音克隆 TTS</small></td>
-            <td>2026-11-19~21</td>
-            <td>基于 OmniVoice 的轻量 TTS（~300M），7 语言零样本克隆，iPhone 上 20x+实时，Open TTS Leaderboard 表现优异。</td>
-            <td>是（HF 权重、PyPI 包可用）</td>
-            <td>是</td>
-            <td>端侧语音克隆、移动应用、低延迟离线 TTS</td>
-            <td class="score">8/10（极佳端侧性能与开源；语言覆盖较少）</td>
+            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>开源本地语音工作室</small></td>
+            <td>持续更新（近期活跃）</td>
+            <td>开源本地桌面应用（AGPL-3.0），支持语音克隆、设计、视频配音、转录、有声书，646语言，多引擎（含OmniVoice等）。</td>
+            <td>是（安装包/Docker/本地API可用）</td>
+            <td>是（AGPL-3.0；部分模型权重有独立限制）</td>
+            <td>本地内容创作、视频配音、隐私优先的语音工作流</td>
+            <td class="score">8/10（功能全面、高星项目、本地优先；模型许可证需注意）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/" target="_blank">DviTTS / DviTTS-Nano</a><br><small>印度语言开源 TTS</small></td>
-            <td>2026-11-21</td>
-            <td>开源 TTS：英语 + 6 种印度语言。Nano 版~110M 可在 CPU 端侧运行，WER/CER 表现优秀。</td>
-            <td>是（权重已发布）</td>
-            <td>是</td>
-            <td>印度语言语音应用、本地 TTS、无障碍辅助</td>
-            <td class="score">7.5/10（强多语言与端侧；生态尚早）</td>
+            <td><a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/voice-agents-in-microsoft-foundry-agent-service-now-generally-available/4573013" target="_blank">Microsoft Foundry Voice Agents</a><br><small>企业语音代理GA</small></td>
+            <td>2026-11-18~19</td>
+            <td>Foundry语音代理GA，增强实时STT（多语言）、Neural HD TTS、VASA-2头像，支持电话/联系中心集成。</td>
+            <td>是（企业平台GA）</td>
+            <td>否</td>
+            <td>企业客服、Teams集成语音代理、多语言助手</td>
+            <td class="score">8/10（企业成熟度高、集成完善；闭源成本较高）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-23 监测：开源语音模型正向端侧实时与轻量化加速（Reverb-TTS、DviTTS-Nano 等），同时多语言与方言覆盖（阿拉伯语、印度语）显著提升。实时语音智能体基础设施（Pipecat SIP、Together 低延迟托管）更加成熟，生产级部署门槛降低。开源权重普及与细粒度语音控制并行，低延迟仍是核心竞争点。
+        2026-11-24 监测：语音AI正快速从“级联管道（ASR+LLM+TTS）”向原生speech-to-speech与端到端Agent演进，Phonic等小团队快速迭代在智能与自然度上领先。同时开源权重（Qwen3-TTS等）与本地工具（VoiceStudio）普及，低延迟（<100ms首包）和多语言/方言一致性成为核心竞争力。企业侧（Microsoft）则强化生产集成与合规。整体门槛持续降低，但闭源S2S与开源本地方案并行，选型更看重延迟、许可证与实际场景匹配。
       </div>
     </div>
 
