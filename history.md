@@ -642,3 +642,15 @@
 - Genspark SecondBrain VoicePad（好书记相关） | https://shop.genspark.ai/pages/voicepad | https://www.notebookcheck.com/SecondBrain-VoicePad-Kompakte-KI-Steuerung-und-Diktierhilfe-fuer-den-Schreibtisch.1456754.0.html | 报道 2026-11-22（Kickstarter 2026-11-24 开启）
 - oovi（本地优先桌面多智能体） | https://oovi.conuron.com/ | https://www.producthunt.com/products/oovi ; https://hunted.space/product/oovi | 2026-11-22
 - 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（多为 Home Assistant 门锁提醒、晚安脚本等自动化指南；Google Home 11 月更新撰于 11 月 13 日，未纳入本次清单） | https://smarthomeassistant.co.uk/ | 2026-11-23 复查
+
+## 2026-11-24
+- 绍兴非遗数字人「小师爷」 | 官网未核实 | http://zj.news.cn/20261122/57dd736afdcb4ca1bb1bf25653f10dd0/c.html | 亮相 2026-11-22
+- 联想来酷「行者 ONE」穿戴式助行外骨骼 | 官网未单独核实（京东已上架） | https://www.ithome.com/1/031/160.htm ; https://cn.technode.com/post/2026-11-24/lecoo-xingzhe-one-exoskeleton/ | 上架报道 2026-11-23（发售 2026-11-28）
+- 广东民间工艺博物馆（陈家祠）AI 眼镜导览（近一周落地报道补收） | https://www.gzcjc.com.cn/ ；租用告示 https://www.gzcjc.com.cn/MYwebsite/MY/uploadfile/Article/2026-07-301785404525264/2026-07-301785404525264.html | https://www.ctnews.com.cn/chanye/content/2026-11/17/content_194528.html | 试运营 2026-07-31 起（报道 2026-11-17）
+- Kodak SlideTag（Reto，彩色墨水屏幻灯片相框/定位扣） | 官网未单独核实 | https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink ; https://www.producthunt.com/products/kodak-slidetag | 报道 2026-11-23（PH 2026-11-24）
+- NOETIX Boomy 可编程人形机器人（Kickstarter 上线） | https://boomy.noetixrobotics.com/ ; https://www.kickstarter.com/projects/noetixrobotics/noetix-boomy-your-first-programmable-humanoid-robot | https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/noetix-robotics-introduces-noetix-boomy-a-programmable-humanoid-robot-1254147 | 2026-11-24
+- 荣耀 Earbuds 耳夹式耳机（耳畔 AI 助手 + 实时翻译） | 官网未单独核实 | https://www.ithome.com/1/030/932.htm | 2026-11-23
+- 跟进：Nothing Ear (note) 名称与形态曝光（好书记相关，12/8 发布） | 官网未单独核实 | https://www.ithome.com/1/031/249.htm | 报道 2026-11-24
+- 跟进：Genspark SecondBrain VoicePad 众筹/预购已开（好书记相关，昨日已预告） | https://shop.genspark.ai/pages/voicepad ; https://www.kickstarter.com/projects/genspark/secondbrain-voicepad-ai-voice-controller | https://www.prnewswire.com/news-releases/genspark-launches-secondbrain-voicepad-the-fully-customizable-ai-gadget-302949151.html | 众筹上线 2026-11-24
+- X Square Robot WALL-OSS-1.0（原生 VLA，Lite 检查点已开源） | https://huggingface.co/x-square-robot/wall-oss-1.0-lite-robodojo | https://www.globenewswire.com/news-release/2026/11/23/3408046/0/en/x-square-robot-introduces-wall-oss-1-0-understand-more-act-better-a-native-foundation-model-for-the-physical-world.html | 2026-11-23
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（多为 HA 日出闹钟/晚安脚本/百叶窗及 Aeotec 认证指南，Ecovacs 黑五促销未纳入清单） | https://smarthomeassistant.co.uk/ | 2026-11-24 复查
