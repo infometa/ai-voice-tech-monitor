@@ -654,3 +654,13 @@
 - 跟进：Genspark SecondBrain VoicePad 众筹/预购已开（好书记相关，昨日已预告） | https://shop.genspark.ai/pages/voicepad ; https://www.kickstarter.com/projects/genspark/secondbrain-voicepad-ai-voice-controller | https://www.prnewswire.com/news-releases/genspark-launches-secondbrain-voicepad-the-fully-customizable-ai-gadget-302949151.html | 众筹上线 2026-11-24
 - X Square Robot WALL-OSS-1.0（原生 VLA，Lite 检查点已开源） | https://huggingface.co/x-square-robot/wall-oss-1.0-lite-robodojo | https://www.globenewswire.com/news-release/2026/11/23/3408046/0/en/x-square-robot-introduces-wall-oss-1-0-understand-more-act-better-a-native-foundation-model-for-the-physical-world.html | 2026-11-23
 - 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（多为 HA 日出闹钟/晚安脚本/百叶窗及 Aeotec 认证指南，Ecovacs 黑五促销未纳入清单） | https://smarthomeassistant.co.uk/ | 2026-11-24 复查
+
+## 2026-11-25
+- 数字华夏 夏澜R03 亮相南京云锦博物馆新馆 | https://www.digit.com.cn/ | https://static.nfnews.com/content/202611/23/c13013952.html ; https://www.cnr.cn/mspd/zhsh/20261124/t20261124_527881535.shtml ; https://www.jiemian.com/article/15365246.html | 亮相报道 2026-11-23–24
+- 广东首批 200 个 AI 案例：汕头「潮起英歌·AI数字空间体验馆」「打卡潮汕·AI智数文旅消费平台」 | 官网未单独核实 | https://static.nfnews.com/content/202611/25/c13022517.html | 案例发布报道 2026-11-25
+- Yandex Pin（好书记相关） | https://yandex.com/company/news/2026-11-24 | https://www.kommersant.ru/doc/9129282 ; https://kod.ru/yandex-pin-predstavlen | 2026-11-24（开售 2026-12-03）
+- 芯明智能 Mercury 双模式视觉 AI 模组 | https://www.xinming-ai.com/News_Detail/91.html | https://www.jiemian.com/article/15371565.html | 2026-11-24
+- 华为鸿蒙智家「1+3+N」升级与智慧睡眠 2.0 | 官网未单独核实 | https://www.ithome.com/1/031/665.htm ; https://www.ithome.com/1/031/642.htm ; https://tech.cnr.cn/techgd/20261124/t20261124_527882178.shtml | 2026-11-24
+- 地平线 HoloBrain-0.5 | https://horizonrobotics.github.io/holobrain-0.5-homepage/ ; https://huggingface.co/HorizonRobotics/HoloBrain_v0.5 | https://www.horizon.auto/news/product/489 | 2026-11-24（官网页 2026-11-25）
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（首页仍为 HA 自动化指南与 Ecovacs 黑五促销） | https://smarthomeassistant.co.uk/ | 2026-11-25 复查
+- 关注：IDC 预计 2027 年中国智能眼镜出货将破 450.6 万台 | https://www.ithome.com/1/031/553.htm | 报道 2026-11-24
