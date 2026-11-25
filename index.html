@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-24 · 今日重点：Phonic-1.1 S2S迭代、Sado ASR开源、Qwen3 TTS托管持续可用</div>
+      <div class="meta">最后更新：2026-11-25 · 今日无重大新发布，以下为近期值得关注的更新：Sarvam Dictate、Qwen-Audio-3.1-Live、ZONOS3-Mini 等</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">过去1-2天重点：Phonic-1.1升级speech-to-speech并占据榜首；VoiceLab开源Sado ASR v1并上HF；Qwen3 TTS在Together AI持续提供97ms级低延迟托管。主要亮点：S2S智能化、开源权重普及、低延迟与多语言一致性。</p>
+      <p style="margin-bottom:16px;">今日（2026-11-25）无重大新发布。以下为近期1-2周内已上线、有API/demo/开源权重的可用技术：重点关注开源低延迟TTS、区域语言ASR优化、全双工语音交互以及紧凑高效ASR模型。</p>
       <table>
         <thead>
           <tr>
@@ -70,49 +70,49 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.together.ai/blog/qwen3-tts" target="_blank">Qwen3 TTS (Together AI)</a><br><small>开源多语言低延迟 TTS</small></td>
-            <td>2026-11-20</td>
-            <td>Qwen 开源 TTS（9 预设音色，自然语言控制语气/情绪），同一声音支持 10 种语言。Together 托管首音频低至 97ms，支持流式与 WebSocket。</td>
-            <td>是（Serverless/Dedicated API 可用，HF 权重可自托管）</td>
-            <td>是（Apache-2.0）</td>
-            <td>实时语音代理、多语言客服、内容创作、跨语言一致语音</td>
-            <td class="score">9/10（低延迟、多语言一致、开源易用；托管成本透明）</td>
-          </tr>
-          <tr>
-            <td><a href="https://phonic.ai/blog/phonic-1-1" target="_blank">Phonic-1.1</a><br><small>端到端 Speech-to-Speech</small></td>
+            <td><a href="https://www.sarvam.ai/blogs/sarvam-dictate" target="_blank">Sarvam Dictate</a><br><small>多语言听写API</small></td>
             <td>2026-11-23</td>
-            <td>端到端speech-to-speech模型，强化turn-taking、自然度与工具调用（可在说话时行动）。AA Speech-to-Speech Index新#1（89.1），支持50+语言。</td>
-            <td>是（API可用，有免费额度）</td>
+            <td>结合Saaras V4 ASR与Sarvam 105B编辑模型，将自然语音转为可直接使用的文本。支持英语+22种印度语言/Hinglish，声称比Gemini等更准确（实测更少修正），价格约₹0.50/分钟。</td>
+            <td>是（官方API + SDK + 文档可用，支持clip/job/live）</td>
             <td>否（闭源API）</td>
-            <td>智能语音代理、客服自动化、实时对话Agent</td>
-            <td class="score">8.5/10（S2S智能与自然度领先，迭代快；价格中等，闭源）</td>
+            <td>印度语言听写、CRM/办公输入、多语言笔记、客服转录</td>
+            <td class="score">8.5/10（区域语言强、编辑一步完成、价格友好；闭源，主要面向印度市场）</td>
           </tr>
           <tr>
-            <td><a href="https://x.com/voicelabio/status/2124853958921294262" target="_blank">Sado ASR v1 (VoiceLab)</a><br><small>开源低资源语言ASR</small></td>
+            <td><a href="https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-live" target="_blank">Qwen-Audio-3.1-Live</a><br><small>全双工实时语音</small></td>
             <td>2026-11-23</td>
-            <td>VoiceLab开源的ASR模型，专注低资源语言，已在其生态验证。权重上HF，便于本地部署。</td>
-            <td>是（HF权重发布，可用）</td>
-            <td>是（具体许可证待查，社区开源）</td>
-            <td>低资源语言转录、本地ASR、多语言语音应用</td>
-            <td class="score">7/10（开源易用、填补空白；生态与基准仍在早期）</td>
+            <td>全双工实时语音交互模型，可在后台任务（查询、计算等）进行时继续对话并语音报告结果。支持function calling，按会话时长计费。</td>
+            <td>是（Alibaba Cloud Model Studio API可用）</td>
+            <td>否（闭源API）</td>
+            <td>智能语音代理、客服自动化、实时任务交互、语音助手</td>
+            <td class="score">8/10（全双工+后台任务设计实用；闭源，延迟与成本需实测）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/debpalash/VoiceStudio" target="_blank">VoiceStudio</a><br><small>开源本地语音工作室</small></td>
-            <td>持续更新（近期活跃）</td>
-            <td>开源本地桌面应用（AGPL-3.0），支持语音克隆、设计、视频配音、转录、有声书，646语言，多引擎（含OmniVoice等）。</td>
-            <td>是（安装包/Docker/本地API可用）</td>
-            <td>是（AGPL-3.0；部分模型权重有独立限制）</td>
-            <td>本地内容创作、视频配音、隐私优先的语音工作流</td>
-            <td class="score">8/10（功能全面、高星项目、本地优先；模型许可证需注意）</td>
+            <td><a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>开源低延迟TTS</small></td>
+            <td>2026-11-09~12</td>
+            <td>Apache 2.0 开源MoE TTS（100M激活/800M总参），支持零样本语音克隆、43语言、词级情绪/语速控制。H100上约80ms TTFA，浏览器/WebGPU与移动端可实时运行。</td>
+            <td>是（HF权重 + GitHub运行时 + 浏览器demo + 云API）</td>
+            <td>是（Apache-2.0）</td>
+            <td>本地/边缘语音克隆、游戏配音、多语言实时语音、隐私优先TTS</td>
+            <td class="score">9/10（低延迟、开源、设备端可用性强；质量与控制优秀）</td>
           </tr>
           <tr>
-            <td><a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/voice-agents-in-microsoft-foundry-agent-service-now-generally-available/4573013" target="_blank">Microsoft Foundry Voice Agents</a><br><small>企业语音代理GA</small></td>
-            <td>2026-11-18~19</td>
-            <td>Foundry语音代理GA，增强实时STT（多语言）、Neural HD TTS、VASA-2头像，支持电话/联系中心集成。</td>
-            <td>是（企业平台GA）</td>
-            <td>否</td>
-            <td>企业客服、Teams集成语音代理、多语言助手</td>
-            <td class="score">8/10（企业成熟度高、集成完善；闭源成本较高）</td>
+            <td><a href="https://huggingface.co/Reson8/Rumble-2-Flash" target="_blank">Rumble-2-Flash (Reson8)</a><br><small>紧凑开源ASR</small></td>
+            <td>2026-11-18（开源）</td>
+            <td>0.5B参数Apache 2.0开源ASR，支持40+语言，极快（小时级音频秒级转录），原生Transformers/vLLM支持。在多语言基准上表现优秀。</td>
+            <td>是（HF权重可直接使用，亦有付费API）</td>
+            <td>是（Apache-2.0）</td>
+            <td>本地快速转录、多语言字幕、边缘ASR、低成本语音应用</td>
+            <td class="score">8.5/10（体积小、速度快、开源易部署；部分语言仍有提升空间）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank">Haru-4B (higurashi)</a><br><small>开源全双工S2S</small></td>
+            <td>2026-11-12~13</td>
+            <td>4B参数Apache 2.0开源全双工语音对话模型，7.5Hz原生同时听说，支持相榭/打断，多语言（含日/中/英等）。有GitHub代码与浏览器demo。</td>
+            <td>是（HF权重 + GitHub推理代码 + 本地/浏览器demo）</td>
+            <td>是（Apache-2.0）</td>
+            <td>实时语音代理、多语言对话、本地全双工应用、研究原型</td>
+            <td class="score">8/10（开源全双工稀缺、低延迟；仍为base模型，生产需调优）</td>
           </tr>
         </tbody>
       </table>
@@ -121,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-24 监测：语音AI正快速从“级联管道（ASR+LLM+TTS）”向原生speech-to-speech与端到端Agent演进，Phonic等小团队快速迭代在智能与自然度上领先。同时开源权重（Qwen3-TTS等）与本地工具（VoiceStudio）普及，低延迟（<100ms首包）和多语言/方言一致性成为核心竞争力。企业侧（Microsoft）则强化生产集成与合规。整体门槛持续降低，但闭源S2S与开源本地方案并行，选型更看重延迟、许可证与实际场景匹配。
+        2026-11-25 监测：语音AI持续向更低延迟、更强开源与设备端部署发展。ZONOS3-Mini等紧凑MoE模型将高质量TTS推向浏览器与手机；Rumble-2-Flash与Haru-4B等开源权重让小模型ASR与全双工S2S变得可接近。同时，Sarvam Dictate等区域语言（印度语族）与Qwen系列全双工代理体现出对特定市场与真实任务场景的深入优化。整体趋势是开源小模型 + 低延迟设备端 + 多语言/方言一致性 + 全双工Agent并行，开发者可更灵活地在自托管与闭源API之间选择。
       </div>
     </div>
 
