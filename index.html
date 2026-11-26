@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-25 · 今日无重大新发布，以下为近期值得关注的更新：Sarvam Dictate、Qwen-Audio-3.1-Live、ZONOS3-Mini 等</div>
+      <div class="meta">最后更新：2026-11-26 · 今日有新发布：Gradium TTS Beta、Drama-3日语GGUF等可用技术</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">今日（2026-11-25）无重大新发布。以下为近期1-2周内已上线、有API/demo/开源权重的可用技术：重点关注开源低延迟TTS、区域语言ASR优化、全双工语音交互以及紧凑高效ASR模型。</p>
+      <p style="margin-bottom:16px;">近期（2026-11-24至26）已上线、有API/demo/开源权重的可用技术：重点关注表情提升的TTS Beta、本地可运行的日语表演TTS、高性能开源ASR以及lama.cpp本地TTS接口。</p>
       <table>
         <thead>
           <tr>
@@ -70,22 +70,40 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://www.sarvam.ai/blogs/sarvam-dictate" target="_blank">Sarvam Dictate</a><br><small>多语言听写API</small></td>
-            <td>2026-11-23</td>
-            <td>结合Saaras V4 ASR与Sarvam 105B编辑模型，将自然语音转为可直接使用的文本。支持英语+22种印度语言/Hinglish，声称比Gemini等更准确（实测更少修正），价格约₹0.50/分钟。</td>
-            <td>是（官方API + SDK + 文档可用，支持clip/job/live）</td>
+            <td><a href="https://docs.gradium.ai/guides/release-notes" target="_blank">Gradium TTS Beta 202611</a><br><small>表情提升TTS</small></td>
+            <td>2026-11-24</td>
+            <td>新一代文本转语音模型公开Beta，表情表达显著提升。通过API设置model_name=gradium-tts-beta-202611或Studio体验，生产模型仍为默认。</td>
+            <td>是（官方API + Studio demo可用）</td>
             <td>否（闭源API）</td>
-            <td>印度语言听写、CRM/办公输入、多语言笔记、客服转录</td>
-            <td class="score">8.5/10（区域语言强、编辑一步完成、价格友好；闭源，主要面向印度市场）</td>
+            <td>语音代理、客服语音、表情丰富的内容创作、实时交互</td>
+            <td class="score">8.5/10（表情提升明显、低延迟传统强；闭源，需实测质量）</td>
           </tr>
           <tr>
-            <td><a href="https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-live" target="_blank">Qwen-Audio-3.1-Live</a><br><small>全双工实时语音</small></td>
-            <td>2026-11-23</td>
-            <td>全双工实时语音交互模型，可在后台任务（查询、计算等）进行时继续对话并语音报告结果。支持function calling，按会话时长计费。</td>
-            <td>是（Alibaba Cloud Model Studio API可用）</td>
-            <td>否（闭源API）</td>
-            <td>智能语音代理、客服自动化、实时任务交互、语音助手</td>
-            <td class="score">8/10（全双工+后台任务设计实用；闭源，延迟与成本需实测）</td>
+            <td><a href="https://huggingface.co/StudioYebisu-ship-it/Drama-3-Japanese-speech-cpp-gguf" target="_blank">Drama-3-Japanese GGUF</a><br><small>本地日语表演TTS</small></td>
+            <td>2026-11-23~24</td>
+            <td>基于Fish Audio Drama-3的日语优化GGUF包，支持speech.cpp，表情丰富（息遮、嘲嘴、笑等），语音克隆。轻量版可在16-24GB GPU上实时运行。</td>
+            <td>是（HF权重 + speech.cpp本地运行）</td>
+            <td>是（Fish Audio Community License，商业限制）</td>
+            <td>日语配音、角色配音、本地有声书、隐私优先TTS</td>
+            <td class="score">8/10（本地高表情日语强；许可证限制商业，需一定硬件）</td>
+          </tr>
+          <tr>
+            <td><a href="https://huggingface.co/ishiki-labs/ishiki-asr-1.0" target="_blank">Ishiki-ASR-1.0</a><br><small>高性能开源ASR</small></td>
+            <td>2026-11-23~25</td>
+            <td>13.31B参数单一检查点英语ASR，声称在HF OpenASR Leaderboard上开源模型第一（3.75%平均WER），高吞吐单GPU推理。</td>
+            <td>是（HF权重可直接使用）</td>
+            <td>是（开源权重，许可证见模型卡）</td>
+            <td>高精度英语转录、会议记录、语音搜索、研究基准</td>
+            <td class="score">8.5/10（性能声称强、开源易用；仅英语，体积较大）</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/ggml-org/llama.cpp" target="_blank">llama.cpp TTS OpenAI兼容接口</a><br><small>本地TTS服务</small></td>
+            <td>2026-11（v1.0.0）</td>
+            <td>llama.cpp支持通过/v1/audio/speech端点本地运行TTS模型（如Qwen3-TTS、Drama-3、ZONOS3等），OpenAI兼容接口。</td>
+            <td>是（开源代码可运行）</td>
+            <td>是（llama.cpp许可证）</td>
+            <td>本地语音助手、隐私TTS应用、边缘语音、无云API依赖</td>
+            <td class="score">9/10（完全本地、兼容性好、多模型支持；需加载合适模型）</td>
           </tr>
           <tr>
             <td><a href="https://huggingface.co/Zyphra/ZONOS3-Mini" target="_blank">ZONOS3-Mini (Zyphra)</a><br><small>开源低延迟TTS</small></td>
@@ -96,24 +114,6 @@
             <td>本地/边缘语音克隆、游戏配音、多语言实时语音、隐私优先TTS</td>
             <td class="score">9/10（低延迟、开源、设备端可用性强；质量与控制优秀）</td>
           </tr>
-          <tr>
-            <td><a href="https://huggingface.co/Reson8/Rumble-2-Flash" target="_blank">Rumble-2-Flash (Reson8)</a><br><small>紧凑开源ASR</small></td>
-            <td>2026-11-18（开源）</td>
-            <td>0.5B参数Apache 2.0开源ASR，支持40+语言，极快（小时级音频秒级转录），原生Transformers/vLLM支持。在多语言基准上表现优秀。</td>
-            <td>是（HF权重可直接使用，亦有付费API）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地快速转录、多语言字幕、边缘ASR、低成本语音应用</td>
-            <td class="score">8.5/10（体积小、速度快、开源易部署；部分语言仍有提升空间）</td>
-          </tr>
-          <tr>
-            <td><a href="https://huggingface.co/higurashi-ai/Haru-4B" target="_blank">Haru-4B (higurashi)</a><br><small>开源全双工S2S</small></td>
-            <td>2026-11-12~13</td>
-            <td>4B参数Apache 2.0开源全双工语音对话模型，7.5Hz原生同时听说，支持相榭/打断，多语言（含日/中/英等）。有GitHub代码与浏览器demo。</td>
-            <td>是（HF权重 + GitHub推理代码 + 本地/浏览器demo）</td>
-            <td>是（Apache-2.0）</td>
-            <td>实时语音代理、多语言对话、本地全双工应用、研究原型</td>
-            <td class="score">8/10（开源全双工稀缺、低延迟；仍为base模型，生产需调优）</td>
-          </tr>
         </tbody>
       </table>
     </div>
@@ -121,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-25 监测：语音AI持续向更低延迟、更强开源与设备端部署发展。ZONOS3-Mini等紧凑MoE模型将高质量TTS推向浏览器与手机；Rumble-2-Flash与Haru-4B等开源权重让小模型ASR与全双工S2S变得可接近。同时，Sarvam Dictate等区域语言（印度语族）与Qwen系列全双工代理体现出对特定市场与真实任务场景的深入优化。整体趋势是开源小模型 + 低延迟设备端 + 多语言/方言一致性 + 全双工Agent并行，开发者可更灵活地在自托管与闭源API之间选择。
+        2026-11-26 监测：语音AI持续向低延迟、开源小模型、多语言/方言一致性及本地部署发展。Gradium新Beta强调表情提升；Drama-3日语GGUF与llama.cpp OpenAI兼容接口使本地高质量TTS更易落地；Ishiki-ASR等开源权重冲击领导榜。整体趋势是开源与闭源API并行、设备端实时推理、表情与多语言控制增强，开发者可更灵活选择自托管或云端方案。
       </div>
     </div>
 
