@@ -664,3 +664,16 @@
 - 地平线 HoloBrain-0.5 | https://horizonrobotics.github.io/holobrain-0.5-homepage/ ; https://huggingface.co/HorizonRobotics/HoloBrain_v0.5 | https://www.horizon.auto/news/product/489 | 2026-11-24（官网页 2026-11-25）
 - 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（首页仍为 HA 自动化指南与 Ecovacs 黑五促销） | https://smarthomeassistant.co.uk/ | 2026-11-25 复查
 - 关注：IDC 预计 2027 年中国智能眼镜出货将破 450.6 万台 | https://www.ithome.com/1/031/553.htm | 报道 2026-11-24
+
+## 2026-11-26
+- 微播易《2026 文旅行业 AIGC 营销创新实践》报告 | 官网未单独核实 | https://finance.sina.com.cn/wm/2026-11-25/doc-inizxtsc9506964.shtml ; https://www.bjnews.com.cn/detail/1795671594129443.html | 2026-11-25
+- 关注：第三届AI赋能青岛文旅发展大会将首发「文旅Agent 2.0」（含不到景区即可扫码AI换景拍照） | 官网未核实 | https://sd.ifeng.com/c/8yMoJ0rlud0 | 大会定档 2026-11-28（预告报道 2026-11-26）
+- Orrorin（Savage Technology，45g 双目全彩显示眼镜，$799，Founder Edition 定金 $199，预计 2027-03 交付） | https://savage.tech/ | https://www.macrumors.com/2026/11/25/smart-glasses-promise-vision-pro-style-controls/ ; https://www.ithome.com/1/032/768.htm | 预订开启 2026-11-25（报道 2026-11-25–26）
+- Rogbid Loop Memo（无屏 AI 录音手环，$79.99，好书记相关） | https://store.rogbid.com/products/rogbid-loop-memo | https://www.notebookcheck.net/New-79-Whoop-band-alternative-promises-up-to-50-days-of-standby-and-no-subscription.1458772.0.html ; https://www.gizmochina.com/2026/11/25/rogbid-loop-memo-ai-voice-recorder-smart-band-launched-specs-price/ | 商店上架 2026-11-23–24（报道 2026-11-24–25）
+- PrismML Ternary Bonsai 2.5 27B（三值量化本地编程模型，约 5.9GB，Apache 2.0） | https://prismml.com/news/prismml-launches-ternary-bonsai-2-5-27b ; https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF | https://www.ithome.com/1/032/101.htm | 2026-11-24
+- 商汤 SenseNova-RoboRSI-27B 正式版（开源机器人操作 VLM，Apache 2.0） | https://huggingface.co/sensenova/SenseNova-RoboRSI-27B ; https://github.com/OpenSenseNova/SenseNova-RoboRSI | https://www.sensetime.com/cn/news/sensenova-roborsi-27b-official-release-20261126-1025 ; https://www.ithome.com/1/032/887.htm | 2026-11-25（IT之家 2026-11-26）
+- Hello Transcribe 5（全端侧转写+本机说话人区分，好书记相关） | https://bjnortier.com/hello-transcribe-5/ | http://bjnortier.com/articles/hello-transcribe-5-launch/ ; https://www.producthunt.com/products/hello-transcribe | 正式版 2026-11-24（PH 2026-11-26）
+- MeetFolks（面对面会议笔记，各用自己的手机收音并标说话人，好书记相关） | https://meetfolks.app | https://www.producthunt.com/products/meetfolks ; https://hunted.space/product/meetfolks | 2026-11-26
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（首页仍为 Home Assistant 指南与英国黑五促销） | https://smarthomeassistant.co.uk/ | 2026-11-26 复查
+- 跟进：小鹏 IRON 公布 2027 年 1 月硬件量产、2 月正式对外发布（9 月已收录，非新产品首发） | https://www.xpeng.com/ | https://www.cnfin.com/yw-lb/detail/20261125/4500202_1.html ; https://www.ithome.com/1/032/164.htm | 科技日 2026-11-25
+- 关注：联想来酷「行者 ONE」11/28 开售；Nothing Ear (note) 12/8 发布（此前已收录）
