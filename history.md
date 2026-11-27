@@ -677,3 +677,16 @@
 - 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（首页仍为 Home Assistant 指南与英国黑五促销） | https://smarthomeassistant.co.uk/ | 2026-11-26 复查
 - 跟进：小鹏 IRON 公布 2027 年 1 月硬件量产、2 月正式对外发布（9 月已收录，非新产品首发） | https://www.xpeng.com/ | https://www.cnfin.com/yw-lb/detail/20261125/4500202_1.html ; https://www.ithome.com/1/032/164.htm | 科技日 2026-11-25
 - 关注：联想来酷「行者 ONE」11/28 开售；Nothing Ear (note) 12/8 发布（此前已收录）
+
+## 2026-11-27
+- 百度智能云「AI+文旅4.0点亮辽宁」启动，原创 IP「星灵大陆」发布（沈阳方城/沈阳故宫/张学良旧居首批落地，现场签约 5000 万元） | 官网未单独核实 | https://news.sina.cn/sx/2026-11-27/detail-inkaefwc1028489.d.html ; https://ln.cri.cn/n/20261127/064d9e0e-fde2-4aeb-b1cf-1a2247aa00fa.html | 2026-11-27
+- 连云港「猴开心」AI伴游落地数据（6 月上线；同程旅游称 AI 定制来连线路用户 +57%、按指引下单 +76%） | 智游连云港小程序 | https://www.yzwb.net/news/yw/202611/t20261126_416162.html | 报道 2026-11-26
+- 四川「软件信息+文化旅游」供需对接会（发布文旅产业综合机会清单：10 个建设模块、44 个系统模块） | 官网未单独核实 | https://www.chinanews.com/cj/2026/11-27/10739003.shtml | 2026-11-27
+- slay（iPhone 端侧 AI 构图取景相机 App，PH 上架） | https://www.slaycamera.com/ | https://www.producthunt.com/products/slay-3 | 2026-11-27
+- 荣耀 Earbuds S3（半入耳，¥299，AI 录音/转写/翻译，好书记相关） | https://www.honor.com/cn/audio/honor-earbuds-s3/ | https://www.ithome.com/1/033/506.htm | 开售 2026-11-27
+- 紫光展锐 W927（5G RedCap 手表 SoC，规划 2027 年量产）与 G1（AI 眼镜视听一体旗舰平台） | 官网未单独核实 | https://www.ithome.com/1/032/283.htm ; https://www.leiphone.com/category/chips/1tx0UpMMROQn9vCW.html ; https://www.itbear.com.cn/html/2026-11/1598936.html | 沙龙发布 2026-11-25（报道 2026-11-25–26）
+- AAEON UP XTREME PTL EDGE（Intel Core Ultra Series 3 小型边缘 AI PC，最高 180 TOPS） | https://www.aaeon.com/en/product/detail/up-systems-up-xtreme-ptl-edge | https://prtimes.jp/main/html/rd/p/000000056.000055195.html | 开售 2026-11-26
+- Watch Reader（Apple Watch / iPhone 端侧朗读，一次买断 $5.99） | https://watchreader.com/ | https://hunted.space/product/watch-reader | PH 上架 2026-11-26
+- 智能家居补充：smarthomeassistant.co.uk 近两日无 AI 新品（首页仍为 Home Assistant 指南与英国网络星期一门锁/门铃促销） | https://smarthomeassistant.co.uk/ | 2026-11-27 复查
+- 关注：联想来酷「行者 ONE」11/28 开售；青岛文旅大会 11/28 计划首发「文旅 Agent 2.0」；Nothing Ear (note) 12/8 发布（此前已收录）
+- 关注：消息称小米 AI 眼镜 2 代将于 12 月中旬与小米 18 标准版同步上市（含 Q95 Pro、电致变色镜片版及 Q95 显示版，尚未官方确认） | 官网未核实 | https://www.ithome.com/1/033/203.htm | 报道 2026-11-27
