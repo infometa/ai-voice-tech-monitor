@@ -50,12 +50,12 @@
     <header>
       <h1>🎤 AI 语音技术监控仪表盘</h1>
       <div class="subtitle">每天自动更新的 TTS、ASR、语音克隆、语音模型与相关硬件动态</div>
-      <div class="meta">最后更新：2026-11-27 · 今日有新发布：llama.cpp v1.1.0大幅扩展TTS/音频支持</div>
+      <div class="meta">最后更新：2026-11-28 · 今日无重大全新发布，以下为近期值得关注的更新</div>
     </header>
 
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📋 最新技术与模型（去重后）</h2>
-      <p style="margin-bottom:16px;">近期（2026-11-25至27）已上线、有API/demo/开源权重的可用技术：重点关注llama.cpp本地TTS生态、Qwen方言多语言升级、高性能开源ASR及印度语音代理。</p>
+      <p style="margin-bottom:16px;">近期（2026-11-26至28）已上线、有API/demo/开源权重的可用技术：重点关注端到端低延迟语音翻译、开源高性能ASR与方言多语言升级。</p>
       <table>
         <thead>
           <tr>
@@ -70,58 +70,49 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0" target="_blank">llama.cpp v1.1.0</a><br><small>本地TTS生态升级</small></td>
-            <td>2026-11-27</td>
-            <td>本地推理引擎大幅增加TTS/音频支持（Kokoro、ZONOS3-Mini、Fish S2、VoxCPM2、MiniMax-Music3、Kyutai Hibiki实时全双工等），提供OpenAI兼容/tts与/v1/audio/speech端点，网页聊天支持语音。</td>
-            <td>是（开源代码可运行，多模型GGUF可用）</td>
-            <td>是（MIT）</td>
-            <td>本地语音助手、隐私优先TTS、边缘语音应用、无云API依赖的实时对话</td>
-            <td class="score">9.5/10（完全本地、多模型、兼容性佳；需选择适合模型与硬件）</td>
-          </tr>
-          <tr>
-            <td><a href="https://x.com/Alibaba_Qwen/status/2125798914490249411" target="_blank">Qwen-Audio-3.1 多语言升级</a><br><small>方言强化</small></td>
+            <td><a href="https://x.com/Alibaba_Qwen/status/2125798914490249411" target="_blank">Qwen-Audio-3.1 多语言与方言扩展</a><br><small>方言强化</small></td>
             <td>2026-11-26</td>
-            <td>阿里Qwen语音基础模型多语言升级，强化中文方言：ASR支持59语言+8方言，TTS 65+6，Realtime 53+6。提供云端API与模型可用。</td>
-            <td>是（官方宣布现可用，有API/demo）</td>
-            <td>部分（主要托管API，部分权重开源）</td>
-            <td>中文方言语音识别/合成、多语言客服、实时语音交互、本地化应用</td>
-            <td class="score">8.5/10（方言覆盖强、多模态；需通过API使用，质量待实测）</td>
+            <td>阿里通义Qwen语音模型家族升级：ASR扩至59种语言+8种中文方言，TTS扩至65种语言+6种方言，Realtime扩至53种语言+6种方言。强化方言识别与合成，支持自然语言控制情绪等。</td>
+            <td>是（官方宣布已可用，有云端API与demo）</td>
+            <td>部分（生产端点多为托管API，部分基础模型开源）</td>
+            <td>中文方言语音识别/合成、多语言客服、实时语音助手、跨语言内容制作</td>
+            <td class="score">8.5/10（覆盖广、方言实用性强；需API调用，各语言实际准确率需实测）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air" target="_blank">Audio8 TTS Realistic Air</a><br><small>开源语音克隆TTS</small></td>
-            <td>2026-10~11（GGUF 11-16）</td>
-            <td>0.6B参数紧凑TTS，零样本语音克隆，支持23语言（含印地语），有HF权重、浏览器demo、llama.cpp/GGUF本地推理与小型0.1B。</td>
-            <td>是（HF + GitHub + demo + 本地运行）</td>
-            <td>是（Apache-2.0）</td>
-            <td>本地语音克隆、多语言配音、低资源设备TTS、创作工具</td>
-            <td class="score">8.5/10（开源易用、多语言克隆、本地可行；质量接近SOTA小模型）</td>
+            <td><a href="https://www.prnewswire.com/news-releases/deepl-introduces-aure-v2-its-fastest-voice-ai-translation-model-302950629.html" target="_blank">DeepL Aure v2</a><br><small>端到端语音翻译</small></td>
+            <td>2026-11-26</td>
+            <td>DeepL推出端到端语音到语音实时翻译模型，相比前代Aure延迟降低约50%，提升准确率与表达力。支持英语、德语、法语、西班牙语、日语、韩语（更多语言后续）。</td>
+            <td>是（已在DeepL Voice在线会议、面对面对话及Voice API中自动启用）</td>
+            <td>否（闭源商业产品）</td>
+            <td>实时多语言会议翻译、面对面对话、API集成语音翻译应用</td>
+            <td class="score">8/10（延迟显著降低、质量提升；目前仅6种语言，依赖DeepL生态）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/ishiki-labs/ishiki-asr-1.0" target="_blank">Ishiki-ASR-1.0</a><br><small>高性能开源ASR</small></td>
-            <td>2026-11-23~25</td>
-            <td>13.31B单一检查点英语ASR（集成多模型），在HF Open ASR Leaderboard上开源模型第一（3.75%平均WER），高吞吐单GPU推理。</td>
-            <td>是（HF权重可直接使用）</td>
-            <td>是（开源权重，许可证见模型卡）</td>
-            <td>高精度英语转录、会议记录、语音搜索、研究基准</td>
-            <td class="score">8.5/10（性能领先、开源；仅英语、体积较大）</td>
+            <td><a href="https://github.com/salute-developers/GigaAM" target="_blank">Sber GigaAM-v4 / Multilingual-v2</a><br><small>开源高性能ASR</small></td>
+            <td>2026-11-27</td>
+            <td>Sber开源ASR模型：GigaAM-v4（238M，俄英，超越Whisper large-v3）、Multilingual-v2（776M，21种语言）。支持流式（160/320/640ms）、低延迟，MIT许可。</td>
+            <td>是（HF权重、GitHub代码可直接部署，支持Transformers/ONNX）</td>
+            <td>是（MIT）</td>
+            <td>本地/边缘语音转写、多语言会议记录、俄罗斯/CIS语言应用、开源语音助手</td>
+            <td class="score">9/10（小模型高性能、完全开源易部署；多语言覆盖好，适合自托管）</td>
           </tr>
           <tr>
-            <td><a href="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga" target="_blank">CUGA Indic Voice Agent</a><br><small>IBM开源语音代理</small></td>
-            <td>2026-11-25</td>
-            <td>IBM Research基于CUGA（Apache 2.0）的印度语言语音代理演示：用印地语提问，检索英文农业手册后用同语言口头回答。支持11种印度语言，HF Spaces可试用。</td>
-            <td>是（开源框架 + HF演示 + 教程）</td>
-            <td>是（Apache-2.0）</td>
-            <td>多语言公共服务、农业/本地化助手、语音优先应用、企业代理</td>
-            <td class="score">8/10（实用开源代理模板、多语言；为演示级，需自行集成ASR/TTS）</td>
+            <td><a href="https://www.nxrte.com/zixun/73575.html" target="_blank">ZEGO 实时互动 AI Agent 语音通话全链路升级</a><br><small>自然度提升</small></td>
+            <td>2026-11-27</td>
+            <td>即构科技升级AI Agent语音通话：优化ASR/LLM/TTS接力，支持多厂商（腾讯、阿里、火山、ElevenLabs、MiniMax、CosyVoice等），多情感TTS、方言与自然停顿，普通话识别99%+。</td>
+            <td>是（产品已上线，开发者可接入SDK/API）</td>
+            <td>否（商业平台，整合多方模型）</td>
+            <td>AI陪伴/社交/教育语音通话、实时互动数字人、低延迟语音代理</td>
+            <td class="score">8/10（全链路优化更自然、多厂商适配；为集成产品，成本与依赖需评估）</td>
           </tr>
           <tr>
-            <td><a href="https://github.com/TheStageAI/TheWhisper" target="_blank">TheWhisper</a><br><small>设备端多语言ASR</small></td>
-            <td>2026-11-25</td>
-            <td>优化Whisper模型，多语言Open ASR Leaderboard开源第一（40语言），支持实时低功耗设备端运行（如iPhone 13），处理噪声与方言变体。</td>
-            <td>是（GitHub + 可本地/设备端运行）</td>
-            <td>是（开源）</td>
-            <td>边缘语音识别、移动端转录、低延迟应用、多语言实时ASR</td>
-            <td class="score">9/10（小模型设备端、多语言领先、开源；非常实用）</td>
+            <td><a href="https://fish.audio/developers/" target="_blank">Fish Audio s2.1-pro-free API</a><br><small>免费Pro级TTS</small></td>
+            <td>持续至2026-11-30（促销）</td>
+            <td>Fish Audio旗舰TTS模型S2.1 Pro以免费API形式提供（model: s2.1-pro-free），支持多语言、自然语言情绪控制、语音克隆相关能力，无需绑卡。</td>
+            <td>是（API立即可用，有SDK）</td>
+            <td>部分（核心模型闭源，有开源Fish Speech项目）</td>
+            <td>视频配音、原型开发、临时免费高质量TTS测试、内容创作</td>
+            <td class="score">8/10（Pro级免费实用；有截止日期与公平使用限制，长期需付费）</td>
           </tr>
         </tbody>
       </table>
@@ -130,7 +121,7 @@
     <div class="card">
       <h2 style="margin-top:0;font-size:18px;">📊 当前趋势</h2>
       <div class="trend">
-        2026-11-27 监测：语音AI正加速向完全本地/设备端部署、低延迟实时交互与多语言（含方言）一致性发展。llama.cpp v1.1.0将多种优质TTS与全双工语音纳入单一本地引擎，大幅降低自托管门槛；Qwen-Audio-3.1强化中文方言与更广语言覆盖；Audio8、TheWhisper、Ishiki-ASR等开源小模型在克隆与识别上冲击领导榜并支持边缘运行。整体趋势是开源权重普及、本地优先、多语言方言支持与实时低延迟并重，开发者可更灵活组合自托管与云端方案。
+        2026-11-28 监测：语音AI正加速向低延迟端到端（speech-to-speech）与实时全双工发展（如Aure v2、Qwen Realtime）；开源小模型持续冲击性能榜并支持本地/边缘部署（GigaAM等）；多语言一致性与方言支持加速（Qwen中文方言、GigaAM多语言）；产品侧更注重全链路自然度（情绪、停顿、打断）而非单点模型。开发者可更灵活组合开源自托管与云端API方案。
       </div>
     </div>
 
